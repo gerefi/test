@@ -1,5 +1,5 @@
 /**
- * rusEfi is placing some of data structures into CCM memory simply
+ * gerEfi is placing some of data structures into CCM memory simply
  * in order to use that memory - no magic about which RAM is faster etc.
  * That said, CCM/TCM could be faster as there will be less bus contention
  * with DMA.

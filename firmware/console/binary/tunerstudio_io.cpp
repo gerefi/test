@@ -10,7 +10,7 @@
 #include "tunerstudio_io.h"
 
 #if EFI_SIMULATOR
-#include "rusEfiFunctionalTest.h"
+#include "gerEfiFunctionalTest.h"
 #endif // EFI_SIMULATOR
 
 #if EFI_PROD_CODE || EFI_SIMULATOR

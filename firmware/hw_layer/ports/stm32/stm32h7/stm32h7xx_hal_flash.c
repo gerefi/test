@@ -1019,7 +1019,7 @@ HAL_StatusTypeDef FLASH_WaitForLastOperation(uint32_t Timeout, uint32_t Bank)
   {
     if(Timeout != HAL_MAX_DELAY)
     {
-      // todo: implement rusEfi own timeout
+      // todo: implement gerEfi own timeout
       //   if(((HAL_GetTick() - tickstart) > Timeout) || (Timeout == 0U))
       //   {
       //     return HAL_TIMEOUT;

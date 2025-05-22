@@ -292,7 +292,7 @@ public:
 	Timer engineTypeChangeTimer;
 
 	/**
-	 * This counter is incremented every time user adjusts ECU parameters online (either via rusEfi console or other
+	 * This counter is incremented every time user adjusts ECU parameters online (either via gerEfi console or other
 	 * tuning software)
 	 */
 	int globalConfigurationVersion = 0;

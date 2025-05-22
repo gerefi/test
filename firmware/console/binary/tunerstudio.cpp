@@ -32,13 +32,13 @@
  * @date Oct 22, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * This file is part of rusEfi - see http://gerefi.com
+ * This file is part of gerEfi - see http://gerefi.com
  *
- * rusEfi is free software; you can redistribute it and/or modify it under the terms of
+ * gerEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
  * version 3 of the License, or (at your option) any later version.
  *
- * rusEfi is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+ * gerEfi is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
  * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
@@ -46,13 +46,13 @@
  * If not, see <http://www.gnu.org/licenses/>.
  *
  *
- * This file is part of rusEfi - see http://gerefi.com
+ * This file is part of gerEfi - see http://gerefi.com
  *
- * rusEfi is free software; you can redistribute it and/or modify it under the terms of
+ * gerEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
  * version 3 of the License, or (at your option) any later version.
  *
- * rusEfi is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+ * gerEfi is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
  * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
@@ -87,7 +87,7 @@
 #include "tuner_detector_utils.h"
 
 #if EFI_SIMULATOR
-#include "rusEfiFunctionalTest.h"
+#include "gerEfiFunctionalTest.h"
 #endif /* EFI_SIMULATOR */
 
 #if EFI_TUNER_STUDIO
@@ -419,7 +419,7 @@ static bool isKnownCommand(char command) {
 }
 
 /**
- * rusEfi own test command
+ * gerEfi own test command
  */
 static void handleTestCommand(TsChannelBase* tsChannel) {
 	tsState.testCommandCounter++;

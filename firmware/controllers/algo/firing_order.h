@@ -69,7 +69,7 @@ typedef enum __attribute__ ((__packed__)) {
 
 	// 12 cylinder
 	FO_1_7_5_11_3_9_6_12_2_8_4_10 = 15, // bmw M70 & M73, Ferrari 456M GT V12
-	FO_1_7_4_10_2_8_6_12_3_9_5_11 = 16, // Lamborghini Diablo VT, typical rusEfi use-case
+	FO_1_7_4_10_2_8_6_12_3_9_5_11 = 16, // Lamborghini Diablo VT, typical gerEfi use-case
 	FO_1_12_5_8_3_10_6_7_2_11_4_9 = 18, // VAG W12, M120
 	// 1,12,7,6,3,10,11,2,5,8,9,4 Rolls-Royce Merlin
 	// 1,12,4,9,2,11,6,7,3,10,5,8 Lamborghini Aventador

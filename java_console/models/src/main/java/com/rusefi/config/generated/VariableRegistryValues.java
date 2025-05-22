@@ -1303,7 +1303,7 @@ public class VariableRegistryValues {
 	public static final String PROTOCOL_OUTPIN = "outpin";
 	public static final String PROTOCOL_SIGNATURE_PREFIX = "gerEFI ";
 	public static final String PROTOCOL_TEST_RESPONSE_TAG = "ts_p_alive";
-	public static final String PROTOCOL_VERSION_TAG = "rusEfiVersion";
+	public static final String PROTOCOL_VERSION_TAG = "gerEfiVersion";
 	public static final int RANGE_INPUT_COUNT = 6;
 	public static final int REBOOT_COMMAND = 0xbb;
 	public static final int SCRIPT_CURVE_16 = 16;

@@ -191,7 +191,7 @@ CPPSRC = $(ALLCPPSRC) \
   $(HW_LAYER_DRIVERS_CORE_CPP) \
   $(CONSOLE_SRC_CPP) \
   $(DEV_SRC_CPP) \
-  simulator/rusEfiFunctionalTest.cpp \
+  simulator/gerEfiFunctionalTest.cpp \
   simulator/can/hal_can_lld.cpp \
   simulator/framework.cpp \
   simulator/system/signal_executor_sleep.cpp \

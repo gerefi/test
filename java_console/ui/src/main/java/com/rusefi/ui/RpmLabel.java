@@ -8,7 +8,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Digital RPM gauge which stays green while rusEfi is connected
+ * Digital RPM gauge which stays green while gerEfi is connected
  * <p/>
  * 9/17/13
  * Andrey Belomutskiy, (c) 2013-2020

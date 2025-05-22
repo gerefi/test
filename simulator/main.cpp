@@ -16,7 +16,7 @@
 
 #include "pch.h"
 #include "chprintf.h"
-#include "rusEfiFunctionalTest.h"
+#include "gerEfiFunctionalTest.h"
 #include "flash_int.h"
 
 #include <iostream>
@@ -178,7 +178,7 @@ int main(int argc, char** argv) {
 	cputs("  - Listening for connections on SD2");
 	chEvtRegister(chnGetEventSource(&SD2), &sd2fel, 2);
 
-	rusEfiFunctionalTest();
+	gerEfiFunctionalTest();
 
 	/*
 	 * Events servicing loop.

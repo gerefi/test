@@ -11,7 +11,7 @@ import java.net.Socket;
 import java.util.Date;
 
 /**
- * This class is used to figure out if we have multiple instances of rusEfi console running
+ * This class is used to figure out if we have multiple instances of gerEfi console running
  * <p>
  * Andrey Belomutskiy, (c) 2013-2020
  * 5/4/2015

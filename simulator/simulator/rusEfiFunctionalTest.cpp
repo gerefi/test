@@ -1,5 +1,5 @@
 /**
- * @file	rusEfiFunctionalTest.cpp
+ * @file	gerEfiFunctionalTest.cpp
  *
  * @date Mar 1, 2014
  * @author Andrey Belomutskiy, (c) 2012-2020
@@ -8,7 +8,7 @@
 #include "pch.h"
 
 #include "boards.h"
-#include "rusEfiFunctionalTest.h"
+#include "gerEfiFunctionalTest.h"
 #include "console_io.h"
 #include "eficonsole.h"
 #include "trigger_central.h"
@@ -165,7 +165,7 @@ static void writeEngineTypeDefaultConfig(engine_type_e type) {
 	writeSimulatorTune(fileName);
 }
 
-void rusEfiFunctionalTest() {
+void gerEfiFunctionalTest() {
   printf("Running gerEFI simulator version: [%d]", (int)getRusEfiVersion());
   // todo: do we still need 'printToConsole' for any reason?!
 	printToConsole("Running gerEFI simulator version:");

@@ -2,7 +2,7 @@ rem #
 rem # see also ../../misc/git_cheat_sheet.txt
 rem # both 'gerefi/ChibiOS/original' and 'gerefi/ChibiOS/gerefi' should have upstream branch changes merged at the same time
 rem #
-rem # comparing against rusEfi version of the unmodified in order to compare remote branches on the same timestamp
+rem # comparing against gerEfi version of the unmodified in order to compare remote branches on the same timestamp
 rem #
 
 git clone -b stable_18.2.x        https://github.com/gerefi/ChibiOS Chibios.18_original

@@ -12,7 +12,7 @@ import java.util.Date;
 import static com.devexperts.logging.Logging.getLogging;
 
 /**
- * this is the main entry point of rusEfi ECU console
+ * this is the main entry point of gerEfi ECU console
  * <p/>
  * <p/>
  * 12/25/12
@@ -27,7 +27,7 @@ public class Launcher implements gerEFIVersion {
     public static final String TOOLS_PATH = System.getProperty("tools_path", ".");
 
     /**
-     * rusEfi console entry point
+     * gerEfi console entry point
      *
      * @see StartupFrame if no parameters specified
      */

@@ -82,7 +82,7 @@ public class LogUploadSelector {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     int result = JOptionPane.showConfirmDialog(null, "Are you sure you want to remove " + fileName,
-                            "rusEfi", JOptionPane.YES_NO_OPTION);
+                            "gerEfi", JOptionPane.YES_NO_OPTION);
                     if (result == JOptionPane.YES_OPTION) {
                         new File(fullFileName).delete();
                     }

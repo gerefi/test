@@ -18,7 +18,7 @@ HW_LAYER_PORT_CPP += \
 	$(HW_STM32_PORT_DIR)/serial_over_usb/usbcfg.cpp
 
 RUSEFIASM = \
-	$(HW_STM32_PORT_DIR)/rusEfiStartup.S
+	$(HW_STM32_PORT_DIR)/gerEfiStartup.S
 
 HW_INC += \
 	$(HW_STM32_PORT_DIR) \

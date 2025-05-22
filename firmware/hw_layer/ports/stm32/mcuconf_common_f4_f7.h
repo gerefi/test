@@ -11,8 +11,8 @@
 #include "efifeatures.h"
 
 /**
- * This is about SingleTimerExecutor - rusEfi 12MHz precise scheduling timer
- * this is not about ChibiOS virtual timer which rusEfi uses for
+ * This is about SingleTimerExecutor - gerEfi 12MHz precise scheduling timer
+ * this is not about ChibiOS virtual timer which gerEfi uses for
  * periodicFastCallback and periodicSlowCallback
  * See STM32_ST_IRQ_PRIORITY
  *

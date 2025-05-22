@@ -1,14 +1,14 @@
 # Kinetis
 
-rusEfi runs on MKE16F512 (alpha version as of July 2019)
+gerEfi runs on MKE16F512 (alpha version as of July 2019)
 
-rusEfi Kinetis implementation consists of three files/folders:
+gerEfi Kinetis implementation consists of three files/folders:
   firmware/config/boards/kinetis
   firmware/hw_layer/ports/kinetis
   firmware/hw_layer/trigger_input_comp.cpp
   
 
-Since MKE16F512 is the first not stm32 rusEfi implementation, AndreiKA has a lot of fun!
+Since MKE16F512 is the first not stm32 gerEfi implementation, AndreiKA has a lot of fun!
 Kinetis overrides are in
    firmware/config/boards/kinetis/gerefi_hw_enums.h overrides pins
    firmware/config/boards/kinetis/config/gerefi_config_kinetis.txt

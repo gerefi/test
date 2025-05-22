@@ -4,7 +4,7 @@ import com.gerefi.enums.engine_type_e;
 
 public class WriteSimulatorEngines {
     public static final engine_type_e[] ENGINE_TYPE_ES = {
-        // [CannedTunes] see 'rusEfiFunctionalTest.cpp' which exports default tunes into binary files for us
+        // [CannedTunes] see 'gerEfiFunctionalTest.cpp' which exports default tunes into binary files for us
         // [CannedTunes] TuneCanToolRunner for last third step
         engine_type_e.MERCEDES_M111,
         engine_type_e.BMW_M52,

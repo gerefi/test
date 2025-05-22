@@ -577,13 +577,13 @@ HAL_StatusTypeDef FLASH_WaitForLastOperation(uint32_t Timeout)
      Even if the FLASH operation fails, the BUSY flag will be reset and an error
      flag will be set */
   /* Get tick */
-  // todo: implement rusEfi own timeout
+  // todo: implement gerEfi own timeout
   // uint32_t tickstart = HAL_GetTick();
 
   while(__HAL_FLASH_GET_FLAG(FLASH_FLAG_BSY) != RESET) 
   { 
 	  /*
-	  // todo: implement rusEfi own timeout
+	  // todo: implement gerEfi own timeout
 	  if(Timeout != HAL_MAX_DELAY)
     {
       if((Timeout == 0)||((HAL_GetTick() - tickstart ) > Timeout))

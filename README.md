@@ -39,7 +39,7 @@ Important note - we now use submodules:
  * [Documentation](https://github.com/gerefi/gerefi/wiki)
  * [Doxygen documentation](http://gerefi.com/docs/html)
  * [General source code Q&A](http://gerefi.com/forum/viewtopic.php?f=5&t=10)
- * [Facebook](https://www.facebook.com/rusEfiECU)
+ * [Facebook](https://www.facebook.com/gerEfiECU)
  * [YouTube](https://www.youtube.com/user/gerefi)
  * [Patreon](https://www.patreon.com/gerefi)
 

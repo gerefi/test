@@ -15,7 +15,7 @@ public class TuneCanToolRunner extends TuneCanTool {
 //    }
 
     public static void runPopular() throws JAXBException, IOException {
-        // while adding a line here make sure corresponding line is at rusEfiFunctionalTest.cpp
+        // while adding a line here make sure corresponding line is at gerEfiFunctionalTest.cpp
         // https://github.com/gerefi/gerefi/issues/4038
 //        processREOtune(1621, engine_type_e.HONDA_OBD1, "Honda-OBD1", "");
 //        processREOtune(985, engine_type_e.MAZDA_MIATA_NB2, "MazdaMiataNB2", "nb2");

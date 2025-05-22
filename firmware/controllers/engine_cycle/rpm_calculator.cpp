@@ -327,7 +327,7 @@ float RpmCalculator::getSecondsSinceEngineStart(efitick_t nowNt) const {
 
 
 /**
- * This callback has nothing to do with actual engine control, it just sends a Top Dead Center mark to the rusEfi console
+ * This callback has nothing to do with actual engine control, it just sends a Top Dead Center mark to the gerEfi console
  * digital sniffer.
  */
 static void onTdcCallback(void *) {

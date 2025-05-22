@@ -34,7 +34,7 @@ import static com.devexperts.logging.Logging.getLogging;
 import static com.gerefi.config.generated.VariableRegistryValues.*;
 
 /**
- * This class makes rusEfi console a proxy for other tuning software, this way we can have two tools connected via same
+ * This class makes gerEfi console a proxy for other tuning software, this way we can have two tools connected via same
  * serial port simultaneously
  *
  * See BinaryProtocolServerSandbox

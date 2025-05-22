@@ -53,7 +53,7 @@ void chDbgAssert(int c, char *msg, void *arg);
 }
 #endif /* __cplusplus */
 
-#define RUS_EFI_VERSION_TAG "rusEfiVersion"
+#define RUS_EFI_VERSION_TAG "gerEfiVersion"
 
 #define EFI_ERROR_CODE 0xffffffff
 

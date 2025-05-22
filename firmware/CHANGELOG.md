@@ -755,7 +755,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
 | 02/22/2017    | r12972    | protocol signature changed to 'v0.02' (this would happen from time to time to ensure version match between console and TS project |
 | 02/20/2017    | r12939    | https://github.com/gerefi/gerefi is now the official primary repository |
 | 02/18/2017    | r11565    | improvement: level1 default brown out https://sourceforge.net/p/gerefi/tickets/354/ |
-| 02/18/2017    | r11554    | bugfix: rusEfi console program/erase buttons fixed with ST-LINK 2.1 |
+| 02/18/2017    | r11554    | bugfix: gerEfi console program/erase buttons fixed with ST-LINK 2.1 |
 | 12/09/2016    | r10991    | bugfixes, bugfixes, bugfixes & release 1.0
 | 02/15/2016	| r9600     | automatic warm-up fuel correction, performance improvements
 | 08/31/2015	| r8725     | acceleration fuel correction, console improvements

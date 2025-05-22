@@ -1,1 +1,1 @@
-Here we have rusEfi PC version. Same Makefile would build win32 or unux posix. 
+Here we have gerEfi PC version. Same Makefile would build win32 or unux posix. 

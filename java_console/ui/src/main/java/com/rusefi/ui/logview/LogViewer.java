@@ -26,7 +26,7 @@ import static com.devexperts.logging.Logging.getLogging;
 
 /**
  * TODO: what is LogViewer? is this all dead?
- * This tab is the entry point of rusEfi own log browser
+ * This tab is the entry point of gerEfi own log browser
  * <p/>
  * <p/>
  * 7/27/13

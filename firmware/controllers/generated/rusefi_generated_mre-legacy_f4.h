@@ -1389,7 +1389,7 @@
 #define PROTOCOL_OUTPIN "outpin"
 #define PROTOCOL_SIGNATURE_PREFIX "gerEFI "
 #define PROTOCOL_TEST_RESPONSE_TAG "ts_p_alive"
-#define PROTOCOL_VERSION_TAG "rusEfiVersion"
+#define PROTOCOL_VERSION_TAG "gerEfiVersion"
 #define RANGE_INPUT_COUNT 6
 #define REBOOT_COMMAND 0xbb
 #define SCRIPT_CURVE_16 16

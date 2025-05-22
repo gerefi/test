@@ -8,7 +8,7 @@ import org.jetbrains.annotations.NotNull;
 import static com.gerefi.ToolUtil.EOL;
 
 /**
- * This class generates java representation of rusEfi data structures used by rusEfi console
+ * This class generates java representation of gerEfi data structures used by gerEfi console
  */
 public class FileJavaFieldsConsumer {
     private static final String JAVA_PACKAGE = "com.gerefi.config.generated";

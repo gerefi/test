@@ -1,11 +1,11 @@
 /**
  * @file	logic_analyzer.cpp
- * @brief	Initialization of Input Capture pins used for rusEfi console sniffer
+ * @brief	Initialization of Input Capture pins used for gerEfi console sniffer
  *
  * This file is responsible for sniffing of external digital signals and registering
- * these digital events in WaveChart used by the Engine Sniffer tab of rusEfi Console.
+ * these digital events in WaveChart used by the Engine Sniffer tab of gerEfi Console.
  *
- * this is rusEfi build-in logic analyzer
+ * this is gerEfi build-in logic analyzer
  *
  * @date Jan 7, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020

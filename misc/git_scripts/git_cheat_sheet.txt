@@ -89,7 +89,7 @@ git remote add origin https://github.com/gerefi/RomRaider_copy_2.git
 git push -u origin master
 
 =============================
-rusEfi .git folder take about 500M on disk. Is it possible to reduce this size?
+gerEfi .git folder take about 500M on disk. Is it possible to reduce this size?
 
 A proper answer is to split or re-create gerefi repo, but in the meantime:
 

@@ -124,7 +124,7 @@ public:
 	 */
 	bool stop();
 	/**
-	 * rusEfi Engine Sniffer protocol uses these short names to reduce bytes usage
+	 * gerEfi Engine Sniffer protocol uses these short names to reduce bytes usage
 	 */
 	const char *shortName = nullptr;
 

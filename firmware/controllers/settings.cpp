@@ -616,7 +616,7 @@ static void setValue(const char *paramStr, const char *valueStr) {
 	} else if (strEqualCaseInsensitive(paramStr, "targetvbatt")) {
 		setTable(config->alternatorVoltageTargetTable, valueF);
 	} else if (strEqualCaseInsensitive(paramStr, CMD_DATE)) {
-		// rusEfi console invokes this method with timestamp in local timezone
+		// gerEfi console invokes this method with timestamp in local timezone
 		setDateTime(valueStr);
 	}
 

@@ -1,5 +1,5 @@
 rem
-rem auto-detects connected running rusEfi serial port and send text 'reboot' command
+rem auto-detects connected running gerEfi serial port and send text 'reboot' command
 rem flashes DFU
 rem
 

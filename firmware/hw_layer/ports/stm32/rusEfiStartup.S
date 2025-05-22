@@ -1,6 +1,6 @@
 /**
- * @file rusEfiStartup.S
- * rusEfi startup assembly
+ * @file gerEfiStartup.S
+ * gerEfi startup assembly
  *
  * We have ChibiOS '_crt0_entry' jumping here and then we jump back.
  * There is probably no stack at this point to invoke a method.

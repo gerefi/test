@@ -147,7 +147,7 @@
 
 #define PROTOCOL_OUTPIN "outpin"
 #define PROTOCOL_ENGINE_SNIFFER "wave_chart"
-#define PROTOCOL_VERSION_TAG "rusEfiVersion"
+#define PROTOCOL_VERSION_TAG "gerEfiVersion"
 #define PROTOCOL_TEST_RESPONSE_TAG "ts_p_alive"
 #define PROTOCOL_SIGNATURE_PREFIX "gerEFI "
 #define FRONTEND_TITLE_BAR_NAME "gerEFI"

@@ -1,6 +1,6 @@
 /**
  * @file	engine_sniffer.h
- * @brief	rusEfi console wave sniffer
+ * @brief	gerEfi console wave sniffer
  *
  * @date Jun 23, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020
@@ -30,7 +30,7 @@ void addEngineSnifferOutputPinEvent(NamedOutputPin *pin, FrontDirection frontDir
 #if EFI_ENGINE_SNIFFER
 
 /**
- * @brief	rusEfi console sniffer data buffer
+ * @brief	gerEfi console sniffer data buffer
  */
 class WaveChart {
 public:

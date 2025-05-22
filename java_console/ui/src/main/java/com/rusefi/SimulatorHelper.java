@@ -81,7 +81,7 @@ public class SimulatorHelper {
             }
         });
         setToolTip(simulatorButton, "Connect to totally virtual simulator",
-                "You do not need any hardware to try rusEfi",
+                "You do not need any hardware to try gerEfi",
                 "This works via localhost: " + TcpConnector.DEFAULT_PORT + " TCP/IP port");
 
         return simulatorButton;

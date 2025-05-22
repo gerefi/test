@@ -7,13 +7,13 @@
  * @date Feb 7, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * This file is part of rusEfi - see http://gerefi.com
+ * This file is part of gerEfi - see http://gerefi.com
  *
- * rusEfi is free software; you can redistribute it and/or modify it under the terms of
+ * gerEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
  * version 3 of the License, or (at your option) any later version.
  *
- * rusEfi is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+ * gerEfi is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
  * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
@@ -194,7 +194,7 @@ static void doPeriodicSlowCallback() {
 #if EFI_SHAFT_POSITION_INPUT
 	if (engine->triggerCentral.directSelfStimulation || engine->rpmCalculator.isStopped()) {
 		/**
-		 * rusEfi usually runs on hardware which halts execution while writing to internal flash, so we
+		 * gerEfi usually runs on hardware which halts execution while writing to internal flash, so we
 		 * postpone writes to until engine is stopped. Writes in case of self-stimulation are fine.
 		 *
 		 * todo: allow writing if 2nd bank of flash is used
@@ -262,7 +262,7 @@ static void getShort(int offset) {
 	uint16_t *ptr = (uint16_t *) (&((char *) engineConfiguration)[offset]);
 	uint16_t value = *ptr;
 	/**
-	 * this response is part of rusEfi console API
+	 * this response is part of gerEfi console API
 	 */
 	efiPrintf("short%s%d is %d", CONSOLE_DATA_PROTOCOL_TAG, offset, value);
 }
@@ -273,7 +273,7 @@ static void getByte(int offset) {
 	uint8_t *ptr = (uint8_t *) (&((char *) engineConfiguration)[offset]);
 	uint8_t value = *ptr;
 	/**
-	 * this response is part of rusEfi console API
+	 * this response is part of gerEfi console API
 	 */
 	efiPrintf("byte%s%d is %d", CONSOLE_DATA_PROTOCOL_TAG, offset, value);
 }
@@ -300,7 +300,7 @@ static void setBit(const char *offsetStr, const char *bitStr, const char *valueS
 	int *ptr = (int *) (&((char *) engineConfiguration)[offset]);
 	*ptr ^= (-value ^ *ptr) & (1 << bit);
 	/**
-	 * this response is part of rusEfi console API
+	 * this response is part of gerEfi console API
 	 */
 	efiPrintf("bit%s%d/%d is %d", CONSOLE_DATA_PROTOCOL_TAG, offset, bit, value);
 	incrementGlobalConfigurationVersion("setBit");
@@ -330,7 +330,7 @@ static void getBit(int offset, int bit) {
 	int *ptr = (int *) (&((char *) engineConfiguration)[offset]);
 	int value = (*ptr >> bit) & 1;
 	/**
-	 * this response is part of rusEfi console API
+	 * this response is part of gerEfi console API
 	 */
 	efiPrintf("bit%s%d/%d is %d", CONSOLE_DATA_PROTOCOL_TAG, offset, bit, value);
 }
@@ -341,7 +341,7 @@ static void getInt(int offset) {
 	int *ptr = (int *) (&((char *) engineConfiguration)[offset]);
 	int value = *ptr;
 	/**
-	 * this response is part of rusEfi console API
+	 * this response is part of gerEfi console API
 	 */
 	efiPrintf("int%s%d is %d", CONSOLE_DATA_PROTOCOL_TAG, offset, value);
 }
@@ -361,7 +361,7 @@ static void getFloat(int offset) {
 	float *ptr = (float *) (&((char *) engineConfiguration)[offset]);
 	float value = *ptr;
 	/**
-	 * this response is part of rusEfi console API
+	 * this response is part of gerEfi console API
 	 */
 	efiPrintf("float%s%d is %.5f", CONSOLE_DATA_PROTOCOL_TAG, offset, value);
 }

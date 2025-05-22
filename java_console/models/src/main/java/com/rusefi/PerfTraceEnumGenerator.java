@@ -12,7 +12,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * This tool generates C# or Java class based on enum values from C/C++ header related to rusEfi own Perf Trace
+ * This tool generates C# or Java class based on enum values from C/C++ header related to gerEfi own Perf Trace
  * <p>
  * This allows developers to only edit C/C++ header yet see proper names in chrome://tracing JSON file
  * <p>

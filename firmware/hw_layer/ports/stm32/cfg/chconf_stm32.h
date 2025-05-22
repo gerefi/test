@@ -78,7 +78,7 @@
  *          The value one is not valid, timeouts are rounded up to
  *          this value.
  */
-// rusEfi currently uses tick mode, see CH_CFG_ST_FREQUENCY
+// gerEfi currently uses tick mode, see CH_CFG_ST_FREQUENCY
 // ST requires TIM2 or another 32 bit timer and we currently use it for ICU
 // but! there is no reason to use it for ICU as we've recently realized
 // so todo: migrate trigger to EXTI and try tick-less mode

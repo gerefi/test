@@ -12,7 +12,7 @@
  * 2/2 plugs grey
  *
  *
- * ********* |    | OEM | rusEfi | function
+ * ********* |    | OEM | gerEfi | function
  *
  * Plug #1 9 pin
  * ECU pin 4:  GND BRN/ORG BLK

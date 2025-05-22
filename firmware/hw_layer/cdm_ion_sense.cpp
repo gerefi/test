@@ -3,7 +3,7 @@
  *
  * Saab Ion Sensing Module integration
  *
- * See https://github.com/gerefi/gerefi/wiki/Saab_Trionic_8_Combustion-Detection-Module_on_Mazda_Miata_running_rusEfi
+ * See https://github.com/gerefi/gerefi/wiki/Saab_Trionic_8_Combustion-Detection-Module_on_Mazda_Miata_running_gerEfi
  *
  *  Created on: Dec 31, 2018
  * @author Andrey Belomutskiy, (c) 2012-2020

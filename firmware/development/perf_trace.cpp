@@ -3,7 +3,7 @@
  *
  * https://github.com/gerefi/gerefi/wiki/Developer-Performance-Tracing
  *
- * See JsonOutput.java in rusEfi console
+ * See JsonOutput.java in gerEfi console
  */
 
 #include "pch.h"

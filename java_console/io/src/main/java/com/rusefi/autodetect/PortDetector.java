@@ -31,9 +31,9 @@ public class PortDetector {
      */
     @NotNull
     public static SerialAutoChecker.AutoDetectResult autoDetectSerial(Function<SerialAutoChecker.CallbackContext, Void> callback) {
-        String rusEfiAddress = System.getProperty("gerefi.address");
-        if (rusEfiAddress != null) {
-            return getSignatureFromPorts(callback, Collections.singleton(rusEfiAddress));
+        String gerEfiAddress = System.getProperty("gerefi.address");
+        if (gerEfiAddress != null) {
+            return getSignatureFromPorts(callback, Collections.singleton(gerEfiAddress));
         }
         final Set<String> serialPorts = LinkManager.getCommPorts();
         if (serialPorts.isEmpty()) {

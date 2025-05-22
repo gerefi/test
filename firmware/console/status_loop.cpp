@@ -2,20 +2,20 @@
  * @file	status_loop.cpp
  * @brief Human-readable protocol status messages
  *
- * http://gerefi.com/forum/viewtopic.php?t=263 rusEfi console overview
+ * http://gerefi.com/forum/viewtopic.php?t=263 gerEfi console overview
  * http://gerefi.com/forum/viewtopic.php?t=210 Commands overview
  *
  *
  * @date Mar 15, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * This file is part of rusEfi - see http://gerefi.com
+ * This file is part of gerEfi - see http://gerefi.com
  *
- * rusEfi is free software; you can redistribute it and/or modify it under the terms of
+ * gerEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
  * version 3 of the License, or (at your option) any later version.
  *
- * rusEfi is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+ * gerEfi is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
  * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
@@ -173,7 +173,7 @@ static Logging logicAnalyzerLogger("logic analyzer", logicAnalyzerBuffer, sizeof
 #endif // EFI_LOGIC_ANALYZER
 
 /**
- * @brief Sends all pending data to rusEfi console
+ * @brief Sends all pending data to gerEfi console
  *
  * This method is periodically invoked by the main loop
  * todo: is this mostly dead code?

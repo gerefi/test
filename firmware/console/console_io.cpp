@@ -4,7 +4,7 @@
  * @date Dec 29, 2012
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * This file is part of rusEfi - see http://gerefi.com
+ * This file is part of gerEfi - see http://gerefi.com
  *
  * gerEFI can communicate with external universe via native USB or some sort of TTL mode
  * We have an interesting situation with TTL communication channels, we have
@@ -22,11 +22,11 @@
  *    stm32 does not have such buffer so for stm32 UART without DMA has no advantages
  *
  *
- * rusEfi is free software; you can redistribute it and/or modify it under the terms of
+ * gerEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
  * version 3 of the License, or (at your option) any later version.
  *
- * rusEfi is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+ * gerEfi is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
  * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
@@ -41,7 +41,7 @@
 #include "connector_uart_dma.h"
 
 #if EFI_SIMULATOR
-#include "rusEfiFunctionalTest.h"
+#include "gerEfiFunctionalTest.h"
 #endif /*EFI_SIMULATOR */
 
 bool consoleByteArrived = false;

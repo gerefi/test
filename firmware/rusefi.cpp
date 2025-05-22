@@ -16,11 +16,11 @@
  *
  * gerEFI is implemented based on the idea that with modern 100+ MHz microprocessors the relatively
  * undemanding task of internal combustion engine control could be implemented in a high-level, processor-independent
- * (to some extent) manner. Thus the key concepts of rusEfi: dependency on high-level hardware abstraction layer, software-based PWM etc.
+ * (to some extent) manner. Thus the key concepts of gerEfi: dependency on high-level hardware abstraction layer, software-based PWM etc.
  *
  * @section sec_main Brief overview
  *
- * rusEfi runs on crank shaft or cam shaft ('trigger') position sensor events.
+ * gerEfi runs on crank shaft or cam shaft ('trigger') position sensor events.
  * Once per crank shaft revolution we evaluate the amount of needed fuel and
  * the spark timing. Once we have decided on the parameters for this revolution
  * we schedule all the actions to be triggered by the closest trigger event.
@@ -49,7 +49,7 @@
  *
  *
  * @section sec_timers Timers
- * At the moment rusEfi is build using 5 timers:
+ * At the moment gerEfi is build using 5 timers:
  * <BR>1) 1MHz microsecond_timer.cpp
  * <BR>2) 10KHz fast ADC callback pwmpcb_fast adc_inputs.cpp
  * <BR>3) slow ADC callback pwmpcb_slow adc_inputs.cpp
@@ -294,7 +294,7 @@ void runMainLoop() {
 	 */
 	while (true) {
 #if EFI_CLI_SUPPORT && !EFI_UART_ECHO_TEST_MODE
-		// sensor state + all pending messages for our own rusEfi console
+		// sensor state + all pending messages for our own gerEfi console
 		// todo: is this mostly dead code?
 		updateDevConsoleState();
 #endif /* EFI_CLI_SUPPORT */
