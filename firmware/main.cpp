@@ -29,7 +29,7 @@ int main(void) {
 	 */
 	baseMCUInit();
 
-	runRusEfi();
+	runGerEfi();
 	return 0;
 }
 

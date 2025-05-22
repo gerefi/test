@@ -68,7 +68,7 @@ static void setGdiDefaults() {
 
 void setGDIFueling() {
 #ifdef HW_HELLEN_8CHAN
-  engineConfiguration->externalRusEfiGdiModule = true;
+  engineConfiguration->externalGerEfiGdiModule = true;
 #endif
 
 	engineConfiguration->injectionMode = IM_SEQUENTIAL;

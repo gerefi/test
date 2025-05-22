@@ -1054,7 +1054,7 @@
         <constant digits="0" name="etbWastegatePid_offset" units="">0.0</constant>
         <constant digits="0" name="etbWastegatePid_periodMs" units="ms">0.0</constant>
         <constant digits="4" name="etbWastegatePid_pFactor" units="">1.0</constant>
-        <constant name="externalRusEfiGdiModule">"false"</constant>
+        <constant name="externalGerEfiGdiModule">"false"</constant>
         <constant digits="0" name="fan1ExtraIdle" units="%">2.0</constant>
         <constant digits="0" name="fan2ExtraIdle" units="%">2.0</constant>
         <constant digits="0" name="fan2OffTemperature" units="deg C">82.0</constant>

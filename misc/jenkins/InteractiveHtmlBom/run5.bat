@@ -7,15 +7,15 @@ cd hw_modular
 git pull
 cd ..
 
-git clone https://github.com/gerefi/hw_microRusEfi
-cd hw_microRusEfi
+git clone https://github.com/gerefi/hw_microGerEfi
+cd hw_microGerEfi
 git pull
 cd ..
 
 set kicad_path=c:\progra~1\KiCad
 set ibom_cmd=%kicad_path%\bin\python.exe C:\stuff\InteractiveHtmlBom\InteractiveHtmlBom\generate_interactive_bom.py --no-browser --name-format %%f_latest --dest-dir ../ibom 
 echo "ibom_cmd=%ibom_cmd%"
-%ibom_cmd% --extra-fields "Part #","VEND#" hw_microRusEfi/microRusEfi.kicad_pcb --netlist-file hw_microRusEfi/microRusEfi.net
+%ibom_cmd% --extra-fields "Part #","VEND#" hw_microGerEfi/microGerEfi.kicad_pcb --netlist-file hw_microGerEfi/microGerEfi.net
 
 set ibom_cmd=%kicad_path%\bin\python.exe C:\stuff\InteractiveHtmlBom\InteractiveHtmlBom\generate_interactive_bom.py --no-browser --name-format %%f_latest --dest-dir ../../ibom 
 echo "ibom_cmd=%ibom_cmd%"

@@ -848,7 +848,7 @@ spi_device_e digitalPotentiometerSpiDevice;Digital Potentiometer is used by stoc
 	bit lambdaProtectionEnable
 	bit verboseTLE8888
 	bit enableVerboseCanTx;CAN broadcast using custom gerEFI protocol
-	bit externalRusEfiGdiModule
+	bit externalGerEfiGdiModule
 	bit flipWboChannels
 	bit measureMapOnlyInOneCylinder;Useful for individual intakes
 

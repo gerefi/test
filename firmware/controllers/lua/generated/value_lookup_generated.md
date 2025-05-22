@@ -436,7 +436,7 @@ This setting should only be used if you have a stepper motor idle valve and a st
 ### enableVerboseCanTx
 CAN broadcast using custom gerEFI protocol
 
-### externalRusEfiGdiModule
+### externalGerEfiGdiModule
 
 
 ### flipWboChannels

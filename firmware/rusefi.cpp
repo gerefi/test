@@ -10,7 +10,7 @@
  * @mainpage
  * This documentation https://gerefi.com/docs/html/
  *
- * For version see engine_controller.cpp getRusEfiVersion
+ * For version see engine_controller.cpp getGerEfiVersion
  *
  * @section sec_intro Intro
  *
@@ -171,7 +171,7 @@ void onAssertionFailure() {
 void initEfiWithConfig();
 __NO_RETURN void runMainLoop();
 
-void runRusEfi() {
+void runGerEfi() {
 	engine->setConfig();
 
 #if EFI_TEXT_LOGGING

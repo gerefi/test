@@ -148,7 +148,7 @@
 			}
 		},
 		{
-			"label": "Build Firmware (microRusEfi F4)",
+			"label": "Build Firmware (microGerEfi F4)",
 			"type": "shell",
 			"command": "make -j12 PROJECT_BOARD=microgerefi",
 			"windows": {
@@ -164,7 +164,7 @@
 			}
 		},
 		{
-			"label": "Build Firmware (microRusEfi F7)",
+			"label": "Build Firmware (microGerEfi F7)",
 			"type": "shell",
 			"command": "make -j12 PROJECT_BOARD=microgerefi PROJECT_CPU=ARCH_STM32F7",
 			"windows": {

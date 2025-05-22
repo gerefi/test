@@ -124,11 +124,11 @@ covered by FullServerTest
             TestHelper.createVirtualController(controllerPort, new ConfigurationImage(Fields.TOTAL_CONFIG_SIZE), logger);
 
             // start "gerEFI network connector" to connect controller with backend since in real life controller has only local serial port it does not have network
-            SessionDetails deviceSessionDetails = NetworkConnector.start(MockRusEfiDevice.TEST_TOKEN_1, TestHelper.LOCALHOST + ":" + controllerPort, serverPortForControllers);
+            SessionDetails deviceSessionDetails = NetworkConnector.start(MockGerEfiDevice.TEST_TOKEN_1, TestHelper.LOCALHOST + ":" + controllerPort, serverPortForControllers);
 
             assertTrue(controllerRegistered.await(READ_IMAGE_TIMEOUT, TimeUnit.MILLISECONDS));
 
-            SessionDetails authenticatorSessionDetails = new SessionDetails(deviceSessionDetails.getControllerInfo(), MockRusEfiDevice.TEST_TOKEN_3, deviceSessionDetails.getOneTimeToken());
+            SessionDetails authenticatorSessionDetails = new SessionDetails(deviceSessionDetails.getControllerInfo(), MockGerEfiDevice.TEST_TOKEN_3, deviceSessionDetails.getOneTimeToken());
             ApplicationRequest applicationRequest = new ApplicationRequest(authenticatorSessionDetails, userId);
 
 

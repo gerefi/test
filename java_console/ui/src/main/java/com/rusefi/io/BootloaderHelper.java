@@ -2,7 +2,7 @@ package com.gerefi.io;
 
 import com.devexperts.logging.Logging;
 import com.gerefi.UiProperties;
-import com.gerefi.core.RusEfiSignature;
+import com.gerefi.core.GerEfiSignature;
 import com.gerefi.core.SignatureHelper;
 import com.gerefi.core.io.BundleUtil;
 import com.gerefi.binaryprotocol.BinaryProtocol;
@@ -31,7 +31,7 @@ public class BootloaderHelper {
     }
 
     public static boolean sendBootloaderRebootCommand(JComponent parent, String signature, IoStream stream, UpdateOperationCallbacks callbacks, String command) {
-        RusEfiSignature controllerSignature = SignatureHelper.parse(signature);
+        GerEfiSignature controllerSignature = SignatureHelper.parse(signature);
         String fileSystemBundleTarget = BundleUtil.getBundleTarget();
         if (fileSystemBundleTarget != null && controllerSignature != null) {
             // hack: QC firmware self-identifies as "normal" not QC firmware :(

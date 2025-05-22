@@ -94,7 +94,7 @@ static Timer printVersionTimer;
 static void printVersionForConsole(const char *engineTypeName, const char *firmwareBuildId) {
 	// VersionChecker in gerEFI console is parsing these version string, please follow the expected format
 	efiPrintfProto(PROTOCOL_VERSION_TAG, "%d@%u %s %s %ld",
-			getRusEfiVersion(), /*do we have a working way to print 64 bit values?!*/(unsigned int)SIGNATURE_HASH,
+			getGerEfiVersion(), /*do we have a working way to print 64 bit values?!*/(unsigned int)SIGNATURE_HASH,
 			firmwareBuildId,
 			engineTypeName,
 			(uint32_t)getTimeNowS());
@@ -714,7 +714,7 @@ void updateTunerStudioState() {
 	tsOutputChannels->seconds = getTimeNowS();
 
 	tsOutputChannels->engineMode = packEngineMode();
-	tsOutputChannels->firmwareVersion = getRusEfiVersion();
+	tsOutputChannels->firmwareVersion = getGerEfiVersion();
 
 	tsOutputChannels->accelerationLat = engine->sensors.accelerometer.lat;
 	tsOutputChannels->accelerationLon = engine->sensors.accelerometer.lon;

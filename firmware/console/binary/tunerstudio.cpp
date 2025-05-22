@@ -667,7 +667,7 @@ extern CommandHandler console_line_callback;
 // see also printVersionForConsole
 static void handleGetVersion(TsChannelBase* tsChannel) {
 	char versionBuffer[32];
-	chsnprintf(versionBuffer, sizeof(versionBuffer), "%s v%d@%u", FRONTEND_TITLE_BAR_NAME, getRusEfiVersion(), SIGNATURE_HASH);
+	chsnprintf(versionBuffer, sizeof(versionBuffer), "%s v%d@%u", FRONTEND_TITLE_BAR_NAME, getGerEfiVersion(), SIGNATURE_HASH);
 	tsChannel->sendResponse(TS_CRC, (const uint8_t *) versionBuffer, strlen(versionBuffer) + 1);
 }
 

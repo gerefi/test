@@ -166,11 +166,11 @@ static void writeEngineTypeDefaultConfig(engine_type_e type) {
 }
 
 void gerEfiFunctionalTest() {
-  printf("Running gerEFI simulator version: [%d]", (int)getRusEfiVersion());
+  printf("Running gerEFI simulator version: [%d]", (int)getGerEfiVersion());
   // todo: do we still need 'printToConsole' for any reason?!
 	printToConsole("Running gerEFI simulator version:");
 	static char versionBuffer[20];
-	itoa10(versionBuffer, (int)getRusEfiVersion());
+	itoa10(versionBuffer, (int)getGerEfiVersion());
 	printToConsole(versionBuffer);
 
 	engine->setConfig();

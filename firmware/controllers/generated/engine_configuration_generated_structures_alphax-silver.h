@@ -1603,7 +1603,7 @@ struct engine_configuration_s {
 	bool enableVerboseCanTx : 1 {};
 	/**
 	offset 728 bit 13 */
-	bool externalRusEfiGdiModule : 1 {};
+	bool externalGerEfiGdiModule : 1 {};
 	/**
 	offset 728 bit 14 */
 	bool flipWboChannels : 1 {};

@@ -397,7 +397,7 @@ TEST(misc, testMisc) {
 //	ASSERT_EQ(SPARKOUT_12_OUTPUT, getPinByName("spa12"));
 }
 
-int getRusEfiVersion() {
+int getGerEfiVersion() {
 	return 123123;
 }
 

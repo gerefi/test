@@ -6,7 +6,7 @@
  * https://gerefi.com/wiki/index.php?title=Hardware:OEM_connectors#134_pin
  * https://github.com/gerefi/gerefi/wiki/HOWTO_electronic_throttle_body
  * Ignition module https://gerefi.com/forum/viewtopic.php?f=4&t=286
- * https://github.com/gerefi/gerefi/wiki/Hardware_microRusEfi_wiring
+ * https://github.com/gerefi/gerefi/wiki/Hardware_microGerEfi_wiring
  *
  * 1/2 plugs black
  * 2/2 plugs grey
@@ -64,7 +64,7 @@
 
 #include "bmw_m73.h"
 
-void setEngineBMW_M73_microRusEfi() {
+void setEngineBMW_M73_microGerEfi() {
 	 m73engine();
 	// 13641435991 injector
 	engineConfiguration->injector.flow = 180; // cc/min, who knows if this number is real - no good source of info

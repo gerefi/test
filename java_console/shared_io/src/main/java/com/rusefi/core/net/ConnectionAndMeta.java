@@ -45,7 +45,7 @@ public class ConnectionAndMeta {
         return getStringProperty(properties, "white_label", DEFAULT_WHITE_LABEL);
     }
 
-    public static String getRusEfiConsoleJarName() {
+    public static String getGerEfiConsoleJarName() {
         String defaultValue = JarFileUtil.getJarFileNamePrefix() + "_console.jar";
         // why would we need this configurable? if we need it for development under IDE it should probably be done differently?
         //return getStringProperty(getProperties(), "console_jar", defaultValue);

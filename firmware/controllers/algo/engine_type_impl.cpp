@@ -138,7 +138,7 @@ void applyEngineType(engine_type_e engineType) {
 		break;
 	case engine_type_e::BMW_M73_MRE:
 	case engine_type_e::BMW_M73_MRE_SLAVE:
-		setEngineBMW_M73_microRusEfi();
+		setEngineBMW_M73_microGerEfi();
 		break;
 	case engine_type_e::MRE_BODY_CONTROL:
 		mreBCM();

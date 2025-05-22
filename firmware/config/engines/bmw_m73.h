@@ -16,4 +16,4 @@ void setBMW_M73_TwoCoilUnitTest();
 // set engine_type 63
 void setEngineBMW_M73_Proteus();
 
-void setEngineBMW_M73_microRusEfi();
+void setEngineBMW_M73_microGerEfi();

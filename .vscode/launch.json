@@ -67,7 +67,7 @@
 			"configFiles": ["interface/stlink.cfg", "target/stm32f4x.cfg"],
 			"rtos": "auto",
 			"runToMain": true,
-			"preLaunchTask": "Build Firmware (microRusEfi F4)"
+			"preLaunchTask": "Build Firmware (microGerEfi F4)"
 		},
 		{
 			"name": "Debug F42x",
@@ -97,7 +97,7 @@
 			"configFiles": ["interface/stlink.cfg", "target/stm32f7x.cfg"],
 			"rtos": "auto",
 			"runToMain": true,
-			"preLaunchTask": "Build Firmware (microRusEfi F7)"
+			"preLaunchTask": "Build Firmware (microGerEfi F7)"
 		},
 		{
 			"name": "Debug H743",

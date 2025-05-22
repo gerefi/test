@@ -348,7 +348,7 @@
         <constant name="lambdaProtectionEnable">"false"</constant>
         <constant name="verboseTLE8888">"false"</constant>
         <constant name="enableVerboseCanTx">"true"</constant>
-        <constant name="externalRusEfiGdiModule">"false"</constant>
+        <constant name="externalGerEfiGdiModule">"false"</constant>
         <constant name="flipWboChannels">"false"</constant>
         <constant name="measureMapOnlyInOneCylinder">"false"</constant>
         <constant name="stepperForceParkingEveryRestart">"true"</constant>

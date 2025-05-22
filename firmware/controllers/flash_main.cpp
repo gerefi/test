@@ -317,7 +317,7 @@ void readFromFlash() {
 	}
 
 	// we can only change the state after the CRC check
-	engineConfiguration->byFirmwareVersion = getRusEfiVersion();
+	engineConfiguration->byFirmwareVersion = getGerEfiVersion();
 	engine->preCalculate();
 }
 

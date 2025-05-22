@@ -169,7 +169,7 @@ public class Autoupdate {
     }
 
     private static final String consoleJarZipEntry =
-        String.format("console/%s", ConnectionAndMeta.getRusEfiConsoleJarName());
+        String.format("console/%s", ConnectionAndMeta.getGerEfiConsoleJarName());
 
     private static final Predicate<ZipEntry> isConsoleJar = zipEntry -> consoleJarZipEntry.equals(zipEntry.getName());
 
@@ -205,7 +205,7 @@ public class Autoupdate {
 
     private static URLClassLoader prepareClassLoaderToStartConsole() {
         final URLClassLoader jarClassLoader;
-        String consoleJarFileName = ConnectionAndMeta.getRusEfiConsoleJarName();
+        String consoleJarFileName = ConnectionAndMeta.getGerEfiConsoleJarName();
         if (!new File(consoleJarFileName).exists()) {
             throw log.log(new RuntimeException("Looks like corrupted installation: " + consoleJarFileName + " not found"));
         }

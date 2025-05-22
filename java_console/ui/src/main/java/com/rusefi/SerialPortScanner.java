@@ -5,7 +5,7 @@ import com.gerefi.autodetect.SerialAutoChecker;
 import com.gerefi.binaryprotocol.IncomingDataBuffer;
 import com.gerefi.binaryprotocol.IoHelper;
 import com.gerefi.config.generated.Integration;
-import com.gerefi.core.RusEfiSignature;
+import com.gerefi.core.GerEfiSignature;
 import com.gerefi.core.SignatureHelper;
 import com.gerefi.io.IoStream;
 import com.gerefi.io.LinkManager;
@@ -62,7 +62,7 @@ public enum SerialPortScanner {
     public static class PortResult {
         public final String port;
         public final SerialPortType type;
-        public final RusEfiSignature signature;
+        public final GerEfiSignature signature;
 
         public PortResult(String port, SerialPortType type, String signature) {
             this.port = port;

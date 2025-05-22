@@ -13,7 +13,7 @@
  * MRE_BOARD_NEW_TEST
  * set engine_type 31
  *
- * See https://github.com/gerefi/gerefi/wiki/Hardware-microRusEfi-wiring
+ * See https://github.com/gerefi/gerefi/wiki/Hardware-microGerEfi-wiring
  *
  * @author Matthew Kennedy, (c) 2019
  */
@@ -154,7 +154,7 @@ void setBoardDefaultConfiguration() {
 	setIgnitionPins();
 
 	// MRE has a special main relay control low side pin
-	// gerEfi firmware is totally not involved with main relay control on microRusEfi board
+	// gerEfi firmware is totally not involved with main relay control on microGerEfi board
 	// todo: maybe even set EFI_MAIN_RELAY_CONTROL to FALSE for MRE configuration
 	// TLE8888 half bridges (pushpull, lowside, or high-low)  TLE8888_IN11 / TLE8888_OUT21
 	// Gpio::TLE8888_PIN_21: "35 - GP Out 1"

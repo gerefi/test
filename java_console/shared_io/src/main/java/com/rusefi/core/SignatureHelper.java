@@ -24,7 +24,7 @@ public class SignatureHelper {
     private static final String EXTRA_INI_SOURCE = System.getProperty("extra_local_ini_file_name");
 
     public static Pair<String, String> getUrl(String signature) {
-        RusEfiSignature s = parse(signature);
+        GerEfiSignature s = parse(signature);
         if (s == null)
             return null;
 
@@ -67,7 +67,7 @@ public class SignatureHelper {
         }
     }
 
-    public static RusEfiSignature parse(String signature) {
+    public static GerEfiSignature parse(String signature) {
         if (signature == null || !signature.startsWith(PREFIX))
             return null;
         signature = signature.substring(PREFIX.length()).trim();
@@ -82,6 +82,6 @@ public class SignatureHelper {
         String bundleTarget = elements[4];
         String hash = elements[5];
 
-        return new RusEfiSignature(branch, year, month, day, bundleTarget, hash);
+        return new GerEfiSignature(branch, year, month, day, bundleTarget, hash);
     }
 }

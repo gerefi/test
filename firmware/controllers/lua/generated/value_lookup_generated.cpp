@@ -443,9 +443,9 @@ float getConfigValueByName(const char *name) {
 // enableVerboseCanTx
 		case 1643181024:
 			return engineConfiguration->enableVerboseCanTx;
-// externalRusEfiGdiModule
+// externalGerEfiGdiModule
 		case 1546871344:
-			return engineConfiguration->externalRusEfiGdiModule;
+			return engineConfiguration->externalGerEfiGdiModule;
 // flipWboChannels
 		case 950454372:
 			return engineConfiguration->flipWboChannels;
@@ -2702,7 +2702,7 @@ bool setConfigValueByName(const char *name, float value) {
 	}
 		case 1546871344:
 	{
-		engineConfiguration->externalRusEfiGdiModule = (int)value;
+		engineConfiguration->externalGerEfiGdiModule = (int)value;
 		return 1;
 	}
 		case 950454372:

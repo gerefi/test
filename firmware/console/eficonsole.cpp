@@ -52,7 +52,7 @@ PUBLIC_API_WEAK void boardSayHello() {
 
 static void sayHello() {
 	efiPrintf(PROTOCOL_HELLO_PREFIX " gerEFI LLC (c) 2012-2024. All rights reserved.");
-	efiPrintf(PROTOCOL_HELLO_PREFIX " gerEFI v%d@%u now=%d", getRusEfiVersion(), /*do we have a working way to print 64 bit values?!*/(int)SIGNATURE_HASH, (int)getTimeNowMs());
+	efiPrintf(PROTOCOL_HELLO_PREFIX " gerEFI v%d@%u now=%d", getGerEfiVersion(), /*do we have a working way to print 64 bit values?!*/(int)SIGNATURE_HASH, (int)getTimeNowMs());
 	efiPrintf(PROTOCOL_HELLO_PREFIX " Chibios Kernel:       %s", CH_KERNEL_VERSION);
 	efiPrintf(PROTOCOL_HELLO_PREFIX " Compiled:     " __DATE__ " - " __TIME__ "");
 	efiPrintf(PROTOCOL_HELLO_PREFIX " COMPILER=%s", __VERSION__);

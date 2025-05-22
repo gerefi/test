@@ -126,7 +126,7 @@ void errorHandlerInit() {
 
 	// see https://github.com/gerefi/gerefi/wiki/Resilience
 	addConsoleAction("chibi_fault", [](){ chDbgCheck(0); } );
-	addConsoleAction("soft_fault", [](){ firmwareError(ObdCode::RUNTIME_CRITICAL_TEST_ERROR, "firmwareError: %d", getRusEfiVersion()); });
+	addConsoleAction("soft_fault", [](){ firmwareError(ObdCode::RUNTIME_CRITICAL_TEST_ERROR, "firmwareError: %d", getGerEfiVersion()); });
 	addConsoleAction("hard_fault", [](){ causeHardFault(); } );
 }
 
@@ -306,7 +306,7 @@ void errorHandlerWriteReportFile(FIL *fd) {
 			printErrorState();
 			printErrorStack();
 #endif // EFI_BACKUP_SRAM
-      f_printf(fd, "gerEFI v%d@%u", getRusEfiVersion(), /*do we have a working way to print 64 bit values?!*/(int)SIGNATURE_HASH);
+      f_printf(fd, "gerEFI v%d@%u", getGerEfiVersion(), /*do we have a working way to print 64 bit values?!*/(int)SIGNATURE_HASH);
 			// additional board-specific data
 			onBoardWriteErrorFile(fd);
 			// todo: figure out what else would be useful
@@ -611,7 +611,7 @@ static void firmwareErrorV(ObdCode code, const char *fmt, va_list ap) {
 
 	int errorMessageSize = strlen((char*)criticalErrorMessageBuffer);
 	static char versionBuffer[32];
-	chsnprintf(versionBuffer, sizeof(versionBuffer), " %d@%s", getRusEfiVersion(), FIRMWARE_ID);
+	chsnprintf(versionBuffer, sizeof(versionBuffer), " %d@%s", getGerEfiVersion(), FIRMWARE_ID);
 
 	if (errorMessageSize + strlen(versionBuffer) < sizeof(criticalErrorMessageBuffer)) {
 		strcpy((char*)(criticalErrorMessageBuffer) + errorMessageSize, versionBuffer);

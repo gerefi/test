@@ -1,6 +1,6 @@
 package com.gerefi.core;
 
-public class RusEfiSignature {
+public class GerEfiSignature {
     private final String branch;
     private final String year;
     private final String month;
@@ -8,7 +8,7 @@ public class RusEfiSignature {
     private final String bundleTarget;
     private final String hash;
 
-    public RusEfiSignature(String branch, String year, String month, String day, String bundleTarget, String hash) {
+    public GerEfiSignature(String branch, String year, String month, String day, String bundleTarget, String hash) {
         this.branch = branch;
         this.year = year;
         this.month = month;

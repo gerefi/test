@@ -788,7 +788,7 @@ static volatile char UNUSED_CCM_SIZE[CCM_UNUSED_SIZE] CCM_OPTIONAL;
 /**
  * See also SIGNATURE_HASH
  */
-int getRusEfiVersion() {
+int getGerEfiVersion() {
 	if (UNUSED_RAM_SIZE[0] != 0)
 		return 123; // this is here to make the compiler happy about the unused array
 	if (UNUSED_CCM_SIZE[0] * 0 != 0)
