@@ -17,7 +17,7 @@ HW_LAYER_PORT_CPP += \
 	$(HW_STM32_PORT_DIR)/flash_int.cpp \
 	$(HW_STM32_PORT_DIR)/serial_over_usb/usbcfg.cpp
 
-RUSEFIASM = \
+GEREFIASM = \
 	$(HW_STM32_PORT_DIR)/gerEfiStartup.S
 
 HW_INC += \

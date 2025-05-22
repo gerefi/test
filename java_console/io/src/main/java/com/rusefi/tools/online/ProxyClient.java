@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.gerefi.tools.online.HttpUtil.RUSEFI_PROXY_HOSTNAME;
+import static com.gerefi.tools.online.HttpUtil.GEREFI_PROXY_HOSTNAME;
 import static com.gerefi.tools.online.HttpUtil.getIntProperty;
 
 public class ProxyClient {
@@ -37,7 +37,7 @@ public class ProxyClient {
 
     @NotNull
     public static String getHttpAddress(int httpPort) {
-        return HttpUtil.RUSEFI_PROXY_JSON_PROTOCOL + RUSEFI_PROXY_HOSTNAME + ":" + httpPort;
+        return HttpUtil.GEREFI_PROXY_JSON_PROTOCOL + GEREFI_PROXY_HOSTNAME + ":" + httpPort;
     }
 
     @NotNull

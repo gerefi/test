@@ -16,7 +16,7 @@ public class JsonUserDetailsResolver implements UserDetailsResolver {
     public UserDetails apply(String authToken) {
 
         try {
-            String responseString = HttpUtil.executeGet(HttpUtil.RUSEFI_ONLINE_JSON_API_PREFIX + "getUserByToken&gerefi_token=" + authToken);
+            String responseString = HttpUtil.executeGet(HttpUtil.GEREFI_ONLINE_JSON_API_PREFIX + "getUserByToken&gerefi_token=" + authToken);
             JSONObject json = HttpUtil.getJsonResponse(responseString);
             log.info("String " + json);
             Object getUserByToken = json.get("getUserByToken");

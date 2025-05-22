@@ -60,7 +60,7 @@ public class TcpCommunicationIntegrationTest {
 
         CountDownLatch connectionEstablishedCountDownLatch = new CountDownLatch(1);
 
-        // todo: remove CONFIGURATION_RUSEFI_BINARY or nicer API to disable local file load
+        // todo: remove CONFIGURATION_GEREFI_BINARY or nicer API to disable local file load
 
         LinkManager clientManager = new LinkManager();
         clientManager.startAndConnect(TcpConnector.LOCALHOST + ":" + port, new ConnectionStateListener() {

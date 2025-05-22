@@ -31,9 +31,9 @@ android {
     signingConfigs {
         release {
             storeFile file("../certs/gerEFI.jks")
-            storePassword System.getenv("RUSEFI_ANDROID_KEYPASS")
+            storePassword System.getenv("GEREFI_ANDROID_KEYPASS")
             keyAlias "key0"
-            keyPassword System.getenv("RUSEFI_ANDROID_KEYPASS")
+            keyPassword System.getenv("GEREFI_ANDROID_KEYPASS")
         }
     }
 
@@ -77,6 +77,6 @@ dependencies {
 
 /*
 gradle.taskGraph.afterTask { task ->
-    project.logger.lifecycle("Password " + System.getenv('RUSEFI_ANDROID_KEYPASS'));
+    project.logger.lifecycle("Password " + System.getenv('GEREFI_ANDROID_KEYPASS'));
 }
  */

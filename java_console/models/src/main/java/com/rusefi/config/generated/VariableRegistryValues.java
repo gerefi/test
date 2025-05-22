@@ -182,7 +182,7 @@ public class VariableRegistryValues {
 	public static final int can_vss_nbc_e_W202 = 1;
 	public static final int can_wbo_type_e_AEM = 1;
 	public static final int can_wbo_type_e_DISABLED = 2;
-	public static final int can_wbo_type_e_RUSEFI = 0;
+	public static final int can_wbo_type_e_GEREFI = 0;
 	public static final int CanGpioType_DRT = 1;
 	public static final int CanGpioType_MS = 2;
 	public static final int CanGpioType_NONE = 0;

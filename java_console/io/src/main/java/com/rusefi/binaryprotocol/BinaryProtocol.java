@@ -349,8 +349,8 @@ public class BinaryProtocol {
                 saveConfigurationImageToFiles(
                     imageWithMeta,
                     iniFile,
-                    (ConnectionAndMeta.saveSettingsToFile() ? BinaryProtocolLocalCache.CONFIGURATION_RUSEFI_BINARY : null),
-                    BinaryProtocolLocalCache.CONFIGURATION_RUSEFI_XML
+                    (ConnectionAndMeta.saveSettingsToFile() ? BinaryProtocolLocalCache.CONFIGURATION_GEREFI_BINARY : null),
+                    BinaryProtocolLocalCache.CONFIGURATION_GEREFI_XML
                 );
             } catch (JAXBException e) {
                 log.error("JAXBException", e);

@@ -209,10 +209,10 @@
 #define can_vss_nbc_e_NISSAN_350 3
 #define can_vss_nbc_e_W202 1
 #define can_wbo_type_e_AEM 1
-#define can_wbo_type_e_auto_enum 0="RUSEFI",1="AEM",2="DISABLED"
+#define can_wbo_type_e_auto_enum 0="GEREFI",1="AEM",2="DISABLED"
 #define can_wbo_type_e_DISABLED 2
 #define can_wbo_type_e_enum "RusEFI", "AEM X-series", "Disabled/Analog"
-#define can_wbo_type_e_RUSEFI 0
+#define can_wbo_type_e_GEREFI 0
 #define CanGpioType_auto_enum 0="NONE",1="DRT",2="MS"
 #define CanGpioType_DRT 1
 #define CanGpioType_enum "None", "DRT protocol", "MS protocol"

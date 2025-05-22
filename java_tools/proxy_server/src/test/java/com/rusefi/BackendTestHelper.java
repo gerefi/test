@@ -44,7 +44,7 @@ public class BackendTestHelper {
 
     public static void commonServerTest() throws MalformedURLException {
         MockIniFileProvider.install();
-        HttpUtil.RUSEFI_PROXY_HOSTNAME = TcpConnector.LOCALHOST;
+        HttpUtil.GEREFI_PROXY_HOSTNAME = TcpConnector.LOCALHOST;
         BinaryProtocolLocalCache.DISABLE_LOCAL_CONFIGURATION_CACHE = true;
 
         gerEFISSLContext.init("certificate/test_pkcs12.jks", "password");

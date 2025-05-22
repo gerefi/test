@@ -221,7 +221,7 @@ bool Pt2001::init() {
 	spiCfg.ssport = getHwPort("mc33816", engineConfiguration->mc33816_cs);
 	spiCfg.sspad = getHwPin("mc33816", engineConfiguration->mc33816_cs);
 
-#if HW_MICRO_RUSEFI
+#if HW_MICRO_GEREFI
 	// hard-coded for now, just resolve the conflict with SD card!
 	engineConfiguration->mc33816spiDevice = SPI_DEVICE_3;
 #endif

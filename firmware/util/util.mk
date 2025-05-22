@@ -17,7 +17,7 @@ UTILSRC_CPP = \
 	$(PROJECT_DIR)/util/loggingcentral.cpp \
 	$(PROJECT_DIR)/util/cli_registry.cpp \
 	$(PROJECT_DIR)/util/efilib.cpp \
-	$(RUSEFI_LIB)/util/src/timer.cpp \
+	$(GEREFI_LIB)/util/src/timer.cpp \
 	$(UTIL_DIR)/os_util.cpp \
 	
 	

@@ -22,13 +22,13 @@ public class SimulatorExecHelper {
 
     private final static NamedThreadFactory THREAD_FACTORY = new NamedThreadFactory("SimulatorExecHelper", true);
 
-    private static final String SIMULATOR_BUILD_RUSEFI_SIMULATOR = "../simulator/build/gerefi_simulator";
+    private static final String SIMULATOR_BUILD_GEREFI_SIMULATOR = "../simulator/build/gerefi_simulator";
     // see also SimulatorHelper
     private static final String SIMULATOR_BINARY = getSimulatorBinary();
     private static Process simulatorProcess;
 
     private static String getSimulatorBinary() {
-        return FileLog.isWindows() ? SIMULATOR_BUILD_RUSEFI_SIMULATOR + ".exe" : SIMULATOR_BUILD_RUSEFI_SIMULATOR;
+        return FileLog.isWindows() ? SIMULATOR_BUILD_GEREFI_SIMULATOR + ".exe" : SIMULATOR_BUILD_GEREFI_SIMULATOR;
     }
 
     /**

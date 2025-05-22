@@ -18,8 +18,8 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import static com.opensr5.ini.IniFileModelImpl.RUSEFI_INI_PREFIX;
-import static com.opensr5.ini.IniFileModelImpl.RUSEFI_INI_SUFFIX;
+import static com.opensr5.ini.IniFileModelImpl.GEREFI_INI_PREFIX;
+import static com.opensr5.ini.IniFileModelImpl.GEREFI_INI_SUFFIX;
 
 /**
  * @see EnumConfigField
@@ -47,7 +47,7 @@ public class SettingsTab {
         final Map<String, DialogModel> dialogs = linkManager.getBinaryProtocol().getIniFile().getDialogs();
         if (dialogs.isEmpty()) {
             content.removeAll();
-            content.add(new JLabel("Meta data not found: " + RUSEFI_INI_PREFIX + "*" + RUSEFI_INI_SUFFIX));
+            content.add(new JLabel("Meta data not found: " + GEREFI_INI_PREFIX + "*" + GEREFI_INI_SUFFIX));
             UiUtils.trueLayout(content);
             return;
         }

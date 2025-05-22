@@ -31,7 +31,7 @@ import java.nio.charset.StandardCharsets;
 public class Online {
     private final static Logging log = Logging.getLogging(Online.class);
 
-    public static final String outputXmlFileName = FileUtil.RUSEFI_SETTINGS_FOLDER + File.separator + "output.msq";
+    public static final String outputXmlFileName = FileUtil.GEREFI_SETTINGS_FOLDER + File.separator + "output.msq";
     private static final String url = "https://gerefi.com/online/upload.php";
 
     /**

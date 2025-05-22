@@ -25,7 +25,7 @@ HW_LAYER_PORT_CPP += \
 	$(HW_STM32_PORT_DIR)/stm32_icu.cpp \
 	$(HW_STM32_PORT_DIR)/microsecond_timer_stm32.cpp
 
-#RUSEFIASM = \
+#GEREFIASM = \
 #	$(HW_STM32_PORT_DIR)/gerEfiStartup.S
 
 HW_STM32_PORT_DIR = $(PROJECT_DIR)/hw_layer/ports/stm32

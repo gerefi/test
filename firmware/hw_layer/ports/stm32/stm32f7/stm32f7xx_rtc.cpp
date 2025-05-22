@@ -17,7 +17,7 @@
 void hal_lld_rtc_fixup(void)
 {
 #if (STM32_RTCSEL == STM32_RTCSEL_LSE)
-	// we need some more time than defined in RUSEFI_STM32_LSE_WAIT_MAX
+	// we need some more time than defined in GEREFI_STM32_LSE_WAIT_MAX
 	// this is safe as we check that LSE is runnig before reseting BKP domain (stopping LSE)
 	// After that we are starting LSE again and waiting for LSERDY.
 	int timeout = 1000000000;
@@ -63,7 +63,7 @@ void hal_lld_rtc_fixup(void)
 		// LSE is failed to start
 		efiPrintf("LSE in not ready after restart attemp");
 		// Keep initing
-	RCC->BDCR |= RUSEFI_STM32_LSE_WAIT_MAX_RTCSEL;
+	RCC->BDCR |= GEREFI_STM32_LSE_WAIT_MAX_RTCSEL;
 	}
 
 	/* RTC clock enabled.*/

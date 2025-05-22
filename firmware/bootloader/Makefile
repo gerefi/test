@@ -197,7 +197,7 @@ CPPSRC = $(ALLCPPSRC) \
 	$(BOARDCPPSRC) \
 	$(PROJECT_DIR)/util/efilib.cpp \
 	$(PROJECT_DIR)/hw_layer/pin_repository.cpp \
-	$(RUSEFI_LIB_CPP) \
+	$(GEREFI_LIB_CPP) \
 	$(MODULES_CPPSRC) \
 	$(PROJECT_DIR)/bootloader/openblt_chibios/openblt_chibios.cpp \
 	$(PROJECT_DIR)/bootloader/openblt_chibios/openblt_flash.cpp \
@@ -229,7 +229,7 @@ TCPPSRC =
 # List ASM source files here
 # List ASM source files here
 ASMXSRC = $(STARTUPASM) $(PORTASM) $(OSALASM) \
-	$(RUSEFIASM) \
+	$(GEREFIASM) \
 	$(PROJECT_DIR)/hw_layer/main_hardfault_asm.S
 
 INCDIR += $(ALLINC) \
@@ -269,7 +269,7 @@ INCDIR += $(ALLINC) \
 	$(CONTROLLERS_INC) \
 	$(PROJECT_DIR)/controllers/sensors \
 	$(PROJECT_DIR)/init \
-	$(RUSEFI_LIB_INC) \
+	$(GEREFI_LIB_INC) \
 	$(BOARDS_DIR) \
 	$(PROJECT_DIR)/hw_layer/openblt \
 	$(PROJECT_DIR)/ext/openblt/Target/Source \

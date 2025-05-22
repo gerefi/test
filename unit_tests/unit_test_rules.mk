@@ -46,14 +46,14 @@ endif
 
 
 #TODO! this is a nice goal
-#USE_OPT += $(RUSEFI_OPT)
+#USE_OPT += $(GEREFI_OPT)
 #USE_OPT += -Wno-error=format= -Wno-error=register -Wno-error=write-strings
 
 # See explanation in main firmware Makefile for these three defines
 USE_OPT += -DEFI_UNIT_TEST=1 -DEFI_PROD_CODE=0 -DEFI_SIMULATOR=0
 
 # Pretend we are all different hardware so that all canned engine configs are included
-USE_OPT += -DHW_MICRO_RUSEFI=1 -DHW_PROTEUS=1 -DHW_FRANKENSO=1 -DHW_HELLEN=1 -DHW_HELLEN_NISSAN=1
+USE_OPT += -DHW_MICRO_GEREFI=1 -DHW_PROTEUS=1 -DHW_FRANKENSO=1 -DHW_HELLEN=1 -DHW_HELLEN_NISSAN=1
 USE_OPT += -DHW_HELLEN_NB1=1 -DHW_HELLEN_NB2=1
 
 # C specific options here (added to USE_OPT).
@@ -66,7 +66,7 @@ ifeq ($(USE_CPPOPT),)
   USE_CPPOPT = -std=gnu++2a -fno-rtti -fno-use-cxa-atexit
 endif
 
-USE_CPPOPT += $(RUSEFI_CPPOPT) -fPIC -fprofile-arcs -ftest-coverage
+USE_CPPOPT += $(GEREFI_CPPOPT) -fPIC -fprofile-arcs -ftest-coverage
 
 # Enable address sanitizer for C++ files, but not on Windows since x86_64-w64-mingw32-g++ doesn't support it.
 # only c++ because lua does some things asan doesn't like, but don't actually cause overruns.
@@ -143,7 +143,7 @@ CPPWARN = -Wall -Wextra -Wno-unused-parameter -Wno-unused-function -Wno-unused-v
 # cc1plus: error: unrecognized command line option \u2018-Wno-unused-private-field\u2019 [-Werror]
 #RULESFILE = ../firmware/gerefi_rules.mk
 #include $(RULESFILE)
-#USE_OPT += $(RUSEFI_OPT) -Wno-error=pedantic
+#USE_OPT += $(GEREFI_OPT) -Wno-error=pedantic
 
 USE_OPT += -Werror=switch
 

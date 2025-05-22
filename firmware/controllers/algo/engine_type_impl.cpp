@@ -117,13 +117,13 @@ void applyEngineType(engine_type_e engineType) {
 		break;
 #endif
 
-#if HW_MICRO_RUSEFI || HW_PROTEUS
+#if HW_MICRO_GEREFI || HW_PROTEUS
 	case engine_type_e::MERCEDES_M111:
 		setMercedesM111EngineConfiguration();
 		break;
 #endif
 
-#if HW_MICRO_RUSEFI
+#if HW_MICRO_GEREFI
 	case engine_type_e::MRE_VW_B6:
 		setMreVwPassatB6();
 		break;
@@ -143,7 +143,7 @@ void applyEngineType(engine_type_e engineType) {
 	case engine_type_e::MRE_BODY_CONTROL:
 		mreBCM();
 		break;
-#endif // HW_MICRO_RUSEFI
+#endif // HW_MICRO_GEREFI
 	case engine_type_e::HONDA_OBD1:
 		setHondaObd1();
 		break;

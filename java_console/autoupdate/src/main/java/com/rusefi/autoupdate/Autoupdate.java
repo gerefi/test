@@ -45,7 +45,7 @@ public class Autoupdate {
         }
     }
 
-    private static final String COM_RUSEFI_LAUNCHER = "com.gerefi.Launcher";
+    private static final String COM_GEREFI_LAUNCHER = "com.gerefi.Launcher";
 
     public static void main(String[] args) {
         try {
@@ -232,7 +232,7 @@ public class Autoupdate {
     private static void startConsole(final String[] args, final URLClassLoader jarClassLoader) {
         log.info("Running console with " + Arrays.toString(args));
         try {
-            Class mainClass = Class.forName(COM_RUSEFI_LAUNCHER, true, jarClassLoader);
+            Class mainClass = Class.forName(COM_GEREFI_LAUNCHER, true, jarClassLoader);
             Method mainMethod = mainClass.getMethod("main", args.getClass());
             mainMethod.invoke(null, new Object[]{args});
         } catch (ClassNotFoundException | IllegalAccessException | InvocationTargetException |

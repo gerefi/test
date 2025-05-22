@@ -222,9 +222,9 @@ jobs:
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
       run: |
-        echo "RUSEFI_SSH_SERVER=${{secrets.RUSEFI_SSH_SERVER}}" >> $GITHUB_ENV
-        echo "RUSEFI_SSH_USER=${{secrets.RUSEFI_SSH_USER}}" >> $GITHUB_ENV
-        echo "RUSEFI_SSH_PASS=${{secrets.RUSEFI_SSH_PASS}}" >> $GITHUB_ENV
+        echo "GEREFI_SSH_SERVER=${{secrets.GEREFI_SSH_SERVER}}" >> $GITHUB_ENV
+        echo "GEREFI_SSH_USER=${{secrets.GEREFI_SSH_USER}}" >> $GITHUB_ENV
+        echo "GEREFI_SSH_PASS=${{secrets.GEREFI_SSH_PASS}}" >> $GITHUB_ENV
 
 #    - name: Download LibOpenBLT Tool (Linux)
 #      uses: actions/download-artifact@v3
@@ -269,7 +269,7 @@ jobs:
       working-directory: ./artifacts
       run: |
         source ../firmware/config/boards/common_script_read_meta_env.inc ../firmware/${{ env.BOARD_META_PATH }}
-        bash ../firmware/bin/upload_bundle.sh ${{ secrets.RUSEFI_SSH_USER }} "${{ secrets.RUSEFI_SSH_PASS }}" ${{ secrets.RUSEFI_SSH_SERVER }} ${BUNDLE_NAME}
+        bash ../firmware/bin/upload_bundle.sh ${{ secrets.GEREFI_SSH_USER }} "${{ secrets.GEREFI_SSH_PASS }}" ${{ secrets.GEREFI_SSH_SERVER }} ${BUNDLE_NAME}
 
     - name: Add Bundles to Release
       if: ${{ env.upload == 'release' }}
@@ -289,7 +289,7 @@ jobs:
       run: |
         source config/boards/common_script_read_meta_env.inc ${{ env.BOARD_META_PATH }}
         cd ${META_OUTPUT_ROOT_FOLDER}tunerstudio/generated
-        ${OLDPWD}/tunerstudio/upload_ini.sh ${{ secrets.RUSEFI_ONLINE_FTP_USER }} "${{ secrets.RUSEFI_ONLINE_FTP_PASS }}" ${{ secrets.RUSEFI_FTP_SERVER }}
+        ${OLDPWD}/tunerstudio/upload_ini.sh ${{ secrets.GEREFI_ONLINE_FTP_USER }} "${{ secrets.GEREFI_ONLINE_FTP_PASS }}" ${{ secrets.GEREFI_FTP_SERVER }}
 
 # sad: we have duplication with custom-board-build/action.yaml :(
       # todo: is this insanity? does not gcc produce similar file directly?

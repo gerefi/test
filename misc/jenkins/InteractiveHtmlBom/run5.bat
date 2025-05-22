@@ -29,4 +29,4 @@ echo "ibom_cmd=%ibom_cmd%"
 
 
 echo Uploading IBOMs
-ncftpput -R -v -u %RUSEFI_DOXYGEN_FTP_USER% -p %RUSEFI_DOXYGEN_FTP_PASS% %RUSEFI_FTP_SERVER% /ibom ibom/*
+ncftpput -R -v -u %GEREFI_DOXYGEN_FTP_USER% -p %GEREFI_DOXYGEN_FTP_PASS% %GEREFI_FTP_SERVER% /ibom ibom/*

@@ -23,15 +23,15 @@ public class HttpUtil {
     private static final Logging log = getLogging(Logging.class);
 
     // todo: migrate proxy http json API server to TLS
-    public static final String RUSEFI_PROXY_JSON_PROTOCOL = "http://";
+    public static final String GEREFI_PROXY_JSON_PROTOCOL = "http://";
     public static final int PROXY_JSON_API_HTTP_PORT = getIntProperty("http.port", 8001);
 
     /**
      * hostname of PROXY server, not primary gerEFI web server - those are two separate hosts at the moment
      */
-    public static String RUSEFI_PROXY_HOSTNAME = System.getProperty("RUSEFI_PROXY_URL", "proxy.gerefi.com");
+    public static String GEREFI_PROXY_HOSTNAME = System.getProperty("GEREFI_PROXY_URL", "proxy.gerefi.com");
 
-    public static String RUSEFI_ONLINE_JSON_API_PREFIX = "https://gerefi.com/online/api.php?method=";
+    public static String GEREFI_ONLINE_JSON_API_PREFIX = "https://gerefi.com/online/api.php?method=";
 
     public static <T> T getJsonResponse(String responseString) throws ParseException {
 

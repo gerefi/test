@@ -75,10 +75,10 @@ USE_OPT += -DHW_HELLEN_NB1=1
 USE_OPT += -DHW_HELLEN_NB2=1
 USE_OPT += -DHW_HELLEN=1
 USE_OPT += -DHW_PROTEUS=1
-USE_OPT += -DHW_MICRO_RUSEFI=1
+USE_OPT += -DHW_MICRO_GEREFI=1
 
 # See explanation in main firmware Makefile for these three defines
-USE_OPT += $(SIMULATOR_DEBUG_LEVEL_OPT) $(RUSEFI_OPT) -DEFI_UNIT_TEST=0 -DEFI_PROD_CODE=0 -DEFI_SIMULATOR=1
+USE_OPT += $(SIMULATOR_DEBUG_LEVEL_OPT) $(GEREFI_OPT) -DEFI_UNIT_TEST=0 -DEFI_PROD_CODE=0 -DEFI_SIMULATOR=1
 
 # Enable address sanitizer, but not on Windows since x86_64-w64-mingw32-g++ doesn't support it.
 ifeq ($(SANITIZE),yes)
@@ -95,7 +95,7 @@ ifeq ($(USE_CPPOPT),)
   USE_CPPOPT = -std=c++2a -Wno-register -fno-rtti
 endif
 
-USE_CPPOPT += $(RUSEFI_CPPOPT)
+USE_CPPOPT += $(GEREFI_CPPOPT)
 
 # Enable this if you want the linker to remove unused code and data.
 ifeq ($(USE_LINK_GC),)
@@ -179,7 +179,7 @@ include $(PROJECT_DIR)/controllers/modules/modules.mk
 # C sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
 CSRC =  $(ALLCSRC) \
-  $(RUSEFI_LIB_C)
+  $(GEREFI_LIB_C)
 
 
 # C++ sources that can be compiled in ARM or THUMB mode depending on the global
@@ -198,7 +198,7 @@ CPPSRC = $(ALLCPPSRC) \
   simulator/boards.cpp \
   $(TEST_SRC_CPP) \
   $(MODULES_CPPSRC) \
-  $(RUSEFI_LIB_CPP) \
+  $(GEREFI_LIB_CPP) \
   main.cpp
 
 
@@ -223,7 +223,7 @@ INCDIR += . \
   ${CHIBIOS}/os/various \
   $(PROJECT_DIR)/development/hw_layer \
   $(CHIBIOS)/os/hal/lib/streams \
-  $(RUSEFI_LIB_INC) \
+  $(GEREFI_LIB_INC) \
   simulator/system \
   simulator/can \
   simulator

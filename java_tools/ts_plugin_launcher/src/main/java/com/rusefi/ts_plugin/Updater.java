@@ -30,7 +30,7 @@ public class Updater {
     private static final Logging log = getLogging(Updater.class);
     private static final String PLUGIN_ENTRY_CLASS = "com.gerefi.ts_plugin.PluginEntry";
     private static final String PLUGIN_BODY_JAR = "gerefi_plugin_body.jar";
-    private static final String LOCAL_JAR_FILE_NAME = FileUtil.RUSEFI_SETTINGS_FOLDER + File.separator + PLUGIN_BODY_JAR;
+    private static final String LOCAL_JAR_FILE_NAME = FileUtil.GEREFI_SETTINGS_FOLDER + File.separator + PLUGIN_BODY_JAR;
     private static final String TITLE = "gerEFI plugin installer " + VERSION;
 
     private final JPanel content = new JPanel(new VerticalFlowLayout());

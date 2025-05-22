@@ -99,7 +99,7 @@ public class LocalApplicationProxy implements Closeable {
             throw new IncompatibleBackendException(message);
         }
 
-        AbstractIoStream authenticatorToProxyStream = new TcpIoStream("authenticatorToProxyStream ", gerEFISSLContext.getSSLSocket(HttpUtil.RUSEFI_PROXY_HOSTNAME, context.serverPortForRemoteApplications()), disconnectListener);
+        AbstractIoStream authenticatorToProxyStream = new TcpIoStream("authenticatorToProxyStream ", gerEFISSLContext.getSSLSocket(HttpUtil.GEREFI_PROXY_HOSTNAME, context.serverPortForRemoteApplications()), disconnectListener);
         sendHello(authenticatorToProxyStream, applicationRequest);
 
         AtomicLong lastActivity = new AtomicLong(System.currentTimeMillis());

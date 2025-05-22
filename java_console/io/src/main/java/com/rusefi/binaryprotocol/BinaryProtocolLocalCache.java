@@ -14,8 +14,8 @@ public class BinaryProtocolLocalCache {
     private static final Logging log = getLogging(BinaryProtocol.class);
 
     public static final String STATE_FOLDER = "state/";
-    static final String CONFIGURATION_RUSEFI_XML = STATE_FOLDER + "current_configuration.msq";
-    static final String CONFIGURATION_RUSEFI_BINARY = STATE_FOLDER + "current_configuration.zip";
+    static final String CONFIGURATION_GEREFI_XML = STATE_FOLDER + "current_configuration.msq";
+    static final String CONFIGURATION_GEREFI_BINARY = STATE_FOLDER + "current_configuration.zip";
 
     public static boolean DISABLE_LOCAL_CONFIGURATION_CACHE;
 
@@ -29,15 +29,15 @@ public class BinaryProtocolLocalCache {
             return ConfigurationImageWithMeta.VOID;
         ConfigurationImageWithMeta localCached;
         try {
-            localCached = ConfigurationImageFile.readFromFile(CONFIGURATION_RUSEFI_BINARY);
+            localCached = ConfigurationImageFile.readFromFile(CONFIGURATION_GEREFI_BINARY);
         } catch (IOException e) {
-            log.error("Error reading " + CONFIGURATION_RUSEFI_BINARY + ": no worries " + e);
+            log.error("Error reading " + CONFIGURATION_GEREFI_BINARY + ": no worries " + e);
             return ConfigurationImageWithMeta.VOID;
         }
 
         if (!localCached.isEmpty()) {
             int crcOfLocallyCachedConfiguration = IoHelper.getCrc32(localCached.getConfigurationImage().getContent());
-            log.info(String.format(CONFIGURATION_RUSEFI_BINARY + " Local cache CRC %x\n", crcOfLocallyCachedConfiguration));
+            log.info(String.format(CONFIGURATION_GEREFI_BINARY + " Local cache CRC %x\n", crcOfLocallyCachedConfiguration));
 
             // there is a local file! let's request CRC from controller so that we can compare it to local file (validate)
             int crcFromController = binaryProtocol.getCrcFromController(localCached.getConfigurationImage().getSize());

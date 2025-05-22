@@ -16,8 +16,8 @@ import java.util.*;
  */
 public class IniFileModelImpl implements IniFileModel {
     private static final Logging log = Logging.getLogging(IniFileModelImpl.class);
-    public static final String RUSEFI_INI_PREFIX = "gerefi";
-    public static final String RUSEFI_INI_SUFFIX = ".ini";
+    public static final String GEREFI_INI_PREFIX = "gerefi";
+    public static final String GEREFI_INI_SUFFIX = ".ini";
     public static final String INI_FILE_PATH = System.getProperty("ini_file_path", "..");
     private static final String SECTION_PAGE = "page";
     private static final String FIELD_TYPE_SCALAR = "scalar";
@@ -176,12 +176,12 @@ public class IniFileModelImpl implements IniFileModel {
     private static String findMetaInfoFile(String iniFilePath) {
         String iniFileName = findIniFile(iniFilePath);
         if (iniFileName == null)
-            throw new IllegalStateException("Not found " + RUSEFI_INI_PREFIX + "*" + RUSEFI_INI_SUFFIX + " in " + iniFilePath);
+            throw new IllegalStateException("Not found " + GEREFI_INI_PREFIX + "*" + GEREFI_INI_SUFFIX + " in " + iniFilePath);
         return iniFileName;
     }
 
     public static @Nullable String findIniFile(String iniFilePath) {
-        return FindFileHelper.findFile(iniFilePath, RUSEFI_INI_PREFIX, RUSEFI_INI_SUFFIX);
+        return FindFileHelper.findFile(iniFilePath, GEREFI_INI_PREFIX, GEREFI_INI_SUFFIX);
     }
 
     private void finishDialog() {

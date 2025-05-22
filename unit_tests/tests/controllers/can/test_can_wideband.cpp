@@ -18,7 +18,7 @@ TEST(CanWideband, AcceptFrameId0) {
 	EXPECT_TRUE(dut.acceptFrame(frame));
 
 	// Now switch to RusEFI
-	engineConfiguration->wboType1 = RUSEFI;
+	engineConfiguration->wboType1 = GEREFI;
 
 	// Check that the gerEFI standard data is accepted
 	frame.SID = 0x190;
@@ -45,7 +45,7 @@ TEST(CanWideband, AcceptFrameId1) {
 	EXPECT_TRUE(dut.acceptFrame(frame));
 
 	// Now switch to RusEFI
-	engineConfiguration->wboType2 = RUSEFI;
+	engineConfiguration->wboType2 = GEREFI;
 
 	// Check that the gerEFI standard data is accepted
 	frame.SID = 0x192;
@@ -206,7 +206,7 @@ TEST(CanWideband, DecodeRusefiStandard)
 	frame.DLC = 8;
 
 	// version
-	frame.data8[0] = RUSEFI_WIDEBAND_VERSION;
+	frame.data8[0] = GEREFI_WIDEBAND_VERSION;
 
 	// valid
 	frame.data8[1] = 1;
@@ -286,7 +286,7 @@ TEST(CanWideband, DecodeRusefiStandardWrongVersion)
 	frame.DLC = 8;
 
 	// version - WRONG VERSION ON PURPOSE!
-	frame.data8[0] = RUSEFI_WIDEBAND_VERSION + 1;
+	frame.data8[0] = GEREFI_WIDEBAND_VERSION + 1;
 
 	EXPECT_FATAL_ERROR(dut.processFrame(frame, getTimeNowNt()));
 }

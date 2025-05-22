@@ -80,7 +80,7 @@ endif
 # EFI_UNIT_TEST determines if we are running in a unit test (hide things from hw/sim)
 # EFI_PROD_CODE determines if we are running on real hardware (hide things from tests/sim)
 # EFI_SIMULATOR determines if we are running in the simulator (hide things from hw/tests)
-USE_OPT += $(RUSEFI_OPT) -DEFI_UNIT_TEST=0 -DEFI_PROD_CODE=1 -DEFI_SIMULATOR=0
+USE_OPT += $(GEREFI_OPT) -DEFI_UNIT_TEST=0 -DEFI_PROD_CODE=1 -DEFI_SIMULATOR=0
 
 # signalling to libfirmware that we have criticalError() method
 USE_OPT += -DWE_HAVE_CRITICAL_ERROR_METHOD
@@ -100,7 +100,7 @@ endif
 # Hellen is one of the boards which cares
 USE_CPPOPT += -Wno-error=tautological-compare
 
-USE_CPPOPT += $(RUSEFI_CPPOPT)
+USE_CPPOPT += $(GEREFI_CPPOPT)
 
 # Enable this if you want the linker to remove unused code and data
 ifeq ($(USE_LINK_GC),)
@@ -288,7 +288,7 @@ CSRC =  gcc_version_check.c \
   $(HW_LAYER_PORT) \
   $(HW_LAYER_DRIVERS_CORE) \
   $(HW_LAYER_DRIVERS) \
-  $(RUSEFI_LIB_C) \
+  $(GEREFI_LIB_C) \
   $(PROJECT_DIR)/hw_layer/main_hardfault.c
 
 # todo: reduce copy/paste between all three Makefiles!
@@ -308,7 +308,7 @@ CPPSRC = \
   $(HW_LAYER_DRIVERS_CORE_CPP) \
   $(HW_LAYER_DRIVERS_CPP) \
   $(CONSOLE_SRC_CPP) \
-  $(RUSEFI_LIB_CPP) \
+  $(GEREFI_LIB_CPP) \
   $(MODULES_CPPSRC) \
   gerefi.cpp \
   main.cpp
@@ -335,7 +335,7 @@ TCPPSRC =
 
 # List ASM source files here
 ASMXSRC = $(ALLXASMSRC) \
-  $(RUSEFIASM) \
+  $(GEREFIASM) \
   $(PROJECT_DIR)/hw_layer/main_hardfault_asm.S
 
 #
@@ -348,7 +348,7 @@ INCDIR += \
   $(MODULES_INC) \
   $(TESTINC) \
   $(CHIBIOS)/os/various \
-  $(RUSEFI_LIB_INC) \
+  $(GEREFI_LIB_INC) \
   $(CONFDIR) \
   ext/FatFS \
   $(PROJECT_DIR)/hw_layer/mass_storage \

@@ -51,23 +51,23 @@ inputs:
   MY_REPO_PAT:
     description: 'Token for accessing private repos'
     required: false
-  RUSEFI_ONLINE_FTP_USER:
+  GEREFI_ONLINE_FTP_USER:
     required: false
-  RUSEFI_ONLINE_FTP_PASS:
+  GEREFI_ONLINE_FTP_PASS:
     required: false
-  RUSEFI_FTP_SERVER:
+  GEREFI_FTP_SERVER:
     required: false
-  RUSEFI_ONLINE2_USER:
+  GEREFI_ONLINE2_USER:
     required: false
-  RUSEFI_ONLINE2_PASS:
+  GEREFI_ONLINE2_PASS:
     required: false
-  RUSEFI_ONLINE2_SERVER:
+  GEREFI_ONLINE2_SERVER:
     required: false
-  RUSEFI_SSH_SERVER:
+  GEREFI_SSH_SERVER:
     required: false
-  RUSEFI_SSH_USER:
+  GEREFI_SSH_USER:
     required: false
-  RUSEFI_SSH_PASS:
+  GEREFI_SSH_PASS:
     required: false
   ADDITIONAL_ENV:
     required: false
@@ -96,15 +96,15 @@ runs:
       run: |
         : Mask Secrets
         [ -z "${{inputs.MY_REPO_PAT}}" ] || echo "::add-mask::${{inputs.MY_REPO_PAT}}"
-        [ -z "${{inputs.RUSEFI_ONLINE_FTP_USER}}" ] || echo "::add-mask::${{inputs.RUSEFI_ONLINE_FTP_USER}}"
-        [ -z "${{inputs.RUSEFI_ONLINE_FTP_PASS}}" ] || echo "::add-mask::${{inputs.RUSEFI_ONLINE_FTP_PASS}}"
-        [ -z "${{inputs.RUSEFI_FTP_SERVER}}" ] || echo "::add-mask::${{inputs.RUSEFI_FTP_SERVER}}"
-        [ -z "${{inputs.RUSEFI_ONLINE2_USER}}" ] || echo "::add-mask::${{inputs.RUSEFI_ONLINE2_USER}}"
-        [ -z "${{inputs.RUSEFI_ONLINE2_PASS}}" ] || echo "::add-mask::${{inputs.RUSEFI_ONLINE2_PASS}}"
-        [ -z "${{inputs.RUSEFI_ONLINE2_SERVER}}" ] || echo "::add-mask::${{inputs.RUSEFI_ONLINE2_SERVER}}"
-        [ -z "${{inputs.RUSEFI_SSH_SERVER}}" ] || echo "::add-mask::${{inputs.RUSEFI_SSH_SERVER}}"
-        [ -z "${{inputs.RUSEFI_SSH_USER}}" ] || echo "::add-mask::${{inputs.RUSEFI_SSH_USER}}"
-        [ -z "${{inputs.RUSEFI_SSH_PASS}}" ] || echo "::add-mask::${{inputs.RUSEFI_SSH_PASS}}"
+        [ -z "${{inputs.GEREFI_ONLINE_FTP_USER}}" ] || echo "::add-mask::${{inputs.GEREFI_ONLINE_FTP_USER}}"
+        [ -z "${{inputs.GEREFI_ONLINE_FTP_PASS}}" ] || echo "::add-mask::${{inputs.GEREFI_ONLINE_FTP_PASS}}"
+        [ -z "${{inputs.GEREFI_FTP_SERVER}}" ] || echo "::add-mask::${{inputs.GEREFI_FTP_SERVER}}"
+        [ -z "${{inputs.GEREFI_ONLINE2_USER}}" ] || echo "::add-mask::${{inputs.GEREFI_ONLINE2_USER}}"
+        [ -z "${{inputs.GEREFI_ONLINE2_PASS}}" ] || echo "::add-mask::${{inputs.GEREFI_ONLINE2_PASS}}"
+        [ -z "${{inputs.GEREFI_ONLINE2_SERVER}}" ] || echo "::add-mask::${{inputs.GEREFI_ONLINE2_SERVER}}"
+        [ -z "${{inputs.GEREFI_SSH_SERVER}}" ] || echo "::add-mask::${{inputs.GEREFI_SSH_SERVER}}"
+        [ -z "${{inputs.GEREFI_SSH_USER}}" ] || echo "::add-mask::${{inputs.GEREFI_SSH_USER}}"
+        [ -z "${{inputs.GEREFI_SSH_PASS}}" ] || echo "::add-mask::${{inputs.GEREFI_SSH_PASS}}"
         [ -z "${{inputs.ADDITIONAL_ENV}}" ] || echo "::add-mask::${{inputs.ADDITIONAL_ENV}}"
 
     - name: Set Token
@@ -155,9 +155,9 @@ runs:
       run: |
         : Set Env Variables
         echo "WHITE_LABEL=${{steps.find-out-white-label.outputs.white_label}}" >> $GITHUB_ENV
-        echo "RUSEFI_SSH_SERVER=${{inputs.RUSEFI_SSH_SERVER}}" >> $GITHUB_ENV
-        echo "RUSEFI_SSH_USER=${{inputs.RUSEFI_SSH_USER}}" >> $GITHUB_ENV
-        echo "RUSEFI_SSH_PASS=${{inputs.RUSEFI_SSH_PASS}}" >> $GITHUB_ENV
+        echo "GEREFI_SSH_SERVER=${{inputs.GEREFI_SSH_SERVER}}" >> $GITHUB_ENV
+        echo "GEREFI_SSH_USER=${{inputs.GEREFI_SSH_USER}}" >> $GITHUB_ENV
+        echo "GEREFI_SSH_PASS=${{inputs.GEREFI_SSH_PASS}}" >> $GITHUB_ENV
         echo "bundle_upload_folder=${{inputs.bundle_upload_folder}}" >> $GITHUB_ENV
         echo "AUTOMATION_LTS=${{toJSON(inputs.lts)}}" >> $GITHUB_ENV
         echo "BUNDLE_SIMULATOR=${{toJSON(inputs.bundle_simulator)}}" >> $GITHUB_ENV
@@ -340,7 +340,7 @@ runs:
           echo "Not uploading [${{github.ref}}]"
           exit 0
         fi
-        bash ../firmware/bin/upload_bundle.sh "${{ env.RUSEFI_SSH_USER }}" "${{ env.RUSEFI_SSH_PASS }}" "${{ env.RUSEFI_SSH_SERVER }}" "${{ env.BUNDLE_NAME }}"
+        bash ../firmware/bin/upload_bundle.sh "${{ env.GEREFI_SSH_USER }}" "${{ env.GEREFI_SSH_PASS }}" "${{ env.GEREFI_SSH_SERVER }}" "${{ env.BUNDLE_NAME }}"
 
     - name: Run Simulator
       if: ${{ inputs.run_simulator == 'true' }}
@@ -412,7 +412,7 @@ runs:
       shell: bash
       run: |
         : Upload .ini files to gerEFI Online server
-        ${{github.workspace}}/${{inputs.gerefi_dir}}/firmware/tunerstudio/upload_ini.sh ${{ inputs.RUSEFI_ONLINE_FTP_USER }} "${{ inputs.RUSEFI_ONLINE_FTP_PASS }}" ${{ inputs.RUSEFI_FTP_SERVER }}
+        ${{github.workspace}}/${{inputs.gerefi_dir}}/firmware/tunerstudio/upload_ini.sh ${{ inputs.GEREFI_ONLINE_FTP_USER }} "${{ inputs.GEREFI_ONLINE_FTP_PASS }}" ${{ inputs.GEREFI_FTP_SERVER }}
 
     - name: Upload .ini files to secondary Online server
       if: ${{ contains(inputs.uploads, 'ini') }}
@@ -421,7 +421,7 @@ runs:
       run: |
         : Upload .ini files to secondary Online server
         export INI_DESTINATION_FOLDER=html/ini/
-        ${{github.workspace}}/${{inputs.gerefi_dir}}/firmware/tunerstudio/upload_ini.sh ${{ inputs.RUSEFI_ONLINE2_USER }} "${{ inputs.RUSEFI_ONLINE2_PASS }}" ${{ inputs.RUSEFI_ONLINE2_SERVER }}
+        ${{github.workspace}}/${{inputs.gerefi_dir}}/firmware/tunerstudio/upload_ini.sh ${{ inputs.GEREFI_ONLINE2_USER }} "${{ inputs.GEREFI_ONLINE2_PASS }}" ${{ inputs.GEREFI_ONLINE2_SERVER }}
 
     - name: Upload github action bin artifact
       if: ${{ contains(inputs.artifacts, 'bin') }}
@@ -523,7 +523,7 @@ runs:
       shell: bash
       run: |
         : Upload Tagged Daily Release Bundle
-        bash ../firmware/bin/upload_bundle.sh "${{ env.RUSEFI_SSH_USER }}" "${{ env.RUSEFI_SSH_PASS }}" "${{ env.RUSEFI_SSH_SERVER }}" "${{ env.BUNDLE_NAME }}" "${{ inputs.new_tag }}"
+        bash ../firmware/bin/upload_bundle.sh "${{ env.GEREFI_SSH_USER }}" "${{ env.GEREFI_SSH_PASS }}" "${{ env.GEREFI_SSH_SERVER }}" "${{ env.BUNDLE_NAME }}" "${{ inputs.new_tag }}"
 
     - name: Create .properties file for action outputs
       if: ${{ inputs.gha_outputs_file != ''}}

@@ -36,7 +36,7 @@ bool AemXSeriesWideband::acceptFrame(const CANRxFrame& frame) const {
 
 	uint32_t id = CAN_ID(frame);
 
-	if (type == RUSEFI) {
+	if (type == GEREFI) {
 		// 0th sensor is 0x190 and 0x191, 1st sensor is 0x192 and 0x193
 		uint32_t gerefiBaseId = gerefi_base + 2 * (engineConfiguration->flipWboChannels ? (1 - m_sensorIndex) : m_sensorIndex);
 		return ((id == gerefiBaseId) || (id == gerefiBaseId + 1));
@@ -63,7 +63,7 @@ void AemXSeriesWideband::refreshState() {
 	}
 
 	can_wbo_type_e type = sensorType();
-	if (type == RUSEFI) {
+	if (type == GEREFI) {
 		// This is RE WBO
 		if (m_faultCode != static_cast<uint8_t>(wbo::Fault::None)) {
 			// Report error code from WBO
@@ -109,7 +109,7 @@ void AemXSeriesWideband::refreshState() {
 void AemXSeriesWideband::decodeFrame(const CANRxFrame& frame, efitick_t nowNt) {
 	// accept frame has already guaranteed that this message belongs to us
 	// We just have to check if it's AEM or gerEFI
-	if (sensorType() == RUSEFI){
+	if (sensorType() == GEREFI){
 		uint32_t id = CAN_ID(frame);
 
 		// gerEFI custom format
@@ -153,9 +153,9 @@ bool AemXSeriesWideband::decodeAemXSeries(const CANRxFrame& frame, efitick_t now
 void AemXSeriesWideband::decodeRusefiStandard(const CANRxFrame& frame, efitick_t nowNt) {
 	auto data = reinterpret_cast<const wbo::StandardData*>(&frame.data8[0]);
 
-	if (data->Version != RUSEFI_WIDEBAND_VERSION) {
+	if (data->Version != GEREFI_WIDEBAND_VERSION) {
 		firmwareError(ObdCode::OBD_WB_FW_Mismatch, "Wideband controller index %d has wrong protocol version (0x%02x while 0x%02x expected), please update!",
-			m_sensorIndex, data->Version, RUSEFI_WIDEBAND_VERSION);
+			m_sensorIndex, data->Version, GEREFI_WIDEBAND_VERSION);
 		return;
 	}
 

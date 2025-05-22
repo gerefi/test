@@ -18,10 +18,10 @@ public class PersistentConfiguration {
     private static boolean hookRegistered;
 
     static {
-        new File(FileUtil.RUSEFI_SETTINGS_FOLDER).mkdirs();
+        new File(FileUtil.GEREFI_SETTINGS_FOLDER).mkdirs();
     }
 
-    private static final String CONFIG_FILE_NAME = FileUtil.RUSEFI_SETTINGS_FOLDER + File.separator + "console_properties.xml";
+    private static final String CONFIG_FILE_NAME = FileUtil.GEREFI_SETTINGS_FOLDER + File.separator + "console_properties.xml";
 
     private Map<String, Object> config = new HashMap<>();
     private boolean isLoaded;

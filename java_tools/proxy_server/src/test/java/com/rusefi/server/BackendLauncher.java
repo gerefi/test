@@ -5,7 +5,7 @@ import java.io.IOException;
 public class BackendLauncher {
     public static void main(String[] args) throws IOException {
         /* todo
-        gerEFISSLContext.setupCertificates(new File("keystore.jks"), System.getProperty("RUSEFI_KEYSTORE_PASSWORD"));
+        gerEFISSLContext.setupCertificates(new File("keystore.jks"), System.getProperty("GEREFI_KEYSTORE_PASSWORD"));
          */
 /*
         UserDetailsResolver userDetailsFunction = new JsonUserDetailsResolver();

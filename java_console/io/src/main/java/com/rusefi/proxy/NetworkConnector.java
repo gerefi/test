@@ -131,8 +131,8 @@ public class NetworkConnector implements Closeable {
 
         Socket socket;
         try {
-            log.info("Connecting to proxy server " + HttpUtil.RUSEFI_PROXY_HOSTNAME + " " + serverPortForControllers);
-            socket = gerEFISSLContext.getSSLSocket(HttpUtil.RUSEFI_PROXY_HOSTNAME, serverPortForControllers);
+            log.info("Connecting to proxy server " + HttpUtil.GEREFI_PROXY_HOSTNAME + " " + serverPortForControllers);
+            socket = gerEFISSLContext.getSSLSocket(HttpUtil.GEREFI_PROXY_HOSTNAME, serverPortForControllers);
         } catch (IOException e) {
             // socket open exception is a special case and should be handled separately
             disconnectListener.onDisconnect("on socket open");

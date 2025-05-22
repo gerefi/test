@@ -14,7 +14,7 @@
 #include "defaults.h"
 #include "proteus_meta.h"
 
-#if HW_MICRO_RUSEFI || HW_PROTEUS
+#if HW_MICRO_GEREFI || HW_PROTEUS
 static inline void commonPassatB6() {
 	setCrankOperationMode();
 	engineConfiguration->trigger.type = trigger_type_e::TT_TOOTHED_WHEEL_60_2;
@@ -110,7 +110,7 @@ static inline void commonPassatB6() {
 	engineConfiguration->idle.solenoidPin = Gpio::Unassigned;
 	engineConfiguration->fanPin = Gpio::Unassigned;
 }
-#endif // HW_MICRO_RUSEFI || HW_PROTEUS
+#endif // HW_MICRO_GEREFI || HW_PROTEUS
 
 
 // MAF signal frequency after hardware divider x16, Hz
@@ -191,7 +191,7 @@ void setProteusVwPassatB6() {
  * has to be microRusEFI 0.5.2
  */
 void setMreVwPassatB6() {
-#if HW_MICRO_RUSEFI
+#if HW_MICRO_GEREFI
 	commonPassatB6();
 
 //	engineConfiguration->afr.hwChannel = MRE_IN_ANALOG_VOLT_10;
@@ -257,5 +257,5 @@ void setMreVwPassatB6() {
 	engineConfiguration->hpfpValvePin = Gpio::B10; // AUX J13
 
 
-#endif /* HW_MICRO_RUSEFI */
+#endif /* HW_MICRO_GEREFI */
 }

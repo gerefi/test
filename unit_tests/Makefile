@@ -36,7 +36,7 @@ include $(PROJECT_DIR)/common_libfirmware.mk
 # C sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
 CSRC += $(ALLCSRC) \
-	$(RUSEFI_LIB_C) \
+	$(GEREFI_LIB_C) \
 	$(HW_LAYER_DRIVERS_CORE) \
 	$(TEST_SRC_C)
 
@@ -56,10 +56,10 @@ CPPSRC += $(ALLCPPSRC) \
 	$(PROJECT_DIR)/../unit_tests/main.cpp \
 	$(PROJECT_DIR)/../unit_tests/global_mocks.cpp \
 	$(PROJECT_DIR)/../unit_tests/mocks.cpp \
-	$(RUSEFI_LIB)/mock/lib-time-mocks.cpp \
-	$(RUSEFI_LIB_CPP) \
+	$(GEREFI_LIB)/mock/lib-time-mocks.cpp \
+	$(GEREFI_LIB_CPP) \
 	$(MODULES_CPPSRC) \
-	$(RUSEFI_LIB_CPP_TEST) \
+	$(GEREFI_LIB_CPP_TEST) \
 
 INCDIR += \
 	$(PCH_DIR) \
@@ -75,7 +75,7 @@ INCDIR += \
 	$(UNIT_TESTS_DIR)/tests \
 	$(UNIT_TESTS_DIR)/tests/sensor \
 	$(UNIT_TESTS_DIR)/test_basic_math \
-	$(RUSEFI_LIB_INC) \
+	$(GEREFI_LIB_INC) \
 
 
 include $(UNIT_TESTS_DIR)/unit_test_rules.mk

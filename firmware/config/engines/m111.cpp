@@ -14,9 +14,9 @@
 #include "proteus_meta.h"
 #endif // HW_PROTEUS
 
-#if HW_MICRO_RUSEFI
+#if HW_MICRO_GEREFI
 #include "mre_meta.h"
-#endif // HW_MICRO_RUSEFI
+#endif // HW_MICRO_GEREFI
 
 void setMercedesM111EngineConfiguration() {
 	engineConfiguration->cylindersCount = 4;
@@ -58,13 +58,13 @@ void setMercedesM111EngineConfiguration() {
 	engineConfiguration->etb.offset = 0;
 
     strcpy(engineConfiguration->gpPwmNote[0], "SC Bypass");
-#if HW_MICRO_RUSEFI && EFI_PROD_CODE
+#if HW_MICRO_GEREFI && EFI_PROD_CODE
 	gppwm_channel *scBypass = &engineConfiguration->gppwm[0];
     scBypass->pin = MRE_GPOUT_3;
-#endif // HW_MICRO_RUSEFI
+#endif // HW_MICRO_GEREFI
 
     strcpy(engineConfiguration->gpPwmNote[1], "SC Clutch");
-#if HW_MICRO_RUSEFI && EFI_PROD_CODE
+#if HW_MICRO_GEREFI && EFI_PROD_CODE
 	gppwm_channel *scClutch = &engineConfiguration->gppwm[1];
     scClutch->pin = MRE_LS_2;
     engineConfiguration->vvtPins[0] = MRE_LS_1;
@@ -77,7 +77,7 @@ void setMercedesM111EngineConfiguration() {
     engineConfiguration->lowPressureFuel.hwChannel = MRE_IN_ANALOG_VOLT_4;
     // assumes R30 is populated
     engineConfiguration->boostControlPin = MRE_AV9_REUSE;
-#endif // HW_MICRO_RUSEFI
+#endif // HW_MICRO_GEREFI
     // note how these numbers are very flipped hyundai154 defaults?
     setTPS1Calibration(891, 69, 98, 926);
     // honda cable position sensor

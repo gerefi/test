@@ -370,8 +370,8 @@ case AEM:
   return "AEM";
 case DISABLED:
   return "DISABLED";
-case RUSEFI:
-  return "RUSEFI";
+case GEREFI:
+  return "GEREFI";
   }
  return NULL;
 }

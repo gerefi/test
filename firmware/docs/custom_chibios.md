@@ -4,7 +4,7 @@ At the moment gerEFI uses https://github.com/gerefi/ChibiOS/tree/stable_20.3.x.g
 
 gerEFI custom version of ChibiOS has the following changes:
 
-*) LSE auto-detection/fallback, RUSEFI_STM32_LSE_WAIT_MAX/RUSEFI_STM32_LSE_WAIT_MAX_RTCSEL
+*) LSE auto-detection/fallback, GEREFI_STM32_LSE_WAIT_MAX/GEREFI_STM32_LSE_WAIT_MAX_RTCSEL
 
 # TODO items below this line need to be reviewed, seems to NOT be up to date with 20.3 patch
 

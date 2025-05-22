@@ -676,7 +676,7 @@ typedef enum __attribute__ ((__packed__)) {
 } can_baudrate_e;
 
 typedef enum __attribute__ ((__packed__)) {
-	RUSEFI = 0,
+	GEREFI = 0,
 	AEM = 1,
 	DISABLED = 2
 } can_wbo_type_e;

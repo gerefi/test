@@ -9,11 +9,11 @@ import java.io.IOException;
 import java.net.URL;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.gerefi.core.FileUtil.RUSEFI_SETTINGS_FOLDER;
+import static com.gerefi.core.FileUtil.GEREFI_SETTINGS_FOLDER;
 
 public class SignatureHelper {
     private static final Logging log = getLogging(SignatureHelper.class);
-    private final static String LOCAL_INI_CACHE_FOLDER = RUSEFI_SETTINGS_FOLDER + File.separator + "ini_database";
+    private final static String LOCAL_INI_CACHE_FOLDER = GEREFI_SETTINGS_FOLDER + File.separator + "ini_database";
 
     // todo: find a way to reference Fields.PROTOCOL_SIGNATURE_PREFIX
     private static final String PREFIX = "gerEFI ";

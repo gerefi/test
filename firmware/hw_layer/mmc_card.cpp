@@ -198,7 +198,7 @@ static bool sdNeedRemoveReports = false;
  */
 static spi_device_e mmcSpiDevice = SPI_NONE;
 
-#define RUSEFI_LOG_PREFIX "re_"
+#define GEREFI_LOG_PREFIX "re_"
 #define PREFIX_LEN 3
 #define SHORT_TIME_LEN 13
 
@@ -326,7 +326,7 @@ static void sdSetMode(const char *mode) {
 }
 
 static void prepareLogFileName() {
-	strcpy(logName, RUSEFI_LOG_PREFIX);
+	strcpy(logName, GEREFI_LOG_PREFIX);
 	char *ptr;
 
 	// TS SD protocol supports only short 8 symbol file names, good thing that we do not use TS SD protocol!

@@ -202,12 +202,12 @@ MRE_INJ_1, // green
 MRE_INJ_2, // white
 MRE_INJ_3, // blue
 MRE_INJ_4, //
-#if HW_MICRO_RUSEFI
+#if HW_MICRO_GEREFI
 MRE_AV9_REUSE, // brown boost control
 MRE_LS_1, // VVT
 MRE_LS_2, // SC clutch
 //MRE_GPOUT_3, // SC Bypass
-#endif // HW_MICRO_RUSEFI
+#endif // HW_MICRO_GEREFI
 };
 
 int getBoardMetaOutputsCount() {

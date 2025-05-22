@@ -59,7 +59,7 @@ CONSOLE_FOLDER = $(FOLDER)/console
 DRIVERS_FOLDER = $(FOLDER)/drivers
 
 UPDATE_FOLDER_SOURCES = \
-  $(RUSEFI_CONSOLE_SETTINGS) \
+  $(GEREFI_CONSOLE_SETTINGS) \
   $(INI_FILE) \
   ../misc/console_launcher/readme.html \
   ../misc/console_launcher/gerefi_updater.exe
