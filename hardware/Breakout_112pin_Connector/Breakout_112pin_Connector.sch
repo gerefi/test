@@ -19,7 +19,7 @@ U 1 1 5FBC6EC2
 P 8150 5300
 F 0 "J1" H 8175 9315 50  0000 C CNN
 F 1 "0643330100" H 8175 9224 50  0000 C CNN
-F 2 "rusefi_lib_private:64333-0100_1" H 8750 9200 50  0001 L CNN
+F 2 "gerefi_lib_private:64333-0100_1" H 8750 9200 50  0001 L CNN
 F 3 "https://www.molex.com/molex/products/part-detail/pcb_headers/0643330100" H 11350 7850 50  0001 L CNN
 F 4 "N/A" H 11350 7150 50  0001 L CNN "Mouser Part Number"
 	1    8150 5300

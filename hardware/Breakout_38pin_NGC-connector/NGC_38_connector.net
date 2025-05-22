@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source C:\Users\LJ\Desktop\Jared\daecu\Hardware\trunk\rusefi.com\NGC_38_connector\NGC_38_connector.sch)
+    (source C:\Users\LJ\Desktop\Jared\daecu\Hardware\trunk\gerefi.com\NGC_38_connector\NGC_38_connector.sch)
     (date "10/21/2014 6:34:32 AM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components

@@ -20,7 +20,7 @@ Sheet 1 1
 Title "SD_Card_1"
 Date "2016-12-31"
 Rev "R0.1"
-Comp "rusEFI.com"
+Comp "gerEFI.com"
 Comment1 ""
 Comment2 ""
 Comment3 ""

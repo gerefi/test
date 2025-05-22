@@ -7,7 +7,7 @@ NetITyp=0
 NetIExt=.net
 PkgIExt=.pkg
 NetDir=
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 NetType=0
 [cvpcb/libraries]
 EquName1=devcms
@@ -15,7 +15,7 @@ EquName1=devcms
 version=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 LastNetListRead=
 PadDrill=1.016
 PadDrillOvalY=1.016
@@ -34,7 +34,7 @@ BoardOutlineThickness=0.381
 ModuleOutlineThickness=0.381
 [schematic_editor]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -44,7 +44,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -75,5 +75,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=../rusefi_lib/logo
-LibName31=../rusefi_lib/logo_flipped
+LibName30=../gerefi_lib/logo
+LibName31=../gerefi_lib/logo_flipped

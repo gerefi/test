@@ -39,7 +39,7 @@ Sheet 1 1
 Title "pOWERsso-24 breakout"
 Date "2 mar 2015"
 Rev "R0.1"
-Comp "rusEFI"
+Comp "gerEFI"
 Comment1 ""
 Comment2 ""
 Comment3 ""

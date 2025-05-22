@@ -11,7 +11,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 [eeschema/libraries]
 LibName1=KICAD_Older_Version
 LibName2=power
@@ -24,7 +24,7 @@ LibName8=max9939
 LibName9=MAX9926-9927
 [pcbnew]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 LastNetListRead=vrs_io_1.net
 PadDrill=0.6
 PadDrillOvalY=0.6
@@ -43,7 +43,7 @@ BoardOutlineThickness=0.254
 ModuleOutlineThickness=0.09906
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/gerefi_lib/Border.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

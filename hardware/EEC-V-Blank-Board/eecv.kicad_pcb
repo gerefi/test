@@ -101,7 +101,7 @@
     (uvia_drill 0.1)
   )
 
-  (module rusefi_lib:eecv (layer F.Cu) (tedit 6021C4FB) (tstamp 5FED3A2F)
+  (module gerefi_lib:eecv (layer F.Cu) (tedit 6021C4FB) (tstamp 5FED3A2F)
     (at 93.63 20.44)
     (fp_text reference J1 (at 0 5.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))

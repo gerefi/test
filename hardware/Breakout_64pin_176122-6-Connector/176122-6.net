@@ -1,12 +1,12 @@
 (export (version D)
   (design
-    (source C:\Users\Owner\Desktop\daecu_repo\Hardware\trunk\rusefi.com\176122-6-connector\176122-6.sch)
+    (source C:\Users\Owner\Desktop\daecu_repo\Hardware\trunk\gerefi.com\176122-6-connector\176122-6.sch)
     (date "2/11/2020 12:10:27 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "ECU adapter")
-        (company "rusEFI by DAECU")
+        (company "gerEFI by DAECU")
         (rev R0.2)
         (date 2017-02-05)
         (source 176122-6.sch)
@@ -377,7 +377,7 @@
         (pin (num 8) (name Pin_8) (type passive)))))
   (libraries
     (library (logical 0176122-06)
-      (uri C:\Users\Owner\Desktop\daecu_repo\Hardware\trunk\rusefi.com\176122-6-connector/symbols/0176122-06.lib))
+      (uri C:\Users\Owner\Desktop\daecu_repo\Hardware\trunk\gerefi.com\176122-6-connector/symbols/0176122-06.lib))
     (library (logical Connector_Generic)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib")))
   (nets

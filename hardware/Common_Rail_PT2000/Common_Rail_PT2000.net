@@ -1,12 +1,12 @@
 (export (version D)
   (design
-    (source C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\rusefi.com\Common_Rail_PT2000\Common_Rail_PT2000.sch)
+    (source C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\gerefi.com\Common_Rail_PT2000\Common_Rail_PT2000.sch)
     (date "8/7/2019 9:45:53 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Common Rail PT2000")
-        (company rusEFI.com)
+        (company gerEFI.com)
         (rev R0.1)
         (date 2019-05-05)
         (source Common_Rail_PT2000.sch)
@@ -27,7 +27,7 @@
       (tstamp 5A77A2A5))
     (comp (ref C60)
       (value 330pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Kemet,C0805C331J1GACTU)
         (field (name VEND1,VEND1#) DIGI,399-1131-1-ND)
@@ -57,7 +57,7 @@
       (tstamp 5A77A783))
     (comp (ref C38)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -67,7 +67,7 @@
       (tstamp 5A77A828))
     (comp (ref C37)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -77,7 +77,7 @@
       (tstamp 5A77A8A4))
     (comp (ref R16)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -87,7 +87,7 @@
       (tstamp 5A77A923))
     (comp (ref R15)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -97,7 +97,7 @@
       (tstamp 5A77A9C9))
     (comp (ref C45)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -117,7 +117,7 @@
       (tstamp 5A77CB88))
     (comp (ref C49)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -147,7 +147,7 @@
       (tstamp 5A77DD3F))
     (comp (ref R19)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -157,7 +157,7 @@
       (tstamp 5A77E115))
     (comp (ref C57)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -167,7 +167,7 @@
       (tstamp 5A77E1AB))
     (comp (ref C46)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -177,7 +177,7 @@
       (tstamp 5A77E5DB))
     (comp (ref C50)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -207,7 +207,7 @@
       (tstamp 5A77E615))
     (comp (ref R20)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -217,7 +217,7 @@
       (tstamp 5A77E61B))
     (comp (ref C58)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -237,7 +237,7 @@
       (tstamp 5A77E6E9))
     (comp (ref L2)
       (value 10uH)
-      (footprint rusEFI_LIB:IHLP6767GZER100M01)
+      (footprint gerEFI_LIB:IHLP6767GZER100M01)
       (fields
         (field (name MFG,MFG#) Vishay,IHLP6767GZER100M01)
         (field (name VEND1,VEND1#) DIGI,541-1259-1-ND)
@@ -277,7 +277,7 @@
       (tstamp 5A7824B4))
     (comp (ref R11)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -287,7 +287,7 @@
       (tstamp 5A7826EE))
     (comp (ref C26)
       (value 470pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,CGA4C2C0G2A471J060AA)
         (field (name VEND1,VEND1#) DIGI,445-6953-1-ND)
@@ -297,7 +297,7 @@
       (tstamp 5A7826F4))
     (comp (ref R9)
       (value 5.1R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JT5R10)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JT5R10CT-ND)
@@ -307,7 +307,7 @@
       (tstamp 5A7828D9))
     (comp (ref C23)
       (value 330pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Kemet,C0805C331J1GACTU)
         (field (name VEND1,VEND1#) DIGI,399-1131-1-ND)
@@ -317,7 +317,7 @@
       (tstamp 5A782A0D))
     (comp (ref R10)
       (value 5.1R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JT5R10)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JT5R10CT-ND)
@@ -327,7 +327,7 @@
       (tstamp 5A782C67))
     (comp (ref C24)
       (value 330pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Kemet,C0805C331J1GACTU)
         (field (name VEND1,VEND1#) DIGI,399-1131-1-ND)
@@ -337,7 +337,7 @@
       (tstamp 5A782C6D))
     (comp (ref C28)
       (value 330pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Kemet,C0805C331J1GACTU)
         (field (name VEND1,VEND1#) DIGI,399-1131-1-ND)
@@ -357,7 +357,7 @@
       (tstamp 5A7839EF))
     (comp (ref C25)
       (value 0.22uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) KEMET,C0805C224M1RACTU)
         (field (name VEND1,VEND1#) DIGI,399-9205-1-ND)
@@ -367,7 +367,7 @@
       (tstamp 5A7847CB))
     (comp (ref C27)
       (value 0.22uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) KEMET,C0805C224M1RACTU)
         (field (name VEND1,VEND1#) DIGI,399-9205-1-ND)
@@ -397,7 +397,7 @@
       (tstamp 5A784A74))
     (comp (ref L1)
       (value 6uH)
-      (footprint rusEFI_LIB:744710610-Inductor)
+      (footprint gerEFI_LIB:744710610-Inductor)
       (fields
         (field (name MFG,MFG#) "Würth Elektronik,744710610")
         (field (name VEND1,VEND1#) DIGI,732-3255-ND)
@@ -407,7 +407,7 @@
       (tstamp 5A78864F))
     (comp (ref C17)
       (value 0.22uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) KEMET,C0805C224M1RACTU)
         (field (name VEND1,VEND1#) DIGI,399-9205-1-ND)
@@ -417,7 +417,7 @@
       (tstamp 5A7887D5))
     (comp (ref C16)
       (value 0.22uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) KEMET,C0805C224M1RACTU)
         (field (name VEND1,VEND1#) DIGI,399-9205-1-ND)
@@ -427,7 +427,7 @@
       (tstamp 5A788E92))
     (comp (ref R23)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -437,7 +437,7 @@
       (tstamp 5A78D0D0))
     (comp (ref C63)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -457,7 +457,7 @@
       (tstamp 5A78D8ED))
     (comp (ref R24)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -467,7 +467,7 @@
       (tstamp 5A78D8F4))
     (comp (ref C71)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -477,7 +477,7 @@
       (tstamp 5A78D8FA))
     (comp (ref C73)
       (value 330pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Kemet,C0805C331J1GACTU)
         (field (name VEND1,VEND1#) DIGI,399-1131-1-ND)
@@ -497,7 +497,7 @@
       (tstamp 5A78DE67))
     (comp (ref C65)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -517,7 +517,7 @@
       (tstamp 5A78EEDA))
     (comp (ref C67)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -527,7 +527,7 @@
       (tstamp 5A78F77C))
     (comp (ref U4)
       (value PT2000)
-      (footprint rusEFI_LIB:LQFP-80_12x12mm_Pitch0.5mmThermal)
+      (footprint gerEFI_LIB:LQFP-80_12x12mm_Pitch0.5mmThermal)
       (fields
         (field (name MFG,MFG#) "FreeScale,MC33PT2000 ")
         (field (name VEND1,VEND1#) DIGI,568-14330-ND)
@@ -537,7 +537,7 @@
       (tstamp 5A794269))
     (comp (ref C10)
       (value 0.1uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) AVX,08055C104MAT2A)
         (field (name VEND1,VEND1#) DIGI,478-3351-1-ND)
@@ -547,7 +547,7 @@
       (tstamp 5A7A6CDB))
     (comp (ref C11)
       (value 0.1uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) AVX,08055C104MAT2A)
         (field (name VEND1,VEND1#) DIGI,478-3351-1-ND)
@@ -557,7 +557,7 @@
       (tstamp 5A7A6FD2))
     (comp (ref C12)
       (value 4.7uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) "Taiyo Yuden,TMK212AB7475KG-T")
         (field (name VEND1,VEND1#) DIGI,587-2990-1-ND)
@@ -567,7 +567,7 @@
       (tstamp 5A7A7EEF))
     (comp (ref C13)
       (value 0.1uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) AVX,08055C104MAT2A)
         (field (name VEND1,VEND1#) DIGI,478-3351-1-ND)
@@ -577,7 +577,7 @@
       (tstamp 5A7A8043))
     (comp (ref C8)
       (value 0.1uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) AVX,08055C104MAT2A)
         (field (name VEND1,VEND1#) DIGI,478-3351-1-ND)
@@ -587,7 +587,7 @@
       (tstamp 5A7A8271))
     (comp (ref C9)
       (value 1uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Yageo,CC0805KKX7R8BB105)
         (field (name VEND1,VEND1#) DIGI,311-1456-1-ND)
@@ -597,7 +597,7 @@
       (tstamp 5A7A8277))
     (comp (ref C41)
       (value 0.33uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Yageo,CC0805KKX7R8BB334)
         (field (name VEND1,VEND1#) DIGI,311-3385-1-ND)
@@ -607,7 +607,7 @@
       (tstamp 5A7AA85D))
     (comp (ref C64)
       (value 0.33uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Yageo,CC0805KKX7R8BB334)
         (field (name VEND1,VEND1#) DIGI,311-3385-1-ND)
@@ -692,7 +692,7 @@
       (tstamp 5A8689CD))
     (comp (ref C59)
       (value 330pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Kemet,C0805C331J1GACTU)
         (field (name VEND1,VEND1#) DIGI,399-1131-1-ND)
@@ -722,7 +722,7 @@
       (tstamp 5A87C967))
     (comp (ref C36)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -732,7 +732,7 @@
       (tstamp 5A87C96D))
     (comp (ref C35)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -742,7 +742,7 @@
       (tstamp 5A87C973))
     (comp (ref R14)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -752,7 +752,7 @@
       (tstamp 5A87C979))
     (comp (ref R13)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -762,7 +762,7 @@
       (tstamp 5A87C97F))
     (comp (ref C44)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -772,7 +772,7 @@
       (tstamp 5A87C985))
     (comp (ref C48)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -802,7 +802,7 @@
       (tstamp 5A87C9CA))
     (comp (ref R18)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -812,7 +812,7 @@
       (tstamp 5A87C9D0))
     (comp (ref C56)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -822,7 +822,7 @@
       (tstamp 5A87C9D6))
     (comp (ref C43)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -832,7 +832,7 @@
       (tstamp 5A87C9DC))
     (comp (ref C47)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -862,7 +862,7 @@
       (tstamp 5A87CA07))
     (comp (ref R17)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -872,7 +872,7 @@
       (tstamp 5A87CA0D))
     (comp (ref C55)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -892,7 +892,7 @@
       (tstamp 5A87CA19))
     (comp (ref C39)
       (value 0.33uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Yageo,CC0805KKX7R8BB334)
         (field (name VEND1,VEND1#) DIGI,311-3385-1-ND)
@@ -914,7 +914,7 @@
       (tstamp 5A87CA77))
     (comp (ref C40)
       (value 0.33uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Yageo,CC0805KKX7R8BB334)
         (field (name VEND1,VEND1#) DIGI,311-3385-1-ND)
@@ -924,7 +924,7 @@
       (tstamp 5A8AA9EF))
     (comp (ref C42)
       (value 0.33uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Yageo,CC0805KKX7R8BB334)
         (field (name VEND1,VEND1#) DIGI,311-3385-1-ND)
@@ -1002,7 +1002,7 @@
       (tstamp 5A9173F7))
     (comp (ref C29)
       (value 330pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Kemet,C0805C331J1GACTU)
         (field (name VEND1,VEND1#) DIGI,399-1131-1-ND)
@@ -1032,7 +1032,7 @@
       (tstamp 5C6D720D))
     (comp (ref C3)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -1042,7 +1042,7 @@
       (tstamp 5C6D7216))
     (comp (ref C7)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -1052,7 +1052,7 @@
       (tstamp 5C6D721F))
     (comp (ref R2)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -1062,7 +1062,7 @@
       (tstamp 5C6D7228))
     (comp (ref R4)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -1072,7 +1072,7 @@
       (tstamp 5C6D7231))
     (comp (ref C4)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -1082,7 +1082,7 @@
       (tstamp 5C6D723A))
     (comp (ref C6)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -1112,7 +1112,7 @@
       (tstamp 5C6D727C))
     (comp (ref R1)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -1122,7 +1122,7 @@
       (tstamp 5C6D7285))
     (comp (ref C5)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -1132,7 +1132,7 @@
       (tstamp 5C6D728E))
     (comp (ref C18)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -1142,7 +1142,7 @@
       (tstamp 5C6D7297))
     (comp (ref C20)
       (value 4700pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) TDK,C2012C0G2A472J125AA)
         (field (name VEND1,VEND1#) DIGI,445-2324-1-ND)
@@ -1172,7 +1172,7 @@
       (tstamp 5C6D72BF))
     (comp (ref R3)
       (value 10R)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) Stackpole,RMCF0805JG10R0)
         (field (name VEND1,VEND1#) DIGI,RMCF0805JG10R0CT-ND)
@@ -1182,7 +1182,7 @@
       (tstamp 5C6D72C8))
     (comp (ref C19)
       (value 1000pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) avx,08051C102KAT2A)
         (field (name VEND1,VEND1#) DIGI,478-1352-1-ND)
@@ -1202,7 +1202,7 @@
       (tstamp 5C6D72DA))
     (comp (ref C1)
       (value 0.33uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Yageo,CC0805KKX7R8BB334)
         (field (name VEND1,VEND1#) DIGI,311-3385-1-ND)
@@ -1224,7 +1224,7 @@
       (tstamp 5C6D72F6))
     (comp (ref C2)
       (value 0.33uF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Yageo,CC0805KKX7R8BB334)
         (field (name VEND1,VEND1#) DIGI,311-3385-1-ND)
@@ -1254,7 +1254,7 @@
       (tstamp 5C6D7312))
     (comp (ref C30)
       (value 330pF)
-      (footprint rusEFI_LIB:C_0805)
+      (footprint gerEFI_LIB:C_0805)
       (fields
         (field (name MFG,MFG#) Kemet,C0805C331J1GACTU)
         (field (name VEND1,VEND1#) DIGI,399-1131-1-ND)
@@ -1292,7 +1292,7 @@
       (tstamp 5C76B93C))
     (comp (ref R36)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1308,7 +1308,7 @@
       (tstamp 5C77F8BF))
     (comp (ref R35)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1324,7 +1324,7 @@
       (tstamp 5C782A5F))
     (comp (ref R38)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1340,7 +1340,7 @@
       (tstamp 5C782B57))
     (comp (ref R37)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1356,7 +1356,7 @@
       (tstamp 5C782B6F))
     (comp (ref R39)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1372,7 +1372,7 @@
       (tstamp 5C782C2F))
     (comp (ref R27)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1388,7 +1388,7 @@
       (tstamp 5C7831F1))
     (comp (ref R25)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1404,7 +1404,7 @@
       (tstamp 5C783209))
     (comp (ref R29)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1420,7 +1420,7 @@
       (tstamp 5C783221))
     (comp (ref R28)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1436,7 +1436,7 @@
       (tstamp 5C783239))
     (comp (ref R30)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1452,7 +1452,7 @@
       (tstamp 5C783251))
     (comp (ref R31)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1468,7 +1468,7 @@
       (tstamp 5C783AE9))
     (comp (ref R32)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1484,7 +1484,7 @@
       (tstamp 5C783BBB))
     (comp (ref R33)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1500,7 +1500,7 @@
       (tstamp 5C783C8F))
     (comp (ref R7)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1516,7 +1516,7 @@
       (tstamp 5C783E39))
     (comp (ref R34)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1532,7 +1532,7 @@
       (tstamp 5C78418F))
     (comp (ref R8)
       (value 1k)
-      (footprint rusEFI_LIB:R_0805)
+      (footprint gerEFI_LIB:R_0805)
       (fields
         (field (name MFG,MFG#) " , ")
         (field (name VEND1,VEND1#) " , ")
@@ -1860,7 +1860,7 @@
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical PT2000)
-      (uri C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\rusefi.com\rusefi_lib\PT2000.lib))
+      (uri C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\gerefi.com\gerefi_lib\PT2000.lib))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets

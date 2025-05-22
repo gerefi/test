@@ -40,7 +40,7 @@ Sheet 1 1
 Title "Breakout TLE6244"
 Date "14 dec 2014"
 Rev "R0.1"
-Comp "rusEFI"
+Comp "gerEFI"
 Comment1 ""
 Comment2 ""
 Comment3 ""

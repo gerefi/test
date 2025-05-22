@@ -16,7 +16,7 @@ Sheet 1 1
 Title "Buck regulator TPS54340"
 Date "2019-01-05"
 Rev "R0.1"
-Comp "rusEFI by DAECU"
+Comp "gerEFI by DAECU"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -80,7 +80,7 @@ U 1 1 5C16690A
 P 5875 7475
 F 0 "#G1" H 5875 7372 60  0001 C CNN
 F 1 "LOGO" H 5875 7578 60  0001 C CNN
-F 2 "rusEFI_lib:LOGO_F" H 5875 7475 60  0001 C CNN
+F 2 "gerEFI_lib:LOGO_F" H 5875 7475 60  0001 C CNN
 F 3 "" H 5875 7475 60  0000 C CNN
 	1    5875 7475
 	1    0    0    -1  

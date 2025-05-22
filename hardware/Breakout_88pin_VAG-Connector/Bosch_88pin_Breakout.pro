@@ -14,7 +14,7 @@ LibDir=
 [eeschema/libraries]
 [pcbnew]
 version=1
-PageLayoutDescrFile=${KIPRJMOD}/../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=${KIPRJMOD}/../gerefi_lib/Border.kicad_wks
 LastNetListRead=Bosch_88pin_Breakout.net
 CopperLayerCount=2
 BoardThickness=1.6
@@ -249,7 +249,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=${KIPRJMOD}/../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=${KIPRJMOD}/../gerefi_lib/Border.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

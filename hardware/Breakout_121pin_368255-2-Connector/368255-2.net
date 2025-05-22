@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source D:\Semenkov\work\my\rusefi\con_test\368255-2-connector\368255-2.sch)
+    (source D:\Semenkov\work\my\gerefi\con_test\368255-2-connector\368255-2.sch)
     (date "16.05.2014 9:31:53")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components

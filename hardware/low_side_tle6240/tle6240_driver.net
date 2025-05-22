@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source D:\Semenkov\work\my\rusefi\tle6240_driver\tle6240_driver.sch)
+    (source D:\Semenkov\work\my\gerefi\tle6240_driver\tle6240_driver.sch)
     (date "13.02.2014 10:05:38")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components

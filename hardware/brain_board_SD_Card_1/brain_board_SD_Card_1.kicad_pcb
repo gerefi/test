@@ -16,7 +16,7 @@
   (title_block
     (date 2016-12-31)
     (rev R0.1)
-    (company "rusEFI by DAECU")
+    (company "gerEFI by DAECU")
   )
 
   (layers
@@ -159,7 +159,7 @@
       (net 1 GND))
     (pad "" thru_hole circle (at 3.407 -4.886) (size 0.889 0.889) (drill 0.762) (layers *.Cu *.Mask B.SilkS))
     (pad "" thru_hole circle (at 3.407 3.114) (size 0.889 0.889) (drill 0.762) (layers *.Cu *.Mask B.SilkS))
-    (model ../rusefi_lib/3d/9P-SMD-W-RING.wrl
+    (model ../gerefi_lib/3d/9P-SMD-W-RING.wrl
       (at (xyz -0.323 -0.33 -0.025))
       (scale (xyz 10 10 10))
       (rotate (xyz 0 0 0))
@@ -429,7 +429,7 @@
     )
   )
 
-  (gr_text "rusEFI.com\nR0.1" (at 179.07 129.667 270) (layer F.SilkS)
+  (gr_text "gerEFI.com\nR0.1" (at 179.07 129.667 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
   (dimension 11.049 (width 0.25) (layer Cmts.User)

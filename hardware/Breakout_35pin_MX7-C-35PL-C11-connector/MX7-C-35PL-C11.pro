@@ -10,7 +10,7 @@ EquName1=devcms
 version=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=.../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=.../gerefi_lib/Border.kicad_wks
 LastNetListRead=1123038-2.net
 PadDrill=2.2
 PadDrillOvalY=2.2
@@ -60,12 +60,12 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=../rusefi_lib/logo
-LibName31=../rusefi_lib/logo_flipped
-LibName32=../rusefi_lib/mx7-c-35pl-c11
+LibName30=../gerefi_lib/logo
+LibName31=../gerefi_lib/logo_flipped
+LibName32=../gerefi_lib/mx7-c-35pl-c11
 [schematic_editor]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

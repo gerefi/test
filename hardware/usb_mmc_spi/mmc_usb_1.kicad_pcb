@@ -1013,7 +1013,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 16 GND)
     )
-    (model ../rusefi_lib/3d/LED_0805.wrl
+    (model ../gerefi_lib/3d/LED_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1093,7 +1093,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 16 GND)
     )
-    (model ../rusefi_lib/3d/LED_0805.wrl
+    (model ../gerefi_lib/3d/LED_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1173,7 +1173,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 16 GND)
     )
-    (model ../rusefi_lib/3d/LED_0805.wrl
+    (model ../gerefi_lib/3d/LED_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1241,7 +1241,7 @@
     (pad "" thru_hole circle (at 2.159 -1.397 90) (size 1.016 1.016) (drill 0.762)
       (layers *.Cu *.Mask F.SilkS)
     )
-    (model ../rusefi_lib/3d/usb-2.wrl
+    (model ../gerefi_lib/3d/usb-2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -1326,7 +1326,7 @@
     (pad "" thru_hole circle (at 3.407 -3.114 270) (size 0.889 0.889) (drill 0.762)
       (layers *.Cu *.Mask F.SilkS)
     )
-    (model ../rusefi_lib/3d/9P-SMD-W-RING.wrl
+    (model ../gerefi_lib/3d/9P-SMD-W-RING.wrl
       (at (xyz -0.323 -0.33 -0.025))
       (scale (xyz 10 10 10))
       (rotate (xyz 0 0 0))
@@ -1388,7 +1388,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 7 /CS4)
     )
-    (model ../rusefi_lib/3d/M_header_5x2.wrl
+    (model ../gerefi_lib/3d/M_header_5x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
@@ -1488,7 +1488,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 37 N-0000037)
     )
-    (model ../rusefi_lib/3d/M_header_10x2.wrl
+    (model ../gerefi_lib/3d/M_header_10x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1588,7 +1588,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 16 GND)
     )
-    (model ../rusefi_lib/3d/M_header_10x2.wrl
+    (model ../gerefi_lib/3d/M_header_10x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1737,7 +1737,7 @@
   (gr_line (start 129.54 187.96) (end 129.54 127) (angle 90) (layer Cmts.User) (width 0.2))
   (gr_line (start 127 187.96) (end 129.54 187.96) (angle 90) (layer Cmts.User) (width 0.2))
   (gr_line (start 127 127) (end 127 187.96) (angle 90) (layer Cmts.User) (width 0.2))
-  (gr_text "rusEfi.com USB+SD ver 0.3" (at 198.628 160.401) (layer B.SilkS)
+  (gr_text "gerEfi.com USB+SD ver 0.3" (at 198.628 160.401) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
   )
   (gr_text "5P\n-3400020P1" (at 212.852 174.8536) (layer F.SilkS)

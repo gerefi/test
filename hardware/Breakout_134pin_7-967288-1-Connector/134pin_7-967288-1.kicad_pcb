@@ -2108,7 +2108,7 @@
     )
   )
 
-  (module rusEFI:LOGO (layer F.Cu) (tedit 5C163912) (tstamp 5DCB601B)
+  (module gerEFI:LOGO (layer F.Cu) (tedit 5C163912) (tstamp 5DCB601B)
     (at 210.82 97.79)
     (path /5D54AA23)
     (fp_text reference LOGO1 (at 0 4.14782) (layer F.SilkS) hide
@@ -7265,7 +7265,7 @@
     (arrow2a (pts (xy 226.06 137.16) (xy 226.646421 136.033496)))
     (arrow2b (pts (xy 226.06 137.16) (xy 225.473579 136.033496)))
   )
-  (gr_text "rusEFI.com\n134pin 7-967288-1\nR0.2" (at 211.328 84.328 90) (layer F.SilkS)
+  (gr_text "gerEFI.com\n134pin 7-967288-1\nR0.2" (at 211.328 84.328 90) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.13)))
   )
   (gr_circle (center 212.09 104.14) (end 213.36 104.14) (layer Edge.Cuts) (width 0.2))

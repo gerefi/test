@@ -1,7 +1,7 @@
-rusEfi license
+gerEfi license
  version 0.91
  Nov 28, 2013
- http://rusefi.com/license.txt
+ http://gerefi.com/license.txt
 
 Copyright (c) 2012-2013 Andrey Belomutskiy
 
@@ -31,13 +31,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-rusEfi® controllers are experimental devices intended for educational purposes.
-rusEfi® controllers are not for sale or use on pollution controlled vehicles.
-Check the laws that apply in your locality to determine if using a rusEfi®
+gerEfiï¿½ controllers are experimental devices intended for educational purposes.
+gerEfiï¿½ controllers are not for sale or use on pollution controlled vehicles.
+Check the laws that apply in your locality to determine if using a gerEfiï¿½
 controller is legal for your application.
 
 Notes about Contributions Copyright Assignment:
-While contributing any material to rusEfi® you grant to me, Andrey Belomutskiy, 
+While contributing any material to gerEfiï¿½ you grant to me, Andrey Belomutskiy, 
 a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable 
 copyright license to reproduce, prepare derivative works of, publicly display, 
 publicly perform, sublicense, and distribute Your Contributions and such derivative works.

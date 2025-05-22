@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source F:/stuff/rusefi_sourceforge/hardware/soic8_breakout/soic8_breakout.sch)
+    (source F:/stuff/gerefi_sourceforge/hardware/soic8_breakout/soic8_breakout.sch)
     (date "06/12/2014 09:06:30")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components

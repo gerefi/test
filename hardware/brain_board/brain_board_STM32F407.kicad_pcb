@@ -16,7 +16,7 @@
   (title_block
     (date 2017-02-18)
     (rev R0.4)
-    (company "rusEFI by Art_Electro")
+    (company "gerEFI by Art_Electro")
   )
 
   (layers
@@ -2661,7 +2661,7 @@
     )
   )
 
-  (module rusEFI_LIB:SM0805_jumper placed (layer F.Cu) (tedit 585D9DC8) (tstamp 59031E8F)
+  (module gerEFI_LIB:SM0805_jumper placed (layer F.Cu) (tedit 585D9DC8) (tstamp 59031E8F)
     (at 101.473 146.177 270)
     (path /52D15D96)
     (attr smd)
@@ -2697,7 +2697,7 @@
     )
   )
 
-  (module rusEFI_LIB:SM0805_jumper placed (layer F.Cu) (tedit 585D9DC8) (tstamp 59031E9F)
+  (module gerEFI_LIB:SM0805_jumper placed (layer F.Cu) (tedit 585D9DC8) (tstamp 59031E9F)
     (at 104.521 146.177 270)
     (path /52D15DA3)
     (attr smd)
@@ -2733,7 +2733,7 @@
     )
   )
 
-  (module rusEFI_LIB:SM0805_jumper placed (layer F.Cu) (tedit 585D9DC8) (tstamp 59031EAF)
+  (module gerEFI_LIB:SM0805_jumper placed (layer F.Cu) (tedit 585D9DC8) (tstamp 59031EAF)
     (at 107.569 146.177 270)
     (path /52D15DD0)
     (attr smd)
@@ -2769,7 +2769,7 @@
     )
   )
 
-  (module rusEFI_LIB:SM0805_jumper placed (layer F.Cu) (tedit 585D9DC8) (tstamp 59031EBF)
+  (module gerEFI_LIB:SM0805_jumper placed (layer F.Cu) (tedit 585D9DC8) (tstamp 59031EBF)
     (at 110.617 146.177 270)
     (path /52D15DC3)
     (attr smd)
@@ -3395,7 +3395,7 @@
     (effects (font (size 0.762 0.762) (thickness 0.1524)))
   )
   (gr_line (start 149.003 156.591) (end 87.217 156.591) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "rusEFI.com\nR0.4" (at 130.175 143.51) (layer F.SilkS)
+  (gr_text "gerEFI.com\nR0.4" (at 130.175 143.51) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
   (gr_text SWDIO (at 103.505 84.201) (layer B.SilkS) (tstamp 52FE461F)

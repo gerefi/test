@@ -19,7 +19,7 @@ U 1 1 5FEDEB5F
 P 650 1200
 F 0 "J1" V 1015 -4030 50  0000 C CNN
 F 1 "EEC-V" V 924 -4030 50  0000 C CNN
-F 2 "rusefi_lib:eecv" H 750 1250 50  0001 C CNN
+F 2 "gerefi_lib:eecv" H 750 1250 50  0001 C CNN
 F 3 "" H 750 1250 50  0001 C CNN
 	1    650  1200
 	0    -1   -1   0   

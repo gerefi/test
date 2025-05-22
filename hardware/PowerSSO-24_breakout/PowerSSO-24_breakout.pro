@@ -7,7 +7,7 @@ NetIExt=net
 EquName1=devcms
 [schematic_editor]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -17,7 +17,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 [eeschema/libraries]
 LibName1=KICAD_Older_Version
 LibName2=power
@@ -52,7 +52,7 @@ LibName30=valves
 LibName31=vnd5e025aktr
 [pcbnew]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 LastNetListRead=PowerSSO-24_breakout.net
 PadDrill=1.016
 PadDrillOvalY=1.016

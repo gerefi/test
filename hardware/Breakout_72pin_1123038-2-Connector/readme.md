@@ -7,5 +7,5 @@
 
 [Known Issues](known_issues.txt)
 
-[Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=687)
+[Forum thread](https://gerefi.com/forum/viewtopic.php?f=4&t=687)
 

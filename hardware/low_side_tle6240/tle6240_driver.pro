@@ -10,7 +10,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 [eeschema/libraries]
 LibName1=KICAD_Older_Version
 LibName2=power
@@ -46,7 +46,7 @@ LibName31=tle6240
 LibName32=conn_16
 [pcbnew]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 LastNetListRead=tle6240_driver.net
 PadDrill=1.016
 PadDrillOvalY=1.016
@@ -65,7 +65,7 @@ BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
 [schematic_editor]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

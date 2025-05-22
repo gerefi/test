@@ -7,7 +7,7 @@ Sheet 1 1
 Title "ECU adapter"
 Date "2017-02-05"
 Rev "R0.2"
-Comp "rusEFI by DAECU"
+Comp "gerEFI by DAECU"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -517,7 +517,7 @@ U 1 1 5FD8050E
 P 3850 6050
 F 0 "G1" H 3850 5947 60  0001 C CNN
 F 1 "LOGO" H 3850 6153 60  0001 C CNN
-F 2 "rusefi_lib:LOGO" H 3850 6050 60  0001 C CNN
+F 2 "gerefi_lib:LOGO" H 3850 6050 60  0001 C CNN
 F 3 "" H 3850 6050 60  0001 C CNN
 	1    3850 6050
 	1    0    0    -1  

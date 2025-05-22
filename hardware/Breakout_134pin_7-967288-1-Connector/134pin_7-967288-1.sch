@@ -8,7 +8,7 @@ Sheet 1 1
 Title "134pin 7-967288-1 Breakout board"
 Date "2019-11-16"
 Rev "R0.1"
-Comp "rusEFI.com"
+Comp "gerEFI.com"
 Comment1 "DAECU"
 Comment2 ""
 Comment3 ""
@@ -30,12 +30,12 @@ F 7 "DNP" H -5915 -2520 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RusEFI_Logo:LOGO LOGO1
+L GerEFI_Logo:LOGO LOGO1
 U 1 1 5D54AA23
 P 5475 7725
 F 0 "LOGO1" H 5475 8000 50  0001 C CNN
 F 1 "DNP" H 5475 7500 50  0001 C CNN
-F 2 "rusEFI:LOGO" H 5475 7725 50  0001 C CNN
+F 2 "gerEFI:LOGO" H 5475 7725 50  0001 C CNN
 F 3 "~" H 5475 7725 50  0001 C CNN
 F 4 "DNP" H -6415 -2520 50  0001 C CNN "Part #"
 F 5 "DNP" H -6415 -2520 50  0001 C CNN "VEND"

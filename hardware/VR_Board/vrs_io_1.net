@@ -1,12 +1,12 @@
 (export (version D)
   (design
-    (source C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/VR_Board/vrs_io_1.sch)
+    (source C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/VR_Board/vrs_io_1.sch)
     (date "12/16/2018 6:43:10 AM")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "VR Board vrs_io_1")
-        (company "rusEFI by DAECU")
+        (company "gerEFI by DAECU")
         (rev R0.2)
         (date 2018-12-15)
         (source vrs_io_1.sch)
@@ -437,7 +437,7 @@
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical KICAD_Older_Version)
-      (uri C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\rusefi.com\rusefi_lib\KICAD_Older_Version.lib))
+      (uri C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\gerefi.com\gerefi_lib\KICAD_Older_Version.lib))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets

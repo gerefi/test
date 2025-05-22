@@ -41,7 +41,7 @@ Sheet 1 1
 Title "Dan Stimulator"
 Date "1 sep 2014"
 Rev "R0.2"
-Comp "for rusEFI"
+Comp "for gerEFI"
 Comment1 ""
 Comment2 ""
 Comment3 ""

@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name rusefi_lib)(type KiCad)(uri /home/david/Downloads/rusefi/hardware/rusefi_lib/rusefi_lib.pretty)(options "")(descr ""))
+  (lib (name gerefi_lib)(type KiCad)(uri /home/david/Downloads/gerefi/hardware/gerefi_lib/gerefi_lib.pretty)(options "")(descr ""))
 )

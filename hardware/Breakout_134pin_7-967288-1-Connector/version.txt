@@ -1,2 +1,2 @@
-# this file is related to https://github.com/rusefi/kicad-libraries/blob/master/generate_diffs.sh
+# this file is related to https://github.com/gerefi/kicad-libraries/blob/master/generate_diffs.sh
 0.2

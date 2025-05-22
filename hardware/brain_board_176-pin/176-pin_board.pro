@@ -10,7 +10,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 [eeschema/libraries]
 LibName1=KICAD_Older_Version
 LibName2=power
@@ -28,7 +28,7 @@ LibName13=art-electro-max
 LibName14=crystal(mc306)
 [schematic_editor]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -38,7 +38,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [pcbnew]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 LastNetListRead=176-pin_STM32F407IGT6_board.net
 PadDrill=0
 PadDrillOvalY=0

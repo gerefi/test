@@ -84,6 +84,6 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=mpx_sensor
-LibName18=D:/rusEFI/svn/hardware/rusefi_lib/logo_flipped
+LibName18=D:/gerEFI/svn/hardware/gerefi_lib/logo_flipped
 [general]
 version=1

@@ -17,7 +17,7 @@
     (title "ECU adapter")
     (date 2017-12-16)
     (rev R0.1)
-    (company "DAECU for rusEFI")
+    (company "DAECU for gerEFI")
   )
 
   (layers
@@ -277,7 +277,7 @@
     (add_net "Net-(P101-Pad9)")
   )
 
-  (module rusEFI_Lib:963356-1 (layer F.Cu) (tedit 5A35D84F) (tstamp 5A2FBCFE)
+  (module gerEFI_Lib:963356-1 (layer F.Cu) (tedit 5A35D84F) (tstamp 5A2FBCFE)
     (at 121 120)
     (descr 963356-1)
     (path /5A35AD66)
@@ -442,14 +442,14 @@
       (net 68 "Net-(P101-Pad44)"))
     (pad 45 thru_hole circle (at 42 3.3 180) (size 1.49954 1.49954) (drill 1.10076) (layers *.Cu *.Mask F.SilkS)
       (net 69 "Net-(P101-Pad45)"))
-    (model ../../../../../../Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/rusefi_lib/3d/c-963356-1-d-3d.wrl
+    (model ../../../../../../Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/gerefi_lib/3d/c-963356-1-d-3d.wrl
       (at (xyz 0 -1.04 0.53))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 270 0 0))
     )
   )
 
-  (module rusEFI_Lib:966595-1 (layer B.Cu) (tedit 5A35A6D8) (tstamp 52230F19)
+  (module gerEFI_Lib:966595-1 (layer B.Cu) (tedit 5A35A6D8) (tstamp 52230F19)
     (at 121 100)
     (descr 966595-1)
     (path /52230AB7)
@@ -617,7 +617,7 @@
       (net 68 "Net-(P101-Pad44)"))
     (pad 45 thru_hole circle (at 42 0 180) (size 1.49954 1.49954) (drill 1.10076) (layers *.Cu *.Mask B.SilkS)
       (net 69 "Net-(P101-Pad45)"))
-    (model ../../../../../../Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/rusefi_lib/3d/c-966595-1-a1-3d.wrl
+    (model ../../../../../../Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/gerefi_lib/3d/c-966595-1-a1-3d.wrl
       (at (xyz 0 0 1.265))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -720,7 +720,7 @@
     (arrow2a (pts (xy 184 94) (xy 183.413579 95.126504)))
     (arrow2b (pts (xy 184 94) (xy 184.586421 95.126504)))
   )
-  (gr_text rusEFI.com (at 70 106) (layer F.SilkS)
+  (gr_text gerEFI.com (at 70 106) (layer F.SilkS)
     (effects (font (size 2.032 1.524) (thickness 0.3048)))
   )
   (gr_circle (center 66.85 118) (end 66.85 116) (layer Edge.Cuts) (width 0.381))

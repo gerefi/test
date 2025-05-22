@@ -11,7 +11,7 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 LastNetListRead=vrs_io_1.net
 PadDrill=0.6
 PadDrillOvalY=0.6
@@ -30,7 +30,7 @@ BoardOutlineThickness=0.254
 ModuleOutlineThickness=0.09906
 [schematic_editor]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -40,7 +40,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device

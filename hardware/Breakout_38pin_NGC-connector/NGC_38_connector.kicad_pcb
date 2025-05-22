@@ -16,7 +16,7 @@
   (title_block 
     (title "NGC 38 pin")
     (rev R0.1)
-    (company rusEFI)
+    (company gerEFI)
   )
 
   (layers

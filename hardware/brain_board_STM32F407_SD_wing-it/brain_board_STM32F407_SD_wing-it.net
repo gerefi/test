@@ -1,12 +1,12 @@
 (export (version D)
   (design
-    (source C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/brain_board_STM32F407_SD_wing-it/brain_board_STM32F407_SD_wing-it.sch)
+    (source C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/brain_board_STM32F407_SD_wing-it/brain_board_STM32F407_SD_wing-it.sch)
     (date "1/22/2017 1:54:05 PM")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title brain_board_STM32F407_SD_wing-it)
-        (company "rusEFI by DAECU")
+        (company "gerEFI by DAECU")
         (rev R0.1)
         (date 2017-01-22)
         (source brain_board_STM32F407_SD_wing-it.sch)

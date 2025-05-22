@@ -2444,7 +2444,7 @@
     (arrow2a (pts (xy 212.089999 40.64) (xy 211.503579 41.766503)))
     (arrow2b (pts (xy 212.089999 40.64) (xy 212.676419 41.766503)))
   )
-  (gr_text "rusEFI       by CrazyStriker\nVisit rusEFI.com" (at 60.5 72.5 90) (layer F.SilkS)
+  (gr_text "gerEFI       by CrazyStriker\nVisit gerEFI.com" (at 60.5 72.5 90) (layer F.SilkS)
     (effects (font (size 1.9 1.4) (thickness 0.3048)) (justify left))
   )
 

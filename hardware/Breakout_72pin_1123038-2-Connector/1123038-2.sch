@@ -40,7 +40,7 @@ Sheet 1 1
 Title "ECU adapter"
 Date "2017-03-19"
 Rev "R0.4"
-Comp "DAECU for rusEFI"
+Comp "DAECU for gerEFI"
 Comment1 ""
 Comment2 ""
 Comment3 ""

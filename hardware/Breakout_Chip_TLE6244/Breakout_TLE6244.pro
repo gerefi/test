@@ -28,7 +28,7 @@ DrawSegmentWidth=0.127000000000
 BoardOutlineThickness=0.127000000000
 ModuleOutlineThickness=0.254000000000
 [pcbnew/libraries]
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -50,7 +50,7 @@ LibName18=SM0805-Jumper
 LibName19=art-electro-conn
 [eeschema]
 version=1
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 NetFmtName=
 RptD_X=0
 RptD_Y=100

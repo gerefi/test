@@ -37,7 +37,7 @@ Sheet 1 1
 Title "NGC 38 pin connector. "
 Date "21 oct 2014"
 Rev "R0.1"
-Comp "RusEFI"
+Comp "GerEFI"
 Comment1 ""
 Comment2 ""
 Comment3 ""

@@ -17,7 +17,7 @@
     (title "ECU adapter")
     (date 2018-12-21)
     (rev R0.2)
-    (company "DAECU for rusEFI")
+    (company "DAECU for gerEFI")
   )
 
   (layers
@@ -218,7 +218,7 @@
     (add_net "Net-(P1-Pad9)")
   )
 
-  (module rusEFI_Lib:172319-1_connector (layer F.Cu) (tedit 5C1CC370) (tstamp 5A805E18)
+  (module gerEFI_Lib:172319-1_connector (layer F.Cu) (tedit 5C1CC370) (tstamp 5A805E18)
     (at 71.12 108.585)
     (descr 172319-1_connector)
     (path /5A803BA1)
@@ -345,14 +345,14 @@
       (net 52 "Net-(P1-Pad44)"))
     (pad 45 thru_hole circle (at 69.3 4.6 180) (size 1.89954 1.89954) (drill 1.50076) (layers *.Cu *.Mask F.SilkS)
       (net 53 "Net-(P1-Pad45)"))
-    (model ${KISYS3DMOD}../../../../../../Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/rusefi_lib/3d/c-172319-1-k3-3d.wrl
+    (model ${KISYS3DMOD}../../../../../../Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/gerefi_lib/3d/c-172319-1-k3-3d.wrl
       (at (xyz 2.015 1.18 0.43))
       (scale (xyz 1 1 1))
       (rotate (xyz 270 0 180))
     )
   )
 
-  (module rusEFI_Lib:172319-1_connector (layer B.Cu) (tedit 5C1CC377) (tstamp 5A805E5D)
+  (module gerEFI_Lib:172319-1_connector (layer B.Cu) (tedit 5C1CC377) (tstamp 5A805E5D)
     (at 71.12 121.92)
     (descr 172319-1_connector)
     (path /5A803B13)
@@ -479,7 +479,7 @@
       (net 52 "Net-(P1-Pad44)"))
     (pad 45 thru_hole circle (at 69.3 -4.6 180) (size 1.89954 1.89954) (drill 1.50076) (layers *.Cu *.Mask B.SilkS)
       (net 53 "Net-(P1-Pad45)"))
-    (model ${KISYS3DMOD}../../../../../../Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/rusefi_lib/3d/c-172319-1-k3-3d.wrl
+    (model ${KISYS3DMOD}../../../../../../Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/gerefi_lib/3d/c-172319-1-k3-3d.wrl
       (at (xyz 2.015 1.18 0.43))
       (scale (xyz 1 1 1))
       (rotate (xyz 270 0 180))
@@ -612,10 +612,10 @@
   (gr_text 52 (at 75.565 128.905) (layer B.SilkS)
     (effects (font (size 2.032 1.524) (thickness 0.3048)) (justify mirror))
   )
-  (gr_text "rusEFI.com R0.2" (at 115.57 128.27) (layer B.SilkS)
+  (gr_text "gerEFI.com R0.2" (at 115.57 128.27) (layer B.SilkS)
     (effects (font (size 2.032 1.524) (thickness 0.3048)) (justify mirror))
   )
-  (gr_text "rusEFI.com R0.2" (at 115.57 128.524) (layer F.SilkS)
+  (gr_text "gerEFI.com R0.2" (at 115.57 128.524) (layer F.SilkS)
     (effects (font (size 2.032 1.524) (thickness 0.3048)))
   )
   (dimension 124.46 (width 0.3048) (layer Cmts.User)

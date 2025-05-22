@@ -28,7 +28,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -49,7 +49,7 @@ LibName17=logo
 LibName18=logo_flipped
 [eeschema]
 version=1
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100

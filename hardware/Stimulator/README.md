@@ -1,4 +1,4 @@
 Stimulator
 ==========
 
-Rusefi Stimulator
+Gerefi Stimulator

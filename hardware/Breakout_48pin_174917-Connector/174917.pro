@@ -18,7 +18,7 @@ version=1
 LibDir=
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/gerefi_lib/Border.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -28,7 +28,7 @@ LabSize=60
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/gerefi_lib/Border.kicad_wks
 LastNetListRead=174917.net
 CopperLayerCount=2
 BoardThickness=1.6002

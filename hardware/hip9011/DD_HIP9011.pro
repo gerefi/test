@@ -10,7 +10,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -44,7 +44,7 @@ DrawSegmentWidth="    0,200000"
 BoardOutlineThickness="    0,150000"
 ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 LibName1=sockets
 LibName2=connect
 LibName3=discret

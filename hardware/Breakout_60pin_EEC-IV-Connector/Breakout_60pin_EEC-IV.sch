@@ -7,7 +7,7 @@ Sheet 1 1
 Title "Breakout_60pin_EEC-IV"
 Date "2020-06-01"
 Rev "R0.1"
-Comp "rusEFI.com"
+Comp "gerEFI.com"
 Comment1 "DAECU"
 Comment2 ""
 Comment3 ""
@@ -139,7 +139,7 @@ U 1 1 5EDC31E9
 P 8875 1600
 F 0 "J14" H 9055 -408 50  0000 L CNN
 F 1 "EEC-IV" H 9055 -499 50  0000 L CNN
-F 2 "rusEFI:eeciv" H 8875 1600 50  0001 C CNN
+F 2 "gerEFI:eeciv" H 8875 1600 50  0001 C CNN
 F 3 "" H 8875 1600 50  0001 C CNN
 	1    8875 1600
 	1    0    0    -1  
@@ -206,7 +206,7 @@ U 1 1 5F1903D8
 P 5525 7725
 F 0 "G2" H 5525 7622 60  0001 C CNN
 F 1 "LOGO" H 5525 7828 60  0001 C CNN
-F 2 "rusEFI:LOGO" H 5525 7725 50  0001 C CNN
+F 2 "gerEFI:LOGO" H 5525 7725 50  0001 C CNN
 F 3 "" H 5525 7725 50  0001 C CNN
 	1    5525 7725
 	1    0    0    -1  
@@ -217,7 +217,7 @@ U 1 1 5F1910EA
 P 9775 6800
 F 0 "G1" H 9775 7150 60  0001 C CNN
 F 1 "Disclaimer" H 9775 7050 60  0001 C CNN
-F 2 "rusEFI:Off_Road_Disclaimer" H 9775 6800 50  0001 C CNN
+F 2 "gerEFI:Off_Road_Disclaimer" H 9775 6800 50  0001 C CNN
 F 3 "" H 9775 6800 50  0001 C CNN
 	1    9775 6800
 	1    0    0    -1  

@@ -4,4 +4,4 @@
 
 ![Connector](connector.png)
 
-[Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=507)
+[Forum thread](https://gerefi.com/forum/viewtopic.php?f=4&t=507)

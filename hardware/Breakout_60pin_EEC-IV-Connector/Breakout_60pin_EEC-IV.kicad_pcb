@@ -1363,7 +1363,7 @@
     )
   )
 
-  (footprint "rusEFI:Off_Road_Disclaimer" (layer "F.Cu")
+  (footprint "gerEFI:Off_Road_Disclaimer" (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-00005eda2567)
     (at 165.1 104.14 90)
     (path "/00000000-0000-0000-0000-00005f1910ea")
@@ -1402,7 +1402,7 @@
     )
   )
 
-  (footprint "rusEFI:LOGO" (layer "F.Cu")
+  (footprint "gerEFI:LOGO" (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-00005ff4e38e)
     (at 111.2393 93.3704 90)
     (path "/00000000-0000-0000-0000-00005f1903d8")
@@ -5605,7 +5605,7 @@
     )
   )
 
-  (footprint "rusEFI:eeciv" (layer "F.Cu")
+  (footprint "gerEFI:eeciv" (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-00005ff6ceea)
     (at 166.009425 62.296099)
     (path "/00000000-0000-0000-0000-00005edc31e9")
@@ -6352,7 +6352,7 @@
   (gr_text "31" (at 158.6103 69.2404) (layer "F.SilkS") (tstamp 0aa405d5-ddb0-46b4-b545-4a08636e321b)
     (effects (font (size 1.016 1.016) (thickness 0.13)))
   )
-  (gr_text "rusEFI.com  R0.2" (at 109.22 106.68 90) (layer "F.SilkS") (tstamp 42730143-42c6-4315-a333-82f9828e355c)
+  (gr_text "gerEFI.com  R0.2" (at 109.22 106.68 90) (layer "F.SilkS") (tstamp 42730143-42c6-4315-a333-82f9828e355c)
     (effects (font (size 1.016 1.016) (thickness 0.13)))
   )
   (gr_text "40" (at 116.7003 69.2404) (layer "F.SilkS") (tstamp 4287f868-31b1-49af-bfb0-84e105e183c1)

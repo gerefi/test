@@ -15,7 +15,7 @@ EquName1=devcms
 version=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/gerefi_lib/Border.kicad_wks
 LastNetListRead=
 PadDrill=1.016
 PadDrillOvalY=1.016
@@ -36,7 +36,7 @@ ModuleOutlineThickness=0.381
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=../rusefi_lib/KICAD_Older_Version
+LibName1=../gerefi_lib/KICAD_Older_Version
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -70,7 +70,7 @@ LibName31=symbols/966595-1
 LibName32=symbols/963356-1
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/gerefi_lib/Border.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

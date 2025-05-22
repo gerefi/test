@@ -36,7 +36,7 @@ LibName10=dip_sockets
 LibName11=pga_sockets
 LibName12=logo_flipped
 LibName13=art-electro-conn
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 [cvpcb]
 version=1
 NetIExt=net
@@ -44,7 +44,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100

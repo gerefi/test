@@ -57084,427 +57084,427 @@ SolderWirePad_single_SMD_5x10mm
 0
 0
 0
-rusefi
+gerefi
 8-1393476-0
 
 
 0
 82
 82
-rusefi
+gerefi
 55pin_china_bosch_motronic
 
 
 0
 55
 55
-rusefi
+gerefi
 172319-1_connector
 172319-1_connector
 
 0
 52
 52
-rusefi
+gerefi
 174917
 
 
 0
 51
 48
-rusefi
+gerefi
 176122-6_2nd
 
 
 0
 68
 64
-rusefi
+gerefi
 284617-1
 
 
 0
 159
 154
-rusefi
+gerefi
 368255-2
 
 
 0
 126
 121
-rusefi
+gerefi
 825213-1
 
 
 0
 37
 37
-rusefi
+gerefi
 963356-1
 963356-1
 
 0
 68
 68
-rusefi
+gerefi
 966595-1
 966595-1
 
 0
 68
 68
-rusefi
+gerefi
 1123038-2
 
 
 0
 74
 72
-rusefi
+gerefi
 744710610-Inductor
 744710610
 744710610
 0
 2
 2
-rusefi
+gerefi
 AMPSEAL_35_COMBINED
 
 776163 776180 1-776163 1-776180 776230 776231 1-776230 1-776231
 0
 35
 35
-rusefi
+gerefi
 AMPSEAL_35_RIGHT_ANGLE
 
 776163 776180 1-776163 1-776180
 0
 35
 35
-rusefi
+gerefi
 AMPSEAL_35_STRAIGHT
 
 776230 776231 1-776230 1-776231
 0
 35
 35
-rusefi
+gerefi
 BATT_CR2032_MPD
 
 
 0
 2
 2
-rusefi
+gerefi
 BATT_CR2032_MPD_CR2032-BS-6-1
 
 
 0
 2
 2
-rusefi
+gerefi
 BOSCH-88pin
 
 
 0
 88
 88
-rusefi
+gerefi
 Blank
 blank
 blank
 0
 0
 0
-rusefi
+gerefi
 C_0805
 Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
 capacitor 0805
 0
 2
 2
-rusefi
+gerefi
 DISPLAY_4x20_BL
 Connecteur 16 pins
 CONN DEV
 0
 23
 16
-rusefi
+gerefi
 DPAK2
 MOS boitier DPACK G-D-S
 CMD DPACK
 0
 3
 3
-rusefi
+gerefi
 D_0805
 Diode SMD in 0805 package
 smd diode
 0
 2
 2
-rusefi
+gerefi
 HC-18U
 Quartz boitier HC-49 Vertical
 QUARTZ DEV
 0
 2
 2
-rusefi
+gerefi
 HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown_ThermalVias
 HSOP 11.0x15.9mm Pitch 1.27mm Slug Down Thermal Vias (PowerSO-20) [JEDEC MO-166] (http://www.st.com/resource/en/datasheet/tda7266d.pdf, www.st.com/resource/en/application_note/cd00003801.pdf)
 HSOP 11.0 x 15.9mm Pitch 1.27mm
 0
 45
 21
-rusefi
+gerefi
 HTQFP-64-1EP_10x10mm_Pitch0.5mm_ThermalPad_for_MC33816
 64-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1 mm Body, 2.00 mm Footprint [HTQFP] thermal pad
 HTQFP-64 Pitch 0.5_for_MC33816_Slug
 0
 102
 65
-rusefi
+gerefi
 IHLP6767GZER100M01
 IHLP6767GZER100M01
 IHLP6767GZER100M01
 0
 2
 2
-rusefi
+gerefi
 ITEAD_HC-05
 Itead HC-05/HC-06 serial Bluetooth module
 
 0
 34
 34
-rusefi
+gerefi
 JLC_PCB_TAG
 
 
 0
 0
 0
-rusefi
+gerefi
 KeyStone_3557
 
 
 0
 2
 1
-rusefi
+gerefi
 LED-0805_A
 LED 0805 smd
 LED 0805 SMD
 0
 2
 2
-rusefi
+gerefi
 LOGO
 
 
 0
 0
 0
-rusefi
+gerefi
 LOGO_F
 
 
 0
 0
 0
-rusefi
+gerefi
 LQFP-80_12x12mm_Pitch0.5mmThermal
 LQFP80: plastic low profile quad flat package; 80 leads; body 12 x 12 x 1.4 mm (see NXP sot315-1_po.pdf and sot315-1_fr.pdf)
 QFP 0.5
 0
 131
 81
-rusefi
+gerefi
 MICRO-SDCARD-CONNECTOR-3300060P1
 MICRO-SDCARD-CONNECTOR-3300060P1
 MICRO SD MEMORY CARD MMC
 0
 15
 13
-rusefi
+gerefi
 MINI-USB_RCTP_V-T_B
 OPL
 USB MINI 5 SMD-1
 0
 8
 6
-rusefi
+gerefi
 MINI-USB_RCTP_V-T_B_and_HW-MU-5F-23
 OPL
 USB MINI 5 SMD-1
 0
 10
 6
-rusefi
+gerefi
 MPX-4_MAP
 
 
 0
 8
 6
-rusefi
+gerefi
 MRE_QR_code
 
 
 0
 0
 0
-rusefi
+gerefi
 MX7-C-35PL-C11
 
 
 0
 37
 35
-rusefi
+gerefi
 Molex_48
 Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
 Through hole socket strip THT 2x10 2.54mm double row
 0
 52
 48
-rusefi
+gerefi
 Molex_48_MRE
 Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
 Through hole socket strip THT 2x10 2.54mm double row
 0
 110
 106
-rusefi
+gerefi
 Molex_48_MRE_with-extras
 Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
 Through hole socket strip THT 2x10 2.54mm double row
 0
 91
 87
-rusefi
+gerefi
 Off_Road_Disclaimer
 
 
 0
 0
 0
-rusefi
+gerefi
 PG-DSO-36-72
 
 
 0
 57
 37
-rusefi
+gerefi
 PIN_ARRAY_25x2_A
 2 x 25 pins connector
 CONN 25
 0
 50
 50
-rusefi
+gerefi
 Pololu_md09c
 
 
 0
 16
 16
-rusefi
+gerefi
 Pololu_md32a
 
 
 0
 18
 18
-rusefi
+gerefi
 Proteus_PNP_footprint
 
 
 0
 116
 114
-rusefi
+gerefi
 R_0805
 Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0805
 0
 2
 2
-rusefi
+gerefi
 SD_PCB_Module_Generic
 SD_PCB_Module_Generic
 SD_PCB_Module_Generic
 0
 6
 6
-rusefi
+gerefi
 SM0805-diode
 
 
 0
 2
 2
-rusefi
+gerefi
 SM0805_jumper
 
 
 0
 6
 2
-rusefi
+gerefi
 SO8E_ST
 
 S08E
 0
 8
 3
-rusefi
+gerefi
 ST_Morpho_Connector_144_STLink
 ST Morpho Connector 144 With STLink
 ST Morpho Connector 144 STLink
 0
 148
 148
-rusefi
+gerefi
 TE_776266-1
 
 
 0
 14
 14
-rusefi
+gerefi
 TL-1105
 
 button
 0
 4
 2
-rusefi
+gerefi
 TSOP-6
 
 TSOP-6
 0
 6
 6
-rusefi
+gerefi
 eeciv
 
 
 0
 60
 60
-rusefi
+gerefi
 joystick_SKRHAAE010
 
 
 0
 10
 7
-rusefi
+gerefi
 tcpl_PCC-SMP
 
 

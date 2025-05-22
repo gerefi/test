@@ -1,7 +1,7 @@
 # Connectors
 Some vehicle-specific connector boards are also pretty nice if you want to keep original harness intact
 
-See [Connectors wiki page](http://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors)
+See [Connectors wiki page](http://gerefi.com/wiki/index.php?title=Hardware:OEM_connectors)
 todo: move Connectors wiki page content into git
 
 * [35 pin](Breakout_35pin_MX7-C-35PL-C11-connector) Mazda TCU
@@ -33,39 +33,39 @@ todo: move Connectors wiki page content into git
 * [BTS21400](DDPAK_breakout) ignition coil IGBT driver (used on Dodge Neon 2003 test mule)
 * [TLE6240 module](low_side_tle6240) integrated low side switch (fabricated, not tested)
 * [TLE6244 module](Breakout_TLE6244) integrated low side switch (never actually fabricated)
-* [TLE8810ED module](https://github.com/rusefi/hw_modular/tree/master/TLE8110ED_breakout_board) integrated low side switch
-* [MC33816](Common_Rail_MC33816) common rail driver - rusEFI has working GDI*
-* [LM1949]([Low-Z_LM1949](https://github.com/rusefi/hw_legacy/tree/master/Low-Z_LM1949)) low impedance injector driver (never actually fabricated)
+* [TLE8810ED module](https://github.com/gerefi/hw_modular/tree/master/TLE8110ED_breakout_board) integrated low side switch
+* [MC33816](Common_Rail_MC33816) common rail driver - gerEFI has working GDI*
+* [LM1949]([Low-Z_LM1949](https://github.com/gerefi/hw_legacy/tree/master/Low-Z_LM1949)) low impedance injector driver (never actually fabricated)
 
-New modules are being added to https://github.com/rusefi/hw_modular
+New modules are being added to https://github.com/gerefi/hw_modular
 
-Some stuff we have given up on completely is located at https://github.com/rusefi/hw_legacy
+Some stuff we have given up on completely is located at https://github.com/gerefi/hw_legacy
 
 Above mentioned modules are known to work unless stated otherwise
 
-### More rusEFI hardware
+### More gerEFI hardware
 
-See https://github.com/rusefi/rusefi/wiki/Hardware
+See https://github.com/gerefi/gerefi/wiki/Hardware
 
 # Frankenso
-Frankenso has moved to https://github.com/rusefi/rusefi-hardware/tree/main/classic-designs
+Frankenso has moved to https://github.com/gerefi/gerefi-hardware/tree/main/classic-designs
 
 
 
 # More info
 
-![IBOM](../misc/www/images/ibom_icon.png) [Interactive Html Boms](https://rusefi.com/docs/ibom/)
+![IBOM](../misc/www/images/ibom_icon.png) [Interactive Html Boms](https://gerefi.com/docs/ibom/)
 
-See [Hardware status forum thread](http://rusefi.com/forum/viewtopic.php?f=4&t=260)
+See [Hardware status forum thread](http://gerefi.com/forum/viewtopic.php?f=4&t=260)
 todo: move hardware status content into git
 
 # Important note
-rusEFI is currently transitioning from KiCAD 4 to KiCAD 5.
+gerEFI is currently transitioning from KiCAD 4 to KiCAD 5.
 
 
 # Important note
 
-Depends on libraries from https://github.com/rusefi/kicad-libraries
+Depends on libraries from https://github.com/gerefi/kicad-libraries
 
 If you download complete repo do not forget to download libraries. If you git clone be sure to also
 

@@ -17,7 +17,7 @@ Sheet 1 1
 Title "VR Board vrs_io_1"
 Date "2018-12-15"
 Rev "R0.2"
-Comp "rusEFI by DAECU"
+Comp "gerEFI by DAECU"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1885,7 +1885,7 @@ U 1 1 5C16690A
 P 11900 10200
 F 0 "#G1" H 11900 10097 60  0001 C CNN
 F 1 "LOGO" H 11900 10303 60  0001 C CNN
-F 2 "rusEFI_lib:LOGO_F" H 11900 10200 60  0001 C CNN
+F 2 "gerEFI_lib:LOGO_F" H 11900 10200 60  0001 C CNN
 F 3 "" H 11900 10200 60  0000 C CNN
 	1    11900 10200
 	1    0    0    -1  

@@ -10,7 +10,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=../rusefi_lib
+LibDir=../gerefi_lib
 [eeschema/libraries]
 LibName1=KICAD_Older_Version
 LibName2=power
@@ -19,14 +19,14 @@ LibName4=conn
 LibName5=linear
 LibName6=analog_switches
 LibName7=stm32
-LibName8=../rusefi_misc/lib/art-electro-conn
-LibName9=../rusefi_misc/lib/art-electro-ic
-LibName10=../rusefi_misc/lib/art-electro-conn_2
-LibName11=../rusefi_misc/lib/logo_flipped
+LibName8=../gerefi_misc/lib/art-electro-conn
+LibName9=../gerefi_misc/lib/art-electro-ic
+LibName10=../gerefi_misc/lib/art-electro-conn_2
+LibName11=../gerefi_misc/lib/logo_flipped
 LibName12=crystal(mc306)
 [pcbnew]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 LastNetListRead=stm32f407_board.net
 PadDrill=0
 PadDrillOvalY=0
@@ -45,7 +45,7 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [schematic_editor]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

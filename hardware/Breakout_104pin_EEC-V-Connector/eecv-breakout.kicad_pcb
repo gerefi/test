@@ -174,7 +174,7 @@
   (net 103 "Net-(J1-Pad40)")
   (net 104 "Net-(J1-Pad14)")
 
-  (footprint "rusefi_lib:LOGO" (layer "F.Cu")
+  (footprint "gerefi_lib:LOGO" (layer "F.Cu")
     (tedit 5C163912) (tstamp 00000000-0000-0000-0000-00005fedef6f)
     (at 93.62 56.13)
     (attr through_hole)
@@ -435,7 +435,7 @@
       ) (layer "F.SilkS") (width 0.00254) (fill solid) (tstamp 5d22e0a3-5be9-4c29-b2f2-65e335acf71c))
   )
 
-  (footprint "rusefi_lib:eecv" (layer "F.Cu")
+  (footprint "gerefi_lib:eecv" (layer "F.Cu")
     (tedit 6021C4FB) (tstamp 00000000-0000-0000-0000-00005fedfb06)
     (at 93.62 20.36)
     (path "/00000000-0000-0000-0000-00005fedeb5f")
@@ -2669,7 +2669,7 @@
     )
   )
 
-  (footprint "rusefi_lib:Off_Road_Disclaimer" (layer "F.Cu")
+  (footprint "gerefi_lib:Off_Road_Disclaimer" (layer "F.Cu")
     (tedit 5EC64B48) (tstamp 00000000-0000-0000-0000-00005fee7879)
     (at 28.85 53.59 90)
     (attr through_hole)
@@ -3950,7 +3950,7 @@
   (gr_text "39" (at 99.843 52.447) (layer "F.SilkS") (tstamp e18b0e3d-e7fa-48d7-a6b3-560a8331ea7f)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "rusefi.com    Rev. 0.3" (at 159.406 54.352 -90) (layer "F.SilkS") (tstamp e3fb0910-36cc-479e-8622-50f90b89a2bd)
+  (gr_text "gerefi.com    Rev. 0.3" (at 159.406 54.352 -90) (layer "F.SilkS") (tstamp e3fb0910-36cc-479e-8622-50f90b89a2bd)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "40" (at 86.381 52.574) (layer "F.SilkS") (tstamp ea9cab22-2282-41f9-a11c-634957b59044)

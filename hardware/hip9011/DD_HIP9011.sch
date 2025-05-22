@@ -521,7 +521,7 @@ $EndComp
 Text Label 2200 4050 0    60   ~ 0
 +12V
 Text Notes 1600 1700 0    118  ~ 0
-DD_HIP9011 ver.2\nRusEfi.com
+DD_HIP9011 ver.2\nGerEfi.com
 $Comp
 L R R175
 U 1 1 52A2E159

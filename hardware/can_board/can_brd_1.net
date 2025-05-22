@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/rex/Art_Electro/For_ftp_rusefi/can_board/can_brd_1.sch)
+    (source /home/rex/Art_Electro/For_ftp_gerefi/can_board/can_brd_1.sch)
     (date "Втр 25 Фев 2014 19:07:44")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
@@ -174,11 +174,11 @@
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical logo_flipped)
-      (uri ../rusefi_lib/logo_flipped.lib))
+      (uri ../gerefi_lib/logo_flipped.lib))
     (library (logical art-electro-conn)
-      (uri ../rusefi_lib/art-electro-conn.lib))
+      (uri ../gerefi_lib/art-electro-conn.lib))
     (library (logical art-electro-ic)
-      (uri ../rusefi_lib/art-electro-ic.lib)))
+      (uri ../gerefi_lib/art-electro-ic.lib)))
   (nets
     (net (code 1) (name "")
       (node (ref U471) (pin 5)))

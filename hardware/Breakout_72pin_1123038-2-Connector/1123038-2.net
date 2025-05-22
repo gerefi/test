@@ -1,12 +1,12 @@
 (export (version D)
   (design
-    (source C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\rusefi.com\1123038-2-connector\1123038-2.sch)
+    (source C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\gerefi.com\1123038-2-connector\1123038-2.sch)
     (date "12/23/2016 5:35:19 PM")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "ECU adapter")
-        (company "DAECU for rusEFI")
+        (company "DAECU for gerEFI")
         (rev R0.3)
         (date 2016-12-23)
         (source 1123038-2.sch)
@@ -256,7 +256,7 @@
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical 1123038-2)
-      (uri C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\rusefi.com\1123038-2-connector\..\rusefi_lib\1123038-2.lib)))
+      (uri C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\gerefi.com\1123038-2-connector\..\gerefi_lib\1123038-2.lib)))
   (nets
     (net (code 1) (name /2R)
       (node (ref P10) (pin 5))

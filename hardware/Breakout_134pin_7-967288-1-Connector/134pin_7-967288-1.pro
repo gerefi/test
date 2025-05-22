@@ -14,7 +14,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=rusefi_lib_external/Border.kicad_wks
+PageLayoutDescrFile=gerefi_lib_external/Border.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -24,7 +24,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=rusefi_lib_external/Border.kicad_wks
+PageLayoutDescrFile=gerefi_lib_external/Border.kicad_wks
 LastNetListRead=134pin_7-967288-1.net
 CopperLayerCount=2
 BoardThickness=1.6

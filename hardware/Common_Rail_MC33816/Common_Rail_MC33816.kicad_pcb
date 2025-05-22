@@ -14,7 +14,7 @@
     (title "Common Rail MC33816 board")
     (date 2020-11-26)
     (rev R0.3.3)
-    (company http://rusefi.com/)
+    (company http://gerefi.com/)
   )
 
   (layers
@@ -858,7 +858,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEF4B3B)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEF4B3B)
     (at 126.746 120.523 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -891,7 +891,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5EEF1612)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5EEF1612)
     (at 125.984 117.602)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -972,7 +972,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FAB5)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FAB5)
     (at 144.272 101.854 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1005,7 +1005,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FAA6)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FAA6)
     (at 137.287 101.854 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1038,7 +1038,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDFDCD)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDFDCD)
     (at 140.335 107.188 180)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -1071,7 +1071,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDF68D)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDF68D)
     (at 140.335 105.029 180)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -1104,7 +1104,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDF67D)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDF67D)
     (at 140.335 102.87 180)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -1137,7 +1137,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDF66D)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDF66D)
     (at 140.335 100.711 180)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -1225,7 +1225,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDAA94)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDAA94)
     (at 98.425 68.58 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -1258,7 +1258,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDAA84)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDAA84)
     (at 100.965 68.58 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -1291,7 +1291,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDAA74)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDAA74)
     (at 103.505 68.58 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -1324,7 +1324,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDCD9F)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5EEDCD9F)
     (at 106.045 68.58 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -2681,7 +2681,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED40265)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED40265)
     (at 120.015 128.905)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2714,7 +2714,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED40255)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED40255)
     (at 120.015 125.73)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2747,7 +2747,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED40209)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED40209)
     (at 114.935 41.275)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2894,7 +2894,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2ECD7)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2ECD7)
     (at 139.065 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2927,7 +2927,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A54A)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A54A)
     (at 128.905 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2960,7 +2960,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A51D)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A51D)
     (at 123.825 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2993,7 +2993,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A4F0)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A4F0)
     (at 118.745 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3026,7 +3026,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2ED60)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2ED60)
     (at 136.525 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3059,7 +3059,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A496)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A496)
     (at 133.985 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3092,7 +3092,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A469)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A469)
     (at 131.445 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3125,7 +3125,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A43C)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A43C)
     (at 126.365 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3158,7 +3158,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A40F)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A40F)
     (at 121.285 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3191,7 +3191,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2EC20)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2EC20)
     (at 116.205 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3224,7 +3224,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A3B5)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A3B5)
     (at 161.925 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3257,7 +3257,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FB5A)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FB5A)
     (at 158.242 51.054 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3290,7 +3290,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FB4B)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FB4B)
     (at 129.6035 50.546 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3323,7 +3323,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED16751)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED16751)
     (at 157.607 73.533 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3356,7 +3356,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED16839)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED16839)
     (at 157.607 70.612 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3389,7 +3389,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED16D75)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED16D75)
     (at 157.226 93.091 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3422,7 +3422,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FB0F)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FB0F)
     (at 157.226 96.139 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3455,7 +3455,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FB00)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FB00)
     (at 130.937 71.374 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3488,7 +3488,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FAF1)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FAF1)
     (at 119.888 61.087 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3521,7 +3521,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FAE2)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FAE2)
     (at 130.937 94.234 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3554,7 +3554,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FAD3)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FAD3)
     (at 119.634 84.836 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3587,7 +3587,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FAC4)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5A88FAC4)
     (at 134.747 113.411)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3620,7 +3620,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A388)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A388)
     (at 141.605 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3653,7 +3653,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A35B)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A35B)
     (at 144.145 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3686,7 +3686,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A32E)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A32E)
     (at 146.685 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3719,7 +3719,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A301)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A301)
     (at 149.225 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3752,7 +3752,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A2D4)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A2D4)
     (at 151.765 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3785,7 +3785,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A2A7)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A2A7)
     (at 154.305 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3818,7 +3818,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A27A)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A27A)
     (at 156.845 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3851,7 +3851,7 @@
     )
   )
 
-  (module rusefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A24D)
+  (module gerefi_lib:R_0805 (layer F.Cu) (tedit 58826274) (tstamp 5ED2A24D)
     (at 159.385 142.875 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3884,7 +3884,7 @@
     )
   )
 
-  (module rusefi_lib:IHLP6767GZER100M01 (layer F.Cu) (tedit 5A839B6F) (tstamp 5A83B937)
+  (module gerefi_lib:IHLP6767GZER100M01 (layer F.Cu) (tedit 5A839B6F) (tstamp 5A83B937)
     (at 83.185 136.525 270)
     (descr IHLP6767GZER100M01)
     (tags IHLP6767GZER100M01)
@@ -3906,7 +3906,7 @@
       (net 7 /Vpwr))
   )
 
-  (module rusefi_lib:744710610-Inductor (layer F.Cu) (tedit 5A82CF75) (tstamp 5ED1A898)
+  (module gerefi_lib:744710610-Inductor (layer F.Cu) (tedit 5A82CF75) (tstamp 5ED1A898)
     (at 79.375 97.155 90)
     (descr 744710610)
     (tags 744710610)
@@ -4687,7 +4687,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA97)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA97)
     (at 161.925 115.824 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -4720,7 +4720,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA88)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA88)
     (at 163.195 45.72 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -4753,7 +4753,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA79)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA79)
     (at 147.066 51.943)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -4786,7 +4786,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA6A)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA6A)
     (at 132.588 50.038 180)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -4819,7 +4819,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5ED32849)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5ED32849)
     (at 141.097 114.9858 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -4852,7 +4852,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA4C)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA4C)
     (at 133.477 45.339 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -4885,7 +4885,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA3D)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA3D)
     (at 163.957 115.824 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -4918,7 +4918,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA2E)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA2E)
     (at 165.989 115.824 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -4951,7 +4951,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA1F)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA1F)
     (at 162.56 56.769 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -4984,7 +4984,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA10)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA10)
     (at 162.814 67.58 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5017,7 +5017,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA01)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88FA01)
     (at 162.306 90.424 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5050,7 +5050,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F9F2)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F9F2)
     (at 162.179 80.518 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5083,7 +5083,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F9E3)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F9E3)
     (at 147.066 53.975)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5116,7 +5116,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F9D4)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F9D4)
     (at 147.066 72.39)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5149,7 +5149,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F9C5)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F9C5)
     (at 147.193 94.742)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5182,7 +5182,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F9B6)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F9B6)
     (at 147.066 76.581)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5215,7 +5215,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F9A7)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F9A7)
     (at 132.588 52.07 180)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5248,7 +5248,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F998)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F998)
     (at 134.747 73.914)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5281,7 +5281,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F989)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F989)
     (at 138.557 73.914 180)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5314,7 +5314,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F97A)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F97A)
     (at 133.477 92.837 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5347,7 +5347,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F96B)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F96B)
     (at 140.589 118.618 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5380,7 +5380,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F95C)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F95C)
     (at 137.922 119.634 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5413,7 +5413,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F94D)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F94D)
     (at 137.922 123.444 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5446,7 +5446,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F93E)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F93E)
     (at 141.097 124.968 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5479,7 +5479,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F92F)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F92F)
     (at 133.477 65.659 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5512,7 +5512,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F920)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F920)
     (at 120.0785 56.8325 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5545,7 +5545,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5ED16FEF)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5ED16FEF)
     (at 133.477 87.884 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5578,7 +5578,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F902)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F902)
     (at 120.65 79.629 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5611,7 +5611,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F8F3)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F8F3)
     (at 157.099 111.49 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5644,7 +5644,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F8E4)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F8E4)
     (at 122.428 71.374 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5677,7 +5677,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A895F23)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A895F23)
     (at 134.62 110.49 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5710,7 +5710,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F8D5)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F8D5)
     (at 95.885 68.58 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5743,7 +5743,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F8C6)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F8C6)
     (at 144.272 105.664 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5776,7 +5776,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F8B7)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F8B7)
     (at 137.287 105.664 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5809,7 +5809,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F8A8)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F8A8)
     (at 112.776 122.809 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5842,7 +5842,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F899)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F899)
     (at 105.156 104.013)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5875,7 +5875,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F88A)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F88A)
     (at 143.383 111.363 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5908,7 +5908,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F87B)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F87B)
     (at 141.224 111.379 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5941,7 +5941,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F86C)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F86C)
     (at 160.274 121.539)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -5974,7 +5974,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F85D)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F85D)
     (at 162.052 129.921 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -6007,7 +6007,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F84E)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F84E)
     (at 160.274 124.587)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -6040,7 +6040,7 @@
     )
   )
 
-  (module rusefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F83F)
+  (module gerefi_lib:C_0805 (layer F.Cu) (tedit 58825C9E) (tstamp 5A88F83F)
     (at 160.274 126.619)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -7927,7 +7927,7 @@
     )
   )
 
-  (module rusefi_lib:HTQFP-64-1EP_10x10mm_Pitch0.5mm_ThermalPad_for_MC33816 (layer F.Cu) (tedit 5A8AACF9) (tstamp 5A8AF081)
+  (module gerefi_lib:HTQFP-64-1EP_10x10mm_Pitch0.5mm_ThermalPad_for_MC33816 (layer F.Cu) (tedit 5A8AACF9) (tstamp 5A8AF081)
     (at 149.987 120.904 90)
     (descr "64-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1 mm Body, 2.00 mm Footprint [HTQFP] thermal pad")
     (tags "HTQFP-64 Pitch 0.5_for_MC33816_Slug")
@@ -8908,7 +8908,7 @@
     (arrow2a (pts (xy 177.927 157.48) (xy 178.513421 156.353496)))
     (arrow2b (pts (xy 177.927 157.48) (xy 177.340579 156.353496)))
   )
-  (gr_text "MC33816 \nfor rusEFI.com\nR0.3.3" (at 107.696 140.589) (layer F.SilkS)
+  (gr_text "MC33816 \nfor gerEFI.com\nR0.3.3" (at 107.696 140.589) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.127)))
   )
   (gr_text "INJ2 B1" (at 172.212 82.296 180) (layer B.SilkS)

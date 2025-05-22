@@ -1,12 +1,12 @@
 (export (version D)
   (design
-    (source C:\Users\Owner\Desktop\daecu_repo\Hardware\trunk\rusefi.com\48_pin_174917_ECU_connector_board\174917.sch)
+    (source C:\Users\Owner\Desktop\daecu_repo\Hardware\trunk\gerefi.com\48_pin_174917_ECU_connector_board\174917.sch)
     (date "2/11/2020 9:53:54 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "ECU adapter")
-        (company "rusEFI by DAECU")
+        (company "gerEFI by DAECU")
         (rev R0.2)
         (date 2017-02-05)
         (source 174917.sch)
@@ -337,7 +337,7 @@
         (pin (num 8) (name Pin_8) (type passive)))))
   (libraries
     (library (logical 174917)
-      (uri C:\Users\Owner\Desktop\daecu_repo\Hardware\trunk\rusefi.com\48_pin_174917_ECU_connector_board/symbols/174917.lib))
+      (uri C:\Users\Owner\Desktop\daecu_repo\Hardware\trunk\gerefi.com\48_pin_174917_ECU_connector_board/symbols/174917.lib))
     (library (logical Connector_Generic)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib")))
   (nets

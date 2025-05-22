@@ -16,7 +16,7 @@
   (title_block 
     (title "Thermocouple breakout")
     (rev R0.2)
-    (company "rusEFI by DAECU")
+    (company "gerEFI by DAECU")
   )
 
   (layers
@@ -590,7 +590,7 @@
     )
   )
 
-  (gr_text "http://code.google.com/p/daecu/\nfor rusEFI    R 0.2" (at 104.775 83.566) (layer B.SilkS)
+  (gr_text "http://code.google.com/p/daecu/\nfor gerEFI    R 0.2" (at 104.775 83.566) (layer B.SilkS)
     (effects (font (size 0.762 0.508) (thickness 0.127)) (justify mirror))
   )
   (gr_text "MISO    CS   SCK   3.3V" (at 107.188 61.976 180) (layer B.SilkS)

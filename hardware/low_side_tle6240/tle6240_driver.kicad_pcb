@@ -14,7 +14,7 @@
 
   (page A)
   (title_block
-    (title "rusEFI break out board")
+    (title "gerEFI break out board")
     (date 2018-12-29)
     (rev R0.1)
   )
@@ -790,7 +790,7 @@
     (arrow2a (pts (xy 175.768 153.161999) (xy 176.894504 153.74842)))
     (arrow2b (pts (xy 175.768 153.161999) (xy 176.894504 152.575578)))
   )
-  (gr_text "for rusEFI\nrev 00.11" (at 198.12 116.84) (layer F.SilkS)
+  (gr_text "for gerEFI\nrev 00.11" (at 198.12 116.84) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text GND (at 183.388 127.254) (layer F.SilkS)

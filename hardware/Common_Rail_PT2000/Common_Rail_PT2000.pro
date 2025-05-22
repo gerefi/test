@@ -10,7 +10,7 @@ EquName1=devcms
 version=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 LastNetListRead=frankenso.net
 PadDrill=0
 PadDrillOvalY=0
@@ -29,7 +29,7 @@ BoardOutlineThickness=0.127
 ModuleOutlineThickness=0.254
 [schematic_editor]
 version=1
-PageLayoutDescrFile=../rusefi_lib/Border.kicad_wks
+PageLayoutDescrFile=../gerefi_lib/Border.kicad_wks
 PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65

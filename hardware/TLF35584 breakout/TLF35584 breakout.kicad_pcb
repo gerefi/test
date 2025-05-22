@@ -2030,12 +2030,12 @@
     )
   )
 
-  (module "TL35584 breakout:rusEFI_logo_25mm" (layer B.Cu) (tedit 5C3AAAB0) (tstamp 5C42DACC)
+  (module "TL35584 breakout:gerEFI_logo_25mm" (layer B.Cu) (tedit 5C3AAAB0) (tstamp 5C42DACC)
     (at 166.1 104.1 180)
     (fp_text reference G*** (at -0.05 7.4 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
-    (fp_text value rusEFI_logo_25mm (at 0 -8 180) (layer B.SilkS) hide
+    (fp_text value gerEFI_logo_25mm (at 0 -8 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy 5.878776 6.56281) (xy 6.201275 6.531635) (xy 6.566857 6.478331) (xy 6.976213 6.40691)

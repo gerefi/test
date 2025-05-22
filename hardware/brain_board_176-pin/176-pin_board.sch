@@ -22,7 +22,7 @@ Sheet 1 1
 Title "176 STM32 board"
 Date "14 jun 2015"
 Rev "R0.2"
-Comp "rusEFI by DAECU and artelectro"
+Comp "gerEFI by DAECU and artelectro"
 Comment1 ""
 Comment2 ""
 Comment3 ""

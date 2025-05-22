@@ -37,7 +37,7 @@ Sheet 1 1
 Title "DDPAK breakout"
 Date "26 dec 2014"
 Rev "R0.2"
-Comp "rusEFI"
+Comp "gerEFI"
 Comment1 ""
 Comment2 ""
 Comment3 ""

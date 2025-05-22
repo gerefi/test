@@ -17,7 +17,7 @@
     (title brain_board_STM32F407_SD_wing-it)
     (date 2017-01-22)
     (rev R0.1)
-    (company "rusEFI by DAECU")
+    (company "gerEFI by DAECU")
   )
 
   (layers

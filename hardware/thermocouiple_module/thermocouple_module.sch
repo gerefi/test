@@ -45,7 +45,7 @@ Sheet 1 1
 Title "thermocouple break out board"
 Date "27 jan 2015"
 Rev "R.01"
-Comp "rusEFI by DAECU"
+Comp "gerEFI by DAECU"
 Comment1 ""
 Comment2 ""
 Comment3 ""

@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source C:/Users/user/Desktop/Jared/daecu/Hardware/trunk/rusefi.com/Stimulator/Stimulator.sch)
+    (source C:/Users/user/Desktop/Jared/daecu/Hardware/trunk/gerefi.com/Stimulator/Stimulator.sch)
     (date "9/1/2014 12:25:59 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
@@ -1087,7 +1087,7 @@
     (library (logical special)
       (uri "C:\\Program Files\\KiCad\\share\\library\\special.lib"))
     (library (logical ECUStimS)
-      (uri ..\rusefi_lib\ECUStimS.lib)))
+      (uri ..\gerefi_lib\ECUStimS.lib)))
   (nets
     (net (code 1) (name "")
       (node (ref P75) (pin 3))

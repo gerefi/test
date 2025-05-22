@@ -37,7 +37,7 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "rusEFI break out board"
+Title "gerEFI break out board"
 Date "2018-12-29"
 Rev "R0.1"
 Comp ""

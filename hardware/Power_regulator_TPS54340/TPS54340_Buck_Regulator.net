@@ -1,12 +1,12 @@
 (export (version D)
   (design
-    (source C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/Power_regulator_TPS54340/TPS54340_Buck_Regulator.sch)
+    (source C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/Power_regulator_TPS54340/TPS54340_Buck_Regulator.sch)
     (date "1/5/2019 4:34:18 AM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Buck regulator TPS54340")
-        (company "rusEFI by DAECU")
+        (company "gerEFI by DAECU")
         (rev R0.1)
         (date 2019-01-05)
         (source TPS54340_Buck_Regulator.sch)
@@ -267,7 +267,7 @@
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical tps54340)
-      (uri C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\rusefi.com\rusefi_lib\tps54340.lib))
+      (uri C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\gerefi.com\gerefi_lib\tps54340.lib))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
   (nets

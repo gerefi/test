@@ -20,7 +20,7 @@ Sheet 1 1
 Title "brain_board_STM32F407_SD_wing-it"
 Date "2017-01-22"
 Rev "R0.1"
-Comp "rusEFI by DAECU"
+Comp "gerEFI by DAECU"
 Comment1 ""
 Comment2 ""
 Comment3 ""

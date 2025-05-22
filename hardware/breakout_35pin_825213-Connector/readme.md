@@ -1,4 +1,4 @@
-TODO we have footprint see https://github.com/rusefi/rusefi/issues/1721
+TODO we have footprint see https://github.com/gerefi/gerefi/issues/1721
 
-rusefi_lib/rusefi_lib.pretty/825213-1.kicad_mod
-rusefi_lib/Connector_825213-1.lib
+gerefi_lib/gerefi_lib.pretty/825213-1.kicad_mod
+gerefi_lib/Connector_825213-1.lib

@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/rex/Art_Electro/For_ftp_rusefi/usb_mmc_spi/mmc_usb_1.sch)
+    (source /home/rex/Art_Electro/For_ftp_gerefi/usb_mmc_spi/mmc_usb_1.sch)
     (date "Птн 21 Фев 2014 12:04:31")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
@@ -325,15 +325,15 @@
         (pin (num 28) (name OSCO) (type output)))))
   (libraries
     (library (logical mmc_usb_1-cache)
-      (uri /home/rex/Art_Electro/For_ftp_rusefi/usb_mmc_spi/mmc_usb_1-cache.lib))
+      (uri /home/rex/Art_Electro/For_ftp_gerefi/usb_mmc_spi/mmc_usb_1-cache.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical logo_flipped)
-      (uri ../rusefi_lib/logo_flipped.lib))
+      (uri ../gerefi_lib/logo_flipped.lib))
     (library (logical art-electro-conn)
-      (uri ../rusefi_lib/art-electro-conn.lib)))
+      (uri ../gerefi_lib/art-electro-conn.lib)))
   (nets
     (net (code 1) (name /SPI_SCK)
       (node (ref P354) (pin 7))

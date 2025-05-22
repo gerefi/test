@@ -17,7 +17,7 @@
     (title "Buck regulator TPS54340")
     (date 2019-01-05)
     (rev R0.1)
-    (company "rusEFI by DAECU")
+    (company "gerEFI by DAECU")
   )
 
   (layers
@@ -932,7 +932,7 @@
   (gr_text TPS54340 (at 179.07 117.475) (layer B.SilkS)
     (effects (font (size 2.032 1.524) (thickness 0.381)) (justify mirror))
   )
-  (gr_text rusEFI.com (at 181.61 125.095) (layer B.SilkS)
+  (gr_text gerEFI.com (at 181.61 125.095) (layer B.SilkS)
     (effects (font (size 2.032 1.524) (thickness 0.381)) (justify mirror))
   )
   (gr_text "VOUT\nGND\nVIN\nEN\nGND" (at 167.767 120.65) (layer B.SilkS)

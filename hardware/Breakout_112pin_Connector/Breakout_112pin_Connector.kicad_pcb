@@ -326,7 +326,7 @@
     (add_net "Net-(J1-PadH4)")
   )
 
-  (module rusefi:LOGO (layer B.Cu) (tedit 5C163912) (tstamp 5FA1C8D7)
+  (module gerefi:LOGO (layer B.Cu) (tedit 5C163912) (tstamp 5FA1C8D7)
     (at 243 73.5 180)
     (fp_text reference G? (at 0 -4.14782) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
@@ -398,7 +398,7 @@
       (xy 3.3528 0.39624)) (layer B.SilkS) (width 0.00254))
   )
 
-  (module rusefi:LOGO (layer F.Cu) (tedit 5C163912) (tstamp 5FA1C8BE)
+  (module gerefi:LOGO (layer F.Cu) (tedit 5C163912) (tstamp 5FA1C8BE)
     (at 243 73.5)
     (fp_text reference G? (at 0 4.14782) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
@@ -470,7 +470,7 @@
       (xy 3.3528 -0.39624)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module rusefi:Off_Road_Disclaimer (layer B.Cu) (tedit 5EC64B48) (tstamp 5FA1C88D)
+  (module gerefi:Off_Road_Disclaimer (layer B.Cu) (tedit 5EC64B48) (tstamp 5FA1C88D)
     (at 167.75 69.5 180)
     (fp_text reference G? (at 0 5.715) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
@@ -498,7 +498,7 @@
     )
   )
 
-  (module rusefi_lib_private:64333-0100_1 (layer F.Cu) (tedit 5F9F7428) (tstamp 5FA0C867)
+  (module gerefi_lib_private:64333-0100_1 (layer F.Cu) (tedit 5F9F7428) (tstamp 5FA0C867)
     (at 167.915001 63.100001)
     (descr 64333-0100)
     (tags Connector)
@@ -880,7 +880,7 @@
       (net 1 Earth))
     (pad MH4 thru_hole circle (at 58.05 23.85 180) (size 3.4 3.4) (drill 2.3) (layers *.Cu *.Mask)
       (net 1 Earth))
-    (model D:/GoogleDrive/MSDLab/KiCad/freelance/rusefi/rusefi_lib_private/643330100.stp
+    (model D:/GoogleDrive/MSDLab/KiCad/freelance/gerefi/gerefi_lib_private/643330100.stp
       (offset (xyz -4 0.5 2.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -180))
@@ -2710,10 +2710,10 @@
   (gr_text "rev 0.1" (at 233.25 89) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text rusEFI.com (at 243.25 78.25) (layer F.SilkS)
+  (gr_text gerEFI.com (at 243.25 78.25) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )
-  (gr_text rusEFI.com (at 243.25 78.25) (layer B.SilkS)
+  (gr_text gerEFI.com (at 243.25 78.25) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify mirror))
   )
   (gr_text "Connector 112PINs" (at 171.25 92.75) (layer F.SilkS) (tstamp 5FA1CDAD)

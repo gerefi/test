@@ -262,7 +262,7 @@
     (add_net "Net-(J1-Pad9)")
   )
 
-  (module rusefi:Off_Road_Disclaimer (layer B.Cu) (tedit 5EC64B48) (tstamp 5F7B6CDD)
+  (module gerefi:Off_Road_Disclaimer (layer B.Cu) (tedit 5EC64B48) (tstamp 5F7B6CDD)
     (at 159 62.5 180)
     (fp_text reference G? (at 0 5.715) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
@@ -290,7 +290,7 @@
     )
   )
 
-  (module rusefi:LOGO (layer F.Cu) (tedit 5C163912) (tstamp 5F7B6CB1)
+  (module gerefi:LOGO (layer F.Cu) (tedit 5C163912) (tstamp 5F7B6CB1)
     (at 39 94.5)
     (fp_text reference G? (at 0 4.14782) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
@@ -362,7 +362,7 @@
       (xy 3.3528 -0.39624)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module rusefi:LOGO (layer B.Cu) (tedit 5C163912) (tstamp 5F7B6C9C)
+  (module gerefi:LOGO (layer B.Cu) (tedit 5C163912) (tstamp 5F7B6C9C)
     (at 39 94.5 180)
     (fp_text reference G? (at 0 -4.14782) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
@@ -536,7 +536,7 @@
       (net 79 "Net-(J1-Pad27)"))
   )
 
-  (module rusefi:8-1393476-0 (layer F.Cu) (tedit 5F7A5025) (tstamp 5F7AC79B)
+  (module gerefi:8-1393476-0 (layer F.Cu) (tedit 5F7A5025) (tstamp 5F7AC79B)
     (at 107 75 180)
     (path /5F844E30)
     (fp_text reference J1 (at -69.100075 -7.810275) (layer F.SilkS)
@@ -1934,11 +1934,11 @@
   (gr_text "rev 0.1" (at 50 101) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text rusEFI.com (at 107 86) (layer B.SilkS) (tstamp 5F7B7506)
+  (gr_text gerEFI.com (at 107 86) (layer B.SilkS) (tstamp 5F7B7506)
     (effects (font (size 2 2) (thickness 0.25)) (justify mirror))
   )
   (gr_line (start 107 127) (end 107 50) (layer Dwgs.User) (width 0.15))
-  (gr_text rusEFI.com (at 107 86) (layer F.SilkS)
+  (gr_text gerEFI.com (at 107 86) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.25)))
   )
   (gr_text "Connector 80 PINs" (at 61 86) (layer F.SilkS)

@@ -7,7 +7,7 @@ Sheet 1 1
 Title "88 Pin Vag Breakout"
 Date "2020-06-03"
 Rev "R0.1"
-Comp "rusEFI.com"
+Comp "gerEFI.com"
 Comment1 "Snake____1"
 Comment2 ""
 Comment3 ""
@@ -19,7 +19,7 @@ U 1 1 5F034FB1
 P 3600 3500
 F 0 "J1" H 3600 5550 50  0000 C CNN
 F 1 "BOSCH_88PIN_02X44" V 3600 3500 50  0000 C CNN
-F 2 "rusefi_lib:BOSCH-88pin" H 3600 3500 50  0001 C CNN
+F 2 "gerefi_lib:BOSCH-88pin" H 3600 3500 50  0001 C CNN
 F 3 "" H 3600 3500 50  0001 C CNN
 	1    3600 3500
 	1    0    0    -1  
@@ -1042,7 +1042,7 @@ U 1 1 5F1A7554
 P 9725 6800
 F 0 "G2" H 9725 7150 60  0001 C CNN
 F 1 "Disclaimer" H 9725 7050 60  0001 C CNN
-F 2 "rusefi_lib:Off_Road_Disclaimer" H 9725 6800 50  0001 C CNN
+F 2 "gerefi_lib:Off_Road_Disclaimer" H 9725 6800 50  0001 C CNN
 F 3 "" H 9725 6800 50  0001 C CNN
 	1    9725 6800
 	1    0    0    -1  
@@ -1053,7 +1053,7 @@ U 1 1 5F1A9772
 P 6025 7825
 F 0 "G1" H 6025 7722 60  0001 C CNN
 F 1 "LOGO" H 6025 7928 60  0001 C CNN
-F 2 "rusefi_lib:LOGO" H 6025 7825 50  0001 C CNN
+F 2 "gerefi_lib:LOGO" H 6025 7825 50  0001 C CNN
 F 3 "" H 6025 7825 50  0001 C CNN
 	1    6025 7825
 	1    0    0    -1  

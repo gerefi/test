@@ -1,4 +1,4 @@
-(pcb "C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\rusefi.com\MX7-C-35PL-C11-connector\MX7-C-35PL-C11.dsn"
+(pcb "C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\gerefi.com\MX7-C-35PL-C11-connector\MX7-C-35PL-C11.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)

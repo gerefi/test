@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source C:/Users/LJ/Desktop/Jared/daecu/Hardware/trunk/rusefi.com/PowerSSO-24_breakout/PowerSSO-24_breakout.sch)
+    (source C:/Users/LJ/Desktop/Jared/daecu/Hardware/trunk/gerefi.com/PowerSSO-24_breakout/PowerSSO-24_breakout.sch)
     (date "1/3/2015 7:42:06 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
@@ -209,7 +209,7 @@
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\library\\conn.lib"))
     (library (logical vnd5e025aktr)
-      (uri ..\rusefi_lib\vnd5e025aktr.lib)))
+      (uri ..\gerefi_lib\vnd5e025aktr.lib)))
   (nets
     (net (code 1) (name "")
       (node (ref P101) (pin 1))

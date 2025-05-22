@@ -1,12 +1,12 @@
 (export (version D)
   (design
-    (source C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/rusefi.com/brain_board_SD_Card_1/brain_board_SD_Card_1.sch)
+    (source C:/Users/Vista_64_D630/Desktop/Jared/code/Hardware/trunk/gerefi.com/brain_board_SD_Card_1/brain_board_SD_Card_1.sch)
     (date "12/31/2016 8:15:44 AM")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title Frankenso)
-        (company rusEFI.com)
+        (company gerEFI.com)
         (rev .05)
         (date "3 dec 2015")
         (source brain_board_SD_Card_1.sch)
@@ -111,7 +111,7 @@
         (pin (num G4) (name -) (type passive)))))
   (libraries
     (library (logical KICAD_Older_Version)
-      (uri C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\rusefi.com\rusefi_lib\KICAD_Older_Version.lib))
+      (uri C:\Users\Vista_64_D630\Desktop\Jared\code\Hardware\trunk\gerefi.com\gerefi_lib\KICAD_Older_Version.lib))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets
