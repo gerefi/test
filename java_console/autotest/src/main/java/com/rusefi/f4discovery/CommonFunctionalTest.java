@@ -1,6 +1,6 @@
 package com.gerefi.f4discovery;
 
-import com.gerefi.RusefiTestBase;
+import com.gerefi.GerefiTestBase;
 import com.gerefi.config.generated.Integration;
 import com.gerefi.core.Sensor;
 import com.gerefi.core.SensorCentral;
@@ -26,7 +26,7 @@ import static org.junit.Assert.assertTrue;
  * @author Andrey Belomutskiy
  * 3/5/14
  */
-public class CommonFunctionalTest extends RusefiTestBase {
+public class CommonFunctionalTest extends GerefiTestBase {
     @Test
     public void testChangingIgnitionMode() {
         ecu.setEngineType(engine_type_e.FORD_ASPIRE_1996);

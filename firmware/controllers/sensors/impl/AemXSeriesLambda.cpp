@@ -115,10 +115,10 @@ void AemXSeriesWideband::decodeFrame(const CANRxFrame& frame, efitick_t nowNt) {
 		// gerEFI custom format
 		if ((id & 0x1) != 0) {
 			// low bit is set, this is the "diag" frame
-			decodeRusefiDiag(frame);
+			decodeGerefiDiag(frame);
 		} else {
 			// low bit not set, this is standard frame
-			decodeRusefiStandard(frame, nowNt);
+			decodeGerefiStandard(frame, nowNt);
 		}
 	} else /* if (sensorType() == AEM) */ {
 		decodeAemXSeries(frame, nowNt);
@@ -150,7 +150,7 @@ bool AemXSeriesWideband::decodeAemXSeries(const CANRxFrame& frame, efitick_t now
 	return true;
 }
 
-void AemXSeriesWideband::decodeRusefiStandard(const CANRxFrame& frame, efitick_t nowNt) {
+void AemXSeriesWideband::decodeGerefiStandard(const CANRxFrame& frame, efitick_t nowNt) {
 	auto data = reinterpret_cast<const wbo::StandardData*>(&frame.data8[0]);
 
 	if (data->Version != GEREFI_WIDEBAND_VERSION) {
@@ -171,7 +171,7 @@ void AemXSeriesWideband::decodeRusefiStandard(const CANRxFrame& frame, efitick_t
 	setValidValue(lambda, nowNt);
 }
 
-void AemXSeriesWideband::decodeRusefiDiag(const CANRxFrame& frame) {
+void AemXSeriesWideband::decodeGerefiDiag(const CANRxFrame& frame) {
 	auto data = reinterpret_cast<const wbo::DiagData*>(&frame.data8[0]);
 
 	// convert to percent

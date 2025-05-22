@@ -7,7 +7,7 @@ import org.acra.config.CoreConfigurationBuilder;
 import org.acra.config.MailSenderConfigurationBuilder;
 import org.acra.config.ToastConfigurationBuilder;
 
-public class RusefiApplication extends Application {
+public class GerefiApplication extends Application {
     static {
         /**
          * We better not touch real classes in order not to trigger class loading

@@ -1,6 +1,6 @@
 package com.gerefi.f4discovery;
 
-import com.gerefi.RusefiTestBase;
+import com.gerefi.GerefiTestBase;
 import com.gerefi.common.VssHardwareTestLogic;
 import org.junit.Test;
 
@@ -9,7 +9,7 @@ import org.junit.Test;
  * PD1<>PC6
  * PD2<>PA5
  */
-public class VssHardwareLoopTest extends RusefiTestBase {
+public class VssHardwareLoopTest extends GerefiTestBase {
     @Override
     protected boolean needsHardwareTriggerInput() {
         // This test uses hardware trigger input!

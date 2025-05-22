@@ -193,7 +193,7 @@ TEST(CanWideband, DecodeValidAemFormat) {
 
 #include "wideband_firmware/for_gerefi/wideband_can.h"
 
-TEST(CanWideband, DecodeRusefiStandard)
+TEST(CanWideband, DecodeGerefiStandard)
 {
 	EngineTestHelper eth(engine_type_e::TEST_ENGINE);
 
@@ -273,7 +273,7 @@ TEST(CanWideband, DecodeRusefiStandard)
 	EXPECT_FLOAT_EQ(0.7f, Sensor::get(SensorType::Lambda1).value_or(-1));
 }
 
-TEST(CanWideband, DecodeRusefiStandardWrongVersion)
+TEST(CanWideband, DecodeGerefiStandardWrongVersion)
 {
 	EngineTestHelper eth(engine_type_e::TEST_ENGINE);
 

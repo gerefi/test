@@ -2,7 +2,7 @@ package com.gerefi.f4discovery;
 
 import com.devexperts.logging.Logging;
 import com.gerefi.IoUtil;
-import com.gerefi.RusefiTestBase;
+import com.gerefi.GerefiTestBase;
 import com.gerefi.Timeouts;
 import com.gerefi.common.PwmHardwareTestLogic;
 import com.gerefi.config.generated.Integration;
@@ -25,7 +25,7 @@ import static org.junit.Assert.assertEquals;
  * PD2<>PA5
  */
 
-public class DiscoveryPwmHardwareTest extends RusefiTestBase {
+public class DiscoveryPwmHardwareTest extends GerefiTestBase {
     private static final Logging log = getLogging(DiscoveryPwmHardwareTest.class);
 
     @Override

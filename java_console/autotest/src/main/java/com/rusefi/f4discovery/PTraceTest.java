@@ -1,6 +1,6 @@
 package com.gerefi.f4discovery;
 
-import com.gerefi.RusefiTestBase;
+import com.gerefi.GerefiTestBase;
 import com.gerefi.io.LinkManager;
 import com.gerefi.io.commands.PTraceHelper;
 import com.gerefi.tracing.Entry;
@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import static org.junit.Assert.assertTrue;
 
-public class PTraceTest extends RusefiTestBase {
+public class PTraceTest extends GerefiTestBase {
     @Test
     public void assertPTrace() throws InterruptedException {
         LinkManager linkManager = ecu.getLinkManager();

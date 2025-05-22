@@ -2,7 +2,7 @@
  * @file boards/microgerefi/board_configuration.cpp
  *
  *
- * @brief Configuration defaults for the microRusefi board
+ * @brief Configuration defaults for the microGerefi board
  *
  * MICRO_RUS_EFI
  * set engine_type 60

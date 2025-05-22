@@ -66,7 +66,7 @@ static void testSystemCalls(const int count) {
 
 static Engine testEngine;
 
-static void testRusefiMethods(const int count) {
+static void testGerefiMethods(const int count) {
 	time_t start, time;
 	int tempi = 1;
 
@@ -249,7 +249,7 @@ static void testMath(const int count) {
 
 static void runTests(const int count) {
 	efiPrintf("Running tests: %d", count);
-	testRusefiMethods(count / 10);
+	testGerefiMethods(count / 10);
 	testSystemCalls(count);
 	testMath(count);
 }

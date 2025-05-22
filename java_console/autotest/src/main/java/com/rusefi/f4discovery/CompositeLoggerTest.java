@@ -1,12 +1,12 @@
 package com.gerefi.f4discovery;
 
-import com.gerefi.RusefiTestBase;
+import com.gerefi.GerefiTestBase;
 import com.gerefi.binaryprotocol.BinaryProtocolLogger;
 import com.gerefi.enums.engine_type_e;
 import com.gerefi.io.LinkManager;
 import org.junit.Test;
 
-public class CompositeLoggerTest extends RusefiTestBase {
+public class CompositeLoggerTest extends GerefiTestBase {
     @Test
     public void testVW() {
         ecu.setEngineType(engine_type_e.VW_ABA);

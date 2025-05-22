@@ -1,6 +1,6 @@
 package com.gerefi.proteus;
 
-import com.gerefi.RusefiTestBase;
+import com.gerefi.GerefiTestBase;
 import com.gerefi.binaryprotocol.BinaryProtocolLogger;
 import com.gerefi.core.Sensor;
 import com.gerefi.core.SensorCentral;
@@ -21,7 +21,7 @@ import static org.junit.Assert.*;
         Go buy some cheapie $8 12v power supply, cut the barrel jack off, and crimp pins on.
     - A jumper wire with a 1k resistor in series from Ignition output 10 to Analog volt 2 (TPS, see testTpsAnalogInput) and 100uF capacitor from AV2 to GND.
  */
-public class ProteusAnalogTest extends RusefiTestBase {
+public class ProteusAnalogTest extends GerefiTestBase {
     @Test
     public void testVbatt() {
         double vbatt = SensorCentral.getInstance().getValue(Sensor.VBATT);

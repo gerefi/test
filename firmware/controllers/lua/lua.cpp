@@ -202,7 +202,7 @@ static LuaHandle setupLuaState(lua_Alloc alloc) {
 
 	// Load gerEFI hooks
 	lua_register(ls, "setTickRate", lua_setTickRate);
-	configureRusefiLuaHooks(ls);
+	configureGerefiLuaHooks(ls);
 
 	// run a GC cycle
 	lua_gc(ls, LUA_GCCOLLECT, 0);

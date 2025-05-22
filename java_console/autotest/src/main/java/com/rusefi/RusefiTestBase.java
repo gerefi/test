@@ -8,7 +8,7 @@ import com.gerefi.functional_tests.EcuTestHelper;
 import com.gerefi.waves.EngineChart;
 import org.junit.*;
 
-public class RusefiTestBase {
+public class GerefiTestBase {
     protected EcuTestHelper ecu;
 
     protected boolean needsHardwareTriggerInput() {

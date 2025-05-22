@@ -1,6 +1,6 @@
 package com.gerefi.f4discovery;
 
-import com.gerefi.RusefiTestBase;
+import com.gerefi.GerefiTestBase;
 import com.gerefi.enums.engine_type_e;
 import com.gerefi.functional_tests.EcuTestHelper;
 import org.junit.Test;
@@ -8,7 +8,7 @@ import org.junit.Test;
 import static com.gerefi.config.generated.Integration.CMD_ENGINESNIFFERRPMTHRESHOLD;
 import static com.gerefi.functional_tests.EcuTestHelper.FAIL;
 
-public class HighRevTest extends RusefiTestBase {
+public class HighRevTest extends GerefiTestBase {
     @Test
     public void testVW() {
         runHighRevTest(engine_type_e.VW_ABA, ecu);

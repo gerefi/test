@@ -9,5 +9,5 @@
 
 #include "gerefi_lua.h"
 
-void configureRusefiLuaUtilHooks(lua_State* l);
+void configureGerefiLuaUtilHooks(lua_State* l);
 

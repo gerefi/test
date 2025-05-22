@@ -30,8 +30,8 @@ protected:
 	bool decodeAemXSeries(const CANRxFrame& frame, efitick_t nowNt);
 
 	// Decode gerEFI custom format
-	void decodeRusefiStandard(const CANRxFrame& frame, efitick_t nowNt);
-	void decodeRusefiDiag(const CANRxFrame& frame);
+	void decodeGerefiStandard(const CANRxFrame& frame, efitick_t nowNt);
+	void decodeGerefiDiag(const CANRxFrame& frame);
 
 private:
 	can_wbo_type_e sensorType() const;

@@ -1,6 +1,6 @@
 package com.gerefi.common;
 
-import com.gerefi.RusefiTestBase;
+import com.gerefi.GerefiTestBase;
 import com.gerefi.binaryprotocol.BinaryProtocol;
 import com.gerefi.core.Sensor;
 import com.gerefi.core.SensorCentral;
@@ -13,7 +13,7 @@ import static com.devexperts.util.TimeUtil.SECOND;
 import static com.gerefi.IoUtil.sleepSeconds;
 import static org.junit.Assert.assertTrue;
 
-public class MiscTest extends RusefiTestBase {
+public class MiscTest extends GerefiTestBase {
     @Test
     public void burn() {
         BinaryProtocol bp = ecu.getLinkManager().getCurrentStreamState();

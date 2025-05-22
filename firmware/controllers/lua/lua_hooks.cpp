@@ -632,7 +632,7 @@ PUBLIC_API_WEAK void boardConfigureLuaHooks(lua_State* lState) { }
 
 static tinymt32_t tinymt;
 
-void configureRusefiLuaHooks(lua_State* lState) {
+void configureGerefiLuaHooks(lua_State* lState) {
   boardConfigureLuaHooks(lState);
 
   tinymt32_init(&tinymt, 1534525); // todo: share instance with launch_control? probably not?
@@ -684,7 +684,7 @@ void configureRusefiLuaHooks(lua_State* lState) {
 		.fun("reset", &LuaIndustrialPid::reset);
 #endif
 
-	configureRusefiLuaUtilHooks(lState);
+	configureGerefiLuaUtilHooks(lState);
 
 	lua_register(lState, "readPin", lua_readpin);
 #if EFI_PROD_CODE && EFI_SHAFT_POSITION_INPUT

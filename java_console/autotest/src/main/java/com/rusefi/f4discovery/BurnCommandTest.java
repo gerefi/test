@@ -1,6 +1,6 @@
 package com.gerefi.f4discovery;
 
-import com.gerefi.RusefiTestBase;
+import com.gerefi.GerefiTestBase;
 import com.gerefi.io.LinkManager;
 import com.gerefi.io.commands.BurnCommand;
 import org.junit.Test;
@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import static org.junit.Assert.assertTrue;
 
-public class BurnCommandTest extends RusefiTestBase {
+public class BurnCommandTest extends GerefiTestBase {
     @Test
     public void executeBurnCommand() throws InterruptedException {
         LinkManager linkManager = ecu.getLinkManager();

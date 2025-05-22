@@ -1,14 +1,14 @@
 package com.gerefi.nucleo;
 
 import com.devexperts.logging.Logging;
-import com.gerefi.RusefiTestBase;
+import com.gerefi.GerefiTestBase;
 import com.gerefi.f4discovery.DiscoveryPwmHardwareTest;
 import com.gerefi.common.VssHardwareTestLogic;
 import org.junit.Test;
 
 import static com.devexperts.logging.Logging.getLogging;
 
-public class NucleoVssHardwareTest extends RusefiTestBase {
+public class NucleoVssHardwareTest extends GerefiTestBase {
     private static final Logging log = getLogging(DiscoveryPwmHardwareTest.class);
 
     @Override

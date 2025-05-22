@@ -36,7 +36,7 @@ static int lua_interpolate(lua_State* l) {
 }
 
 
-void configureRusefiLuaUtilHooks(lua_State* lState) {
+void configureGerefiLuaUtilHooks(lua_State* lState) {
 	lua_register(lState, "print", lua_efi_print);
 	lua_register(lState, "interpolate", lua_interpolate);
 
