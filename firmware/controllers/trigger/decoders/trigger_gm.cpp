@@ -17,7 +17,7 @@ static float addTooth(float offset, TriggerWaveform *s) {
 }
 
 /**
- * https://github.com/rusefi/rusefi/issues/2264
+ * https://github.com/gerefi/gerefi/issues/2264
  * GM/Daewoo Distributor on the F8CV
  */
 void configureGm60_2_2_2(TriggerWaveform *s) {
@@ -97,7 +97,7 @@ static int gm_tooth_pair(float startAngle, bool isShortLong, TriggerWaveform* s,
  * http://www.ls2.com/forums/showthread.php/834483-LS-Timing-Reluctor-Wheels-Explained
  *
  *
- * based on data in https://rusefi.com/forum/viewtopic.php?f=3&t=936&p=30303#p30285
+ * based on data in https://gerefi.com/forum/viewtopic.php?f=3&t=936&p=30303#p30285
  */
 static void initGmLS24(TriggerWaveform *s, float shortToothWidth) {
 	s->initialize(FOUR_STROKE_CRANK_SENSOR, SyncEdge::Rise);

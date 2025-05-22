@@ -1,12 +1,12 @@
-package com.rusefi.autodetect;
+package com.gerefi.autodetect;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.net.ConnectionAndMeta;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.commands.HelloCommand;
-import com.rusefi.io.serial.BufferedSerialIoStream;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.net.ConnectionAndMeta;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.commands.HelloCommand;
+import com.gerefi.io.serial.BufferedSerialIoStream;
 import org.jetbrains.annotations.Nullable;
 
 import java.io.IOException;
@@ -14,7 +14,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Function;
 
-import static com.rusefi.binaryprotocol.IoHelper.checkResponseCode;
+import static com.gerefi.binaryprotocol.IoHelper.checkResponseCode;
 
 public class SerialAutoChecker {
     private final static Logging log = Logging.getLogging(SerialAutoChecker.class);

@@ -1,27 +1,27 @@
-package com.rusefi.f4discovery;
+package com.gerefi.f4discovery;
 
-import com.rusefi.RusefiTestBase;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.enums.SensorType;
-import com.rusefi.enums.engine_type_e;
-import com.rusefi.functional_tests.EcuTestHelper;
-import com.rusefi.waves.EngineChart;
+import com.gerefi.RusefiTestBase;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.enums.SensorType;
+import com.gerefi.enums.engine_type_e;
+import com.gerefi.functional_tests.EcuTestHelper;
+import com.gerefi.waves.EngineChart;
 import org.junit.Test;
 
 import java.util.Arrays;
 
-import static com.rusefi.IoUtil.getEnableCommand;
-import static com.rusefi.TestingUtils.assertNull;
-import static com.rusefi.config.generated.Integration.CMD_SET_SENSOR_MOCK;
+import static com.gerefi.IoUtil.getEnableCommand;
+import static com.gerefi.TestingUtils.assertNull;
+import static com.gerefi.config.generated.Integration.CMD_SET_SENSOR_MOCK;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 /**
  * rusEFI firmware simulator functional test suite
  * <p/>
- * java -cp rusefi_console.jar com.rusefi.AutoTest
+ * java -cp gerefi_console.jar com.gerefi.AutoTest
  *
  * @author Andrey Belomutskiy
  * 3/5/14
@@ -314,7 +314,7 @@ public class CommonFunctionalTest extends RusefiTestBase {
         assertWaveNotNull(msg, chart, EngineChart.SPARK_1);
 
         assertWaveNull(msg, chart, EngineChart.TRIGGER_2);
-        sendComplexCommand("set " + "trigger_type" + " " + com.rusefi.enums.trigger_type_e.TT_FORD_ASPIRE.ordinal());
+        sendComplexCommand("set " + "trigger_type" + " " + com.gerefi.enums.trigger_type_e.TT_FORD_ASPIRE.ordinal());
         chart = nextChart();
         assertTrue(chart.get(EngineChart.TRIGGER_2) != null);
     }

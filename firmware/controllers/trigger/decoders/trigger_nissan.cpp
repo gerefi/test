@@ -1,7 +1,7 @@
 /**
  * @file	trigger_nissan.cpp
  *
- * https://rusefi.com/forum/viewtopic.php?f=3&t=1194&start=150#p27784
+ * https://gerefi.com/forum/viewtopic.php?f=3&t=1194&start=150#p27784
  *
  * @date Sep 19, 2015
  * @author Andrey Belomutskiy, (c) 2012-2020

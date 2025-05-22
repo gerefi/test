@@ -1,7 +1,7 @@
-package com.rusefi.binaryprotocol;
+package com.gerefi.binaryprotocol;
 
 import com.opensr5.ConfigurationImage;
-import com.rusefi.config.generated.Integration;
+import com.gerefi.config.generated.Integration;
 import org.jetbrains.annotations.Nullable;
 
 public class BinaryProtocolState {

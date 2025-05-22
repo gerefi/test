@@ -1,12 +1,12 @@
-package com.rusefi.ui.engine;
+package com.gerefi.ui.engine;
 
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.ui.util.UiUtils;
-import com.rusefi.waves.EngineReport;
-import com.rusefi.waves.RevolutionLog;
-import com.rusefi.waves.TimeAxisTranslator;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.ui.util.UiUtils;
+import com.gerefi.waves.EngineReport;
+import com.gerefi.waves.RevolutionLog;
+import com.gerefi.waves.TimeAxisTranslator;
 
 import javax.swing.*;
 import java.awt.*;

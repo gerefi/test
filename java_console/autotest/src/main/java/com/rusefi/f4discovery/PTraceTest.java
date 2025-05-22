@@ -1,9 +1,9 @@
-package com.rusefi.f4discovery;
+package com.gerefi.f4discovery;
 
-import com.rusefi.RusefiTestBase;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.commands.PTraceHelper;
-import com.rusefi.tracing.Entry;
+import com.gerefi.RusefiTestBase;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.commands.PTraceHelper;
+import com.gerefi.tracing.Entry;
 import org.junit.Test;
 
 import java.util.List;

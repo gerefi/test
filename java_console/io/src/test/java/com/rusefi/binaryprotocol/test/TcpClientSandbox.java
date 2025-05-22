@@ -1,15 +1,15 @@
-package com.rusefi.binaryprotocol.test;
+package com.gerefi.binaryprotocol.test;
 
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.BinaryProtocolLocalCache;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.tcp.TcpIoStream;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.BinaryProtocolLocalCache;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.tcp.TcpIoStream;
 
 import java.io.IOException;
 import java.net.Socket;
 
-import static com.rusefi.io.tcp.TcpConnector.DEFAULT_PORT;
-import static com.rusefi.io.tcp.TcpConnector.LOCALHOST;
+import static com.gerefi.io.tcp.TcpConnector.DEFAULT_PORT;
+import static com.gerefi.io.tcp.TcpConnector.LOCALHOST;
 
 /**
  * @see TcpServerSandbox

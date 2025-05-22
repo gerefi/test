@@ -1,9 +1,9 @@
-package com.rusefi.ui.livedata;
+package com.gerefi.ui.livedata;
 
-import com.rusefi.CodeWalkthrough;
-import com.rusefi.enums.live_data_e;
-import com.rusefi.ldmp.StateDictionary;
-import com.rusefi.livedata.LiveDataParserPanel;
+import com.gerefi.CodeWalkthrough;
+import com.gerefi.enums.live_data_e;
+import com.gerefi.ldmp.StateDictionary;
+import com.gerefi.livedata.LiveDataParserPanel;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -12,12 +12,12 @@ import java.awt.*;
 import java.io.IOException;
 import java.net.URISyntaxException;
 
-import static com.rusefi.livedata.LiveDataParserPanel.getContentOrNull;
-import static com.rusefi.ui.LiveDataPane.CPP_SUFFIX;
+import static com.gerefi.livedata.LiveDataParserPanel.getContentOrNull;
+import static com.gerefi.ui.LiveDataPane.CPP_SUFFIX;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@Ignore // todo: https://github.com/rusefi/rusefi/issues/4669
+@Ignore // todo: https://github.com/gerefi/gerefi/issues/4669
 public class LiveDataColorTest {
     @Test
     public void testAllFiles() throws IOException {

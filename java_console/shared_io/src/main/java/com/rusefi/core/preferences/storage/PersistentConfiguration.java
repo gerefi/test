@@ -1,7 +1,7 @@
-package com.rusefi.core.preferences.storage;
+package com.gerefi.core.preferences.storage;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.core.FileUtil;
+import com.gerefi.core.FileUtil;
 
 import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;

@@ -37,7 +37,7 @@ void usb_serial_start() {
 	 * Note, a delay is inserted in order to not have to disconnect the cable
 	 * after a reset.
 	 */
-// See also https://github.com/rusefi/rusefi/issues/705
+// See also https://github.com/gerefi/gerefi/issues/705
 #ifndef EFI_SKIP_USB_DISCONNECT
 	usbDisconnectBus(serusbcfg.usbp);
 	chThdSleepMilliseconds(250);

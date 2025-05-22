@@ -1,15 +1,15 @@
-package com.rusefi.waves.test;
+package com.gerefi.waves.test;
 
-import com.rusefi.waves.EngineChart;
-import com.rusefi.waves.EngineReport;
-import com.rusefi.waves.RevolutionLog;
-import com.rusefi.waves.EngineChartParser;
+import com.gerefi.waves.EngineChart;
+import com.gerefi.waves.EngineReport;
+import com.gerefi.waves.RevolutionLog;
+import com.gerefi.waves.EngineChartParser;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static com.rusefi.config.generated.Integration.TOP_DEAD_CENTER_MESSAGE;
-import static com.rusefi.waves.EngineReport.isCloseEnough;
+import static com.gerefi.config.generated.Integration.TOP_DEAD_CENTER_MESSAGE;
+import static com.gerefi.waves.EngineReport.isCloseEnough;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**

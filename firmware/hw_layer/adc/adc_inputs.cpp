@@ -163,7 +163,7 @@ public:
 			mcuTemperature = getMcuTemperature();
 			if (mcuTemperature > 150.0f || mcuTemperature < -50.0f) {
 				/*
-				 * we have a sporadic issue with this check todo https://github.com/rusefi/rusefi/issues/2552
+				 * we have a sporadic issue with this check todo https://github.com/gerefi/gerefi/issues/2552
 				 */
 				//criticalError("Invalid CPU temperature measured %f", degrees);
 			}

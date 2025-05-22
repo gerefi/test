@@ -28,7 +28,7 @@
 #ifndef _HALCONF_H_
 #define _HALCONF_H_
 
-#include "rusefi_halconf.h"
+#include "gerefi_halconf.h"
 
 // Cypress has its own USB CDC driver, disable ChibiOS's driver
 #undef HAL_USE_USB

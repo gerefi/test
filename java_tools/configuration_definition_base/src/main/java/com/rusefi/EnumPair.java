@@ -1,4 +1,4 @@
-package com.rusefi;
+package com.gerefi;
 
 public class EnumPair {
     private final String keyValueForm;

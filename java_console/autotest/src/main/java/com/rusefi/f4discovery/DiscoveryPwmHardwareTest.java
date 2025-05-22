@@ -1,22 +1,22 @@
-package com.rusefi.f4discovery;
+package com.gerefi.f4discovery;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.IoUtil;
-import com.rusefi.RusefiTestBase;
-import com.rusefi.Timeouts;
-import com.rusefi.common.PwmHardwareTestLogic;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.enums.engine_type_e;
+import com.gerefi.IoUtil;
+import com.gerefi.RusefiTestBase;
+import com.gerefi.Timeouts;
+import com.gerefi.common.PwmHardwareTestLogic;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.enums.engine_type_e;
 import org.junit.Test;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.IoUtil.getDisableCommand;
-import static com.rusefi.IoUtil.getEnableCommand;
-import static com.rusefi.binaryprotocol.BinaryProtocol.sleep;
-import static com.rusefi.config.generated.Integration.CMD_BURNCONFIG;
-import static com.rusefi.config.generated.Integration.CMD_EXTERNAL_STIMULATION;
+import static com.gerefi.IoUtil.getDisableCommand;
+import static com.gerefi.IoUtil.getEnableCommand;
+import static com.gerefi.binaryprotocol.BinaryProtocol.sleep;
+import static com.gerefi.config.generated.Integration.CMD_BURNCONFIG;
+import static com.gerefi.config.generated.Integration.CMD_EXTERNAL_STIMULATION;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -37,7 +37,7 @@ public class DiscoveryPwmHardwareTest extends RusefiTestBase {
     @Test
     public void scheduleBurnDoesNotAffectTriggerIssue2839() {
         ecu.setEngineType(engine_type_e.FORD_ASPIRE_1996);
-        ecu.sendCommand(IoUtil.setTriggerType(com.rusefi.enums.trigger_type_e.TT_TOOTHED_WHEEL_60_2));
+        ecu.sendCommand(IoUtil.setTriggerType(com.gerefi.enums.trigger_type_e.TT_TOOTHED_WHEEL_60_2));
         ecu.sendCommand(getDisableCommand(Integration.CMD_SELF_STIMULATION));
         ecu.sendCommand(getEnableCommand(CMD_EXTERNAL_STIMULATION));
         ecu.changeRpm(1200);

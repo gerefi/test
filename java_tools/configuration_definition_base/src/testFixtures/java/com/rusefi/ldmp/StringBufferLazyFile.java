@@ -1,6 +1,6 @@
-package com.rusefi.ldmp;
+package com.gerefi.ldmp;
 
-import com.rusefi.util.LazyFile;
+import com.gerefi.util.LazyFile;
 
 public class StringBufferLazyFile implements LazyFile {
     StringBuilder sb = new StringBuilder();

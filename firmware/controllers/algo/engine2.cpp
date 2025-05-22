@@ -89,7 +89,7 @@ void EngineState::updateSparkSkip() {
 			tractionControlSparkSkip,
 			/*
 			 * We are applying launch controller spark skip ratio only for hard skip limiter (see
-			 * https://github.com/rusefi/rusefi/issues/6566#issuecomment-2153149902).
+			 * https://github.com/gerefi/gerefi/issues/6566#issuecomment-2153149902).
 			 */
 			engine->launchController.getSparkSkipRatio() + engine->shiftTorqueReductionController.getSparkSkipRatio()
 		);
@@ -207,7 +207,7 @@ void EngineState::periodicFastCallback() {
 		angle_t cylinderIgnitionAdvance = correctedIgnitionAdvance
 									+ getCylinderIgnitionTrim(i, rpm, l_ignitionLoad)
 									// spark hardware latency correction, for implementation details see:
-									// https://github.com/rusefi/rusefi/issues/6832:
+									// https://github.com/gerefi/gerefi/issues/6832:
 									+ engine->ignitionState.getSparkHardwareLatencyCorrection();
 		wrapAngle(cylinderIgnitionAdvance, "EngineState::periodicFastCallback", ObdCode::CUSTOM_ERR_ADCANCE_CALC_ANGLE);
 		// todo: is it OK to apply cylinder trim with FIXED timing?

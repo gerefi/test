@@ -1,10 +1,10 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.common.MiscTest;
-import com.rusefi.f4discovery.CompositeLoggerTest;
-import com.rusefi.f4discovery.HighRevTest;
-import com.rusefi.f4discovery.PTraceTest;
-import com.rusefi.proteus.ProteusAnalogTest;
+import com.gerefi.common.MiscTest;
+import com.gerefi.f4discovery.CompositeLoggerTest;
+import com.gerefi.f4discovery.HighRevTest;
+import com.gerefi.f4discovery.PTraceTest;
+import com.gerefi.proteus.ProteusAnalogTest;
 
 /**
  * See ProteusAnalogTest for jumper configuration documentation

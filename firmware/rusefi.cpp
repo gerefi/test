@@ -1,5 +1,5 @@
 /**
- * @file	rusefi.cpp
+ * @file	gerefi.cpp
  * @brief Initialization code and main status reporting look
  *
  * @date Dec 25, 2013
@@ -8,7 +8,7 @@
 
 /**
  * @mainpage
- * This documentation https://rusefi.com/docs/html/
+ * This documentation https://gerefi.com/docs/html/
  *
  * For version see engine_controller.cpp getRusEfiVersion
  *
@@ -97,7 +97,7 @@
  * @section config Persistent Configuration
  *
  * Definition of configuration data structure:
- * integration/rusefi_config.txt
+ * integration/gerefi_config.txt
  * This file has a lot of information and instructions in its comment header.
  * Please note that due to TunerStudio protocol it's important to have the total structure size in sync between the firmware and TS .ini file -
  * just to make sure that this is not forgotten the size of the structure is hard-coded as PAGE_0_SIZE constant. There is always some 'unused' fields added in advance so that
@@ -121,7 +121,7 @@
 #include "hardware.h"
 
 #include "rfi_perftest.h"
-#include "rusefi.h"
+#include "gerefi.h"
 #include "memstreams.h"
 
 #include "eficonsole.h"
@@ -132,7 +132,7 @@
 #include "mmc_card.h"
 #include "mass_storage_init.h"
 #include "trigger_emulator_algo.h"
-#include "rusefi_lua.h"
+#include "gerefi_lua.h"
 
 #include <setjmp.h>
 

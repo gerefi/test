@@ -1,6 +1,6 @@
-package com.rusefi.server;
+package com.gerefi.server;
 
-import com.rusefi.tools.online.HttpUtil;
+import com.gerefi.tools.online.HttpUtil;
 import org.jetbrains.annotations.NotNull;
 import org.json.simple.JSONObject;
 

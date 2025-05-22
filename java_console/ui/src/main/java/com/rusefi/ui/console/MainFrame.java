@@ -1,17 +1,17 @@
-package com.rusefi.ui.console;
+package com.gerefi.ui.console;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.*;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.EngineState;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.io.*;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.maintenance.VersionChecker;
-import com.rusefi.core.preferences.storage.Node;
-import com.rusefi.core.ui.FrameHelper;
-import com.rusefi.util.IoUtils;
+import com.gerefi.*;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.EngineState;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.io.*;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.maintenance.VersionChecker;
+import com.gerefi.core.preferences.storage.Node;
+import com.gerefi.core.ui.FrameHelper;
+import com.gerefi.util.IoUtils;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
@@ -21,7 +21,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.ZoneOffset;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.core.preferences.storage.PersistentConfiguration.getConfig;
+import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
 
 public class MainFrame {
     private static final Logging log = getLogging(Launcher.class);
@@ -134,7 +134,7 @@ public class MainFrame {
 
     private void windowClosedHandler() {
         /**
-         * looks like reconnectTimer in {@link com.rusefi.ui.RpmPanel} keeps AWT alive. Simplest solution would be to 'exit'
+         * looks like reconnectTimer in {@link com.gerefi.ui.RpmPanel} keeps AWT alive. Simplest solution would be to 'exit'
          */
         SimulatorHelper.onWindowClosed();
         Node root = getConfig().getRoot();

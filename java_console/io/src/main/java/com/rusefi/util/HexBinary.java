@@ -1,6 +1,6 @@
-package com.rusefi.util;
+package com.gerefi.util;
 
-import com.rusefi.io.can.HexUtil;
+import com.gerefi.io.can.HexUtil;
 
 public class HexBinary {
     public static String printHexBinary(byte[] data) {

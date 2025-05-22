@@ -22,14 +22,14 @@ dependencies {
 
 shadowJar {
     base {
-        archivesName = "${rootDir}/../console/rusefi_console"
+        archivesName = "${rootDir}/../console/gerefi_console"
         archiveClassifier = ''
     }
 
     manifest {
         attributes(
                 'Build-Jdk'      : "${System.properties['java.version']} (${System.properties['java.vendor']} ${System.properties['java.vm.version']})",
-                'Main-Class': 'com.rusefi.Launcher'
+                'Main-Class': 'com.gerefi.Launcher'
         )
     }
 }

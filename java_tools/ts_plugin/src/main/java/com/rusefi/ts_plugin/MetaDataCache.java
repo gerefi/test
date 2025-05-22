@@ -1,9 +1,9 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
 import com.opensr5.ini.IniFileMetaInfo;
 import com.opensr5.ini.IniFileMetaInfoImpl;
 import com.opensr5.ini.RawIniFile;
-import com.rusefi.TsTuneReader;
+import com.gerefi.TsTuneReader;
 import org.jetbrains.annotations.Nullable;
 
 import java.io.FileNotFoundException;

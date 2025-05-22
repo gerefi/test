@@ -1,11 +1,11 @@
-package com.rusefi.ui.config;
+package com.gerefi.ui.config;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.config.Field;
-import com.rusefi.io.ConnectionStatusLogic;
-import com.rusefi.ui.UIContext;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.config.Field;
+import com.gerefi.io.ConnectionStatusLogic;
+import com.gerefi.ui.UIContext;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

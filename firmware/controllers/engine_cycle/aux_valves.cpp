@@ -7,7 +7,7 @@
  *
  * Valve open and close angles are taken from scriptCurve1 and scriptCurve2 tables respectively, the position depend on TPS input.
  *
- * https://github.com/rusefi/rusefi/issues/490
+ * https://github.com/gerefi/gerefi/issues/490
  *
  * @date Nov 25, 2017
  * @author Andrey Belomutskiy, (c) 2012-2020

@@ -1,8 +1,8 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
 import com.opensr5.ConfigurationImage;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.jobs.JobHelper;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.jobs.JobHelper;
 
 public enum CalibrationsUpdater {
     INSTANCE;

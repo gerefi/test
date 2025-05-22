@@ -9,7 +9,7 @@
 
 #pragma once
 
-#include "rusefi_enums.h"
+#include "gerefi_enums.h"
 
 /**
  * thank you https://www.ingenieriaymecanicaautomotriz.com/firing-order-its-purpose-and-order-in-different-numbers-of-cylinders/

@@ -1,6 +1,6 @@
-package com.rusefi.ts_plugin.util;
+package com.gerefi.ts_plugin.util;
 
-import com.rusefi.ts_plugin.PluginEntry;
+import com.gerefi.ts_plugin.PluginEntry;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;

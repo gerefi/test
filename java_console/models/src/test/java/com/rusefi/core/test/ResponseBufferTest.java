@@ -1,7 +1,7 @@
-package com.rusefi.core.test;
+package com.gerefi.core.test;
 
-import com.rusefi.core.ResponseBuffer;
-import com.rusefi.io.LinkDecoder;
+import com.gerefi.core.ResponseBuffer;
+import com.gerefi.io.LinkDecoder;
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.atomic.AtomicReference;

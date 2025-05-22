@@ -1,9 +1,9 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.core.ui.FrameHelper;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.ui.util.UiUtils;
-import com.rusefi.ui.widgets.StatusPanel;
+import com.gerefi.core.ui.FrameHelper;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.ui.util.UiUtils;
+import com.gerefi.ui.widgets.StatusPanel;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

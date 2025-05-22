@@ -2,12 +2,12 @@
  * @file    main_trigger_callback.cpp
  * @brief   Main logic is here!
  *
- * See http://rusefi.com/docs/html/
+ * See http://gerefi.com/docs/html/
  *
  * @date Feb 7, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * This file is part of rusEfi - see http://rusefi.com
+ * This file is part of rusEfi - see http://gerefi.com
  *
  * rusEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
@@ -142,7 +142,7 @@ void InjectionEvent::onTriggerTooth(efitick_t nowNt, float currentPhase, float n
 	// If somebody commanded an impossibly short injection, do nothing.
 	// Durations under 50us-ish aren't safe for the scheduler
 	// as their order may be swapped, resulting in a stuck open injector
-	// see https://github.com/rusefi/rusefi/pull/596 for more details
+	// see https://github.com/gerefi/gerefi/pull/596 for more details
 	if (injectionDurationStage1 < 0.050f)
 	{
 		return;

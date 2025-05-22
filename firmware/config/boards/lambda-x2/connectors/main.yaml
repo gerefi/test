@@ -98,7 +98,7 @@ info:
   cid: main
   title: lambda-x2
   name: lambda-x2
-  board_url: https://github.com/rusefi/rusefi-hardware/blob/main/lambda-x2/readme.md
+  board_url: https://github.com/gerefi/gerefi-hardware/blob/main/lambda-x2/readme.md
   directory: lambda-x2
   image:
     file: alphax-2chan.jpg

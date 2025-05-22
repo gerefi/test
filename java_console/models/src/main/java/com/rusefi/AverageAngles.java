@@ -1,4 +1,4 @@
-package com.rusefi;
+package com.gerefi;
 
 import org.apache.commons.math3.stat.descriptive.moment.Mean;
 import org.apache.commons.math3.stat.descriptive.moment.StandardDeviation;

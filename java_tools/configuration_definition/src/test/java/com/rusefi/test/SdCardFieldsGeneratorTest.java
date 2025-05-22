@@ -1,10 +1,10 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import static com.rusefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertEquals;
 
-import com.rusefi.ReaderStateImpl;
+import com.gerefi.ReaderStateImpl;
 
-import com.rusefi.util.LazyFile;
+import com.gerefi.util.LazyFile;
 import org.junit.jupiter.api.Test;
 
 public class SdCardFieldsGeneratorTest {

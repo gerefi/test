@@ -9,7 +9,7 @@
 
 #pragma once
 
-#include <rusefi/true_false.h>
+#include <gerefi/true_false.h>
 
 #ifdef __cplusplus
 #define EXTERNC extern "C"
@@ -18,7 +18,7 @@
 #endif
 
 #include "efifeatures.h"
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 #include "efi_quote.h"
 
 #include <math.h>

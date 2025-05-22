@@ -1,22 +1,22 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
 import com.opensr5.ini.field.ScalarIniField;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.BinaryProtocolState;
-import com.rusefi.config.Field;
-import com.rusefi.config.generated.VariableRegistryValues;
-import com.rusefi.core.rusEFIVersion;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.LinkConnector;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.io.tcp.TcpIoStream;
-import com.rusefi.proxy.NetworkConnector;
-import com.rusefi.server.ControllerInfo;
-import com.rusefi.server.SessionDetails;
-import com.rusefi.server.rusEFISSLContext;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.BinaryProtocolState;
+import com.gerefi.config.Field;
+import com.gerefi.config.generated.VariableRegistryValues;
+import com.gerefi.core.rusEFIVersion;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.LinkConnector;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.tcp.TcpIoStream;
+import com.gerefi.proxy.NetworkConnector;
+import com.gerefi.server.ControllerInfo;
+import com.gerefi.server.SessionDetails;
+import com.gerefi.server.rusEFISSLContext;
 import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Assertions;
 
@@ -26,8 +26,8 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.Timeouts.READ_IMAGE_TIMEOUT;
-import static com.rusefi.io.tcp.TcpConnector.LOCALHOST;
+import static com.gerefi.Timeouts.READ_IMAGE_TIMEOUT;
+import static com.gerefi.io.tcp.TcpConnector.LOCALHOST;
 
 public class TestHelper extends MockitoTestHelper {
     private static final Logging log = getLogging(TestHelper.class);

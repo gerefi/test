@@ -1,11 +1,11 @@
-package com.rusefi.tools;
+package com.gerefi.tools;
 
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.io.serial.AbstractIoStream;
-import com.rusefi.io.serial.RateCounter;
-import com.rusefi.io.tcp.BinaryProtocolProxy;
-import com.rusefi.io.tcp.TcpConnector;
-import com.rusefi.ui.StatusConsumer;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.io.serial.AbstractIoStream;
+import com.gerefi.io.serial.RateCounter;
+import com.gerefi.io.tcp.BinaryProtocolProxy;
+import com.gerefi.io.tcp.TcpConnector;
+import com.gerefi.ui.StatusConsumer;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

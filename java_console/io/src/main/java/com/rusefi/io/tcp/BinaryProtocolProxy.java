@@ -1,16 +1,16 @@
-package com.rusefi.io.tcp;
+package com.gerefi.io.tcp;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.CompatibleFunction;
-import com.rusefi.Listener;
-import com.rusefi.Timeouts;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.binaryprotocol.IoHelper;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.io.IoStream;
-import com.rusefi.proxy.NetworkConnector;
-import com.rusefi.ui.StatusConsumer;
+import com.gerefi.CompatibleFunction;
+import com.gerefi.Listener;
+import com.gerefi.Timeouts;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.binaryprotocol.IoHelper;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.io.IoStream;
+import com.gerefi.proxy.NetworkConnector;
+import com.gerefi.ui.StatusConsumer;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.ByteArrayInputStream;
@@ -19,8 +19,8 @@ import java.io.IOException;
 import java.net.Socket;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.config.generated.Integration.TS_PROTOCOL;
-import static com.rusefi.core.FileUtil.close;
+import static com.gerefi.config.generated.Integration.TS_PROTOCOL;
+import static com.gerefi.core.FileUtil.close;
 
 /**
  * Takes any IoStream and exposes it as local TCP/IP server socket

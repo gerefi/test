@@ -1,7 +1,7 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.opensr5.ConfigurationImage;
-import com.rusefi.core.Pair;
+import com.gerefi.core.Pair;
 
 /**
  * This class has the logic of finding all ranges of changes between who {@link ConfigurationImage}

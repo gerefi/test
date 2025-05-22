@@ -1,7 +1,7 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.output.ConfigStructure;
-import com.rusefi.output.ConfigurationConsumer;
+import com.gerefi.output.ConfigStructure;
+import com.gerefi.output.ConfigurationConsumer;
 
 import java.io.IOException;
 import java.util.Map;

@@ -1,5 +1,5 @@
 //
-// was generated automatically by rusEFI tool config_definition-all.jar based on kinetis_gen_config.bat integration/rusefi_config.txt
+// was generated automatically by rusEFI tool config_definition-all.jar based on kinetis_gen_config.bat integration/gerefi_config.txt
 //
 
 #define adc_channel_e_enum "Disabled", "PA2", "PA3", "INVALID", "PD3", "INVALID", "INVALID", "INVALID", "PB12", "PB13", "INVALID", "PE2", "INVALID", "PC14", "PC15", "PC16", "PC17"
@@ -712,7 +712,7 @@
 #define maf_sensor_type_e_CUSTOM 0
 #define maf_sensor_type_e_DensoTODO 3
 #define maf_sensor_type_e_enum "v0", "v1", "v2", "v3"
-#define MAIN_HELP_URL "http://www.rusefi.com/"
+#define MAIN_HELP_URL "http://www.gerefi.com/"
 #define MAP_ANGLE_SIZE 8
 #define MAP_sensor_config_s_size 140
 #define MAP_WINDOW_SIZE 8

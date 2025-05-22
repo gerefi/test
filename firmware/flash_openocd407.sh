@@ -10,4 +10,4 @@ else
   exit -1
 fi
 
-sudo openocd -f board/stm32f4discovery.cfg  -c "program build/rusefi.bin verify reset exit 0x08000000"
+sudo openocd -f board/stm32f4discovery.cfg  -c "program build/gerefi.bin verify reset exit 0x08000000"

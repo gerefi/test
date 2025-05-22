@@ -1,6 +1,6 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.enums.SensorType;
+import com.gerefi.enums.SensorType;
 
 public class SensorTypeHelper {
     public static SensorType valueOfAnyCase(String name) {

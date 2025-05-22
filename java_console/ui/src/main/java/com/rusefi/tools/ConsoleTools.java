@@ -1,30 +1,30 @@
-package com.rusefi.tools;
+package com.gerefi.tools;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
 import com.opensr5.io.ConfigurationImageFile;
-import com.rusefi.*;
-import com.rusefi.autodetect.PortDetector;
-import com.rusefi.autodetect.SerialAutoChecker;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.*;
-import com.rusefi.io.ConnectionStateListener;
-import com.rusefi.io.ConnectionStatusLogic;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.can.PCanIoStream;
-import com.rusefi.io.can.SocketCANIoStream;
-import com.rusefi.io.tcp.BinaryProtocolProxy;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.io.tcp.ServerSocketReference;
-import com.rusefi.maintenance.ExecHelper;
-import com.rusefi.tools.online.Online;
-import com.rusefi.ui.AuthTokenPanel;
-import com.rusefi.ui.StatusConsumer;
-import com.rusefi.io.UiLinkManagerHelper;
-import com.rusefi.ui.basic.BasicStartupFrame;
+import com.gerefi.*;
+import com.gerefi.autodetect.PortDetector;
+import com.gerefi.autodetect.SerialAutoChecker;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.*;
+import com.gerefi.io.ConnectionStateListener;
+import com.gerefi.io.ConnectionStatusLogic;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.can.PCanIoStream;
+import com.gerefi.io.can.SocketCANIoStream;
+import com.gerefi.io.tcp.BinaryProtocolProxy;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.tcp.ServerSocketReference;
+import com.gerefi.maintenance.ExecHelper;
+import com.gerefi.tools.online.Online;
+import com.gerefi.ui.AuthTokenPanel;
+import com.gerefi.ui.StatusConsumer;
+import com.gerefi.io.UiLinkManagerHelper;
+import com.gerefi.ui.basic.BasicStartupFrame;
 import org.jetbrains.annotations.Nullable;
 
 import java.io.File;
@@ -35,8 +35,8 @@ import java.util.TreeMap;
 import java.util.function.Function;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.binaryprotocol.BinaryProtocol.sleep;
-import static com.rusefi.binaryprotocol.IoHelper.getCrc32;
+import static com.gerefi.binaryprotocol.BinaryProtocol.sleep;
+import static com.gerefi.binaryprotocol.IoHelper.getCrc32;
 
 public class ConsoleTools {
     private static final Logging log = Logging.getLogging(ConsoleTools.class);
@@ -90,7 +90,7 @@ public class ConsoleTools {
     on the one hand we can do low level DFU programming but c'mon we are not planning to maintain it any day soon!
         registerTool("dfu", DfuTool::run, "Program specified file into ECU via DFU");
 */
-        // java -jar rusefi_console.jar local_proxy
+        // java -jar gerefi_console.jar local_proxy
         registerTool("local_proxy", ConsoleTools::localProxy, "Detect rusEFI ECU and proxy serial <> TCP");
 
         registerTool("detect", ConsoleTools::detect, "Find attached rusEFI");
@@ -111,7 +111,7 @@ public class ConsoleTools {
             sendNonBlockingCommandDoNotWaitForConfirmation(Integration.CMD_REBOOT_DFU);
             /**
              * AndreiKA reports that auto-detect fails to interrupt communication threads while in native code
-             * See https://github.com/rusefi/rusefi/issues/3300
+             * See https://github.com/gerefi/gerefi/issues/3300
              */
             System.exit(0);
         }, "Sends a command to switch rusEFI controller into DFU mode.");
@@ -141,7 +141,7 @@ public class ConsoleTools {
     public static void main(String[] args) throws Exception {
         System.out.println(Arrays.toString(new File(".").list()));
         System.setProperty("ini_file_path", "../firmware/tunerstudio");
-//        calcBinaryImageTuneCrc(null, "current_configuration.rusefi_binary");
+//        calcBinaryImageTuneCrc(null, "current_configuration.gerefi_binary");
 
 //        calcXmlImageTuneCrc(null, "CurrentTune.msq");
     }
@@ -229,7 +229,7 @@ public class ConsoleTools {
         String authToken = AuthTokenPanel.getAuthToken();
         if (authToken.trim().isEmpty()) {
             System.out.println("Auth token not defined. Please use " + SET_AUTH_TOKEN + " command");
-            System.out.println("\tPlease see https://github.com/rusefi/rusefi/wiki/Online");
+            System.out.println("\tPlease see https://github.com/gerefi/gerefi/wiki/Online");
             return;
         }
         System.out.println("Auth token: " + authToken);

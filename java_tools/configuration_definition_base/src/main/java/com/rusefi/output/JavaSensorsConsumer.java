@@ -1,8 +1,8 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
-import com.rusefi.ConfigField;
-import com.rusefi.ReaderState;
-import com.rusefi.VariableRegistry;
+import com.gerefi.ConfigField;
+import com.gerefi.ReaderState;
+import com.gerefi.VariableRegistry;
 
 import java.io.IOException;
 

@@ -10,11 +10,11 @@
  * Update: actually newer ChibiOS has tickless mode and what we have here is pretty much the same thing :)
  * open question if rusEfi should simply migrate to ChibiOS tickless scheduling (which would increase coupling with ChibiOS)
  *
- * See https://rusefi.com/forum/viewtopic.php?f=5&t=373&start=360#p30895
+ * See https://gerefi.com/forum/viewtopic.php?f=5&t=373&start=360#p30895
  * for some performance data: with 'debug' firmware we spend about 5% of CPU in TIM5 handler which seem to be executed
  * about 1500 times a second
  *
- * http://sourceforge.net/p/rusefi/tickets/24/
+ * http://sourceforge.net/p/gerefi/tickets/24/
  *
  * @date: Apr 18, 2014
  * @author Andrey Belomutskiy, (c) 2012-2020

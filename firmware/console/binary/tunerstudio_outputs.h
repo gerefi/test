@@ -10,7 +10,7 @@
 
 #pragma once
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 #include "efi_scaled_channel.h"
 #include "output_channels_generated.h"
 

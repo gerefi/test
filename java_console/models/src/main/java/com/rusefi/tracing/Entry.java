@@ -1,4 +1,4 @@
-package com.rusefi.tracing;
+package com.gerefi.tracing;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.rusefi.tracing.EnumNames.TypeNames;
+import static com.gerefi.tracing.EnumNames.TypeNames;
 
 public class Entry {
     // todo: maybe convert on firmware side so that CPU MHz are not accounted for on the java side?

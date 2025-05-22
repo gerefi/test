@@ -1,11 +1,11 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
 import com.opensr5.ini.field.IniField;
-import com.rusefi.ConfigField;
-import com.rusefi.ConfigFieldImpl;
-import com.rusefi.ReaderState;
-import com.rusefi.parse.Type;
-import com.rusefi.parse.TypesHelper;
+import com.gerefi.ConfigField;
+import com.gerefi.ConfigFieldImpl;
+import com.gerefi.ReaderState;
+import com.gerefi.parse.Type;
+import com.gerefi.parse.TypesHelper;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -13,9 +13,9 @@ import java.util.List;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 
-import static com.rusefi.TokenUtils.tokenizeWithBraces;
-import static com.rusefi.ToolUtil.EOL;
-import static com.rusefi.output.JavaSensorsConsumer.quote;
+import static com.gerefi.TokenUtils.tokenizeWithBraces;
+import static com.gerefi.ToolUtil.EOL;
+import static com.gerefi.output.JavaSensorsConsumer.quote;
 
 /**
  * Same code is used to generate [Constants] and [OutputChannels] bodies, with just one flag controlling the minor
@@ -167,7 +167,7 @@ public class TsOutput {
             if (fields.length > multiplierIndex) {
                 /**
                  * Evaluate static math on .ini layer to simplify rusEFI java and rusEFI PHP project consumers
-                 * https://github.com/rusefi/web_backend/issues/97
+                 * https://github.com/gerefi/web_backend/issues/97
                  */
                 double val = IniField.parseDouble(fields[multiplierIndex]);
 

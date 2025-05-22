@@ -1,4 +1,4 @@
-package com.rusefi.ui.duplicates;
+package com.gerefi.ui.duplicates;
 
 import com.devexperts.logging.Logging;
 import org.jetbrains.annotations.NotNull;
@@ -14,9 +14,9 @@ import java.util.TreeMap;
 
 import static com.devexperts.logging.Logging.getLogging;
 
-// `com.rusefi.ui.duplicates.ConsoleBundleUtil` class duplicates `com.rusefi.core.io.BundleUtil` class to avoid crash
+// `com.gerefi.ui.duplicates.ConsoleBundleUtil` class duplicates `com.gerefi.core.io.BundleUtil` class to avoid crash
 // on console update (caused by missed `BundleInfo.getNextBranchName` method) - see `readme.md` for details.
-// TODO: in June 2025 we need to get rid of this class and to replace its usage with `com.rusefi.core.io.BundleUtil`.
+// TODO: in June 2025 we need to get rid of this class and to replace its usage with `com.gerefi.core.io.BundleUtil`.
 public class ConsoleBundleUtil {
     private static final Logging log = getLogging(ConsoleBundleUtil.class);
 

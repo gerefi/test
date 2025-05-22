@@ -1,13 +1,13 @@
-package com.rusefi.io;
+package com.gerefi.io;
 
 import com.opensr5.io.DataListener;
 import com.opensr5.io.WriteStream;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.binaryprotocol.IoHelper;
-import com.rusefi.io.serial.AbstractIoStream;
-import com.rusefi.io.serial.StreamStatistics;
-import com.rusefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.binaryprotocol.IoHelper;
+import com.gerefi.io.serial.AbstractIoStream;
+import com.gerefi.io.serial.StreamStatistics;
+import com.gerefi.io.tcp.BinaryProtocolServer;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.Closeable;

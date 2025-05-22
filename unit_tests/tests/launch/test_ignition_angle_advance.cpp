@@ -1,7 +1,7 @@
 //
 // Created by kifir on 5/27/24.
 //
-// Tests for functionality decscribed in https://github.com/rusefi/rusefi/issues/5611
+// Tests for functionality decscribed in https://github.com/gerefi/gerefi/issues/5611
 //
 
 #include "pch.h"
@@ -114,7 +114,7 @@ namespace {
             { "TEST_IGNITION_2300", 2300, TEST_IGNITION_2300 },
             { "TEST_IGNITION_2600", 2600, TEST_IGNITION_2600 },
             { "TEST_IGNITION_2900", 2900, TEST_IGNITION_2900 },
-            /* See https://github.com/rusefi/rusefi/issues/5611#issuecomment-2137028838
+            /* See https://github.com/gerefi/gerefi/issues/5611#issuecomment-2137028838
              * We've left smooth retard RPM window:
              */
             { "TEST_IGNITION_3200", 3200, TEST_IGNITION_3200 },
@@ -185,7 +185,7 @@ namespace {
                 { "TEST_IGNITION_2300", 2300, TEST_LAUNCH_TIMING_RETARD },
                 { "TEST_IGNITION_2600", 2600, TEST_LAUNCH_TIMING_RETARD },
                 { "TEST_IGNITION_2900", 2900, TEST_LAUNCH_TIMING_RETARD },
-                /* See https://github.com/rusefi/rusefi/issues/5611#issuecomment-2137028838
+                /* See https://github.com/gerefi/gerefi/issues/5611#issuecomment-2137028838
                  * We've left smooth retard RPM window:
                  */
                 { "TEST_IGNITION_3200", 3200, TEST_LAUNCH_TIMING_RETARD },
@@ -236,7 +236,7 @@ namespace {
                     EPS2D //TODO: check if this precision loss is expected
                 },
                 { "TEST_IGNITION_2900", 2900, TEST_LAUNCH_TIMING_RETARD },
-                /* See https://github.com/rusefi/rusefi/issues/5611#issuecomment-2137028838
+                /* See https://github.com/gerefi/gerefi/issues/5611#issuecomment-2137028838
                  * We've left smooth retard RPM window:
                  */
                 { "TEST_IGNITION_3200", 3200, TEST_LAUNCH_TIMING_RETARD },
@@ -251,7 +251,7 @@ namespace {
         );
     }
 
-    /* Tests for https://github.com/rusefi/rusefi/issues/6571: */
+    /* Tests for https://github.com/gerefi/gerefi/issues/6571: */
 
     TEST_F(
         IgnitionAngleAdvanceTest,

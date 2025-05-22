@@ -14,7 +14,7 @@
 
 #include "efifeatures.h"
 #include <hal.h>
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 
 #define MC33810_INJ_OUTPUTS			4
 #define MC33810_IGN_OUTPUTS			4

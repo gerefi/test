@@ -1,9 +1,9 @@
-package com.rusefi.maintenance.migration;
+package com.gerefi.maintenance.migration;
 
 import com.opensr5.ini.IniFileModel;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.tune.xml.Constant;
-import com.rusefi.tune.xml.Msq;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.tune.xml.Constant;
+import com.gerefi.tune.xml.Msq;
 
 import java.util.Collections;
 import java.util.HashMap;

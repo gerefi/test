@@ -1,6 +1,6 @@
 # MazdaMiataNB2-comparing-against-current-MazdaMiataNB2-default
 
-// canned tune https://rusefi.com/online/view.php?msq=985
+// canned tune https://gerefi.com/online/view.php?msq=985
 
 ```
     // default 1.0

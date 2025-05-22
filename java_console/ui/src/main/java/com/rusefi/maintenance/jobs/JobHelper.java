@@ -1,4 +1,4 @@
-package com.rusefi.maintenance.jobs;
+package com.gerefi.maintenance.jobs;
 
 public class JobHelper {
     public static void doJob(final Runnable job, final Runnable onJobFinished) {

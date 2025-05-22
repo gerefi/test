@@ -1,6 +1,6 @@
-package com.rusefi.maintenance.jobs;
+package com.gerefi.maintenance.jobs;
 
-import com.rusefi.io.UpdateOperationCallbacks;
+import com.gerefi.io.UpdateOperationCallbacks;
 
 public abstract class AsyncJob {
     private final String name;

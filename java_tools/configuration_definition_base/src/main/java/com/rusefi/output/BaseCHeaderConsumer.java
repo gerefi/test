@@ -1,9 +1,9 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
-import com.rusefi.*;
-import com.rusefi.parse.TypesHelper;
+import com.gerefi.*;
+import com.gerefi.parse.TypesHelper;
 
-import static com.rusefi.ToolUtil.EOL;
+import static com.gerefi.ToolUtil.EOL;
 
 public class BaseCHeaderConsumer implements ConfigurationConsumer {
     private static final String BOOLEAN_TYPE = "bool";

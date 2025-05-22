@@ -8,7 +8,7 @@
 #pragma once
 
 #include <stddef.h>
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 
 // todo: reorder parameters for consistency?
 typedef void (*IntIntVoidListener)(int value1, int value2, void *arg);

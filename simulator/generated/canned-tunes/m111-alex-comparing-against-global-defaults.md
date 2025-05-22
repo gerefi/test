@@ -1,6 +1,6 @@
 # m111-alex-comparing-against-global-defaults
 
-// canned tune https://rusefi.com/online/view.php?msq=1622
+// canned tune https://gerefi.com/online/view.php?msq=1622
 
 ```
     // default 0.098

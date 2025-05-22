@@ -1,12 +1,12 @@
-package com.rusefi.maintenance.migration.default_migration;
+package com.gerefi.maintenance.migration.default_migration;
 
-import com.rusefi.maintenance.TestTuneMigrationContext;
+import com.gerefi.maintenance.TestTuneMigrationContext;
 
 import javax.xml.bind.JAXBException;
 
-import static com.rusefi.maintenance.migration.CltIdleCorrMigrator.*;
-import static com.rusefi.maintenance.migration.ve_table_extension.VeTableExtensionTestTuneMigrationContext.VE_RPM_BINS_FIELD_NAME;
-import static com.rusefi.maintenance.migration.ve_table_extension.VeTableExtensionTestTuneMigrationContext.VE_TABLE_FIELD_NAME;
+import static com.gerefi.maintenance.migration.CltIdleCorrMigrator.*;
+import static com.gerefi.maintenance.migration.ve_table_extension.VeTableExtensionTestTuneMigrationContext.VE_RPM_BINS_FIELD_NAME;
+import static com.gerefi.maintenance.migration.ve_table_extension.VeTableExtensionTestTuneMigrationContext.VE_TABLE_FIELD_NAME;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
@@ -210,7 +210,7 @@ public class DefaultTestTuneMigrationContext {
 
     public static TestTuneMigrationContext load() throws JAXBException {
         final TestTuneMigrationContext result = TestTuneMigrationContext.load(
-            "src/test/java/com/rusefi/maintenance/migration/default_migration/test_data"
+            "src/test/java/com/gerefi/maintenance/migration/default_migration/test_data"
         );
         assertEquals(
             PREV_VEHICLE_NAME_VALUE,

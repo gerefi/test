@@ -1,11 +1,11 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ini.field.EnumIniField;
-import com.rusefi.core.Pair;
-import com.rusefi.core.net.ConnectionAndMeta;
-import com.rusefi.output.ConfigStructure;
-import com.rusefi.output.JavaFieldsConsumer;
+import com.gerefi.core.Pair;
+import com.gerefi.core.net.ConnectionAndMeta;
+import com.gerefi.output.ConfigStructure;
+import com.gerefi.output.JavaFieldsConsumer;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -13,9 +13,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.TokenUtils.tokenizeWithBraces;
+import static com.gerefi.TokenUtils.tokenizeWithBraces;
 
-import com.rusefi.parse.TypesHelper;
+import com.gerefi.parse.TypesHelper;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

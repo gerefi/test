@@ -1,9 +1,9 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.core.Sensor;
-import com.rusefi.core.preferences.storage.Node;
-import com.rusefi.ui.widgets.JPanelWithListener;
-import com.rusefi.ui.widgets.SensorGauge;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.preferences.storage.Node;
+import com.gerefi.ui.widgets.JPanelWithListener;
+import com.gerefi.ui.widgets.SensorGauge;
 
 import javax.swing.*;
 import java.awt.*;

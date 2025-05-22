@@ -1,4 +1,4 @@
-package com.rusefi.io;
+package com.gerefi.io;
 
 public enum ConnectionStatusValue {
     NOT_CONNECTED,

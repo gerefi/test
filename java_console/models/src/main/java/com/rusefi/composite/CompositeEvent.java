@@ -1,4 +1,4 @@
-package com.rusefi.composite;
+package com.gerefi.composite;
 
 public class CompositeEvent {
     private final long timestamp;

@@ -1,7 +1,7 @@
-package com.rusefi.pinout;
+package com.gerefi.pinout;
 
-import com.rusefi.EnumsReader;
-import com.rusefi.enum_reader.Value;
+import com.gerefi.EnumsReader;
+import com.gerefi.enum_reader.Value;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.TreeMap;
 
-import static com.rusefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertEquals;
 
 public class PinoutLogicTest {
     @Test

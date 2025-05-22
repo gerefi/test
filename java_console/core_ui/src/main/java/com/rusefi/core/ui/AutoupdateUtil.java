@@ -1,8 +1,8 @@
-package com.rusefi.core.ui;
+package com.gerefi.core.ui;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.autoupdate.ReportedIOException;
-import com.rusefi.core.net.ConnectionAndMeta;
+import com.gerefi.autoupdate.ReportedIOException;
+import com.gerefi.core.net.ConnectionAndMeta;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -184,7 +184,7 @@ public class AutoupdateUtil {
             return new ImageIcon(imgURL);
         } else {
             log.info("Using secondary resource path for " + strPath);
-            imgURL = dynamicResourcesLoader.getResource("/com/rusefi/" + strPath);
+            imgURL = dynamicResourcesLoader.getResource("/com/gerefi/" + strPath);
             if (imgURL != null) {
                 return new ImageIcon(imgURL);
             }

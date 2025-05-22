@@ -3,7 +3,7 @@ A PID implementation with a modified cascaded integrator-comb (CIC) filtering.
 Used for incremental auto-IAC control. See autoIdle() in idle_thread.cpp
 22 Dec 2017.
 
-(Also see explanation in Russian here: https://rusefi.com/forum/viewtopic.php?f=9&t=1315)
+(Also see explanation in Russian here: https://gerefi.com/forum/viewtopic.php?f=9&t=1315)
 
 *** A bit of background ***
 

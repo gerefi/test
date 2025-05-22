@@ -92,7 +92,7 @@ float HellenBoardIdSolver::solve(float Tc1, float Tc2, float x0, float y, float 
 	// the same method works for R (if C is known) or C (if R is known)
 	auto result = NewtonsMethodSolver::solve(x0, deltaX, 20);
 
-	// since we had https://github.com/rusefi/rusefi/issues/4084 let's add paranoia check
+	// since we had https://github.com/gerefi/gerefi/issues/4084 let's add paranoia check
 	// All real cases seem to converge in <= 5 iterations, so we don't need to try more than 20.
 	if (!result) {
 		criticalError("hellen boardID is broken");

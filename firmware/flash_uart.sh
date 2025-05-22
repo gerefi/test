@@ -2,7 +2,7 @@
 
 # This script will try to flash/update RusEFI part of firmware over serial/USB serial interface.
 
-BootCommander -t=xcp_rs232 -d=/dev/ttyACM0 build/rusefi.srec
+BootCommander -t=xcp_rs232 -d=/dev/ttyACM0 build/gerefi.srec
 
 # OR
 # You can build it from sources with:
@@ -10,4 +10,4 @@ BootCommander -t=xcp_rs232 -d=/dev/ttyACM0 build/rusefi.srec
 # and
 # (cd ext/openblt/Host/Source/BootCommander/ ; mkdir build ; cd build ; cmake .. ; make -j )
 # And run:
-# ext/openblt/Host/BootCommander -t=xcp_rs232 -d=/dev/ttyACM0 build/rusefi.srec
+# ext/openblt/Host/BootCommander -t=xcp_rs232 -d=/dev/ttyACM0 build/gerefi.srec

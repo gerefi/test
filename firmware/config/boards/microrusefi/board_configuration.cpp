@@ -1,5 +1,5 @@
 /**
- * @file boards/microrusefi/board_configuration.cpp
+ * @file boards/microgerefi/board_configuration.cpp
  *
  *
  * @brief Configuration defaults for the microRusefi board
@@ -13,7 +13,7 @@
  * MRE_BOARD_NEW_TEST
  * set engine_type 31
  *
- * See https://github.com/rusefi/rusefi/wiki/Hardware-microRusEfi-wiring
+ * See https://github.com/gerefi/gerefi/wiki/Hardware-microRusEfi-wiring
  *
  * @author Matthew Kennedy, (c) 2019
  */

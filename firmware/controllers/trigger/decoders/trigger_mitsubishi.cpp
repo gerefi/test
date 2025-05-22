@@ -39,7 +39,7 @@ void initializeMitsubishi4gSymmetricalCrank(TriggerWaveform *s) {
 #endif
 }
 
-// https://github.com/rusefi/rusefi/issues/5593
+// https://github.com/gerefi/gerefi/issues/5593
 void initializeVvt6G72(TriggerWaveform *s) {
 	s->initialize(FOUR_STROKE_CAM_SENSOR, SyncEdge::Both);
 
@@ -111,7 +111,7 @@ void initialize36_2_1_1(TriggerWaveform *s) {
 }
 
 // Mitsubishi 4B11
-// https://github.com/rusefi/rusefi/wiki/All-Supported-Triggers#36-2-1
+// https://github.com/gerefi/gerefi/wiki/All-Supported-Triggers#36-2-1
 void initialize36_2_1(TriggerWaveform *s) {
 	s->initialize(FOUR_STROKE_CRANK_SENSOR, SyncEdge::RiseOnly);
 	s->tdcPosition = 90;

@@ -31,9 +31,9 @@
 # make autoupdate	Generate docs, enums, configs, build bootloader, build firmware, and package autoupdate bundle
 # make bundles		Generate docs, enums, configs, build bootloader, build firmware, and package both full and autoupdate bundles
 # make bootloader Generate docs, enums, configs, and build bootloader
-# make ../simulator/build/rusefi_simulator.exe build Windows simulator (even if invoked on Linux)
-# bin/compile.sh config/boards/f407-discovery/meta-info.env ../simulator/build/rusefi_simulator.linux build Linux simulator
-# make ../simulator/build/rusefi_simulator.both build _both_ Windows and Linux simulator (do we need that? shall we drop that?)
+# make ../simulator/build/gerefi_simulator.exe build Windows simulator (even if invoked on Linux)
+# bin/compile.sh config/boards/f407-discovery/meta-info.env ../simulator/build/gerefi_simulator.linux build Linux simulator
+# make ../simulator/build/gerefi_simulator.both build _both_ Windows and Linux simulator (do we need that? shall we drop that?)
 #
 
 CHIBIOS = ChibiOS
@@ -45,7 +45,7 @@ $(error "../.git not found. We expect source code to be cloned not downloaded as
 endif
 
 # Define project name here
-PROJECT = rusefi
+PROJECT = gerefi
 PROJECT_DIR = .
 
 # Configure precompiled header
@@ -58,7 +58,7 @@ CHIBIOS_CONTRIB = ChibiOS-Contrib
 
 include $(PROJECT_DIR)/common_libfirmware.mk
 
-include rusefi.mk
+include gerefi.mk
 
 ifeq ($(DEBUG_LEVEL_OPT),)
   # Default to a release build - but leave in debug info.  It doesn't change the hex/bin output.
@@ -174,7 +174,7 @@ ifeq ($(USE_EXCEPTIONS_STACKSIZE),)
   USE_EXCEPTIONS_STACKSIZE = 0x1000
 endif
 
-# and this is not working for be :( See https://github.com/rusefi/rusefi/issues/638
+# and this is not working for be :( See https://github.com/gerefi/gerefi/issues/638
 # use -j4 unless some value was specified
 NUMJOBS=${NUMJOBS:-" -j4 "}
 
@@ -200,7 +200,7 @@ endif
 DDEFS += -DSHORT_BOARD_NAME=$(SHORT_BOARD_NAME)
 
 # should be after 'board.mk'
-include rusefi_rules.mk
+include gerefi_rules.mk
 
 # Include various ChibiOS mk files
 # Licensing files.
@@ -310,7 +310,7 @@ CPPSRC = \
   $(CONSOLE_SRC_CPP) \
   $(RUSEFI_LIB_CPP) \
   $(MODULES_CPPSRC) \
-  rusefi.cpp \
+  gerefi.cpp \
   main.cpp
 
 # C sources to be compiled in ARM mode regardless of the global setting.
@@ -431,12 +431,12 @@ include $(RULESFILE)
 include target_sentinel.mk
 
 # this one would include ../java_tools/java_tools.mk for gradlew for config and console and plugin jars
-include rusefi_config.mk
+include gerefi_config.mk
 
 include docs_enums.mk
 
 # Enable precompiled header
-include rusefi_pch.mk
+include gerefi_pch.mk
 
 include bundle.mk
 

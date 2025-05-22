@@ -1,19 +1,19 @@
-package com.rusefi.ui.widgets;
+package com.gerefi.ui.widgets;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.FileLog;
-import com.rusefi.core.io.BundleUtil;
-import com.rusefi.core.rusEFIVersion;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.ui.StatusWindow;
+import com.gerefi.FileLog;
+import com.gerefi.core.io.BundleUtil;
+import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.ui.StatusWindow;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.ToolUtil.EOL;
+import static com.gerefi.ToolUtil.EOL;
 
 public class StatusPanel extends JPanel implements UpdateOperationCallbacks {
     private static final Logging log = getLogging(StatusWindow.class);

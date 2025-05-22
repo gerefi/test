@@ -1,8 +1,8 @@
-// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/rusefi_config.txt
-// by class com.rusefi.output.CHeaderConsumer
+// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/gerefi_config.txt
+// by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 // start of stft_cell_cfg_s
 struct stft_cell_cfg_s {
 	/**
@@ -434,7 +434,7 @@ static_assert(sizeof(injector_s) == 60);
 // start of trigger_config_s
 struct trigger_config_s {
 	/**
-	 * https://github.com/rusefi/rusefi/wiki/All-Supported-Triggers
+	 * https://github.com/gerefi/gerefi/wiki/All-Supported-Triggers
 	 * offset 0
 	 */
 	trigger_type_e type;
@@ -572,7 +572,7 @@ static_assert(sizeof(vr_threshold_s) == 16);
 // start of engine_configuration_s
 struct engine_configuration_s {
 	/**
-	 * http://rusefi.com/wiki/index.php?title=Manual:Engine_Type
+	 * http://gerefi.com/wiki/index.php?title=Manual:Engine_Type
 	 * set engine_type X
 	 * offset 0
 	 */
@@ -1574,7 +1574,7 @@ struct engine_configuration_s {
 	/**
 	 * Use 11 bit (standard) or 29 bit (extended) IDs for rusEFI verbose CAN format.
 	offset 728 bit 4 */
-	bool rusefiVerbose29b : 1 {};
+	bool gerefiVerbose29b : 1 {};
 	/**
 	offset 728 bit 5 */
 	bool rethrowHardFault : 1 {};
@@ -2341,12 +2341,12 @@ struct engine_configuration_s {
 	offset 1280 bit 12 */
 	bool isAlternatorControlEnabled : 1 {};
 	/**
-	 * https://wiki.rusefi.com/Trigger-Configuration-Guide
+	 * https://wiki.gerefi.com/Trigger-Configuration-Guide
 	 * This setting flips the signal from the primary engine speed sensor.
 	offset 1280 bit 13 */
 	bool invertPrimaryTriggerSignal : 1 {};
 	/**
-	 * https://wiki.rusefi.com/Trigger-Configuration-Guide
+	 * https://wiki.gerefi.com/Trigger-Configuration-Guide
 	 * This setting flips the signal from the secondary engine speed sensor.
 	offset 1280 bit 14 */
 	bool invertSecondaryTriggerSignal : 1 {};
@@ -2832,7 +2832,7 @@ struct engine_configuration_s {
 	offset 1460 bit 25 */
 	bool invertExhaustCamVVTSignal : 1 {};
 	/**
-	 * "Available via TS Plugin see https://rusefi.com/s/knock"
+	 * "Available via TS Plugin see https://gerefi.com/s/knock"
 	offset 1460 bit 26 */
 	bool enableKnockSpectrogram : 1 {};
 	/**
@@ -2896,7 +2896,7 @@ struct engine_configuration_s {
 	 */
 	InjectionTimingMode injectionTimingMode;
 	/**
-	 * See http://rusefi.com/s/debugmode
+	 * See http://gerefi.com/s/debugmode
 	 * offset 1482
 	 */
 	debug_mode_e debugMode;
@@ -3875,7 +3875,7 @@ struct engine_configuration_s {
 	scaled_channel<uint16_t, 1000, 1> hpfpPumpVolume;
 	/**
 	 * How long to keep the valve activated (in order to allow the pump to build pressure and keep the valve open on its own)
-	 * https://rusefi.com/forum/viewtopic.php?t=2192
+	 * https://gerefi.com/forum/viewtopic.php?t=2192
 	 * units: deg
 	 * offset 3014
 	 */
@@ -6506,4 +6506,4 @@ struct persistent_config_s {
 static_assert(sizeof(persistent_config_s) == 42344);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/rusefi_config.txt
+// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/gerefi_config.txt

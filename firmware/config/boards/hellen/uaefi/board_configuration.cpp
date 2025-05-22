@@ -1,7 +1,7 @@
 /**
  * @file boards/hellen/uaefi/board_configuration.cpp
  *
- * See https://rusefi.com/s/uaefi
+ * See https://gerefi.com/s/uaefi
  *
  * @author Andrey Belomutskiy, (c) 2012-2023
  */

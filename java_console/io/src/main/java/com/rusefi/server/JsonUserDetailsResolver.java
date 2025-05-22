@@ -1,7 +1,7 @@
-package com.rusefi.server;
+package com.gerefi.server;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.tools.online.HttpUtil;
+import com.gerefi.tools.online.HttpUtil;
 import org.jetbrains.annotations.Nullable;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
@@ -16,7 +16,7 @@ public class JsonUserDetailsResolver implements UserDetailsResolver {
     public UserDetails apply(String authToken) {
 
         try {
-            String responseString = HttpUtil.executeGet(HttpUtil.RUSEFI_ONLINE_JSON_API_PREFIX + "getUserByToken&rusefi_token=" + authToken);
+            String responseString = HttpUtil.executeGet(HttpUtil.RUSEFI_ONLINE_JSON_API_PREFIX + "getUserByToken&gerefi_token=" + authToken);
             JSONObject json = HttpUtil.getJsonResponse(responseString);
             log.info("String " + json);
             Object getUserByToken = json.get("getUserByToken");

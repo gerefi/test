@@ -1,16 +1,16 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
-import com.rusefi.SerialPortScanner;
-import com.rusefi.binaryprotocol.BinaryProtocolLocalCache;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.panama.PanamaClient;
-import com.rusefi.panama.PanamaHelper;
-import com.rusefi.ui.basic.InstanceNameEditor;
+import com.gerefi.SerialPortScanner;
+import com.gerefi.binaryprotocol.BinaryProtocolLocalCache;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.panama.PanamaClient;
+import com.gerefi.panama.PanamaHelper;
+import com.gerefi.ui.basic.InstanceNameEditor;
 
 import java.io.File;
 import java.util.Optional;
 
-import static com.rusefi.maintenance.CalibrationsHelper.readAndBackupCurrentCalibrations;
+import static com.gerefi.maintenance.CalibrationsHelper.readAndBackupCurrentCalibrations;
 
 public enum TuneUploader {
     INSTANCE;

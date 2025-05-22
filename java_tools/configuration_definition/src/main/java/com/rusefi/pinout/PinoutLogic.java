@@ -1,10 +1,10 @@
-package com.rusefi.pinout;
+package com.gerefi.pinout;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.*;
-import com.rusefi.enum_reader.Value;
-import com.rusefi.newparse.DefinitionsState;
-import com.rusefi.newparse.parsing.Definition;
+import com.gerefi.*;
+import com.gerefi.enum_reader.Value;
+import com.gerefi.newparse.DefinitionsState;
+import com.gerefi.newparse.parsing.Definition;
 import org.jetbrains.annotations.NotNull;
 import org.yaml.snakeyaml.Yaml;
 
@@ -12,9 +12,9 @@ import java.io.*;
 import java.util.*;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.VariableRegistry.ARRAY_FORMAT_ENUM;
-import static com.rusefi.VariableRegistry.KEY_VALUE_FORMAT_ENUM;
-import static com.rusefi.output.JavaSensorsConsumer.quote;
+import static com.gerefi.VariableRegistry.ARRAY_FORMAT_ENUM;
+import static com.gerefi.VariableRegistry.KEY_VALUE_FORMAT_ENUM;
+import static com.gerefi.output.JavaSensorsConsumer.quote;
 
 public class PinoutLogic {
     private static final Logging log = getLogging(PinoutLogic.class);

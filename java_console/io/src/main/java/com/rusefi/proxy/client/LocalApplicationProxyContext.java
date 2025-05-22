@@ -1,6 +1,6 @@
-package com.rusefi.proxy.client;
+package com.gerefi.proxy.client;
 
-import com.rusefi.Timeouts;
+import com.gerefi.Timeouts;
 
 import java.io.IOException;
 

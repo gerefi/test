@@ -1,4 +1,4 @@
-package com.rusefi.core.preferences.storage;
+package com.gerefi.core.preferences.storage;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

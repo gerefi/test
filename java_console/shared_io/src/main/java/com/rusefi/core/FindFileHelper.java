@@ -1,4 +1,4 @@
-package com.rusefi.core;
+package com.gerefi.core;
 
 import com.devexperts.logging.Logging;
 import org.jetbrains.annotations.Nullable;
@@ -12,7 +12,7 @@ public class FindFileHelper {
     /**
      * Same .bin used by primary DFU and a bit unneeded ST-LINK options
      */
-    public static final String FIRMWARE_BIN_FILE = INPUT_FILES_PATH + "/" + "rusefi.bin";
+    public static final String FIRMWARE_BIN_FILE = INPUT_FILES_PATH + "/" + "gerefi.bin";
     private static final String PREFIX = "";
     private static final String SUFFIX = "srec";
 

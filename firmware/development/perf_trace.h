@@ -1,7 +1,7 @@
 /**
  * @file perf_trace.h
  *
- * https://github.com/rusefi/rusefi/wiki/Developer-Performance-Tracing
+ * https://github.com/gerefi/gerefi/wiki/Developer-Performance-Tracing
  *
  */
 #pragma once

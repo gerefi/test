@@ -24,6 +24,6 @@ make clean
 export EXTRA_2_PARAMS=-DHARDWARE_CI
 
 echo "[build_for_hw_ci.sh] Building Firmware"
-make -j$(nproc) -r deliver/rusefi.bin
+make -j$(nproc) -r deliver/gerefi.bin
 
 echo "[build_for_hw_ci.sh] Done!"

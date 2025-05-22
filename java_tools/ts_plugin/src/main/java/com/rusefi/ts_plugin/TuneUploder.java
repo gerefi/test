@@ -1,4 +1,4 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
 import com.devexperts.logging.Logging;
 import com.efiAnalytics.plugin.ecu.ControllerAccess;
@@ -6,11 +6,11 @@ import com.efiAnalytics.plugin.ecu.ControllerException;
 import com.efiAnalytics.plugin.ecu.ControllerParameter;
 import com.efiAnalytics.plugin.ecu.servers.ControllerParameterServer;
 import com.opensr5.ini.IniFileMetaInfo;
-import com.rusefi.TsTuneReader;
-import com.rusefi.tools.online.Online;
-import com.rusefi.tune.xml.Constant;
-import com.rusefi.tune.xml.Msq;
-import com.rusefi.tune.xml.Page;
+import com.gerefi.TsTuneReader;
+import com.gerefi.tools.online.Online;
+import com.gerefi.tune.xml.Constant;
+import com.gerefi.tune.xml.Msq;
+import com.gerefi.tune.xml.Page;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

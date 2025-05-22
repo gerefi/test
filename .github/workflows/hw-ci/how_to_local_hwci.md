@@ -7,7 +7,7 @@ If you are using a devcontainer, it has to be installed on the host, *not* on th
 
 ## wiring:
 
-* F4-Discovery: read HwCiF4Discovery.java or https://github.com/rusefi/rusefi/wiki/Dev-Quality-Control#stm32f407g-disc1
+* F4-Discovery: read HwCiF4Discovery.java or https://github.com/gerefi/gerefi/wiki/Dev-Quality-Control#stm32f407g-disc1
 * F767-Nucleo: jumper between "PD2" and "PA6", it is recommended to power the board from VIN and not from the STLink USB
 
 ## compiling:
@@ -29,10 +29,10 @@ F767-Nucleo:
 
 ```bash
 st-flash --area=main erase
-st-flash --format=binary --reset --connect-under-reset write firmware/deliver/rusefi.bin 0x08000000
+st-flash --format=binary --reset --connect-under-reset write firmware/deliver/gerefi.bin 0x08000000
 ```
 
 ## run CI:
 ```bash
-.github/workflows/hw-ci/run_hw_ci.sh com.rusefi.HwCiNucleoF7 ../firmware/tunerstudio/generated/rusefi_stm32f767_nucleo.ini
+.github/workflows/hw-ci/run_hw_ci.sh com.gerefi.HwCiNucleoF7 ../firmware/tunerstudio/generated/gerefi_stm32f767_nucleo.ini
 ```

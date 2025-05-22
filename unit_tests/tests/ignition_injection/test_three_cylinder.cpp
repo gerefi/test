@@ -17,5 +17,5 @@ TEST(threeCylinders, crankWastedSpark) {
 
 
   // see 'test_odd_firing_engine.cpp' which is the nicest relevant test at the moment
-  // see https://github.com/rusefi/rusefi/issues/4195#issuecomment-2322760547
+  // see https://github.com/gerefi/gerefi/issues/4195#issuecomment-2322760547
 }

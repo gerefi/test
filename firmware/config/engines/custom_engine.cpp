@@ -103,7 +103,7 @@ void setFrankensoConfiguration() {
 
 
 	/**
-	 * http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board
+	 * http://gerefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board
 	 */
 	// Frankenso low out #1: PE6
 	// Frankenso low out #2: PE5
@@ -475,7 +475,7 @@ void mreBoardNewTest() {
 
 	// EFI_ADC_1: "23 - AN temp 2"
 	// test harness: Red/Green, 2K PD. expected 2.0v
-	// iat in microrusefi/board_configuration.cpp
+	// iat in microgerefi/board_configuration.cpp
 
 	// EFI_ADC_2: "24 - AN temp 3"
 	// test harness: Blue/White, 2K PD. expected 2.0v

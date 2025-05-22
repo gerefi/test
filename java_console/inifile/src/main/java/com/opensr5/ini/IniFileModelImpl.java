@@ -2,8 +2,8 @@ package com.opensr5.ini;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ini.field.*;
-import com.rusefi.config.Field;
-import com.rusefi.core.FindFileHelper;
+import com.gerefi.config.Field;
+import com.gerefi.core.FindFileHelper;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -16,7 +16,7 @@ import java.util.*;
  */
 public class IniFileModelImpl implements IniFileModel {
     private static final Logging log = Logging.getLogging(IniFileModelImpl.class);
-    public static final String RUSEFI_INI_PREFIX = "rusefi";
+    public static final String RUSEFI_INI_PREFIX = "gerefi";
     public static final String RUSEFI_INI_SUFFIX = ".ini";
     public static final String INI_FILE_PATH = System.getProperty("ini_file_path", "..");
     private static final String SECTION_PAGE = "page";

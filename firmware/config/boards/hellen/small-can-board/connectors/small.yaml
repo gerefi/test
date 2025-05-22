@@ -152,7 +152,7 @@ info:
   title: Small CAN
   cid: small
   name: Small CAN
-  board_url: https://rusefi.com/s/scan
+  board_url: https://gerefi.com/s/scan
   directory: hellen/small-can-board
   image:
     file: alphax-2chan.jpg

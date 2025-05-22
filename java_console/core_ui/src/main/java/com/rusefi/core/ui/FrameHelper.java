@@ -1,7 +1,7 @@
-package com.rusefi.core.ui;
+package com.gerefi.core.ui;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.core.io.BundleUtil;
+import com.gerefi.core.io.BundleUtil;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

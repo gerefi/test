@@ -1,6 +1,6 @@
 /**
  * this file is mostly about SEFMJ early 2000s specific honda K-line protocol
- * https://rusefi.com/forum/viewtopic.php?f=4&t=2514
+ * https://gerefi.com/forum/viewtopic.php?f=4&t=2514
  */
 
 #include "pch.h"

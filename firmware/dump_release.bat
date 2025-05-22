@@ -1,1 +1,1 @@
-arm-none-eabi-objdump -S release/rusefi.elf > release.dump
+arm-none-eabi-objdump -S release/gerefi.elf > release.dump

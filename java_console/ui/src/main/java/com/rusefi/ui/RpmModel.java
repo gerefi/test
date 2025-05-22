@@ -1,7 +1,7 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
 
 import java.util.ArrayList;
 import java.util.List;

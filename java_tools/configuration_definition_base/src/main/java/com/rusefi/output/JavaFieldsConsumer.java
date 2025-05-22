@@ -1,14 +1,14 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
 import com.opensr5.ini.IniFileModelImpl;
-import com.rusefi.*;
-import com.rusefi.parse.TypesHelper;
+import com.gerefi.*;
+import com.gerefi.parse.TypesHelper;
 
 import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
-import static com.rusefi.ToolUtil.EOL;
+import static com.gerefi.ToolUtil.EOL;
 
 public abstract class JavaFieldsConsumer implements ConfigurationConsumer {
     protected final Set<String> existingJavaEnums = new HashSet<>();

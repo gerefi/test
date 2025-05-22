@@ -6,7 +6,7 @@
 
 #include "test_lua_script_executor.h"
 
-#include "rusefi_lua.h"
+#include "gerefi_lua.h"
 
 TestLuaScriptExecutor& TestLuaScriptExecutor::getInstance() {
 	return instance;

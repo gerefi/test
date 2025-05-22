@@ -361,7 +361,7 @@ void applyNewHardwareSettings() {
 #if EFI_PROD_CODE && (BOARD_EXT_GPIOCHIPS > 0)
 	/* TODO: properly restart gpio chips...
 	 * This is only workaround for "CS pin lost" bug
-	 * see: https://github.com/rusefi/rusefi/issues/2107
+	 * see: https://github.com/gerefi/gerefi/issues/2107
 	 * We should provide better way to gracefully stop all
 	 * gpio chips: set outputs to safe state, release all
 	 * on-chip resources (gpios, SPIs, etc) and then restart

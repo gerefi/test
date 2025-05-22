@@ -28,7 +28,7 @@ static void doRevolution(EngineTestHelper& eth, int periodMs) {
 	eth.fireFall(halfToothTime);
 }
 
-// https://github.com/rusefi/rusefi/issues/1592
+// https://github.com/gerefi/gerefi/issues/1592
 TEST(fuelControl, transitionIssue1592) {
 	extern bool unitTestTaskPrecisionHack;
 	unitTestTaskPrecisionHack = true;

@@ -1,7 +1,7 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.EnumsReader;
-import com.rusefi.VariableRegistry;
+import com.gerefi.EnumsReader;
+import com.gerefi.VariableRegistry;
 import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Test;
 
@@ -9,8 +9,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-import static com.rusefi.AssertCompatibility.assertNotNull;
-import static com.rusefi.AssertCompatibility.assertTrue;
+import static com.gerefi.AssertCompatibility.assertNotNull;
+import static com.gerefi.AssertCompatibility.assertTrue;
 
 public class ConfigDefinitionTest {
     public static final String FIRMWARE = "../../firmware";
@@ -34,7 +34,7 @@ public class ConfigDefinitionTest {
     public static VariableRegistry readRealConfig() {
         VariableRegistry variableRegistry = new VariableRegistry();
 
-        variableRegistry.readPrependValues(FIRMWARE + File.separator + "integration/rusefi_config.txt", true);
+        variableRegistry.readPrependValues(FIRMWARE + File.separator + "integration/gerefi_config.txt", true);
         return variableRegistry;
     }
 }

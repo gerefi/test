@@ -1,16 +1,16 @@
-package com.rusefi.ui.console;
+package com.gerefi.ui.console;
 
-import com.rusefi.PaneSettings;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.MessagesCentral;
-import com.rusefi.io.ConnectionStatusLogic;
-import com.rusefi.ui.LogDownloader;
-import com.rusefi.ui.UIContext;
+import com.gerefi.PaneSettings;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.MessagesCentral;
+import com.gerefi.io.ConnectionStatusLogic;
+import com.gerefi.ui.LogDownloader;
+import com.gerefi.ui.UIContext;
 
 import javax.swing.*;
 import java.awt.*;
 
-import static com.rusefi.core.preferences.storage.PersistentConfiguration.getConfig;
+import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
 
 public class TabbedPanel {
     // todo: the logic around 'criticalError' could be implemented nicer

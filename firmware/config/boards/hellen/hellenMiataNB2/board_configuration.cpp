@@ -4,7 +4,7 @@
  *
  * @brief Configuration defaults for the Hellen72 board
  *
- * See https://rusefi.com/s/hellen72
+ * See https://gerefi.com/s/hellen72
  *
  * @author andreika <prometheus.pcb@gmail.com>
  * @author Andrey Belomutskiy, (c) 2012-2020

@@ -1,6 +1,6 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.BinarySearch;
+import com.gerefi.BinarySearch;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

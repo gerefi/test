@@ -1,12 +1,12 @@
-package com.rusefi.f4discovery;
+package com.gerefi.f4discovery;
 
-import com.rusefi.RusefiTestBase;
-import com.rusefi.enums.engine_type_e;
-import com.rusefi.functional_tests.EcuTestHelper;
+import com.gerefi.RusefiTestBase;
+import com.gerefi.enums.engine_type_e;
+import com.gerefi.functional_tests.EcuTestHelper;
 import org.junit.Test;
 
-import static com.rusefi.config.generated.Integration.CMD_ENGINESNIFFERRPMTHRESHOLD;
-import static com.rusefi.functional_tests.EcuTestHelper.FAIL;
+import static com.gerefi.config.generated.Integration.CMD_ENGINESNIFFERRPMTHRESHOLD;
+import static com.gerefi.functional_tests.EcuTestHelper.FAIL;
 
 public class HighRevTest extends RusefiTestBase {
     @Test
@@ -24,7 +24,7 @@ public class HighRevTest extends RusefiTestBase {
 
     public static void runHighRevTest(engine_type_e engine_type_e, EcuTestHelper ecu1) {
         ecu1.setEngineType(engine_type_e);
-        // trying to disable engine sniffer to help https://github.com/rusefi/rusefi/issues/1849
+        // trying to disable engine sniffer to help https://github.com/gerefi/gerefi/issues/1849
         ecu1.sendCommand("set " + CMD_ENGINESNIFFERRPMTHRESHOLD + " 100");
         ecu1.changeRpm(900);
         // first let's get to expected RPM

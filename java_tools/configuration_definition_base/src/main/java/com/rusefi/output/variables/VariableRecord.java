@@ -1,4 +1,4 @@
-package com.rusefi.output.variables;
+package com.gerefi.output.variables;
 
 public class VariableRecord {
     public final String type;

@@ -1,4 +1,4 @@
-package com.rusefi.ui.util;
+package com.gerefi.ui.util;
 
 import com.devexperts.logging.Logging;
 
@@ -8,7 +8,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.Launcher.*;
+import static com.gerefi.Launcher.*;
 
 /**
  * 6/30/13

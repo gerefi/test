@@ -1,19 +1,19 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.AvailableHardware;
-import com.rusefi.SerialPortScanner.PortResult;
-import com.rusefi.UiProperties;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.FindFileHelper;
-import com.rusefi.FileLog;
-import com.rusefi.SerialPortScanner;
-import com.rusefi.autodetect.PortDetector;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.maintenance.jobs.*;
-import com.rusefi.ui.util.URLLabel;
+import com.gerefi.AvailableHardware;
+import com.gerefi.SerialPortScanner.PortResult;
+import com.gerefi.UiProperties;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.FindFileHelper;
+import com.gerefi.FileLog;
+import com.gerefi.SerialPortScanner;
+import com.gerefi.autodetect.PortDetector;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.maintenance.jobs.*;
+import com.gerefi.ui.util.URLLabel;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
@@ -27,10 +27,10 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.SerialPortScanner.SerialPortType.OpenBlt;
-import static com.rusefi.core.preferences.storage.PersistentConfiguration.getConfig;
-import static com.rusefi.maintenance.CalibrationsHelper.*;
-import static com.rusefi.maintenance.UpdateMode.*;
+import static com.gerefi.SerialPortScanner.SerialPortType.OpenBlt;
+import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
+import static com.gerefi.maintenance.CalibrationsHelper.*;
+import static com.gerefi.maintenance.UpdateMode.*;
 
 public class ProgramSelector {
     private static final Logging log = getLogging(ProgramSelector.class);

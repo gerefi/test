@@ -1,7 +1,7 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.DataBuffer;
-import com.rusefi.TimeBasedBuffer;
+import com.gerefi.DataBuffer;
+import com.gerefi.TimeBasedBuffer;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

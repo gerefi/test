@@ -1,8 +1,8 @@
-package com.rusefi.f4discovery;
+package com.gerefi.f4discovery;
 
-import com.rusefi.RusefiTestBase;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.commands.BurnCommand;
+import com.gerefi.RusefiTestBase;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.commands.BurnCommand;
 import org.junit.Test;
 
 import java.util.concurrent.CountDownLatch;

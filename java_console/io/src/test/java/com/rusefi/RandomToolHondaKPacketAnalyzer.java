@@ -1,4 +1,4 @@
-package com.rusefi;
+package com.gerefi;
 
 import java.io.File;
 import java.io.IOException;
@@ -32,11 +32,11 @@ public class RandomToolHondaKPacketAnalyzer {
         register((char) 130, 7, "response 130 rare");
 
 
-        String folder = "C:\\stuff\\rusefi_documentation\\OEM-Docs\\Honda\\E24-SEFMJ-white-civic-si";
+        String folder = "C:\\stuff\\gerefi_documentation\\OEM-Docs\\Honda\\E24-SEFMJ-white-civic-si";
         for (String file : new File(folder).list((dir, name) -> {
             return
                     //                    name.contains("1-key-on-car-off.csv")
-//                handle("C:\\stuff\\rusefi_documentation\\OEM-Docs\\Honda\\E24-SEFMJ-white-civic-si\\2-key-removed-30-seconds.csv");
+//                handle("C:\\stuff\\gerefi_documentation\\OEM-Docs\\Honda\\E24-SEFMJ-white-civic-si\\2-key-removed-30-seconds.csv");
 //                        name.contains("3-door-open-wakes-bus-up.csv")
 //                                            name.contains("4-idling.csv")
 //                    name.contains("5-stop-and-restart.csv")

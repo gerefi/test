@@ -1,6 +1,6 @@
 # PB-comparing-against-global-defaults
 
-// canned tune https://rusefi.com/online/view.php?msq=1626
+// canned tune https://gerefi.com/online/view.php?msq=1626
 
 ```
     // default "End of injection"

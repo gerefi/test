@@ -1,6 +1,6 @@
 #include "pch.h"
 
-#include "rusefi_lua.h"
+#include "gerefi_lua.h"
 #include "thread_controller.h"
 
 #if EFI_LUA
@@ -537,7 +537,7 @@ void testLuaExecString(const char* script) {
 // This is technically non-compliant, but it's only used for lua float parsing.
 // It doesn't properly handle very small and very large numbers, and doesn't
 // parse numbers in the format 1.3e5 at all.
-extern "C" float strtof_rusefi(const char* str, char** endPtr) {
+extern "C" float strtof_gerefi(const char* str, char** endPtr) {
 	bool afterDecimalPoint = false;
 	float div = 1; // Divider to place digits after the decimal point
 

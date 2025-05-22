@@ -1,16 +1,16 @@
-package com.rusefi.tools.tune;
+package com.gerefi.tools.tune;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ini.DialogModel;
 import com.opensr5.ini.IniFileModel;
-import com.rusefi.*;
-import com.rusefi.core.preferences.storage.Node;
-import com.rusefi.enums.engine_type_e;
-import com.rusefi.output.ConfigStructure;
-import com.rusefi.parse.TypesHelper;
-import com.rusefi.tune.xml.Constant;
-import com.rusefi.tune.xml.Msq;
-import com.rusefi.xml.XmlUtil;
+import com.gerefi.*;
+import com.gerefi.core.preferences.storage.Node;
+import com.gerefi.enums.engine_type_e;
+import com.gerefi.output.ConfigStructure;
+import com.gerefi.parse.TypesHelper;
+import com.gerefi.tune.xml.Constant;
+import com.gerefi.tune.xml.Msq;
+import com.gerefi.xml.XmlUtil;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -29,8 +29,8 @@ import java.util.Set;
 import java.util.TreeSet;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.ConfigFieldImpl.unquote;
-import static com.rusefi.config.Field.niceToString;
+import static com.gerefi.ConfigFieldImpl.unquote;
+import static com.gerefi.config.Field.niceToString;
 
 /**
  * this command line utility compares two TS calibration files and produces .md files with C++ source code of the difference between those two files.
@@ -40,7 +40,7 @@ import static com.rusefi.config.Field.niceToString;
  * <p>
  * [CannedTunes]
  * <p>
- * see <a href="https://github.com/rusefi/rusefi/wiki/Canned-Tune-Process">...</a>
+ * see <a href="https://github.com/gerefi/gerefi/wiki/Canned-Tune-Process">...</a>
  */
 public class TuneCanTool {
     private static final Logging log = getLogging(TuneCanTool.class);
@@ -66,7 +66,7 @@ public class TuneCanTool {
     public static void main(String[] args) throws Exception {
         //writeDiffBetweenLocalTuneFileAndDefaultTune("../1.msq");
 
-//        TuneCanToolRunner.initialize("C:\\stuff\\fw\\generated\\tunerstudio\\generated\\rusefi_.ini");
+//        TuneCanToolRunner.initialize("C:\\stuff\\fw\\generated\\tunerstudio\\generated\\gerefi_.ini");
         TuneCanToolHelper.initialize(TuneContext.iniFileName);
 
 //        writeDiffBetweenLocalTuneFileAndDefaultTune("harley", "C:\\stuff\\fw\\fw-\\generated\\simulator_tune_HARLEY.msq",
@@ -104,7 +104,7 @@ public class TuneCanTool {
 
     private static void handle(String vehicleName, int tuneId, String defaultTuneFileName, String methodNamePrefix) throws JAXBException, IOException {
         String customTuneFileName = workingFolder + File.separator + tuneId + ".msq";
-        String url = "https://rusefi.com/online/view.php?msq=" + tuneId;
+        String url = "https://gerefi.com/online/view.php?msq=" + tuneId;
 
         downloadTune(tuneId, customTuneFileName);
 
@@ -161,7 +161,7 @@ public class TuneCanTool {
 
     private static void downloadTune(int tuneId, String localFileName) throws IOException {
         new File(workingFolder).mkdirs();
-        String downloadUrl = "https://rusefi.com/online/download.php?msq=" + tuneId;
+        String downloadUrl = "https://gerefi.com/online/download.php?msq=" + tuneId;
         InputStream in = new URL(downloadUrl).openStream();
         Files.copy(in, Paths.get(localFileName), StandardCopyOption.REPLACE_EXISTING);
     }

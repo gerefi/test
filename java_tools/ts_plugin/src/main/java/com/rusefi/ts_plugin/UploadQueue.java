@@ -1,12 +1,12 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
 import com.devexperts.logging.Logging;
 import com.efiAnalytics.plugin.ecu.ControllerAccess;
-import com.rusefi.core.FileUtil;
-import com.rusefi.tools.online.Online;
-import com.rusefi.tools.online.UploadResult;
-import com.rusefi.tune.xml.Msq;
-import com.rusefi.ui.AuthTokenPanel;
+import com.gerefi.core.FileUtil;
+import com.gerefi.tools.online.Online;
+import com.gerefi.tools.online.UploadResult;
+import com.gerefi.tune.xml.Msq;
+import com.gerefi.ui.AuthTokenPanel;
 
 import javax.xml.bind.JAXBException;
 import java.io.File;

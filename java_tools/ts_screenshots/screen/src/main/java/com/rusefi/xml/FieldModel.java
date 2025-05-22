@@ -1,4 +1,4 @@
-package com.rusefi.xml;
+package com.gerefi.xml;
 
 import javax.xml.bind.annotation.XmlAttribute;
 

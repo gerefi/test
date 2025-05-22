@@ -1,14 +1,14 @@
-package com.rusefi.ui.basic;
+package com.gerefi.ui.basic;
 
-import com.rusefi.*;
-import com.rusefi.core.net.ConnectionAndMeta;
-import com.rusefi.core.ui.FrameHelper;
-import com.rusefi.maintenance.StatusAnimation;
-import com.rusefi.tools.TunerStudioHelper;
-import com.rusefi.ui.BasicLogoHelper;
-import com.rusefi.ui.util.DefaultExceptionHandler;
-import com.rusefi.ui.util.UiUtils;
-import com.rusefi.ui.widgets.StatusPanel;
+import com.gerefi.*;
+import com.gerefi.core.net.ConnectionAndMeta;
+import com.gerefi.core.ui.FrameHelper;
+import com.gerefi.maintenance.StatusAnimation;
+import com.gerefi.tools.TunerStudioHelper;
+import com.gerefi.ui.BasicLogoHelper;
+import com.gerefi.ui.util.DefaultExceptionHandler;
+import com.gerefi.ui.util.UiUtils;
+import com.gerefi.ui.widgets.StatusPanel;
 
 import javax.swing.*;
 
@@ -16,7 +16,7 @@ import java.lang.reflect.InvocationTargetException;
 
 /**
  * Focuses on firmware updater
- * Much simpler than {@link com.rusefi.StartupFrame}
+ * Much simpler than {@link com.gerefi.StartupFrame}
  */
 public class BasicStartupFrame {
     private final String whiteLabel = ConnectionAndMeta.getWhiteLabel(ConnectionAndMeta.getProperties());

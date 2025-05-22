@@ -14,7 +14,7 @@
  *   WF  current on-Wall Fuel amount
  *
  *
- * http://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control
+ * http://gerefi.com/wiki/index.php?title=Manual:Software:Fuel_Control
  * @date Apr 21, 2014
  * @author Dmitry Sidin
  * @author Andrey Belomutskiy, (c) 2012-2020

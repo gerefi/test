@@ -1,6 +1,6 @@
 #pragma once
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 
 /**
  * Stores the recent peak value, preventing loss of intermittent peaks in a signal.

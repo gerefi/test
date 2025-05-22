@@ -10,7 +10,7 @@
 
 set -euo pipefail
 
-if grep "bl.*<__aeabi_f2lz>" build/rusefi.list; then
+if grep "bl.*<__aeabi_f2lz>" build/gerefi.list; then
 	echo "Illegal float-to-long conversion detected!"
 	exit 1
 fi

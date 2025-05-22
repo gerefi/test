@@ -1,7 +1,7 @@
-package com.rusefi.tools.tune;
+package com.gerefi.tools.tune;
 
 import com.opensr5.ini.IniFileModelImpl;
-import com.rusefi.RootHolder;
+import com.gerefi.RootHolder;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;

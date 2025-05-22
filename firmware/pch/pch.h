@@ -9,13 +9,13 @@
  * this file.
  */
 
-#include <rusefi/arrays.h>
-#include <rusefi/crc.h>
-#include <rusefi/fragments.h>
-#include <rusefi/interpolation.h>
-#include <rusefi/math.h>
-#include <rusefi/pt2001.h>
-#include <rusefi/efistringutil.h>
+#include <gerefi/arrays.h>
+#include <gerefi/crc.h>
+#include <gerefi/fragments.h>
+#include <gerefi/interpolation.h>
+#include <gerefi/math.h>
+#include <gerefi/pt2001.h>
+#include <gerefi/efistringutil.h>
 
 #include "main_loop.h"
 

@@ -5,7 +5,7 @@
 #include "kline.h"
 #include "engine_configuration_defaults.h"
 #include "tuner_detector_utils.h"
-#include <rusefi/manifest.h>
+#include <gerefi/manifest.h>
 #if HW_PROTEUS
 #include "proteus_meta.h"
 #endif // HW_PROTEUS
@@ -232,7 +232,7 @@ void setDefaultBaseEngine() {
   // todo: this "2JZ" trigger is very powerful for many low tooth quantity applications
   // todo: we might be getting closer to a re-name
   // by the way 2GRFE intake likes position 160 / precision 20
-  // see also https://github.com/rusefi/rusefi/issues/7345
+  // see also https://github.com/gerefi/gerefi/issues/7345
   //
   // 2JZ values
     engineConfiguration->camDecoder2jzPosition = 95;

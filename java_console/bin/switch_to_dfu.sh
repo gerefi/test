@@ -1,1 +1,1 @@
-java -jar console/rusefi_console.jar reboot_dfu
+java -jar console/gerefi_console.jar reboot_dfu

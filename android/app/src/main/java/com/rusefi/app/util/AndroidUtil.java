@@ -1,4 +1,4 @@
-package com.rusefi.app.util;
+package com.gerefi.app.util;
 
 import android.app.Activity;
 import android.os.Build;

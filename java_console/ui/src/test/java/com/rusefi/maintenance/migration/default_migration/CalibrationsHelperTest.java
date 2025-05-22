@@ -1,11 +1,11 @@
-package com.rusefi.maintenance.migration.default_migration;
+package com.gerefi.maintenance.migration.default_migration;
 
 import com.opensr5.ini.field.EnumIniField;
-import com.rusefi.config.FieldType;
-import com.rusefi.maintenance.CalibrationsHelper;
-import com.rusefi.maintenance.CalibrationsInfo;
-import com.rusefi.maintenance.TestTuneMigrationContext;
-import com.rusefi.tune.xml.Constant;
+import com.gerefi.config.FieldType;
+import com.gerefi.maintenance.CalibrationsHelper;
+import com.gerefi.maintenance.CalibrationsInfo;
+import com.gerefi.maintenance.TestTuneMigrationContext;
+import com.gerefi.tune.xml.Constant;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +14,7 @@ import javax.xml.bind.JAXBException;
 import java.util.Map;
 import java.util.Optional;
 
-import static com.rusefi.maintenance.migration.default_migration.DefaultTestTuneMigrationContext.*;
+import static com.gerefi.maintenance.migration.default_migration.DefaultTestTuneMigrationContext.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CalibrationsHelperTest {

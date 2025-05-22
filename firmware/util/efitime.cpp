@@ -4,12 +4,12 @@
  * problem: we have three files with bits and pieces of time API and documentation
  * 1) this implementation class
  * 2) rusEFI header efitime.h
- * 3) libfirmware header rusefi_time_types.h
+ * 3) libfirmware header gerefi_time_types.h
  */
 
 #if !EFI_UNIT_TEST
 
-#include <rusefi/rusefi_time_wraparound.h>
+#include <gerefi/gerefi_time_wraparound.h>
 
 static WrapAround62 timeNt;
 

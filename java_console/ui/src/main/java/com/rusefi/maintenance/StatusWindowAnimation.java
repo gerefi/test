@@ -1,6 +1,6 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
-import com.rusefi.ui.StatusWindow;
+import com.gerefi.ui.StatusWindow;
 
 public class StatusWindowAnimation {
     private final StatusAnimation animation;

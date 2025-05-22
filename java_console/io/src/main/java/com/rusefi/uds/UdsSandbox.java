@@ -1,8 +1,8 @@
-package com.rusefi.uds;
+package com.gerefi.uds;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.io.can.SocketCanConnector;
-import com.rusefi.util.HexBinary;
+import com.gerefi.io.can.SocketCanConnector;
+import com.gerefi.util.HexBinary;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

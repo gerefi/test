@@ -1,4 +1,4 @@
-package com.rusefi.core;
+package com.gerefi.core;
 
 import java.io.File;
 import java.net.URISyntaxException;
@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicReference;
 public interface rusEFIVersion {
     /**
      * *** BE CAREFUL WE HAVE SEPARATE AUTOUPDATE_VERSION also managed manually ***
-     * @see com.rusefi.autoupdate.Autoupdate#AUTOUPDATE_VERSION
+     * @see com.gerefi.autoupdate.Autoupdate#AUTOUPDATE_VERSION
      */
     int CONSOLE_VERSION = 20250521;
     AtomicReference<String> firmwareVersion = new AtomicReference<>("N/A");

@@ -1,23 +1,23 @@
-package com.rusefi.proxy.client;
+package com.gerefi.proxy.client;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.commands.GetOutputsCommandBrokenHelper;
-import com.rusefi.io.commands.HelloCommand;
-import com.rusefi.io.serial.AbstractIoStream;
-import com.rusefi.io.serial.StreamStatistics;
-import com.rusefi.io.tcp.BinaryProtocolProxy;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.io.tcp.ServerSocketReference;
-import com.rusefi.io.tcp.TcpIoStream;
-import com.rusefi.proxy.NetworkConnector;
-import com.rusefi.server.ApplicationRequest;
-import com.rusefi.server.rusEFISSLContext;
-import com.rusefi.tools.online.HttpUtil;
-import com.rusefi.tools.online.ProxyClient;
-import com.rusefi.ui.StatusConsumer;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.commands.GetOutputsCommandBrokenHelper;
+import com.gerefi.io.commands.HelloCommand;
+import com.gerefi.io.serial.AbstractIoStream;
+import com.gerefi.io.serial.StreamStatistics;
+import com.gerefi.io.tcp.BinaryProtocolProxy;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.tcp.ServerSocketReference;
+import com.gerefi.io.tcp.TcpIoStream;
+import com.gerefi.proxy.NetworkConnector;
+import com.gerefi.server.ApplicationRequest;
+import com.gerefi.server.rusEFISSLContext;
+import com.gerefi.tools.online.HttpUtil;
+import com.gerefi.tools.online.ProxyClient;
+import com.gerefi.ui.StatusConsumer;
 
 import org.apache.hc.client5.http.classic.methods.HttpPost;
 import org.apache.hc.client5.http.entity.UrlEncodedFormEntity;
@@ -36,8 +36,8 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.nio.charset.StandardCharsets;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.Timeouts.BINARY_IO_TIMEOUT;
-import static com.rusefi.binaryprotocol.BinaryProtocol.sleep;
+import static com.gerefi.Timeouts.BINARY_IO_TIMEOUT;
+import static com.gerefi.binaryprotocol.BinaryProtocol.sleep;
 
 /**
  * Remote user process which facilitates connection between local tuning application and real ECU via rusEFI proxy service

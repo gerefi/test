@@ -33,8 +33,8 @@ ifneq ($(OS),Windows_NT)
 endif
 $(info OS is [${OS}])
 
-include ../firmware/rusefi.mk
-include ../firmware/rusefi_rules.mk
+include ../firmware/gerefi.mk
+include ../firmware/gerefi_rules.mk
 
 # Configure precompiled header
 PCH_DIR = $(PROJECT_DIR)/pch
@@ -141,9 +141,9 @@ endif
 
 # Define project name here
 ifeq ($(OS),Windows_NT)
-  PROJECT = rusefi_simulator.exe
+  PROJECT = gerefi_simulator.exe
 else
-  PROJECT = rusefi_simulator
+  PROJECT = gerefi_simulator
 endif
 PROJECT_DIR = ../firmware
 
@@ -315,11 +315,11 @@ ifneq (yes,$(SUBMAKE))
 ifeq ($(SHORT_BOARD_NAME),)
   SHORT_BOARD_NAME = f407-discovery
 endif
-include $(PROJECT_DIR)/rusefi_config.mk
+include $(PROJECT_DIR)/gerefi_config.mk
 endif
 
 # Enable precompiled header
-include $(PROJECT_DIR)/rusefi_pch.mk
+include $(PROJECT_DIR)/gerefi_pch.mk
 
 $(OBJS): .os-sentinel
 

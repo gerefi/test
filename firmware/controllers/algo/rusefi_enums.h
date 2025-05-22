@@ -1,5 +1,5 @@
 /**
- * @file	rusefi_enums.h
+ * @file	gerefi_enums.h
  * @brief	Fundamental rusEFI enumerable types live here
  *
  * This and few over headers are part of integration API between C/C++ and code generator for memory meta and java code.
@@ -13,15 +13,15 @@
 
 #pragma once
 
-#include <rusefi/true_false.h>
+#include <gerefi/true_false.h>
 #include "efifeatures.h"
 #include "obd_error_codes.h"
 #include "engine_types.h"
 #include "engine_type_e.h"
 // we do not want to start the search for header from current folder so we use brackets here
 // https://stackoverflow.com/questions/21593/what-is-the-difference-between-include-filename-and-include-filename
-#include <rusefi_hw_enums.h>
-#include "rusefi_hw_pin_mode.h"
+#include <gerefi_hw_enums.h>
+#include "gerefi_hw_pin_mode.h"
 
 #define PERCENT_MULT 100.0f
 #define PERCENT_DIV 0.01f
@@ -78,7 +78,7 @@ typedef enum  __attribute__ ((__packed__)) {
 	VVT_BOSCH_QUICK_START = 5,
 
 	/**
-	 * 1.8l Toyota 1ZZ-FE https://rusefi.com/forum/viewtopic.php?f=3&t=1735
+	 * 1.8l Toyota 1ZZ-FE https://gerefi.com/forum/viewtopic.php?f=3&t=1735
 	 * 4 minus one
 	 */
 	VVT_TOYOTA_4_1 = 6,
@@ -406,7 +406,7 @@ typedef enum __attribute__ ((__packed__)) {
 	IMU_VAG = 1,
 	/**
 	 * f037000002
-	 * https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Bosch/Data%20Sheet_68903691_Acceleration_Sensor_MM5.10.pdf
+	 * https://github.com/gerefi/gerefi_documentation/blob/master/OEM-Docs/Bosch/Data%20Sheet_68903691_Acceleration_Sensor_MM5.10.pdf
 	 */
 	IMU_MM5_10 = 2,
 	IMU_TYPE_3 = 3,
@@ -464,7 +464,7 @@ typedef enum __attribute__ ((__packed__)) {
 	MT_MPX4100 = 7,
 
 	/**
-	 * http://rusefi.com/forum/viewtopic.php?f=3&t=906&p=18976#p18976
+	 * http://gerefi.com/forum/viewtopic.php?f=3&t=906&p=18976#p18976
 	 * Toyota 89420-02010
 	 */
 	MT_TOYOTA_89420_02010 = 8,

@@ -1,15 +1,15 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
-import com.rusefi.Launcher;
-import com.rusefi.core.io.BundleUtil;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.jobs.JobHelper;
+import com.gerefi.Launcher;
+import com.gerefi.core.io.BundleUtil;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.jobs.JobHelper;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 
-import static com.rusefi.core.preferences.storage.PersistentConfiguration.getConfig;
+import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
 
 /**
  * @see DfuFlasher

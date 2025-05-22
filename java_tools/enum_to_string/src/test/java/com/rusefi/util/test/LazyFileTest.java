@@ -1,6 +1,6 @@
-package com.rusefi.util.test;
+package com.gerefi.util.test;
 
-import com.rusefi.util.LazyFileImpl;
+import com.gerefi.util.LazyFileImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

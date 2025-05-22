@@ -1,4 +1,4 @@
-package com.rusefi.app;
+package com.gerefi.app;
 
 import android.app.Application;
 
@@ -24,7 +24,7 @@ public class RusefiApplication extends Application {
 
         CoreConfigurationBuilder builder = new CoreConfigurationBuilder(this);
         builder.getPluginConfigurationBuilder(MailSenderConfigurationBuilder.class)
-                .setMailTo("rusefillc@gmail.com")
+                .setMailTo("gerefillc@gmail.com")
                 .setSubject("Android Crash")
                 .setEnabled(true);
 

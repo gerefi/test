@@ -247,7 +247,7 @@ void sendCanVerbose() {
         }
 #endif // HW_HELLEN
 	auto base = engineConfiguration->verboseCanBaseAddress;
-	auto isExt = engineConfiguration->rusefiVerbose29b;
+	auto isExt = engineConfiguration->gerefiVerbose29b;
 	auto canChannel = engineConfiguration->canBroadcastUseChannelTwo;
 
 	transmitStruct<Status>		(CanCategory::VERBOSE, base + 0, isExt, canChannel);

@@ -1,6 +1,6 @@
-package com.rusefi.ui.livedata;
+package com.gerefi.ui.livedata;
 
-import com.rusefi.livedata.LiveDataParserPanel;
+import com.gerefi.livedata.LiveDataParserPanel;
 import org.junit.jupiter.api.Test;
 
 import java.io.*;

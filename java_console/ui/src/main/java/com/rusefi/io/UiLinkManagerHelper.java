@@ -1,8 +1,8 @@
-package com.rusefi.io;
+package com.gerefi.io;
 
-import com.rusefi.io.serial.BufferedSerialIoStream;
-import com.rusefi.io.tcp.TcpConnector;
-import com.rusefi.io.tcp.TcpIoStream;
+import com.gerefi.io.serial.BufferedSerialIoStream;
+import com.gerefi.io.tcp.TcpConnector;
+import com.gerefi.io.tcp.TcpIoStream;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;

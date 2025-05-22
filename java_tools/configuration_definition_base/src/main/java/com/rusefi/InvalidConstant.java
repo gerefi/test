@@ -1,6 +1,6 @@
-package com.rusefi;
+package com.gerefi;
 
-import static com.rusefi.output.JavaSensorsConsumer.quote;
+import static com.gerefi.output.JavaSensorsConsumer.quote;
 
 public class InvalidConstant {
     private static final String INVALID = "INVALID";

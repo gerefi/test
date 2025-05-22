@@ -1,4 +1,4 @@
-package com.rusefi.pinout;
+package com.gerefi.pinout;
 
 public class PinoutLogicConstants {
     static final String CONNECTORS = "/connectors";

@@ -1,7 +1,7 @@
-package com.rusefi.enums;
+package com.gerefi.enums;
 //was generated automatically by rusEFI tool config_definition_base-all.jar based on StateDictionaryGenerator integration/LiveData.yaml on Fri May 16 12:31:52 UTC 2025n
-import com.rusefi.config.generated.*;
-import com.rusefi.ldmp.StateDictionary;
+import com.gerefi.config.generated.*;
+import com.gerefi.ldmp.StateDictionary;
 
 public class StateDictionaryFactory {
     public static void initialize(StateDictionary stateDictionary) {

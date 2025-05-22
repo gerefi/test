@@ -37,7 +37,7 @@ Release template (copy/paste this for new release):
  - Allow fractional tachometer pulse ratio for fine tachometer calibration #7547
  - separate boost control open loop axis from closed loop axis #7580
  - verbose CAN PerCylinderKnock
- - modern Chrysler VVT cam decoder https://github.com/rusefi/rusefi/wiki/All-Supported-Triggers#vvt
+ - modern Chrysler VVT cam decoder https://github.com/gerefi/gerefi/wiki/All-Supported-Triggers#vvt
  - SD card formatting indicator
  - additional status on WBO dialog
 
@@ -137,7 +137,7 @@ Release template (copy/paste this for new release):
  - Open Loop Boost vertical axis needs to be configured #4778
  - Cranking Cycle Multiplier is now a Map with Coolant Temp as the additional axis. #6584
  - Now we use "Alternator Voltage Target Table" instead of "Target(Volts)" setting on "Alternator Settings" area to calculate alternator voltage target. #6523
- - Now console generates current_configuration.binary_image in new format instead of current_configuration.rusefi_binary #6863
+ - Now console generates current_configuration.binary_image in new format instead of current_configuration.gerefi_binary #6863
 
 ## April 2024 "Day 785"
 
@@ -296,7 +296,7 @@ Release template (copy/paste this for new release):
  - microRusEFI: Indicator for injector hardware issues #5189
 
 ### Breaking Changes
- - rusefi_default_bundle.zip was replaced by rusefi_bundle_f407-discovery.zip #5078
+ - gerefi_default_bundle.zip was replaced by gerefi_bundle_f407-discovery.zip #5078
 
 ### Fixed
  - Antilag switch pin mode was ignored #5036
@@ -316,7 +316,7 @@ Release template (copy/paste this for new release):
 
 ### Added
  - Electronic throttle supply voltage compensation, giving more consistent behavior as battery voltage changes #4838
- - VR trigger input oscilloscope for boards with "discrete VR" hardware (AlphaX ECUs, some Hellen) [#4885](https://github.com/rusefi/rusefi/issues/4885)
+ - VR trigger input oscilloscope for boards with "discrete VR" hardware (AlphaX ECUs, some Hellen) [#4885](https://github.com/gerefi/gerefi/issues/4885)
  - Jammed ETB detection #4873
  - RPM correction/multiplier for Accel Enrich #4760
  - Tooth logger writes to SD card #4897
@@ -487,7 +487,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
  - SDRAM reference binary for stm32f429-discovery
 
 ### Fixed
- - rusefi_Console: Too long re-connection time #3305
+ - gerefi_Console: Too long re-connection time #3305
  - Bosch Quick Start on B6 Passat is confused about phase #3812
 
 ## December 2021 Release - "Cookie Exchange"
@@ -525,7 +525,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
 ## October 2021 Release - "Pierogi Day"
 
 ### Added
- - Ford PIP trigger decoder https://github.com/rusefi/rusefi/wiki/Images/triggers/trigger_65.png
+ - Ford PIP trigger decoder https://github.com/gerefi/gerefi/wiki/Images/triggers/trigger_65.png
  - Dwell battery voltage correction table
  - rusEFI firmware feature should be honest about it's Windows-only limitation
  - Bosch MM5.10 accelerometer integration
@@ -581,7 +581,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
  - Electronic throttle rev limiter: close the throttle before hitting hard limit, OEM style.
  - "inhibit start until oil pressure" prevents starting the engine with no/low oil pressure #2799
  - Dual cooling fans, with new "enable fan with AC" option
- - Lua scripting: implement custom ECU behavior with a Lua script. https://github.com/rusefi/rusefi/wiki/Lua-Scripting
+ - Lua scripting: implement custom ECU behavior with a Lua script. https://github.com/gerefi/gerefi/wiki/Lua-Scripting
 
 # 2021 May "Piercing Day"
 ### Fixed
@@ -620,9 +620,9 @@ All notable user-facing or behavior-altering changes will be documented in this 
 
 ### Added
  - USB Mass Storage: The connected SD card will be mounted over USB if rusEFI connected to a PC via USB.
- - GM 60/2/2/2 trigger https://github.com/rusefi/rusefi/wiki/All-Supported-Triggers#gm
- - TriTach trigger https://github.com/rusefi/rusefi/wiki/All-Supported-Triggers#tritach
- - Skoda Favorit trigger https://github.com/rusefi/rusefi/wiki/All-Supported-Triggers#skoda-favorit
+ - GM 60/2/2/2 trigger https://github.com/gerefi/gerefi/wiki/All-Supported-Triggers#gm
+ - TriTach trigger https://github.com/gerefi/gerefi/wiki/All-Supported-Triggers#tritach
+ - Skoda Favorit trigger https://github.com/gerefi/gerefi/wiki/All-Supported-Triggers#skoda-favorit
  - Add fallback logic handling failed MAP sensor.  In case of failed MAP, ses either a fixed MAP value, or a table that estimates MAP based on TPS and RPM.
  - STM32H7 is mostly working
 
@@ -663,8 +663,8 @@ All notable user-facing or behavior-altering changes will be documented in this 
  - GM x24 trigger now uses 0 offset (offset is now built in, previously needed 50 degrees offset)
 
 ### Added
- - DAIHATSU 3/4 cylinder trigger https://rusefi.com/images/triggers/trigger_6.png
- - Ford ST170 VVT cam trigger https://rusefi.com/images/triggers/trigger_42.png
+ - DAIHATSU 3/4 cylinder trigger https://gerefi.com/images/triggers/trigger_6.png
+ - Ford ST170 VVT cam trigger https://gerefi.com/images/triggers/trigger_42.png
  - Changed scheduling timer driver to improve scheduling accuracy #1983
 
 ### Fixed
@@ -753,8 +753,8 @@ All notable user-facing or behavior-altering changes will be documented in this 
 | 02/22/2017    | r12980    | bugfix: false error message in case of single coil or simultaneous injection |
 | 02/22/2017    | r12973    | unused property 'custom Use Rise Edge' removed |
 | 02/22/2017    | r12972    | protocol signature changed to 'v0.02' (this would happen from time to time to ensure version match between console and TS project |
-| 02/20/2017    | r12939    | https://github.com/rusefi/rusefi is now the official primary repository |
-| 02/18/2017    | r11565    | improvement: level1 default brown out https://sourceforge.net/p/rusefi/tickets/354/ |
+| 02/20/2017    | r12939    | https://github.com/gerefi/gerefi is now the official primary repository |
+| 02/18/2017    | r11565    | improvement: level1 default brown out https://sourceforge.net/p/gerefi/tickets/354/ |
 | 02/18/2017    | r11554    | bugfix: rusEfi console program/erase buttons fixed with ST-LINK 2.1 |
 | 12/09/2016    | r10991    | bugfixes, bugfixes, bugfixes & release 1.0
 | 02/15/2016	| r9600     | automatic warm-up fuel correction, performance improvements

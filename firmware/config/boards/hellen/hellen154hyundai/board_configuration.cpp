@@ -4,7 +4,7 @@
  *
  * @brief Configuration defaults for the hellen154hyundai board
  *
- * See https://rusefi.com/s/hellen154hyundai
+ * See https://gerefi.com/s/hellen154hyundai
  *
  * @author andreika <prometheus.pcb@gmail.com>
  * @author Andrey Belomutskiy, (c) 2012-2020
@@ -86,7 +86,7 @@ void setBoardConfigOverrides() {
 		engineConfiguration->etb_use_two_wires = true;
 
 		// first revision of did not have Hellen Board ID
-		// https://github.com/rusefi/hellen154hyundai/issues/55
+		// https://github.com/gerefi/hellen154hyundai/issues/55
 		engineConfiguration->etbIo[1].directionPin1 = Gpio::Unassigned;
 		engineConfiguration->etbIo[1].directionPin2 = Gpio::Unassigned;
 		engineConfiguration->etbIo[1].controlPin = Gpio::Unassigned;

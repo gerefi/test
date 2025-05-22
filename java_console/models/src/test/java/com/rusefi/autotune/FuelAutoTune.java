@@ -1,10 +1,10 @@
-package com.rusefi.autotune;
+package com.gerefi.autotune;
 
 import java.util.Collection;
 
-import static com.rusefi.autotune.MathUtil.square;
-import static com.rusefi.config.generated.VariableRegistryValues.FUEL_LOAD_COUNT;
-import static com.rusefi.config.generated.VariableRegistryValues.FUEL_RPM_COUNT;
+import static com.gerefi.autotune.MathUtil.square;
+import static com.gerefi.config.generated.VariableRegistryValues.FUEL_LOAD_COUNT;
+import static com.gerefi.config.generated.VariableRegistryValues.FUEL_RPM_COUNT;
 
 /**
  * 1/5/2016

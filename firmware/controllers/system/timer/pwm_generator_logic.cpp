@@ -135,7 +135,7 @@ void PwmConfig::stop() {
 
 void PwmConfig::handleCycleStart() {
 	if (safe.phaseIndex != 0) {
-		// https://github.com/rusefi/rusefi/issues/1030
+		// https://github.com/gerefi/gerefi/issues/1030
 		firmwareError(ObdCode::CUSTOM_PWM_CYCLE_START, "handleCycleStart %d", safe.phaseIndex);
 		return;
 	}

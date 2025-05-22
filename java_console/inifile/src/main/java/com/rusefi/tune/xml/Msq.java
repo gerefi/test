@@ -1,12 +1,12 @@
-package com.rusefi.tune.xml;
+package com.gerefi.tune.xml;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.field.ArrayIniField;
 import com.opensr5.ini.field.IniField;
-import com.rusefi.core.rusEFIVersion;
-import com.rusefi.xml.XmlUtil;
+import com.gerefi.core.rusEFIVersion;
+import com.gerefi.xml.XmlUtil;
 import org.jetbrains.annotations.NotNull;
 
 import javax.xml.bind.JAXBException;

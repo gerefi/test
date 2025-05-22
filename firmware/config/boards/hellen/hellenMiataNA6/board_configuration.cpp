@@ -4,7 +4,7 @@
  *
  * @brief Configuration defaults for the hellen64_miataNA6_94 board
  *
- * See https://rusefi.com/s/hellenNA6
+ * See https://gerefi.com/s/hellenNA6
  *
  * @author andreika <prometheus.pcb@gmail.com>
  * @author Andrey Belomutskiy, (c) 2012-2020

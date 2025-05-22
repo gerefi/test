@@ -1,6 +1,6 @@
-package com.rusefi.core.test;
+package com.gerefi.core.test;
 
-import com.rusefi.core.EngineState;
+import com.gerefi.core.EngineState;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

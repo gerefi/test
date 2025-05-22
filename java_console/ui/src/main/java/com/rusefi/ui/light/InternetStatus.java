@@ -1,7 +1,7 @@
-package com.rusefi.ui.light;
+package com.gerefi.ui.light;
 
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.Timeouts;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.Timeouts;
 
 import javax.swing.*;
 import java.awt.*;

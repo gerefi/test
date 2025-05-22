@@ -1,13 +1,13 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.ReaderState;
-import com.rusefi.util.LazyFile;
+import com.gerefi.ReaderState;
+import com.gerefi.util.LazyFile;
 
 import java.io.IOException;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.ldmp.LiveDataProcessor.needComment;
+import static com.gerefi.ldmp.LiveDataProcessor.needComment;
 
 /**
  * TODO: We have to move either forward or backwards with newparse #4441

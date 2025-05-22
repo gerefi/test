@@ -1,8 +1,8 @@
 // this section was generated automatically by rusEFI tool config_definition_base.jar based on (unknown script) controllers/algo/tps_accel_state.txt Thu Dec 21 21:47:23 UTC 2023
-// by class com.rusefi.output.CHeaderConsumer
+// by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 // start of tps_accel_state_s
 struct tps_accel_state_s {
 	/**

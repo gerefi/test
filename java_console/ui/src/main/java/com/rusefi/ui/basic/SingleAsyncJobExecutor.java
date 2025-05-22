@@ -1,8 +1,8 @@
-package com.rusefi.ui.basic;
+package com.gerefi.ui.basic;
 
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.jobs.AsyncJob;
-import com.rusefi.maintenance.jobs.AsyncJobExecutor;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.jobs.AsyncJob;
+import com.gerefi.maintenance.jobs.AsyncJobExecutor;
 
 import javax.swing.*;
 import java.awt.*;

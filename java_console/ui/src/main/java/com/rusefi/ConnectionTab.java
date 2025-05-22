@@ -1,8 +1,8 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.io.ConnectionStatusLogic;
-import com.rusefi.ui.UIContext;
-import com.rusefi.ui.lua.LuaTextEditor;
+import com.gerefi.io.ConnectionStatusLogic;
+import com.gerefi.ui.UIContext;
+import com.gerefi.ui.lua.LuaTextEditor;
 import org.putgemin.VerticalFlowLayout;
 
 import javax.swing.*;

@@ -105,7 +105,7 @@ info:
   cid: d
   title: uaefi
   directory: hellen/uaefi
-  board_url: https://github.com/rusefi/rusefi/wiki/uaefi
+  board_url: https://github.com/gerefi/gerefi/wiki/uaefi
   image:
     file: uaefi-D.jpg
   pins:

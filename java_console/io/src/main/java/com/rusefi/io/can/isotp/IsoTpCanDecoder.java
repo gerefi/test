@@ -1,7 +1,7 @@
-package com.rusefi.io.can.isotp;
+package com.gerefi.io.can.isotp;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.util.HexBinary;
+import com.gerefi.util.HexBinary;
 
 import java.util.Arrays;
 

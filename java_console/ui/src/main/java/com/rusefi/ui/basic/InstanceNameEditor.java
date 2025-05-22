@@ -1,6 +1,6 @@
-package com.rusefi.ui.basic;
+package com.gerefi.ui.basic;
 
-import com.rusefi.core.preferences.storage.PersistentConfiguration;
+import com.gerefi.core.preferences.storage.PersistentConfiguration;
 
 import javax.swing.*;
 import javax.swing.event.AncestorEvent;
@@ -11,7 +11,7 @@ import javax.swing.text.PlainDocument;
 
 import java.awt.*;
 
-import static com.rusefi.core.preferences.storage.PersistentConfiguration.getConfig;
+import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
 
 public class InstanceNameEditor {
     private static final String INSTANCE_NAME = "INSTANCE_NAME";

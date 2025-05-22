@@ -1,6 +1,6 @@
-package com.rusefi.enum_reader;
+package com.gerefi.enum_reader;
 
-import com.rusefi.VariableRegistry;
+import com.gerefi.VariableRegistry;
 
 import java.util.Objects;
 

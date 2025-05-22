@@ -1,9 +1,9 @@
 /*
  * @file hyundai.cpp
  *
-https://rusefi.com/docs/pinouts/hellen/hellen-hyundai-pb-mt/
+https://gerefi.com/docs/pinouts/hellen/hellen-hyundai-pb-mt/
  *
-https://rusefi.com/docs/pinouts/hellen/hellen154hyundai/
+https://gerefi.com/docs/pinouts/hellen/hellen154hyundai/
  * @date Oct 11, 2021
  * @author Andrey Belomutskiy, (c) 2012-2021
  */
@@ -270,7 +270,7 @@ static void commonGenesisCoupe() {
 	strcpy(engineConfiguration->engineMake, ENGINE_MAKE_Hyundai);
 	strcpy(engineConfiguration->engineCode, "Theta II");
 
-// canned tune https://rusefi.com/online/view.php?msq=1507
+// canned tune https://gerefi.com/online/view.php?msq=1507
     // default "Single Coil"
     engineConfiguration->ignitionMode = IM_INDIVIDUAL_COILS;
     // default 2.0

@@ -1,7 +1,7 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.ReaderStateImpl;
-import com.rusefi.output.JavaFieldsConsumer;
+import com.gerefi.ReaderStateImpl;
+import com.gerefi.output.JavaFieldsConsumer;
 
 public class TestJavaFieldsConsumer extends JavaFieldsConsumer {
     public TestJavaFieldsConsumer(ReaderStateImpl state) {

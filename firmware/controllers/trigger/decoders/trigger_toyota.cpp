@@ -12,7 +12,7 @@
 #include "trigger_toyota.h"
 
 /**
- * https://rusefi.com/forum/viewtopic.php?f=5&t=1720
+ * https://gerefi.com/forum/viewtopic.php?f=5&t=1720
  */
 void initialize2jzGE3_34_simulation_shape(TriggerWaveform *s) {
 	s->initialize(FOUR_STROKE_CAM_SENSOR, SyncEdge::Rise);

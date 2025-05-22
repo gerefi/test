@@ -6,7 +6,7 @@ ibom() {
 }
 
 echo "Current directory: $(pwd)"
-[ $(basename $(pwd)) = 'rusefi' ] || { echo "Not in 'rusefi' directory. Was this invoked from the wrong directory?"; exit 1; }
+[ $(basename $(pwd)) = 'gerefi' ] || { echo "Not in 'gerefi' directory. Was this invoked from the wrong directory?"; exit 1; }
 
 for f in $(ls hardware/*/*.kicad_pcb); do
   if ls $(dirname $f)/$(basename $f .kicad_pcb).net 2>/dev/null; then

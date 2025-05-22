@@ -1,6 +1,6 @@
-package com.rusefi.tools.tune;
+package com.gerefi.tools.tune;
 
-import static com.rusefi.LocalIniFileProvider.INI_FILE_FOR_SIMULATOR;
+import static com.gerefi.LocalIniFileProvider.INI_FILE_FOR_SIMULATOR;
 
 public class TuneContext {
     public static String boardPrepend;

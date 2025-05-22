@@ -1,12 +1,12 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.ReaderState;
-import com.rusefi.output.ConfigStructure;
-import com.rusefi.output.ConfigurationConsumer;
-import com.rusefi.output.DataLogConsumer;
-import com.rusefi.output.SdCardFieldsContent;
-import com.rusefi.util.LazyFile;
-import com.rusefi.util.LazyFileImpl;
+import com.gerefi.ReaderState;
+import com.gerefi.output.ConfigStructure;
+import com.gerefi.output.ConfigurationConsumer;
+import com.gerefi.output.DataLogConsumer;
+import com.gerefi.output.SdCardFieldsContent;
+import com.gerefi.util.LazyFile;
+import com.gerefi.util.LazyFileImpl;
 
 import java.io.IOException;
 

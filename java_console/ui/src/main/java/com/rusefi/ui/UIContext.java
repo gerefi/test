@@ -1,8 +1,8 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.io.CommandQueue;
-import com.rusefi.io.LinkManager;
-import com.rusefi.sensor_logs.SensorLogger;
+import com.gerefi.io.CommandQueue;
+import com.gerefi.io.LinkManager;
+import com.gerefi.sensor_logs.SensorLogger;
 import org.jetbrains.annotations.NotNull;
 
 public class UIContext {

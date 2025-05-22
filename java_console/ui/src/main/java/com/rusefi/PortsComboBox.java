@@ -1,8 +1,8 @@
-package com.rusefi;
+package com.gerefi;
 
 import javax.swing.*;
 
-import static com.rusefi.ui.util.UiUtils.setToolTip;
+import static com.gerefi.ui.util.UiUtils.setToolTip;
 
 public class PortsComboBox {
     private final JComboBox<SerialPortScanner.PortResult> comboPorts = new JComboBox<>();

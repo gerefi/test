@@ -4,7 +4,7 @@
  * @date Feb 18, 2014
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * This file is part of rusEfi - see http://rusefi.com
+ * This file is part of rusEfi - see http://gerefi.com
  *
  * rusEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
@@ -36,7 +36,7 @@ void initializeMazdaMiataNaShape(TriggerWaveform *s) {
 	s->tdcPosition = 5.181;
 
 	/**
-	 * http://rusefi.com/forum/viewtopic.php?f=3&t=729&p=12983#p12983
+	 * http://gerefi.com/forum/viewtopic.php?f=3&t=729&p=12983#p12983
 	 */
 	s->addEvent720(52.960405, TriggerValue::RISE, TriggerWheel::T_SECONDARY);
 	s->addEvent720(122.635956, TriggerValue::FALL, TriggerWheel::T_SECONDARY);
@@ -139,7 +139,7 @@ void configureMazdaProtegeLx(TriggerWaveform *s) {
 	s->initialize(FOUR_STROKE_CAM_SENSOR, SyncEdge::RiseOnly);
 	s->isSecondWheelCam = true;
 	/**
-	 * based on https://svn.code.sf.net/p/rusefi/code/trunk/misc/logs/1993_escort_gt/MAIN_rfi_report_2015-02-01%2017_39.csv
+	 * based on https://svn.code.sf.net/p/gerefi/code/trunk/misc/logs/1993_escort_gt/MAIN_rfi_report_2015-02-01%2017_39.csv
 	 */
 	s->addEvent720(95.329254, TriggerValue::RISE, TriggerWheel::T_PRIMARY);
 
@@ -179,7 +179,7 @@ void initializeMazdaMiataVVtCamShape(TriggerWaveform *s) {
 	s->addEvent720(720, TriggerValue::RISE, TriggerWheel::T_PRIMARY);
 }
 
-// https://rusefi.com/forum/viewtopic.php?f=17&t=2417
+// https://gerefi.com/forum/viewtopic.php?f=17&t=2417
 // Cam pattern for intake/exhaust on all Skyactiv-G (and maybe -D/-X)
 void initializeMazdaSkyactivCam(TriggerWaveform *s) {
 	s->initialize(FOUR_STROKE_CAM_SENSOR, SyncEdge::RiseOnly);

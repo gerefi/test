@@ -1,7 +1,7 @@
-package com.rusefi.tune;
+package com.gerefi.tune;
 
-import com.rusefi.tools.tune.TS2C;
-import com.rusefi.tools.tune.TableData;
+import com.gerefi.tools.tune.TS2C;
+import com.gerefi.tools.tune.TableData;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

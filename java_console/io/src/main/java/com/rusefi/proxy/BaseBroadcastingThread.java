@@ -1,19 +1,19 @@
-package com.rusefi.proxy;
+package com.gerefi.proxy;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.io.commands.HelloCommand;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.io.tcp.TcpIoStream;
-import com.rusefi.server.SessionDetails;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.io.commands.HelloCommand;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.tcp.TcpIoStream;
+import com.gerefi.server.SessionDetails;
 
 import java.io.IOException;
 import java.net.Socket;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.core.FileUtil.close;
+import static com.gerefi.core.FileUtil.close;
 
 public class BaseBroadcastingThread {
     private static final Logging log = getLogging(BaseBroadcastingThread.class);

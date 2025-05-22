@@ -7,13 +7,13 @@ defaultTasks 'shadowJar'
 
 jar {
     application {
-        mainClass = 'rusefi.GccMapReader'
+        mainClass = 'gerefi.GccMapReader'
     }
 
     destinationDirectory = file( '$rootDir/../..' )
     manifest {
         attributes(
-            'Main-Class': 'rusefi.GccMapReader'
+            'Main-Class': 'gerefi.GccMapReader'
         )
     }
 }

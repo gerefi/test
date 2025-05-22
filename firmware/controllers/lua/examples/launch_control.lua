@@ -1,6 +1,6 @@
 -- scriptname launch_control.lua
 
--- uncomment functions setIgnDisabled and setFuelDisabled below to use script with rusefi_simulator:
+-- uncomment functions setIgnDisabled and setFuelDisabled below to use script with gerefi_simulator:
 --[[
 function setIgnDisabled(value) end
 function setFuelDisabled(value) end

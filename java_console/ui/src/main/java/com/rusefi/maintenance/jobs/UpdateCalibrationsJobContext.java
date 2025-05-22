@@ -1,7 +1,7 @@
-package com.rusefi.maintenance.jobs;
+package com.gerefi.maintenance.jobs;
 
 import com.opensr5.ConfigurationImageWithMeta;
-import com.rusefi.SerialPortScanner;
+import com.gerefi.SerialPortScanner;
 
 public class UpdateCalibrationsJobContext extends SerialPortJobContext {
     private final ConfigurationImageWithMeta calibrations;

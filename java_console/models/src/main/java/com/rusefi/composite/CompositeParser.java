@@ -1,8 +1,8 @@
-package com.rusefi.composite;
+package com.gerefi.composite;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ini.field.EnumIniField;
-import com.rusefi.config.generated.Integration;
+import com.gerefi.config.generated.Integration;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

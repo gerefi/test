@@ -1,5 +1,5 @@
 -- THIS IS AN UNTESTED DRAFT PLEASE SHARE YOUR FEEDBACK IF YOU GIVE IT A TRY
--- see https://rusefi.com/forum/viewtopic.php?f=5&t=2670 for a different version
+-- see https://gerefi.com/forum/viewtopic.php?f=5&t=2670 for a different version
 
 setTickRate(200) -- 200hz
 

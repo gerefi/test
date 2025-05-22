@@ -1,12 +1,12 @@
-package com.rusefi.ui.engine.test;
+package com.gerefi.ui.engine.test;
 
-import com.rusefi.config.generated.Integration;
-import com.rusefi.ui.test.WavePanelSandbox;
-import com.rusefi.waves.EngineChart;
-import com.rusefi.waves.EngineChartParser;
-import com.rusefi.waves.EngineReport;
-import com.rusefi.core.ui.FrameHelper;
-import com.rusefi.ui.engine.UpDownImage;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.ui.test.WavePanelSandbox;
+import com.gerefi.waves.EngineChart;
+import com.gerefi.waves.EngineChartParser;
+import com.gerefi.waves.EngineReport;
+import com.gerefi.core.ui.FrameHelper;
+import com.gerefi.ui.engine.UpDownImage;
 
 import javax.swing.*;
 import java.awt.*;

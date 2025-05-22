@@ -1,12 +1,12 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
-import com.rusefi.ConfigField;
-import com.rusefi.ReaderState;
-import com.rusefi.util.LazyFile;
+import com.gerefi.ConfigField;
+import com.gerefi.ReaderState;
+import com.gerefi.util.LazyFile;
 
 import java.io.IOException;
 
-import static com.rusefi.output.JavaSensorsConsumer.quote;
+import static com.gerefi.output.JavaSensorsConsumer.quote;
 
 /**
  * here we tell the firmware what to log on SD card how

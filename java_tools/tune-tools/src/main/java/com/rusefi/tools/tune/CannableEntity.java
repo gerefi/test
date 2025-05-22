@@ -1,4 +1,4 @@
-package com.rusefi.tools.tune;
+package com.gerefi.tools.tune;
 
 public interface CannableEntity {
     String getCsourceMethod(String reference, String methodNamePrefix, String name);

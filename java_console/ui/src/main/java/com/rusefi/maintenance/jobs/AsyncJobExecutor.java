@@ -1,12 +1,12 @@
-package com.rusefi.maintenance.jobs;
+package com.gerefi.maintenance.jobs;
 
-import com.rusefi.Launcher;
-import com.rusefi.io.DoubleCallbacks;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.ExecHelper;
-import com.rusefi.ui.StatusWindow;
+import com.gerefi.Launcher;
+import com.gerefi.io.DoubleCallbacks;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.ExecHelper;
+import com.gerefi.ui.StatusWindow;
 
-import static com.rusefi.core.ui.FrameHelper.appendBundleName;
+import static com.gerefi.core.ui.FrameHelper.appendBundleName;
 
 public enum AsyncJobExecutor {
     INSTANCE;

@@ -1,4 +1,4 @@
-package com.rusefi.models;
+package com.gerefi.models;
 
 /**
  * @author Andrey Belomutskiy

@@ -2,7 +2,7 @@
 # see gdb.sh
 
 target extended-remote localhost:3333
-file build/rusefi.elf
+file build/gerefi.elf
 
 load
 set breakpoint auto-hw on

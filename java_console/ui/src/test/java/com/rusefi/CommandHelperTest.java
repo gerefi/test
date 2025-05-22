@@ -1,6 +1,6 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.tools.CommandHelper;
+import com.gerefi.tools.CommandHelper;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertEquals;

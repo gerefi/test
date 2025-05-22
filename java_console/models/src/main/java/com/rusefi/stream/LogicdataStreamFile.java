@@ -1,6 +1,6 @@
-package com.rusefi.stream;
+package com.gerefi.stream;
 
-import com.rusefi.composite.CompositeEvent;
+import com.gerefi.composite.CompositeEvent;
 
 import java.io.IOException;
 import java.nio.file.Files;

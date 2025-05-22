@@ -394,7 +394,7 @@ void handleVvtCamSignal(TriggerValue front, efitick_t nowNt, int index) {
 	angle_t angleFromPrimarySyncPoint = currentPhase.Value;
 	// convert trigger cycle angle into engine cycle angle
 	angle_t currentPosition = angleFromPrimarySyncPoint - tdcPosition();
-	// https://github.com/rusefi/rusefi/issues/1713 currentPosition could be negative that's expected
+	// https://github.com/gerefi/gerefi/issues/1713 currentPosition could be negative that's expected
 
 #if EFI_UNIT_TEST
 	tc->currentVVTEventPosition[bankIndex][camIndex] = currentPosition;
@@ -445,7 +445,7 @@ void handleVvtCamSignal(TriggerValue front, efitick_t nowNt, int index) {
 			/**
 			 * we prefer not to have VVT sync right at trigger sync so that we do not have phase detection error if things happen a bit in
 			 * wrong order due to belt flex or else
-			 * https://github.com/rusefi/rusefi/issues/3269
+			 * https://github.com/gerefi/gerefi/issues/3269
 			 */
 			warning(ObdCode::CUSTOM_VVT_SYNC_POSITION, "VVT sync position too close to trigger sync");
 		}

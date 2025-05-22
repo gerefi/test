@@ -1,6 +1,6 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.core.preferences.storage.Node;
+import com.gerefi.core.preferences.storage.Node;
 
 public class PaneSettings {
     private static final String SHOW_ETB = "show_etb_pane";

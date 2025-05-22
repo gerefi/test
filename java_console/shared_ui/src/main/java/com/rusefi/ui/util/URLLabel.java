@@ -1,4 +1,4 @@
-package com.rusefi.ui.util;
+package com.gerefi.ui.util;
 
 import javax.swing.*;
 import java.awt.*;

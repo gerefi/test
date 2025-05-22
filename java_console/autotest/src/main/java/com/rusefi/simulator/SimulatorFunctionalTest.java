@@ -1,26 +1,26 @@
-package com.rusefi.simulator;
+package com.gerefi.simulator;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.IoUtil;
-import com.rusefi.Timeouts;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.enums.bench_mode_e;
-import com.rusefi.enums.bench_test_magic_numbers_e;
-import com.rusefi.enums.bench_test_packet_ids_e;
-import com.rusefi.enums.bench_test_io_control_e;
-import com.rusefi.functional_tests.EcuTestHelper;
-import com.rusefi.io.LinkManager;
+import com.gerefi.IoUtil;
+import com.gerefi.Timeouts;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.enums.bench_mode_e;
+import com.gerefi.enums.bench_test_magic_numbers_e;
+import com.gerefi.enums.bench_test_packet_ids_e;
+import com.gerefi.enums.bench_test_io_control_e;
+import com.gerefi.functional_tests.EcuTestHelper;
+import com.gerefi.io.LinkManager;
 import etch.util.CircularByteBuffer;
 
 import java.io.EOFException;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-import static com.rusefi.IoUtil.getDisableCommand;
-import static com.rusefi.binaryprotocol.IoHelper.swap16;
-import static com.rusefi.config.generated.Integration.TS_SIMULATE_CAN;
+import static com.gerefi.IoUtil.getDisableCommand;
+import static com.gerefi.binaryprotocol.IoHelper.swap16;
+import static com.gerefi.config.generated.Integration.TS_SIMULATE_CAN;
 import static org.junit.Assert.assertTrue;
 
 public class SimulatorFunctionalTest {

@@ -118,7 +118,7 @@ void configure3_1_cam(TriggerWaveform *s) {
 }
 
 /**
- * https://rusefi.com/forum/viewtopic.php?f=5&t=1977
+ * https://gerefi.com/forum/viewtopic.php?f=5&t=1977
  */
 void configureKawaKX450F(TriggerWaveform *s) {
 	float engineCycle = FOUR_STROKE_ENGINE_CYCLE;
@@ -154,7 +154,7 @@ static void commonSymmetrical(TriggerWaveform* s, int count, float gapFrom, floa
 	// Sync after 2 good teeth
 	for (size_t i = 0; i < 2; i++) {
 		/**
-		 * https://github.com/rusefi/rusefi/issues/4943#issuecomment-1376289608
+		 * https://github.com/gerefi/gerefi/issues/4943#issuecomment-1376289608
 		 * gaps would be nice during running but horrible during running
 		 * Hopefully we do not want variable gap logic yet?
 		 */

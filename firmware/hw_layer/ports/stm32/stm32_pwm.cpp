@@ -143,8 +143,8 @@ static expected<stm32_pwm_config> getConfigForPin(brain_pin_e pin) {
 #ifndef EFI_INTERNAL_FAST_ADC_PWM
 #if !STM32_PWM_USE_TIM3
 	// If TIM3 is not used, put these pins on TIM8 instead..
-	// See https://github.com/rusefi/rusefi/issues/639
-	// See https://github.com/rusefi/rusefi/pull/3032
+	// See https://github.com/gerefi/gerefi/issues/639
+	// See https://github.com/gerefi/gerefi/pull/3032
 	case Gpio::C6:  return stm32_pwm_config{&PWMD8, 0, 3};
 	case Gpio::C7:  return stm32_pwm_config{&PWMD8, 1, 3};
 #endif

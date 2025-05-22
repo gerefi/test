@@ -1,9 +1,9 @@
-package com.rusefi.maintenance.migration.ve_table_extension;
+package com.gerefi.maintenance.migration.ve_table_extension;
 
 import com.opensr5.ini.field.ArrayIniField;
-import com.rusefi.config.FieldType;
-import com.rusefi.maintenance.TestTuneMigrationContext;
-import com.rusefi.tune.xml.Constant;
+import com.gerefi.config.FieldType;
+import com.gerefi.maintenance.TestTuneMigrationContext;
+import com.gerefi.tune.xml.Constant;
 
 import javax.xml.bind.JAXBException;
 
@@ -16,7 +16,7 @@ public class VeTableExtensionTestTuneMigrationContext {
 
     public static TestTuneMigrationContext load() throws JAXBException {
         final TestTuneMigrationContext result = TestTuneMigrationContext.load(
-            "src/test/java/com/rusefi/maintenance/migration/ve_table_extension/test_data"
+            "src/test/java/com/gerefi/maintenance/migration/ve_table_extension/test_data"
         );
 
         final ArrayIniField prevVeTableIniField = (ArrayIniField) result.getPrevIniFile().getIniField(

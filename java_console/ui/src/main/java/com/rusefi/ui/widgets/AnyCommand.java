@@ -1,15 +1,15 @@
-package com.rusefi.ui.widgets;
+package com.gerefi.ui.widgets;
 
-import com.rusefi.FileLog;
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.core.MessagesCentral;
-import com.rusefi.functional_tests.EcuTestHelper;
-import com.rusefi.io.CommandQueue;
-import com.rusefi.io.LinkManager;
-import com.rusefi.ui.RecentCommands;
-import com.rusefi.ui.UIContext;
-import com.rusefi.core.preferences.storage.Node;
-import com.rusefi.ui.util.JTextFieldWithWidth;
+import com.gerefi.FileLog;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.core.MessagesCentral;
+import com.gerefi.functional_tests.EcuTestHelper;
+import com.gerefi.io.CommandQueue;
+import com.gerefi.io.LinkManager;
+import com.gerefi.ui.RecentCommands;
+import com.gerefi.ui.UIContext;
+import com.gerefi.core.preferences.storage.Node;
+import com.gerefi.ui.util.JTextFieldWithWidth;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
@@ -27,7 +27,7 @@ import java.util.function.Function;
 /**
  * Date: 3/20/13
  * Andrey Belomutskiy, (c) 2013-2020
- * @see com.rusefi.CommandControl for hard-coded commands
+ * @see com.gerefi.CommandControl for hard-coded commands
  */
 public class AnyCommand {
     private final static ThreadFactory THREAD_FACTORY = new NamedThreadFactory("AnyCommand");
@@ -177,7 +177,7 @@ public class AnyCommand {
         for (char c : text.toCharArray()) {
             if (c > 127) {
                 /**
-                 * https://sourceforge.net/p/rusefi/tickets/63/
+                 * https://sourceforge.net/p/gerefi/tickets/63/
                  * only English characters are accepted - we need to reject two-byte unicode stuff
                  */
                 isOk = false;

@@ -1,16 +1,16 @@
-package com.rusefi.maintenance.migration.batt_lag_corr_migration;
+package com.gerefi.maintenance.migration.batt_lag_corr_migration;
 
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.field.ArrayIniField;
-import com.rusefi.config.FieldType;
-import com.rusefi.maintenance.TestTuneMigrationContext;
-import com.rusefi.tune.xml.Constant;
+import com.gerefi.config.FieldType;
+import com.gerefi.maintenance.TestTuneMigrationContext;
+import com.gerefi.tune.xml.Constant;
 
 import javax.xml.bind.JAXBException;
 
 import java.util.Map;
 
-import static com.rusefi.maintenance.migration.BattLagCorrExtensionMigrator.*;
+import static com.gerefi.maintenance.migration.BattLagCorrExtensionMigrator.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BattLagCorrMigrationTestTuneMigrationContext {
@@ -27,7 +27,7 @@ public class BattLagCorrMigrationTestTuneMigrationContext {
 
     public static TestTuneMigrationContext load() throws JAXBException {
         final TestTuneMigrationContext result = TestTuneMigrationContext.load(
-            "src/test/java/com/rusefi/maintenance/migration/batt_lag_corr_migration/test_data"
+            "src/test/java/com/gerefi/maintenance/migration/batt_lag_corr_migration/test_data"
         );
         {
             final IniFileModel prevIniFile = result.getPrevIniFile();

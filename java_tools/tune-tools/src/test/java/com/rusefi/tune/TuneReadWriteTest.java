@@ -1,4 +1,4 @@
-package com.rusefi.tune;
+package com.gerefi.tune;
 
 import com.opensr5.ConfigurationImage;
 import com.opensr5.ConfigurationImageMeta;
@@ -9,11 +9,11 @@ import com.opensr5.ini.IniFileModelImpl;
 import com.opensr5.ini.field.IniField;
 import com.opensr5.ini.field.ScalarIniField;
 import com.opensr5.io.ConfigurationImageFile;
-import com.rusefi.binaryprotocol.MsqFactory;
-import com.rusefi.tools.tune.CurveData;
-import com.rusefi.tools.tune.TS2C;
-import com.rusefi.tune.xml.Constant;
-import com.rusefi.tune.xml.Msq;
+import com.gerefi.binaryprotocol.MsqFactory;
+import com.gerefi.tools.tune.CurveData;
+import com.gerefi.tools.tune.TS2C;
+import com.gerefi.tune.xml.Constant;
+import com.gerefi.tune.xml.Msq;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

@@ -1,6 +1,6 @@
-package com.rusefi.xml;
+package com.gerefi.xml;
 
-import com.rusefi.ScreenGenerator;
+import com.gerefi.ScreenGenerator;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;

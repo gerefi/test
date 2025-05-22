@@ -1,10 +1,10 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
 import com.efiAnalytics.plugin.ecu.ControllerAccess;
-import com.rusefi.TsTuneReader;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.tools.online.Online;
-import com.rusefi.tools.online.UploadResult;
+import com.gerefi.TsTuneReader;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.tools.online.Online;
+import com.gerefi.tools.online.UploadResult;
 import org.apache.hc.core5.concurrent.FutureCallback;
 import org.jetbrains.annotations.NotNull;
 import org.putgemin.VerticalFlowLayout;

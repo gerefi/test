@@ -1,8 +1,8 @@
-package com.rusefi.tools.online;
+package com.gerefi.tools.online;
 
-import com.rusefi.server.ControllerInfo;
-import com.rusefi.server.SessionDetails;
-import com.rusefi.server.UserDetails;
+import com.gerefi.server.ControllerInfo;
+import com.gerefi.server.SessionDetails;
+import com.gerefi.server.UserDetails;
 import org.jetbrains.annotations.NotNull;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -12,8 +12,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.rusefi.tools.online.HttpUtil.RUSEFI_PROXY_HOSTNAME;
-import static com.rusefi.tools.online.HttpUtil.getIntProperty;
+import static com.gerefi.tools.online.HttpUtil.RUSEFI_PROXY_HOSTNAME;
+import static com.gerefi.tools.online.HttpUtil.getIntProperty;
 
 public class ProxyClient {
     public static final String LIST_CONTROLLERS_PATH = "/list_controllers";

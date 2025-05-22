@@ -1,9 +1,9 @@
-package com.rusefi.core;
+package com.gerefi.core;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.Logger;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.io.LinkDecoder;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.io.LinkDecoder;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.*;

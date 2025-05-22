@@ -1,6 +1,6 @@
 rusEFI is trying to use latest stable ChibiOS with minimal changes
 
-At the moment rusEFI uses https://github.com/rusefi/ChibiOS/tree/stable_20.3.x.rusefi
+At the moment rusEFI uses https://github.com/gerefi/ChibiOS/tree/stable_20.3.x.gerefi
 
 rusEFI custom version of ChibiOS has the following changes:
 

@@ -4,7 +4,7 @@
  * @date Dec 29, 2012
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * This file is part of rusEfi - see http://rusefi.com
+ * This file is part of rusEfi - see http://gerefi.com
  *
  * rusEFI can communicate with external universe via native USB or some sort of TTL mode
  * We have an interesting situation with TTL communication channels, we have

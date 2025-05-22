@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 
 void updateDevConsoleState();
 void startStatusThreads();

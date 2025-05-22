@@ -1,6 +1,6 @@
-package com.rusefi.tune.xml;
+package com.gerefi.tune.xml;
 
-import com.rusefi.core.rusEFIVersion;
+import com.gerefi.core.rusEFIVersion;
 
 import javax.xml.bind.annotation.XmlAttribute;
 

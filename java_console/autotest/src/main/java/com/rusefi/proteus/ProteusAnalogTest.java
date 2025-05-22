@@ -1,18 +1,18 @@
-package com.rusefi.proteus;
+package com.gerefi.proteus;
 
-import com.rusefi.RusefiTestBase;
-import com.rusefi.binaryprotocol.BinaryProtocolLogger;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.enums.engine_type_e;
+import com.gerefi.RusefiTestBase;
+import com.gerefi.binaryprotocol.BinaryProtocolLogger;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.enums.engine_type_e;
 import org.junit.Test;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
-import static com.rusefi.IoUtil.*;
-import static com.rusefi.config.generated.Integration.CMD_SELF_STIMULATION;
+import static com.gerefi.IoUtil.*;
+import static com.gerefi.config.generated.Integration.CMD_SELF_STIMULATION;
 import static org.junit.Assert.*;
 
 /*

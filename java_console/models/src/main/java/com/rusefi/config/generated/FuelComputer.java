@@ -1,9 +1,9 @@
-package com.rusefi.config.generated;
+package com.gerefi.config.generated;
 
 // this file was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/fuel/fuel_computer.txt
 
-// by class com.rusefi.output.FileJavaFieldsConsumer
-import com.rusefi.config.*;
+// by class com.gerefi.output.FileJavaFieldsConsumer
+import com.gerefi.config.*;
 
 public class FuelComputer {
 	public static final Field TOTALFUELCORRECTION = Field.create("TOTALFUELCORRECTION", 0, FieldType.FLOAT).setBaseOffset(876);

@@ -1,9 +1,9 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.FileLog;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.ui.StatusWindow;
+import com.gerefi.FileLog;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.ui.StatusWindow;
 
 import javax.swing.*;
 import java.awt.*;
@@ -17,7 +17,7 @@ import static com.devexperts.logging.Logging.getLogging;
  * This code automates drivers unpacking and installation
  * new, DFU Virtual Comport and ST-Link drivers are installed
  * <p>
- * See https://github.com/rusefi/rusefi/tree/master/misc/install_st
+ * See https://github.com/gerefi/gerefi/tree/master/misc/install_st
  */
 public class DriverInstall {
     private static final Logging log = getLogging(DriverInstall.class);

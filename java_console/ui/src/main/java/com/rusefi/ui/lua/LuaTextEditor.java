@@ -1,10 +1,10 @@
-package com.rusefi.ui.lua;
+package com.gerefi.ui.lua;
 
 import com.opensr5.ini.field.StringIniField;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.io.LinkManager;
-import com.rusefi.ui.UIContext;
-import com.rusefi.ui.util.UiUtils;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.io.LinkManager;
+import com.gerefi.ui.UIContext;
+import com.gerefi.ui.util.UiUtils;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

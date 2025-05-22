@@ -1,23 +1,23 @@
-package com.rusefi.io.tcp;
+package com.gerefi.io.tcp;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
-import com.rusefi.CompatibleFunction;
-import com.rusefi.Listener;
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.Timeouts;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.BinaryProtocolState;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.binaryprotocol.IoHelper;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.util.HexBinary;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.commands.ByteRange;
-import com.rusefi.io.commands.HelloCommand;
-import com.rusefi.io.commands.WriteChunkCommand;
-import com.rusefi.server.rusEFISSLContext;
-import com.rusefi.ui.StatusConsumer;
+import com.gerefi.CompatibleFunction;
+import com.gerefi.Listener;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.Timeouts;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.BinaryProtocolState;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.binaryprotocol.IoHelper;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.util.HexBinary;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.commands.ByteRange;
+import com.gerefi.io.commands.HelloCommand;
+import com.gerefi.io.commands.WriteChunkCommand;
+import com.gerefi.server.rusEFISSLContext;
+import com.gerefi.ui.StatusConsumer;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -31,7 +31,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.config.generated.VariableRegistryValues.*;
+import static com.gerefi.config.generated.VariableRegistryValues.*;
 
 /**
  * This class makes rusEfi console a proxy for other tuning software, this way we can have two tools connected via same

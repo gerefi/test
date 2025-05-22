@@ -3045,7 +3045,7 @@ end</constant>
         <constant digits="1" name="rpmSoftLimitFuelAdded" units="%">0.0</constant>
         <constant digits="1" name="rpmSoftLimitTimingRetard" units="deg">4.0</constant>
         <constant digits="0" name="rpmSoftLimitWindowSize" units="RPM">200.0</constant>
-        <constant name="rusefiVerbose29b">"11 bit"</constant>
+        <constant name="gerefiVerbose29b">"11 bit"</constant>
         <constant cols="1" digits="3" name="scriptCurve1" rows="16">
          0.0
          7.0

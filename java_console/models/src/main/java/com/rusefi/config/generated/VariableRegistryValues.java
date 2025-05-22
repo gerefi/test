@@ -1,9 +1,9 @@
-package com.rusefi.config.generated;
+package com.gerefi.config.generated;
 
-// this file was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/rusefi_config.txt
+// this file was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/gerefi_config.txt
 
-// by class com.rusefi.output.FileJavaVariableRegistryConsumer
-import com.rusefi.config.*;
+// by class com.gerefi.output.FileJavaVariableRegistryConsumer
+import com.gerefi.config.*;
 
 public class VariableRegistryValues {
 	public static final int adc_channel_e_EFI_ADC_0 = 1;
@@ -1218,7 +1218,7 @@ public class VariableRegistryValues {
 	public static final int maf_sensor_type_e_Bosch0280218037 = 1;
 	public static final int maf_sensor_type_e_CUSTOM = 0;
 	public static final int maf_sensor_type_e_DensoTODO = 3;
-	public static final String MAIN_HELP_URL = "http://www.rusefi.com/";
+	public static final String MAIN_HELP_URL = "http://www.gerefi.com/";
 	public static final int MAP_ANGLE_SIZE = 8;
 	public static final int MAP_EST_LOAD_COUNT = 16;
 	public static final int MAP_EST_RPM_COUNT = 16;

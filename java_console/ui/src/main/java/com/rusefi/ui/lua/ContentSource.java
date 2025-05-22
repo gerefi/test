@@ -1,4 +1,4 @@
-package com.rusefi.ui.lua;
+package com.gerefi.ui.lua;
 
 interface ContentSource {
     String getContent(String name);

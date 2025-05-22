@@ -21,13 +21,13 @@ evaluationDependsOn(':core_io')
 shadowJar {
   duplicatesStrategy = DuplicatesStrategy.FAIL
   base {
-    archivesName = "${rootDir}/../console/rusefi_autoupdate"
+    archivesName = "${rootDir}/../console/gerefi_autoupdate"
     archiveClassifier = ''
   }
 
     manifest {
         attributes(
-                'Main-Class': 'com.rusefi.autoupdate.Autoupdate',
+                'Main-Class': 'com.gerefi.autoupdate.Autoupdate',
                 'Build-Jdk'      : "${System.properties['java.version']} (${System.properties['java.vendor']} ${System.properties['java.vm.version']})",
                 'Built-Date': new Date().toString()
         )

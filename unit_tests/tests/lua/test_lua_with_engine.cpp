@@ -2,12 +2,12 @@
  * test_lua_with_engine.cpp
  *
  *  Created on: Nov 5, 2021
- *      Author: rusefi
+ *      Author: gerefi
  */
 
 #include "pch.h"
 #include "script_impl.h"
-#include "rusefi_lua.h"
+#include "gerefi_lua.h"
 
 static const char* curveTestScript = R"(
 

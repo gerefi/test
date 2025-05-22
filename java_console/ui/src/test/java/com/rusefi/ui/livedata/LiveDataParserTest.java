@@ -1,11 +1,11 @@
-package com.rusefi.ui.livedata;
+package com.gerefi.ui.livedata;
 
-import com.rusefi.CodeWalkthrough;
-import com.rusefi.enums.live_data_e;
-import com.rusefi.ldmp.StateDictionary;
-import com.rusefi.livedata.LiveDataParserPanel;
-import com.rusefi.livedata.LiveDataParserSandbox;
-import com.rusefi.livedata.ParseResult;
+import com.gerefi.CodeWalkthrough;
+import com.gerefi.enums.live_data_e;
+import com.gerefi.ldmp.StateDictionary;
+import com.gerefi.livedata.LiveDataParserPanel;
+import com.gerefi.livedata.LiveDataParserSandbox;
+import com.gerefi.livedata.ParseResult;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
 import org.junit.jupiter.api.Test;
@@ -15,8 +15,8 @@ import java.net.URISyntaxException;
 import java.util.Map;
 import java.util.TreeMap;
 
-import static com.rusefi.CodeWalkthrough.TRUE_CONDITION;
-import static com.rusefi.ui.LiveDataPane.CPP_SUFFIX;
+import static com.gerefi.CodeWalkthrough.TRUE_CONDITION;
+import static com.gerefi.ui.LiveDataPane.CPP_SUFFIX;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.eq;

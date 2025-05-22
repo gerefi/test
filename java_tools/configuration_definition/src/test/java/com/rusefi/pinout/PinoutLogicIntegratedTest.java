@@ -1,8 +1,8 @@
-package com.rusefi.pinout;
+package com.gerefi.pinout;
 
-import com.rusefi.ReaderStateImpl;
-import com.rusefi.enum_reader.Value;
-import com.rusefi.newparse.DefinitionsState;
+import com.gerefi.ReaderStateImpl;
+import com.gerefi.enum_reader.Value;
+import com.gerefi.newparse.DefinitionsState;
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
@@ -11,7 +11,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import static com.rusefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertEquals;
 
 public class PinoutLogicIntegratedTest {
 

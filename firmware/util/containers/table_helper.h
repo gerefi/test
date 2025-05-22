@@ -12,7 +12,7 @@
 #include "efilib.h"
 #include "efi_ratio.h"
 #include "efi_scaled_channel.h"
-#include <rusefi/interpolation.h>
+#include <gerefi/interpolation.h>
 
 #if EFI_UNIT_TEST
 #include <stdexcept>

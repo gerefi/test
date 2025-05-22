@@ -1,15 +1,15 @@
-package com.rusefi.io.commands;
+package com.gerefi.io.commands;
 
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.tcp.BinaryProtocolServer;
 import org.jetbrains.annotations.Nullable;
 
 import java.io.EOFException;
 import java.io.IOException;
 
-import static com.rusefi.binaryprotocol.IoHelper.checkResponseCode;
+import static com.gerefi.binaryprotocol.IoHelper.checkResponseCode;
 
 public class HelloCommand implements Command {
     private final String tsSignature;

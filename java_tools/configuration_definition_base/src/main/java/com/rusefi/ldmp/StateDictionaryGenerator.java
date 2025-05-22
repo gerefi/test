@@ -1,11 +1,11 @@
-package com.rusefi.ldmp;
+package com.gerefi.ldmp;
 
-import com.rusefi.ToolUtil;
-import com.rusefi.output.FileJavaFieldsConsumer;
+import com.gerefi.ToolUtil;
+import com.gerefi.output.FileJavaFieldsConsumer;
 
 import java.util.Date;
 
-import static com.rusefi.VariableRegistry.quote;
+import static com.gerefi.VariableRegistry.quote;
 
 /**
  * generator for {@link StateDictionaryFactory}
@@ -41,11 +41,11 @@ import static com.rusefi.VariableRegistry.quote;
     public String getCompleteClass() {
         ToolUtil.TOOL = getClass().getSimpleName();
 
-        return "package com.rusefi.enums;\n" +
+        return "package com.gerefi.enums;\n" +
             "//" + ToolUtil.getGeneratedAutomaticallyTag() + yamlFileName + " on " + new Date() + "n" +
             "\n" +
-            "import com.rusefi.config.generated.*;\n" +
-            "import com.rusefi.ldmp.StateDictionary;\n" +
+            "import com.gerefi.config.generated.*;\n" +
+            "import com.gerefi.ldmp.StateDictionary;\n" +
             "\n" +
             "public class StateDictionaryFactory {\n" +
             "    public static void initialize(StateDictionary stateDictionary) {\n"

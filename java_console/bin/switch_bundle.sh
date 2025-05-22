@@ -15,11 +15,11 @@ CURRENT=${CURRENT:-/}
 CURRENT_BRANCH=$(echo "$CURRENT" | cut -d '.' -f 2)
 CURRENT_BUNDLE=$(echo "$CURRENT" | cut -d '.' -f 3)
 cd ..
-mv "rusefi.${CURRENT_BRANCH}.${CURRENT_BUNDLE}" "rusefi.${CURRENT_BRANCH}.${BUNDLE}"
-cd "rusefi.${CURRENT_BRANCH}.${BUNDLE}"
+mv "gerefi.${CURRENT_BRANCH}.${CURRENT_BUNDLE}" "gerefi.${CURRENT_BRANCH}.${BUNDLE}"
+cd "gerefi.${CURRENT_BRANCH}.${BUNDLE}"
 
-rm -rf rusefi*bin
-rm -rf rusefi*hex
-rm -rf rusefi*dfu
-rm -rf rusefi*ini
+rm -rf gerefi*bin
+rm -rf gerefi*hex
+rm -rf gerefi*dfu
+rm -rf gerefi*ini
 bash

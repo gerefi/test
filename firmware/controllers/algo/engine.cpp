@@ -194,7 +194,7 @@ void Engine::updateSlowSensors() {
 	updateSwitchInputs();
 
 #if EFI_PROD_CODE
-	// todo: extract method? do better? see https://github.com/rusefi/rusefi/issues/7511 for details
+	// todo: extract method? do better? see https://github.com/gerefi/gerefi/issues/7511 for details
 	engine->module<InjectorModelSecondary>()->updateState();
 	engine->module<InjectorModelPrimary>()->updateState();
 #endif // EFI_PROD_CODE
@@ -296,7 +296,7 @@ void Engine::reset() {
 }
 
 void Engine::resetLua() {
-	// todo: https://github.com/rusefi/rusefi/issues/4308
+	// todo: https://github.com/gerefi/gerefi/issues/4308
 	engineState.lua = {};
 	engineState.lua.fuelAdd = 0;
 	engineState.lua.fuelMult = 1;
@@ -436,7 +436,7 @@ void Engine::efiWatchdog() {
 
 	/**
 	 * todo: better watch dog implementation should be implemented - see
-	 * http://sourceforge.net/p/rusefi/tickets/96/
+	 * http://sourceforge.net/p/gerefi/tickets/96/
 	 */
 	triggerCentral.isSpinningJustForWatchdog = false;
     onEngineHasStopped();

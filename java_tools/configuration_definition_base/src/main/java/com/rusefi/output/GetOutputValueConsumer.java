@@ -1,10 +1,10 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
-import com.rusefi.ConfigField;
-import com.rusefi.ReaderState;
-import com.rusefi.parse.TypesHelper;
-import com.rusefi.output.variables.VariableRecord;
-import com.rusefi.util.LazyFile;
+import com.gerefi.ConfigField;
+import com.gerefi.ReaderState;
+import com.gerefi.parse.TypesHelper;
+import com.gerefi.output.variables.VariableRecord;
+import com.gerefi.util.LazyFile;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
@@ -13,11 +13,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static com.rusefi.output.GetConfigValueConsumer.getCompareName;
-import static com.rusefi.output.SdCardFieldsContent.getNamePrefix;
+import static com.gerefi.output.GetConfigValueConsumer.getCompareName;
+import static com.gerefi.output.SdCardFieldsContent.getNamePrefix;
 
 /**
- * here we generate C++ code needed for https://github.com/rusefi/rusefi/wiki/Lua-Scripting#getoutputname implementation
+ * here we generate C++ code needed for https://github.com/gerefi/gerefi/wiki/Lua-Scripting#getoutputname implementation
  *
  * @see GetConfigValueConsumer
  */

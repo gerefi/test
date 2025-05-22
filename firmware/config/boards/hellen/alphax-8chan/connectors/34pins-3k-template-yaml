@@ -5,7 +5,7 @@ pins:
 info:
 #  title: AlphaX 8chan
 #  name: AlphaX 8chan
-#  board_url: https://rusefi.com/s/8chan
+#  board_url: https://gerefi.com/s/8chan
   image:
     file: 34pins-3k.jpg
   pins:

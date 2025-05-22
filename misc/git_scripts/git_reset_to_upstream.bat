@@ -1,4 +1,4 @@
-git remote add upstream https://github.com/rusefi/rusefi.git
+git remote add upstream https://github.com/gerefi/gerefi.git
 
 git fetch upstream
 git checkout master

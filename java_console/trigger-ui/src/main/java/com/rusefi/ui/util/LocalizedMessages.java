@@ -1,4 +1,4 @@
-package com.rusefi.ui.util;
+package com.gerefi.ui.util;
 
 public enum LocalizedMessages {
     CLEAR("clear"),

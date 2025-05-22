@@ -29,7 +29,7 @@
 static bool needToWriteConfiguration = false;
 
 /**
- * https://sourceforge.net/p/rusefi/tickets/335/
+ * https://sourceforge.net/p/gerefi/tickets/335/
  *
  * In order to preserve at least one copy of the tune in case of electrical issues address of second configuration copy
  * should be in a different sector of flash since complete flash sectors are erased on write.

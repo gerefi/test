@@ -1,4 +1,4 @@
-package com.rusefi.tune.xml;
+package com.gerefi.tune.xml;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import java.util.Objects;

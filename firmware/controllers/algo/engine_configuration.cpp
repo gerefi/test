@@ -5,7 +5,7 @@
  * @date Nov 22, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * This file is part of rusEfi - see http://rusefi.com
+ * This file is part of rusEfi - see http://gerefi.com
  *
  * rusEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
@@ -112,7 +112,7 @@ void onBurnRequest() {
 }
 
 /**
- * this hook is about https://github.com/rusefi/rusefi/wiki/Custom-Firmware and https://github.com/rusefi/rusefi/wiki/Canned-Tune-Process
+ * this hook is about https://github.com/gerefi/gerefi/wiki/Custom-Firmware and https://github.com/gerefi/gerefi/wiki/Canned-Tune-Process
  * todo: why two hooks? is one already dead?
  */
 PUBLIC_API_WEAK void boardBeforeTuneDefaults() { }
@@ -567,7 +567,7 @@ static void setDefaultEngineConfiguration() {
 #endif
 
 #if EFI_PROD_CODE || EFI_SIMULATOR
-	// some tests broke with map averaging, see https://github.com/rusefi/rusefi/issues/7868
+	// some tests broke with map averaging, see https://github.com/gerefi/gerefi/issues/7868
 	engineConfiguration->isMapAveragingEnabled = true;
 #endif
 	engineConfiguration->isWaveAnalyzerEnabled = true;
@@ -600,7 +600,7 @@ static void setDefaultEngineConfiguration() {
 
 	engineConfiguration->mapErrorDetectionTooLow = 5;
 	// todo: default limits should be hard-coded for each sensor type
-	// https://github.com/rusefi/rusefi/issues/4030
+	// https://github.com/gerefi/gerefi/issues/4030
 	engineConfiguration->mapErrorDetectionTooHigh = 410;
 
 	setLinearCurve(config->throttleEstimateEffectiveAreaBins, 0, 100);

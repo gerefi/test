@@ -1,8 +1,8 @@
-package com.rusefi.waves;
+package com.gerefi.waves;
 
 import java.util.*;
 
-import static com.rusefi.models.Utils.parseIntWithReason;
+import static com.gerefi.models.Utils.parseIntWithReason;
 
 /**
  * 1/11/14.

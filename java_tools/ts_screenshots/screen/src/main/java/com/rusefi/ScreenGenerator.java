@@ -1,7 +1,7 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.opensr5.ini.IniFileModel;
-import com.rusefi.xml.*;
+import com.gerefi.xml.*;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -33,7 +33,7 @@ public class ScreenGenerator {
 
     public static void main(String[] args) throws Exception {
         if (args.length != 1) {
-            System.out.println("One parameter expected: path to directory containing rusefi_XXX.ini file");
+            System.out.println("One parameter expected: path to directory containing gerefi_XXX.ini file");
             System.exit(-1);
         }
 

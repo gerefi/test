@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "rusefi_enums.h"
+#include "gerefi_enums.h"
 
 void setAlgorithm(engine_load_mode_e algo);
 

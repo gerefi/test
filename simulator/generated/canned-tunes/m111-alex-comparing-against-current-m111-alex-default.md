@@ -1,6 +1,6 @@
 # m111-alex-comparing-against-current-m111-alex-default
 
-// canned tune https://rusefi.com/online/view.php?msq=1622
+// canned tune https://gerefi.com/online/view.php?msq=1622
 
 ```
     // default 0.098

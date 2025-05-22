@@ -1,15 +1,15 @@
-package com.rusefi.ui.widgets;
+package com.gerefi.ui.widgets;
 
-import com.rusefi.SensorTypeHelper;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.enums.SensorType;
-import com.rusefi.io.CommandQueue;
-import com.rusefi.io.IMethodInvocation;
-import com.rusefi.io.InvocationConfirmationListener;
-import com.rusefi.io.LinkManager;
-import com.rusefi.ui.UIContext;
-import com.rusefi.core.preferences.storage.Node;
+import com.gerefi.SensorTypeHelper;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.enums.SensorType;
+import com.gerefi.io.CommandQueue;
+import com.gerefi.io.IMethodInvocation;
+import com.gerefi.io.InvocationConfirmationListener;
+import com.gerefi.io.LinkManager;
+import com.gerefi.ui.UIContext;
+import com.gerefi.core.preferences.storage.Node;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
@@ -24,7 +24,7 @@ import java.util.Collection;
 import java.util.Hashtable;
 import java.util.concurrent.atomic.AtomicReference;
 
-import static com.rusefi.config.generated.Integration.CMD_SET_SENSOR_MOCK;
+import static com.gerefi.config.generated.Integration.CMD_SET_SENSOR_MOCK;
 
 /**
  * Andrey Belomutskiy, (c) 2013-2020

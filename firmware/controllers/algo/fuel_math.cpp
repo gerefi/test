@@ -6,7 +6,7 @@
  * @date May 27, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * This file is part of rusEfi - see http://rusefi.com
+ * This file is part of rusEfi - see http://gerefi.com
  *
  * rusEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
@@ -200,7 +200,7 @@ static float getBaseFuelMass(float rpm) {
 	engine->engineState.baseFuel = baseFuelMass;
 
 	if (std::isnan(baseFuelMass)) {
-		// todo: we should not have this here but https://github.com/rusefi/rusefi/issues/1690
+		// todo: we should not have this here but https://github.com/gerefi/gerefi/issues/1690
 		return 0;
 	}
 

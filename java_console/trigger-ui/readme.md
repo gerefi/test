@@ -1,2 +1,2 @@
 * invoke 'TriggerImage all'
-* copy files from java_tools\triggers\ to 'rusefi_documentation\Images\triggers'
+* copy files from java_tools\triggers\ to 'gerefi_documentation\Images\triggers'

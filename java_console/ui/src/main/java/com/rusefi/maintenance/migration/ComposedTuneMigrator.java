@@ -1,6 +1,6 @@
-package com.rusefi.maintenance.migration;
+package com.gerefi.maintenance.migration;
 
-import com.rusefi.maintenance.DefaultTuneMigrator;
+import com.gerefi.maintenance.DefaultTuneMigrator;
 
 import java.util.Arrays;
 import java.util.List;

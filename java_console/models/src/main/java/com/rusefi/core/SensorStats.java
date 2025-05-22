@@ -1,9 +1,9 @@
-package com.rusefi.core;
+package com.gerefi.core;
 
-import com.rusefi.CyclicBuffer;
-import com.rusefi.DataBuffer;
-import com.rusefi.SensorConversion;
-import com.rusefi.waves.EngineReport;
+import com.gerefi.CyclicBuffer;
+import com.gerefi.DataBuffer;
+import com.gerefi.SensorConversion;
+import com.gerefi.waves.EngineReport;
 
 /**
  * 7/26/13

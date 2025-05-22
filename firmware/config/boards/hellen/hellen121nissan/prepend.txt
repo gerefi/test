@@ -1,4 +1,4 @@
-#define MAIN_HELP_URL "https://rusefi.com/s/hellen121nissan"
+#define MAIN_HELP_URL "https://gerefi.com/s/hellen121nissan"
 
 
 
@@ -22,7 +22,7 @@
 #define ts_show_ford_toyota_tps_pps false
 #define ts_show_start_button false
 
-! bad temporary solution of hardware issue https://github.com/rusefi/rusefi/issues/4821
+! bad temporary solution of hardware issue https://github.com/gerefi/gerefi/issues/4821
 #define MAX_TPS_PPS_DISCREPANCY 10
 
 #define CLT_UPPER_LIMIT 125

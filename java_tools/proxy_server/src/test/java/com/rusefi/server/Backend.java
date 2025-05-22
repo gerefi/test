@@ -1,19 +1,19 @@
-package com.rusefi.server;
+package com.gerefi.server;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.Listener;
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.Timeouts;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.core.Sensor;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.commands.HelloCommand;
-import com.rusefi.io.tcp.BinaryProtocolProxy;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.io.tcp.ServerSocketReference;
-import com.rusefi.io.tcp.TcpIoStream;
-import com.rusefi.core.FileUtil;
-import com.rusefi.tools.online.ProxyClient;
+import com.gerefi.Listener;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.Timeouts;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.core.Sensor;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.commands.HelloCommand;
+import com.gerefi.io.tcp.BinaryProtocolProxy;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.tcp.ServerSocketReference;
+import com.gerefi.io.tcp.TcpIoStream;
+import com.gerefi.core.FileUtil;
+import com.gerefi.tools.online.ProxyClient;
 import net.jcip.annotations.GuardedBy;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -36,8 +36,8 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicLong;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.Timeouts.SECOND;
-import static com.rusefi.server.Birthday.humanReadableFormat;
+import static com.gerefi.Timeouts.SECOND;
+import static com.gerefi.server.Birthday.humanReadableFormat;
 
 /**
  * See NetworkConnectorStartup - NetworkConnector connects an ECU to this backend
@@ -106,9 +106,9 @@ public class Backend implements Closeable {
                             new FkRegex(ProxyClient.VERSION_PATH, ProxyClient.BACKEND_VERSION),
                             new FkRegex(ProxyClient.UPDATE_CONNECTOR_SOFTWARE, new UpdateRequestHandler(this)),
                             new FkRegex("/", new RsHtml("<html><body>\n" +
-                                    "<br/><a href='https://rusefi.com/online/'>rusEFI Online</a>\n" +
+                                    "<br/><a href='https://gerefi.com/online/'>rusEFI Online</a>\n" +
                                     "<br/><br/><br/>\n" +
-                                    "<img src='https://rusefi.com/style/rusefi_online_color.png'/>" +
+                                    "<img src='https://gerefi.com/style/gerefi_online_color.png'/>" +
                                     "<br/><br/><br/>\n" +
                                     "<br/><br/><br/><a href='" + Monitoring.STATUS + "'>Status</a>\n" +
                                     "<br/><br/><br/><a href='" + ProxyClient.VERSION_PATH + "'>Version</a>\n" +

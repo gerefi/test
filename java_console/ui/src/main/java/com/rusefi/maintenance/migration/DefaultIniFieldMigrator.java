@@ -1,10 +1,10 @@
-package com.rusefi.maintenance.migration;
+package com.gerefi.maintenance.migration;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ini.field.*;
-import com.rusefi.CompatibilitySet;
-import com.rusefi.core.net.ConnectionAndMeta;
-import com.rusefi.io.UpdateOperationCallbacks;
+import com.gerefi.CompatibilitySet;
+import com.gerefi.core.net.ConnectionAndMeta;
+import com.gerefi.io.UpdateOperationCallbacks;
 
 import java.util.Objects;
 import java.util.Optional;

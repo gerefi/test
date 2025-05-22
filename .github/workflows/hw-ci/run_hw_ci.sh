@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # for instance
-# .github/workflows/hw-ci/run_hw_ci.sh com.rusefi.HwCiProteus
+# .github/workflows/hw-ci/run_hw_ci.sh com.gerefi.HwCiProteus
 
 HW_SUITE=$1
 export SIMULATOR_INI_FILE=$2

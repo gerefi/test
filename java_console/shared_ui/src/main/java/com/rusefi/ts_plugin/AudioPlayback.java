@@ -1,4 +1,4 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
 import javax.sound.sampled.*;
 import java.io.IOException;

@@ -1,11 +1,11 @@
-package com.rusefi.io.can.elm;
+package com.gerefi.io.can.elm;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.io.DataListener;
-import com.rusefi.io.can.HexUtil;
-import com.rusefi.io.can.isotp.IsoTpConnector;
-import com.rusefi.util.HexBinary;
-import com.rusefi.io.IoStream;
+import com.gerefi.io.can.HexUtil;
+import com.gerefi.io.can.isotp.IsoTpConnector;
+import com.gerefi.util.HexBinary;
+import com.gerefi.io.IoStream;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.Closeable;
@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.rusefi.Timeouts.SECOND;
+import static com.gerefi.Timeouts.SECOND;
 /*
 public class Elm327Connector implements Closeable {
 	private final static Logging log = Logging.getLogging(Elm327Connector.class);

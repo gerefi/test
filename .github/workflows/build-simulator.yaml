@@ -54,7 +54,7 @@ jobs:
 
     - name: Run Linux Simulator for 10 seconds
       working-directory: ./simulator/
-      run: ./build/rusefi_simulator 10
+      run: ./build/gerefi_simulator 10
 
     - name: Git Status and Simulator generated folder Status
       run: |
@@ -66,7 +66,7 @@ jobs:
       run: |
         export DEFAULT_TUNE_OUTPUT_FOLDER=../simulator/generated/
         echo "DEFAULT_TUNE_OUTPUT_FOLDER=$DEFAULT_TUNE_OUTPUT_FOLDER"
-        ./write_tune.sh ../firmware/tunerstudio/generated/rusefi_f407-discovery.ini
+        ./write_tune.sh ../firmware/tunerstudio/generated/gerefi_f407-discovery.ini
 
     - name: Commit fresh generated default simulator tune
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master'}}
@@ -102,5 +102,5 @@ jobs:
     - name: Upload Linux built simulator
       uses: actions/upload-artifact@v4
       with:
-        name: rusefi_simulator_linux
-        path: ./simulator/build/rusefi_simulator
+        name: gerefi_simulator_linux
+        path: ./simulator/build/gerefi_simulator

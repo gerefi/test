@@ -1,7 +1,7 @@
 package com.irnems;
 
-import com.rusefi.core.EngineState;
-import com.rusefi.file.FileUtils;
+import com.gerefi.core.EngineState;
+import com.gerefi.file.FileUtils;
 
 import java.util.ArrayList;
 import java.util.List;

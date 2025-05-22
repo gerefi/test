@@ -1,7 +1,7 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.output.FileJavaVariableRegistryConsumer;
-import com.rusefi.util.LazyFile;
+import com.gerefi.output.FileJavaVariableRegistryConsumer;
+import com.gerefi.util.LazyFile;
 
 import java.io.IOException;
 

@@ -1,9 +1,9 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.binaryprotocol.MsqFactory;
-import com.rusefi.tools.online.Online;
-import com.rusefi.tune.xml.Msq;
-import com.rusefi.ui.util.Misc;
+import com.gerefi.binaryprotocol.MsqFactory;
+import com.gerefi.tools.online.Online;
+import com.gerefi.tune.xml.Msq;
+import com.gerefi.ui.util.Misc;
 import org.putgemin.VerticalFlowLayout;
 
 import javax.swing.*;

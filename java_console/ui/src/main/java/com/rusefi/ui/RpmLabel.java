@@ -1,8 +1,8 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.io.ConnectionStatusLogic;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.io.ConnectionStatusLogic;
 
 import javax.swing.*;
 import java.awt.*;

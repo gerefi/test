@@ -1,7 +1,7 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-//import com.rusefi.EcuStimulator;
-import com.rusefi.core.ui.FrameHelper;
+//import com.gerefi.EcuStimulator;
+import com.gerefi.core.ui.FrameHelper;
 
 /**
  * 8/13/14

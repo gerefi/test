@@ -10,10 +10,10 @@ sudo bash misc/actions/ubuntu-install-tools.sh
 sudo apt-get install -y build-essential gcc gdb gcc-multilib make openjdk-11-jdk-headless xxd libncurses5 libncursesw5
 
 # delete any old tools, create a new folder, and go there
-rm -rf ~/.rusefi-tools
-mkdir ~/.rusefi-tools
+rm -rf ~/.gerefi-tools
+mkdir ~/.gerefi-tools
 dir=$(realpath firmware)
-cd ~/.rusefi-tools
+cd ~/.gerefi-tools
 
 cd ${dir}
 make -j$(nproc)

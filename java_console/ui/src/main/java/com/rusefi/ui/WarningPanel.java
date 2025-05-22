@@ -1,10 +1,10 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.FileLog;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.MessagesCentral;
-import com.rusefi.core.preferences.storage.Node;
-import com.rusefi.core.ui.AutoupdateUtil;
+import com.gerefi.FileLog;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.MessagesCentral;
+import com.gerefi.core.preferences.storage.Node;
+import com.gerefi.core.ui.AutoupdateUtil;
 
 import javax.swing.*;
 import java.awt.*;

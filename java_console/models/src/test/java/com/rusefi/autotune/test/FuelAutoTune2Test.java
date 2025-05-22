@@ -1,14 +1,14 @@
-package com.rusefi.autotune.test;
+package com.gerefi.autotune.test;
 
-import com.rusefi.autotune.FuelAutoTune2;
-import com.rusefi.autotune.Result;
-import com.rusefi.autotune.AfrDataPoint;
+import com.gerefi.autotune.FuelAutoTune2;
+import com.gerefi.autotune.Result;
+import com.gerefi.autotune.AfrDataPoint;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.rusefi.autotune.test.FuelAutoTuneTest.createVeTable;
+import static com.gerefi.autotune.test.FuelAutoTuneTest.createVeTable;
 
 /**
  * 2/23/2016

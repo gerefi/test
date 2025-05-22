@@ -1,4 +1,4 @@
-package com.rusefi.binaryprotocol;
+package com.gerefi.binaryprotocol;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImageWithMeta;

@@ -1,12 +1,12 @@
-package com.rusefi.app;
+package com.gerefi.app;
 
 import android.content.ContextWrapper;
 import android.widget.TextView;
 
-import com.rusefi.Listener;
-import com.rusefi.dfu.DfuImage;
-import com.rusefi.core.net.ConnectionAndMeta;
-import com.rusefi.core.FileUtil;
+import com.gerefi.Listener;
+import com.gerefi.dfu.DfuImage;
+import com.gerefi.core.net.ConnectionAndMeta;
+import com.gerefi.core.FileUtil;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,10 +14,10 @@ import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 
 public class DfuUpload {
-    private static final String BUNDLE_FILE = "rusefi_bundle_autoupdate.zip";
-    //public static final String FILE = "rusefi_bundle_mre_f4_autoupdate.zip";
-    //private static final String DFU_FILE_NAME = "rusefi_mre_f4.dfu";
-    private static final String DFU_FILE_NAME = "rusefi_.dfu";
+    private static final String BUNDLE_FILE = "gerefi_bundle_autoupdate.zip";
+    //public static final String FILE = "gerefi_bundle_mre_f4_autoupdate.zip";
+    //private static final String DFU_FILE_NAME = "gerefi_mre_f4.dfu";
+    private static final String DFU_FILE_NAME = "gerefi_.dfu";
 
     public final String localDfuImageFileName;
     public final String localFullFile;

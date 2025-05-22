@@ -8,7 +8,7 @@
 
 #include "pch.h"
 
-#include <rusefi/expected.h>
+#include <gerefi/expected.h>
 #include "hardware.h"
 #include "os_util.h"
 
@@ -57,7 +57,7 @@ static void reset_and_jump(void) {
 
 #if EFI_DFU_JUMP
 void jump_to_bootloader() {
-	// leave DFU breadcrumb which assembly startup code would check, see [rusefi][DFU] section in assembly code
+	// leave DFU breadcrumb which assembly startup code would check, see [gerefi][DFU] section in assembly code
 
 	*((unsigned long *)0x2001FFF0) = 0xDEADBEEF; // End of RAM
 
@@ -191,7 +191,7 @@ typedef struct port_intctx intctx_t;
 
 int getRemainingStack(thread_t *otp) {
 #if CH_DBG_ENABLE_STACK_CHECK
-	// this would dismiss coverity warning - see http://rusefi.com/forum/viewtopic.php?f=5&t=655
+	// this would dismiss coverity warning - see http://gerefi.com/forum/viewtopic.php?f=5&t=655
 	// coverity[uninit_use]
 	register intctx_t *r13 asm ("r13");
 	otp->activeStack = r13;

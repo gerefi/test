@@ -1,4 +1,4 @@
-package com.rusefi.core;
+package com.gerefi.core;
 
 import com.devexperts.logging.Logging;
 
@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.net.URL;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.core.FileUtil.RUSEFI_SETTINGS_FOLDER;
+import static com.gerefi.core.FileUtil.RUSEFI_SETTINGS_FOLDER;
 
 public class SignatureHelper {
     private static final Logging log = getLogging(SignatureHelper.class);
@@ -29,7 +29,7 @@ public class SignatureHelper {
             return null;
 
         String fileName = s.getHash() + ".ini";
-        return new Pair<>("https://rusefi.com/online/ini/rusefi/" + s.getBranch() + SLASH + s.getYear() + SLASH +
+        return new Pair<>("https://gerefi.com/online/ini/gerefi/" + s.getBranch() + SLASH + s.getYear() + SLASH +
                 s.getMonth() + SLASH +
                 s.getDay() + SLASH +
                 s.getBundleTarget() + SLASH +

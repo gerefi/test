@@ -1,10 +1,10 @@
-package com.rusefi.io.tcp;
+package com.gerefi.io.tcp;
 
 import com.opensr5.io.DataListener;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.io.ByteReader;
-import com.rusefi.io.serial.AbstractIoStream;
-import com.rusefi.core.FileUtil;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.io.ByteReader;
+import com.gerefi.io.serial.AbstractIoStream;
+import com.gerefi.core.FileUtil;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.*;

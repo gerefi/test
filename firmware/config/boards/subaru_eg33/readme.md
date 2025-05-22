@@ -1,3 +1,3 @@
 subaru EG33 board.
 
-https://rusefi.com/forum/viewtopic.php?p=35502
+https://gerefi.com/forum/viewtopic.php?p=35502

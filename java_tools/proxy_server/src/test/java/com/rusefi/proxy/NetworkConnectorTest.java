@@ -1,15 +1,15 @@
-package com.rusefi.proxy;
+package com.gerefi.proxy;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
-import com.rusefi.BackendTestHelper;
-import com.rusefi.TestHelper;
-import com.rusefi.Timeouts;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.io.tcp.TcpConnector;
-import com.rusefi.server.Backend;
-import com.rusefi.server.ControllerConnectionState;
+import com.gerefi.BackendTestHelper;
+import com.gerefi.TestHelper;
+import com.gerefi.Timeouts;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.tcp.TcpConnector;
+import com.gerefi.server.Backend;
+import com.gerefi.server.ControllerConnectionState;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -17,8 +17,8 @@ import java.net.MalformedURLException;
 import java.util.concurrent.CountDownLatch;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.TestHelper.assertLatch;
-import static com.rusefi.binaryprotocol.BinaryProtocol.sleep;
+import static com.gerefi.TestHelper.assertLatch;
+import static com.gerefi.binaryprotocol.BinaryProtocol.sleep;
 
 public class NetworkConnectorTest {
     private static final Logging log = getLogging(NetworkConnectorTest.class);

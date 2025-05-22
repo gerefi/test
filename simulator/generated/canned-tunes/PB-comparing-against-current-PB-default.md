@@ -1,6 +1,6 @@
 # PB-comparing-against-current-PB-default
 
-// canned tune https://rusefi.com/online/view.php?msq=1626
+// canned tune https://gerefi.com/online/view.php?msq=1626
 
 ```
     // default 227.0

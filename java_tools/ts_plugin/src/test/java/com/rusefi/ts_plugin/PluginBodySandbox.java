@@ -1,4 +1,4 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
 import com.efiAnalytics.plugin.ecu.ControllerAccess;
 import com.efiAnalytics.plugin.ecu.ControllerException;
@@ -6,15 +6,15 @@ import com.efiAnalytics.plugin.ecu.ControllerParameter;
 import com.efiAnalytics.plugin.ecu.servers.ControllerParameterServer;
 import com.efiAnalytics.plugin.ecu.servers.OutputChannelServer;
 import com.opensr5.ini.IniFileModelImpl;
-import com.rusefi.TsTuneReader;
-import com.rusefi.core.ui.FrameHelper;
-import com.rusefi.ts_plugin.knock.KnockAnalyzerTab;
+import com.gerefi.TsTuneReader;
+import com.gerefi.core.ui.FrameHelper;
+import com.gerefi.ts_plugin.knock.KnockAnalyzerTab;
 
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Objects;
 
-import static com.rusefi.MockitoTestHelper.NEGATIVE_ANSWER;
+import static com.gerefi.MockitoTestHelper.NEGATIVE_ANSWER;
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.*;
 

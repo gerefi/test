@@ -1,26 +1,26 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.core.SignatureHelper;
-import com.rusefi.Timeouts;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.core.Pair;
-import com.rusefi.io.serial.StreamStatistics;
-import com.rusefi.io.tcp.ServerSocketReference;
-import com.rusefi.io.tcp.TcpIoStream;
-import com.rusefi.proxy.NetworkConnector;
-import com.rusefi.core.rusEFIVersion;
-import com.rusefi.server.ApplicationRequest;
-import com.rusefi.server.ControllerInfo;
-import com.rusefi.server.SessionDetails;
-import com.rusefi.server.UserDetails;
-import com.rusefi.tools.online.HttpUtil;
-import com.rusefi.tools.online.ProxyClient;
-import com.rusefi.tools.online.PublicSession;
-import com.rusefi.ts_plugin.auth.InstanceAuthContext;
-import com.rusefi.ts_plugin.auth.SelfInfo;
-import com.rusefi.ui.AuthTokenPanel;
-import com.rusefi.ui.util.URLLabel;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.core.SignatureHelper;
+import com.gerefi.Timeouts;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.core.Pair;
+import com.gerefi.io.serial.StreamStatistics;
+import com.gerefi.io.tcp.ServerSocketReference;
+import com.gerefi.io.tcp.TcpIoStream;
+import com.gerefi.proxy.NetworkConnector;
+import com.gerefi.core.rusEFIVersion;
+import com.gerefi.server.ApplicationRequest;
+import com.gerefi.server.ControllerInfo;
+import com.gerefi.server.SessionDetails;
+import com.gerefi.server.UserDetails;
+import com.gerefi.tools.online.HttpUtil;
+import com.gerefi.tools.online.ProxyClient;
+import com.gerefi.tools.online.PublicSession;
+import com.gerefi.ts_plugin.auth.InstanceAuthContext;
+import com.gerefi.ts_plugin.auth.SelfInfo;
+import com.gerefi.ui.AuthTokenPanel;
+import com.gerefi.ui.util.URLLabel;
 import org.jetbrains.annotations.NotNull;
 import org.putgemin.VerticalFlowLayout;
 
@@ -34,7 +34,7 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicReference;
 
-import static com.rusefi.core.preferences.storage.PersistentConfiguration.getConfig;
+import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
 
 /**
  * remote ECU access & control
@@ -45,7 +45,7 @@ import static com.rusefi.core.preferences.storage.PersistentConfiguration.getCon
 /*
 public class RemoteTab {
     private static final String APPLICATION_PORT = "application_port";
-    public static final String HOWTO_REMOTE_TUNING = "https://github.com/rusefi/rusefi/wiki/HOWTO-Remote-Tuning";
+    public static final String HOWTO_REMOTE_TUNING = "https://github.com/gerefi/gerefi/wiki/HOWTO-Remote-Tuning";
     private final JComponent content = new JPanel(new BorderLayout());
     private final JScrollPane scroll = new JScrollPane(content, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 

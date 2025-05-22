@@ -1,14 +1,14 @@
-package com.rusefi.tools;
+package com.gerefi.tools;
 
-import com.rusefi.ConsoleUI;
-import com.rusefi.FileLog;
+import com.gerefi.ConsoleUI;
+import com.gerefi.FileLog;
 
 import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import static com.rusefi.ui.util.UiUtils.createOnTopParent;
+import static com.gerefi.ui.util.UiUtils.createOnTopParent;
 
 public class TunerStudioHelper {
     private static final String FIND_TS_PROCESS = "Get-Process | Where-Object {$_.MainWindowTitle -like \\\"*TunerStudio*\\\"}";

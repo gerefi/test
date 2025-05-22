@@ -1,4 +1,4 @@
-package com.rusefi.trigger;
+package com.gerefi.trigger;
 
 import org.jetbrains.annotations.NotNull;
 

@@ -4,8 +4,8 @@ import com.opensr5.ConfigurationImage;
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.IniFileReader;
 import com.opensr5.ini.RawIniFile;
-import com.rusefi.config.FieldType;
-import com.rusefi.tune.xml.Constant;
+import com.gerefi.config.FieldType;
+import com.gerefi.tune.xml.Constant;
 import org.jetbrains.annotations.NotNull;
 
 import javax.management.ObjectName;

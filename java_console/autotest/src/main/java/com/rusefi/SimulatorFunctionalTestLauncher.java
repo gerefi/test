@@ -1,9 +1,9 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.opensr5.ini.IniFileModelImpl;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.io.LinkManager;
-import com.rusefi.simulator.SimulatorFunctionalTest;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.io.LinkManager;
+import com.gerefi.simulator.SimulatorFunctionalTest;
 
 import java.io.File;
 import java.io.IOException;

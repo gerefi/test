@@ -1,7 +1,7 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.ReaderStateImpl;
-import com.rusefi.output.TSProjectConsumer;
+import com.gerefi.ReaderStateImpl;
+import com.gerefi.output.TSProjectConsumer;
 
 public class TestTSProjectConsumer extends TSProjectConsumer {
     public TestTSProjectConsumer(ReaderStateImpl state) {

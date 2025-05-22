@@ -1,6 +1,6 @@
 # Honda-OBD1-comparing-against-current-Honda-OBD1-default
 
-// canned tune https://rusefi.com/online/view.php?msq=1621
+// canned tune https://gerefi.com/online/view.php?msq=1621
 
 ```
     // default 1.645

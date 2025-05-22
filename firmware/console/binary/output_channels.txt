@@ -192,7 +192,7 @@ int16_t rpmAcceleration;dRPM;"RPM acceleration/Rate of Change/ROC",1, 0, 0, 5, 2
 !	int16_t autoscale rawPpsSecondary;;"V",{1/@@PACK_MULT_VOLTAGE@@}, 0, 0, 5, 3
 !	int16_t autoscale rawRawPpsPrimary;;"V",{1/@@PACK_MULT_VOLTAGE@@}, 0, 0, 5, 3
 !	int16_t autoscale rawRawPpsSecondary;;"V",{1/@@PACK_MULT_VOLTAGE@@}, 0, 0, 5, 3
-! special extra precision treatment see https://github.com/rusefi/rusefi/issues/6376
+! special extra precision treatment see https://github.com/gerefi/gerefi/issues/6376
 	float rawPpsPrimary;;"V",1, 0, 0, 5, 3
 	float rawPpsSecondary;;"V",1, 0, 0, 5, 3
 	float rawRawPpsPrimary;;"V",1, 0, 0, 5, 3

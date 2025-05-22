@@ -1,11 +1,11 @@
-import com.rusefi.SerialPortScanner;
-import com.rusefi.core.rusEFIVersion;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.jobs.AsyncJobExecutor;
-import com.rusefi.maintenance.jobs.DfuManualJob;
-import com.rusefi.maintenance.jobs.OpenBltManualJob;
-import com.rusefi.ui.StatusWindow;
-import com.rusefi.ui.widgets.ToolButtons;
+import com.gerefi.SerialPortScanner;
+import com.gerefi.core.rusEFIVersion;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.jobs.AsyncJobExecutor;
+import com.gerefi.maintenance.jobs.DfuManualJob;
+import com.gerefi.maintenance.jobs.OpenBltManualJob;
+import com.gerefi.ui.StatusWindow;
+import com.gerefi.ui.widgets.ToolButtons;
 
 import javax.swing.*;
 import java.lang.reflect.InvocationTargetException;
@@ -16,7 +16,7 @@ import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Collectors;
 
-import static com.rusefi.SerialPortScanner.SerialPortType.OpenBlt;
+import static com.gerefi.SerialPortScanner.SerialPortType.OpenBlt;
 
 public class MassUpdater {
     private final StatusWindow mainStatus = new StatusWindow();

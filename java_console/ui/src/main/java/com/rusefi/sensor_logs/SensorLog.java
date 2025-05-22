@@ -1,4 +1,4 @@
-package com.rusefi.sensor_logs;
+package com.gerefi.sensor_logs;
 
 public interface SensorLog {
     double getSecondsSinceFileStart();

@@ -1,21 +1,21 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.config.generated.VariableRegistryValues;
-import com.rusefi.core.preferences.storage.PersistentConfiguration;
-import com.rusefi.ui.MessagesView;
-import com.rusefi.ui.UIContext;
-import com.rusefi.ui.util.UiUtils;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.config.generated.VariableRegistryValues;
+import com.gerefi.core.preferences.storage.PersistentConfiguration;
+import com.gerefi.ui.MessagesView;
+import com.gerefi.ui.UIContext;
+import com.gerefi.ui.util.UiUtils;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
-import static com.rusefi.CommandControl.TEST;
-import static com.rusefi.config.generated.Integration.CMD_STARTER_BENCH;
-import static com.rusefi.config.generated.Integration.*;
+import static com.gerefi.CommandControl.TEST;
+import static com.gerefi.config.generated.Integration.CMD_STARTER_BENCH;
+import static com.gerefi.config.generated.Integration.*;
 
 public class BenchTestPane {
     private final JPanel content = new JPanel(new GridLayout(2, 5));

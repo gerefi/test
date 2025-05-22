@@ -1,1 +1,1 @@
-java -Xmx250M -jar rusefi_server.jar
+java -Xmx250M -jar gerefi_server.jar

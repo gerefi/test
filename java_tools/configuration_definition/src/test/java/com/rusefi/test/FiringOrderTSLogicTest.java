@@ -1,6 +1,6 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.FiringOrderTSLogic;
+import com.gerefi.FiringOrderTSLogic;
 import org.junit.jupiter.api.Test;
 
 public class FiringOrderTSLogicTest {

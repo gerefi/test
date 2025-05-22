@@ -1,8 +1,8 @@
-package com.rusefi.binaryprotocol;
+package com.gerefi.binaryprotocol;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.util.HexBinary;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.util.HexBinary;
 
 import java.util.zip.CRC32;
 

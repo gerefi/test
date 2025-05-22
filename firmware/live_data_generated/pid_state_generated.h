@@ -1,8 +1,8 @@
 // this section was generated automatically by rusEFI tool ConfigDefinition.jar based on (unknown script) util/math/pid_state.txt Wed Jan 05 06:47:26 UTC 2022
-// by class com.rusefi.output.CHeaderConsumer
+// by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 // start of pid_state_s
 struct pid_state_s {
 	/**

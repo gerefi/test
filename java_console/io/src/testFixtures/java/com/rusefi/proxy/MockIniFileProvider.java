@@ -1,13 +1,13 @@
-package com.rusefi.proxy;
+package com.gerefi.proxy;
 
 import com.opensr5.ini.IniFileMetaInfo;
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.field.IniField;
 import com.opensr5.ini.field.ScalarIniField;
 import com.opensr5.ini.field.StringIniField;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.IniFileProvider;
-import com.rusefi.config.FieldType;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.IniFileProvider;
+import com.gerefi.config.FieldType;
 
 import java.util.Map;
 

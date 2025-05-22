@@ -1,4 +1,4 @@
-package com.rusefi.autoupdate;
+package com.gerefi.autoupdate;
 
 import com.devexperts.logging.Logging;
 
@@ -16,15 +16,15 @@ public enum ObsoleteFilesArchiver {
 
     private final static Logging log = Logging.getLogging(ObsoleteFilesArchiver.class);
     private static final List<Path> OBSOLETE_FILES_TO_DELETE = Stream.of(
-        "rusefi.bin",
-        "rusefi_update.srec",
-        "rusefi-obfuscated.srec"
+        "gerefi.bin",
+        "gerefi_update.srec",
+        "gerefi-obfuscated.srec"
     ).map(Paths::get).collect(Collectors.collectingAndThen(Collectors.toList(), Collections::unmodifiableList));
 
     private static final List<String> OBSOLETE_FILE_MASKS_TO_ARCHIVE = Stream.of(
-        "rusefi_*.bin",
-        "rusefi_*.srec",
-        "rusefi-obfuscated_*.srec"
+        "gerefi_*.bin",
+        "gerefi_*.srec",
+        "gerefi-obfuscated_*.srec"
     ).collect(Collectors.collectingAndThen(Collectors.toList(), Collections::unmodifiableList));
 
     private static final Path ARCHIVE_FOLDER_PATH = Paths.get("./archive");

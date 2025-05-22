@@ -8,8 +8,8 @@
 #pragma once
 
 #include <stdint.h>
-#include "rusefi_enums.h"
-#include <rusefi/expected.h>
+#include "gerefi_enums.h"
+#include <gerefi/expected.h>
 
 enum class TriggerValue : uint8_t {
 	FALL = 0,
@@ -35,7 +35,7 @@ typedef enum {
 // as of April 2020, trigger which requires most array length is REMIX_66_2_2_2
 // we can probably reduce RAM usage if we have more custom logic of triggers with large number of tooth while
 // pretty easy logic. like we do not need to REALLY have an array to remember the shape of evenly spaces 360 or 60/2 trigger :)
-// todo https://github.com/rusefi/rusefi/issues/3003
+// todo https://github.com/gerefi/gerefi/issues/3003
 #define PWM_PHASE_MAX_COUNT 280
 #endif /* PWM_PHASE_MAX_COUNT */
 // todo: rename to TRIGGER_CHANNEL_COUNT?

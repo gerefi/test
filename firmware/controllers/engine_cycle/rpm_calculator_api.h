@@ -2,7 +2,7 @@
  * @file rpm_calculator_api.h
  */
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 
 #pragma once
 

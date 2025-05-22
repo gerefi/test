@@ -2,7 +2,7 @@
 
 rm -rf workarea
 mkdir workarea
-git clone https://github.com/rusefi/rusefi.github.io.git workarea/pages
+git clone https://github.com/gerefi/gerefi.github.io.git workarea/pages
 
 
 #

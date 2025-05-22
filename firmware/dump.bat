@@ -1,1 +1,1 @@
-arm-none-eabi-objdump -S build/rusefi.elf > build.dump
+arm-none-eabi-objdump -S build/gerefi.elf > build.dump

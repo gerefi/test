@@ -1,7 +1,7 @@
-package com.rusefi.tools.online;
+package com.gerefi.tools.online;
 
-import com.rusefi.server.ControllerInfo;
-import com.rusefi.server.UserDetails;
+import com.gerefi.server.ControllerInfo;
+import com.gerefi.server.UserDetails;
 
 public class PublicSession {
     /**

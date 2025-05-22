@@ -1,9 +1,9 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.output.BaseCHeaderConsumer;
+import com.gerefi.output.BaseCHeaderConsumer;
 import org.junit.jupiter.api.Test;
 
-import static com.rusefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertEquals;
 
 public class ConfigDefinitionOutputTest {
     @Test

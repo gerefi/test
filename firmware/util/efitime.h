@@ -10,10 +10,10 @@
 #pragma once
 
 #include "efifeatures.h"
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 #include "global.h"
 #include "error_handling.h"
-#include <rusefi/rusefi_time_math.h>
+#include <gerefi/gerefi_time_math.h>
 #include <limits.h>
 
 

@@ -1,6 +1,6 @@
-package com.rusefi.waves;
+package com.gerefi.waves;
 
-import com.rusefi.config.generated.Integration;
+import com.gerefi.config.generated.Integration;
 
 import java.util.Map;
 

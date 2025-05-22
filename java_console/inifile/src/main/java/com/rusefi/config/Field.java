@@ -1,8 +1,8 @@
-package com.rusefi.config;
+package com.gerefi.config;
 
 import com.macfaq.io.LittleEndianOutputStream;
 import com.opensr5.ConfigurationImage;
-import com.rusefi.core.FileUtil;
+import com.gerefi.core.FileUtil;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.ByteArrayOutputStream;
@@ -11,7 +11,7 @@ import java.nio.ByteBuffer;
 import java.util.Collection;
 import java.util.Objects;
 
-import static com.rusefi.config.FieldType.*;
+import static com.gerefi.config.FieldType.*;
 
 /**
  * See Fields

@@ -1,6 +1,6 @@
 # COUPE-BK2-comparing-against-current-COUPE-BK2-default
 
-// canned tune https://rusefi.com/online/view.php?msq=1507
+// canned tune https://gerefi.com/online/view.php?msq=1507
 
 ```
     // default 0.0

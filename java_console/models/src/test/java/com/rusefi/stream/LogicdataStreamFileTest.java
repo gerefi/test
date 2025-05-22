@@ -1,4 +1,4 @@
-package com.rusefi.stream;
+package com.gerefi.stream;
 
 import org.junit.jupiter.api.Test;
 

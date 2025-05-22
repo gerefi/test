@@ -17,7 +17,7 @@
 /*
  * STM32F4 memory setup.
  * Note: Use of ram1 and ram2 is mutually exclusive with use of ram0.
- * bl section is where we link the rusefi bootloader
+ * bl section is where we link the gerefi bootloader
  */
 
 /* On devices with 256K RAM, use additional memory SRAM3. */

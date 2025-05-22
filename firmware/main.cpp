@@ -2,16 +2,16 @@
  * @file	main.cpp
  * @brief C++ main entry point
  *
- * See rusefi.cpp for implementation details notes.
+ * See gerefi.cpp for implementation details notes.
  *
  * @date Nov 29, 2012
  * @author Andrey Belomutskiy, (c) 2012-2023
- *      http://rusefi.com/
+ *      http://gerefi.com/
  */
 
 #include "pch.h"
 
-#include "rusefi.h"
+#include "gerefi.h"
 #include "mpu_util.h"
 
 int main(void) {

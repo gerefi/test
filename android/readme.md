@@ -6,7 +6,7 @@ USB serial
 https://github.com/mik3y/usb-serial-for-android
 
 DFU implementation
-https://github.com/rusefi/dfu_java
+https://github.com/gerefi/dfu_java
 
 Error reporting uses
 https://github.com/ACRA/acra

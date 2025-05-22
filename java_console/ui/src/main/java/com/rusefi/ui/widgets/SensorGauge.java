@@ -1,12 +1,12 @@
-package com.rusefi.ui.widgets;
+package com.gerefi.ui.widgets;
 
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCategory;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.ui.GaugesPanel;
-import com.rusefi.ui.UIContext;
-import com.rusefi.ui.util.UiUtils;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCategory;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.ui.GaugesPanel;
+import com.gerefi.ui.UIContext;
+import com.gerefi.ui.util.UiUtils;
 import eu.hansolo.steelseries.gauges.Radial;
 import eu.hansolo.steelseries.tools.BackgroundColor;
 import eu.hansolo.steelseries.tools.ColorDef;

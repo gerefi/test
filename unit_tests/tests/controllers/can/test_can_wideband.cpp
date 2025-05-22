@@ -191,7 +191,7 @@ TEST(CanWideband, DecodeValidAemFormat) {
 	Sensor::resetRegistry();
 }
 
-#include "wideband_firmware/for_rusefi/wideband_can.h"
+#include "wideband_firmware/for_gerefi/wideband_can.h"
 
 TEST(CanWideband, DecodeRusefiStandard)
 {

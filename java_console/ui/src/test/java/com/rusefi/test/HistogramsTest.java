@@ -1,6 +1,6 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.Histograms;
+import com.gerefi.Histograms;
 import org.junit.jupiter.api.Test;
 
 import java.util.Random;

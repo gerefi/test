@@ -18,7 +18,7 @@
 	// ChibiOS defines it's Reset_Handler 'weak' - by defining out handler this becomes firmware entry point
 	.global Reset_Handler
 Reset_Handler:
-// [rusefi][DFU][start]
+// [gerefi][DFU][start]
 // Clive Two.Zero is the God of ST community forum
 // Device specific, if in doubt RTFM
 LDR R0, =0x2001FFF0 // End of SRAM for your CPU
@@ -35,4 +35,4 @@ UseDFU:
 #include "dfu_init.h"
 BX R0 // this jumps to DFU bootloader
 	// I believe we are never executing this line
-// [rusefi][DFU][end]
+// [gerefi][DFU][end]

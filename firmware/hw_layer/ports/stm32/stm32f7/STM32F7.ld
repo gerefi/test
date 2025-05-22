@@ -22,7 +22,7 @@
  *
  * Notes:
  * BSS is placed in DTCM RAM in order to simplify DMA buffers management.
- * 'bl' is related to rusefi bootloader
+ * 'bl' is related to gerefi bootloader
  */
 
 /* change address & length if bootloader */

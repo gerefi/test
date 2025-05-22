@@ -1,6 +1,6 @@
-package com.rusefi.sensor_logs;
+package com.gerefi.sensor_logs;
 
-import com.rusefi.core.SensorCategory;
+import com.gerefi.core.SensorCategory;
 
 import java.io.DataOutputStream;
 import java.io.IOException;

@@ -1,6 +1,6 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.core.preferences.storage.Node;
+import com.gerefi.core.preferences.storage.Node;
 
 import javax.swing.*;
 import java.awt.*;

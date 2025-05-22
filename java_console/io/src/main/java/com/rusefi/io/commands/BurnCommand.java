@@ -1,10 +1,10 @@
-package com.rusefi.io.commands;
+package com.gerefi.io.commands;
 
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.config.generated.Integration;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.config.generated.Integration;
 
-import static com.rusefi.binaryprotocol.IoHelper.checkResponseCode;
-import static com.rusefi.config.generated.Integration.TS_RESPONSE_BURN_OK;
+import static com.gerefi.binaryprotocol.IoHelper.checkResponseCode;
+import static com.gerefi.config.generated.Integration.TS_RESPONSE_BURN_OK;
 
 public class BurnCommand {
     public static boolean execute(BinaryProtocol bp) {

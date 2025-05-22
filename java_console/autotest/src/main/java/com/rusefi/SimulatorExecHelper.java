@@ -1,4 +1,4 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
 
@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 
-import static com.rusefi.SimulatorFunctionalTestLauncher.isHappy;
+import static com.gerefi.SimulatorFunctionalTestLauncher.isHappy;
 
 /**
  * 3/18/14
@@ -22,7 +22,7 @@ public class SimulatorExecHelper {
 
     private final static NamedThreadFactory THREAD_FACTORY = new NamedThreadFactory("SimulatorExecHelper", true);
 
-    private static final String SIMULATOR_BUILD_RUSEFI_SIMULATOR = "../simulator/build/rusefi_simulator";
+    private static final String SIMULATOR_BUILD_RUSEFI_SIMULATOR = "../simulator/build/gerefi_simulator";
     // see also SimulatorHelper
     private static final String SIMULATOR_BINARY = getSimulatorBinary();
     private static Process simulatorProcess;

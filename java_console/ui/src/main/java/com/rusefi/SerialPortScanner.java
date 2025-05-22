@@ -1,20 +1,20 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.autodetect.SerialAutoChecker;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.binaryprotocol.IoHelper;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.RusEfiSignature;
-import com.rusefi.core.SignatureHelper;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.serial.BufferedSerialIoStream;
-import com.rusefi.io.tcp.TcpConnector;
-import com.rusefi.maintenance.DfuFlasher;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.MaintenanceUtil;
-import com.rusefi.maintenance.StLinkFlasher;
+import com.gerefi.autodetect.SerialAutoChecker;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.binaryprotocol.IoHelper;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.RusEfiSignature;
+import com.gerefi.core.SignatureHelper;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.serial.BufferedSerialIoStream;
+import com.gerefi.io.tcp.TcpConnector;
+import com.gerefi.maintenance.DfuFlasher;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.MaintenanceUtil;
+import com.gerefi.maintenance.StLinkFlasher;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;

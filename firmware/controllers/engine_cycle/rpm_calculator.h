@@ -10,7 +10,7 @@
 
 #include "scheduler.h"
 #include "stored_value_sensor.h"
-#include <rusefi/timer.h>
+#include <gerefi/timer.h>
 #include "rpm_calculator_api.h"
 #include "trigger_decoder.h"
 

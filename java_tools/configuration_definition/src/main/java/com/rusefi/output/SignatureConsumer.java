@@ -1,9 +1,9 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.*;
-import com.rusefi.newparse.DefinitionsState;
-import com.rusefi.newparse.parsing.Definition;
+import com.gerefi.*;
+import com.gerefi.newparse.DefinitionsState;
+import com.gerefi.newparse.parsing.Definition;
 
 import java.io.IOException;
 

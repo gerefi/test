@@ -19,10 +19,10 @@
 
 // looks like some technical debt here?! that's about error: ‘isnan’ is not a member of ‘std’
 #include <cmath>
-#include <rusefi/math.h>
+#include <gerefi/math.h>
 
 #include "efiprintf.h"
-#include "rusefi/efistringutil.h"
+#include "gerefi/efistringutil.h"
 #include "cli_registry.h"
 
 /* for isspace() */
@@ -199,7 +199,7 @@ void helpCommand(void) {
 		TokenCallback *current = &consoleActions[i];
 		efiPrintf("  %s: %d parameters", current->token, getParameterCount(current->parameterType));
 	}
-	efiPrintf("For more visit https://github.com/rusefi/rusefi/wiki/Dev-Console-Commands");
+	efiPrintf("For more visit https://github.com/gerefi/gerefi/wiki/Dev-Console-Commands");
 }
 
 int findEndOfToken(const char *line) {

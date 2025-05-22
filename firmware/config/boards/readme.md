@@ -14,7 +14,7 @@ We support on-board a number of smart GPIO chips, overall we support quite a wid
 
 For best user experience we have more than a dozen of different _binaries_ which are all compiled from same _firmware_ files with different configuration. This folder is all about that process.
 
-See https://rusefi.com/build_server/
+See https://gerefi.com/build_server/
 
 By definition, BOARD_NAME is a folder in firmware\config\boards
 
@@ -24,14 +24,14 @@ Work in progress: SHORT_BOARD_NAME becomes BUNDLE_NAME
 
 New board procedure once you have new folder in this *boards* directory
 
-1) update [gen_config.sh](https://github.com/rusefi/rusefi/blob/master/firmware/gen_config.sh): add "board board" pair into 'for BOARD' iteration - this would produce new signature*.h file and new rusefi*.ini file
+1) update [gen_config.sh](https://github.com/gerefi/gerefi/blob/master/firmware/gen_config.sh): add "board board" pair into 'for BOARD' iteration - this would produce new signature*.h file and new gerefi*.ini file
 
-2) update [build-firmware.yaml](https://github.com/rusefi/rusefi/blob/master/.github/workflows/build-firmware.yaml) to get new firmware bundle on https://rusefi.com/build_server/
+2) update [build-firmware.yaml](https://github.com/gerefi/gerefi/blob/master/.github/workflows/build-firmware.yaml) to get new firmware bundle on https://gerefi.com/build_server/
 
 3) add connector pinout mapping [yaml](https://en.wikipedia.org/wiki/YAML) file see examples of yaml files in 'connectors' subfolders here.
 
 
-See also https://github.com/rusefi/rusefi/wiki/Hardware
+See also https://github.com/gerefi/gerefi/wiki/Hardware
 
 
 ## FAQ
@@ -42,11 +42,11 @@ A: Primary UART, critical error LED pin and maybe a couple more of the most fund
 
 # Q: I need more info!
 
-A: please remember about https://github.com/rusefi/rusefi/wiki/Hardware#q-this-is-all-very-cool-but-you-guys-do-not-have-a-plugplay-for-my-trabant-i-think-i-will-go-and-make-a-new-rusefi-board-just-for-my-trabant
+A: please remember about https://github.com/gerefi/gerefi/wiki/Hardware#q-this-is-all-very-cool-but-you-guys-do-not-have-a-plugplay-for-my-trabant-i-think-i-will-go-and-make-a-new-gerefi-board-just-for-my-trabant
 
 # Q: I insist on custom
 
-A: https://github.com/rusefi/rusefi/wiki/Custom-Firmware
+A: https://github.com/gerefi/gerefi/wiki/Custom-Firmware
 
 # Q: I want to build the firmware in debug mode
 

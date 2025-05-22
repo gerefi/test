@@ -1,12 +1,12 @@
 /*
  * @file bmw_m73_mre.cpp
  *
- * https://github.com/rusefi/rusefi/wiki/BMW_e38_750
+ * https://github.com/gerefi/gerefi/wiki/BMW_e38_750
  *
- * https://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#134_pin
- * https://github.com/rusefi/rusefi/wiki/HOWTO_electronic_throttle_body
- * Ignition module https://rusefi.com/forum/viewtopic.php?f=4&t=286
- * https://github.com/rusefi/rusefi/wiki/Hardware_microRusEfi_wiring
+ * https://gerefi.com/wiki/index.php?title=Hardware:OEM_connectors#134_pin
+ * https://github.com/gerefi/gerefi/wiki/HOWTO_electronic_throttle_body
+ * Ignition module https://gerefi.com/forum/viewtopic.php?f=4&t=286
+ * https://github.com/gerefi/gerefi/wiki/Hardware_microRusEfi_wiring
  *
  * 1/2 plugs black
  * 2/2 plugs grey

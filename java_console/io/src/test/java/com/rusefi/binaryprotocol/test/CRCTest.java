@@ -1,6 +1,6 @@
-package com.rusefi.binaryprotocol.test;
+package com.gerefi.binaryprotocol.test;
 
-import com.rusefi.binaryprotocol.IoHelper;
+import com.gerefi.binaryprotocol.IoHelper;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

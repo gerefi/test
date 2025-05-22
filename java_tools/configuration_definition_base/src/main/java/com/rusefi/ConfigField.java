@@ -1,10 +1,10 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.core.Pair;
-import com.rusefi.output.ConfigStructure;
+import com.gerefi.core.Pair;
+import com.gerefi.output.ConfigStructure;
 
-import static com.rusefi.output.ConfigStructureImpl.ALIGNMENT_FILL_AT;
-import static com.rusefi.output.DataLogConsumer.UNUSED;
+import static com.gerefi.output.ConfigStructureImpl.ALIGNMENT_FILL_AT;
+import static com.gerefi.output.DataLogConsumer.UNUSED;
 
 public interface ConfigField {
     ConfigField VOID = new ConfigField() {

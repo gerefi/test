@@ -1,11 +1,11 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
 import com.efiAnalytics.plugin.ecu.ControllerAccess;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.ts_plugin.auth.InstanceAuthContext;
-import com.rusefi.ts_plugin.knock.KnockAnalyzerTab;
-import com.rusefi.ts_plugin.util.ManifestHelper;
-import com.rusefi.tune.xml.Constant;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.ts_plugin.auth.InstanceAuthContext;
+import com.gerefi.ts_plugin.knock.KnockAnalyzerTab;
+import com.gerefi.ts_plugin.util.ManifestHelper;
+import com.gerefi.tune.xml.Constant;
 
 import javax.swing.*;
 import java.awt.*;
@@ -23,7 +23,7 @@ import java.util.function.Supplier;
 public class PluginEntry implements TsPluginBody {
     private final JPanel content = new JPanel(new BorderLayout());
 
-    static final ImageIcon LOGO = AutoupdateUtil.loadIcon("/rusefi_online_color_300.png");
+    static final ImageIcon LOGO = AutoupdateUtil.loadIcon("/gerefi_online_color_300.png");
 
     private final JTabbedPane tabbedPane = new JTabbedPane();
 

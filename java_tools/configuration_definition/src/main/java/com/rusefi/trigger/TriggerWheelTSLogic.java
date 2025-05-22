@@ -1,8 +1,8 @@
-package com.rusefi.trigger;
+package com.gerefi.trigger;
 
-import com.rusefi.VariableRegistry;
+import com.gerefi.VariableRegistry;
 
-import static com.rusefi.trigger.TriggerWheelInfo.DEFAULT_WORK_FOLDER;
+import static com.gerefi.trigger.TriggerWheelInfo.DEFAULT_WORK_FOLDER;
 
 public class TriggerWheelTSLogic {
 

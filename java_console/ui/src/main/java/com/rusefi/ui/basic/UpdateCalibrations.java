@@ -1,11 +1,11 @@
-package com.rusefi.ui.basic;
+package com.gerefi.ui.basic;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImageWithMeta;
 import com.opensr5.io.ConfigurationImageFile;
-import com.rusefi.SerialPortScanner;
-import com.rusefi.core.preferences.storage.PersistentConfiguration;
-import com.rusefi.maintenance.jobs.UpdateCalibrationsJob;
+import com.gerefi.SerialPortScanner;
+import com.gerefi.core.preferences.storage.PersistentConfiguration;
+import com.gerefi.maintenance.jobs.UpdateCalibrationsJob;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;

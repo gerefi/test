@@ -1,10 +1,10 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.ConsoleUI;
-import com.rusefi.core.MessagesCentral;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.ui.logview.LogViewer;
-import com.rusefi.ui.util.UiUtils;
+import com.gerefi.ConsoleUI;
+import com.gerefi.core.MessagesCentral;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.ui.logview.LogViewer;
+import com.gerefi.ui.util.UiUtils;
 import org.jetbrains.annotations.NotNull;
 import org.putgemin.VerticalFlowLayout;
 

@@ -1,9 +1,9 @@
-package com.rusefi.tools.online;
+package com.gerefi.tools.online;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.core.FileUtil;
-import com.rusefi.tune.xml.Msq;
-import com.rusefi.ui.AuthTokenPanel;
+import com.gerefi.core.FileUtil;
+import com.gerefi.tune.xml.Msq;
+import com.gerefi.ui.AuthTokenPanel;
 
 import org.apache.hc.client5.http.classic.methods.HttpPost;
 import org.apache.hc.client5.http.impl.classic.HttpClients;
@@ -32,7 +32,7 @@ public class Online {
     private final static Logging log = Logging.getLogging(Online.class);
 
     public static final String outputXmlFileName = FileUtil.RUSEFI_SETTINGS_FOLDER + File.separator + "output.msq";
-    private static final String url = "https://rusefi.com/online/upload.php";
+    private static final String url = "https://gerefi.com/online/upload.php";
 
     /**
      * blocking call for http file upload
@@ -46,7 +46,7 @@ public class Online {
             FileBody uploadFilePart = new FileBody(fileName);
             HttpEntity reqEntity = MultipartEntityBuilder.create()
                 .addPart("upload-file", uploadFilePart)
-                .addTextBody("rusefi_token", authTokenValue, ContentType.TEXT_PLAIN.withCharset(StandardCharsets.UTF_8))
+                .addTextBody("gerefi_token", authTokenValue, ContentType.TEXT_PLAIN.withCharset(StandardCharsets.UTF_8))
                 .build();
 
             httpPost.setEntity(reqEntity);

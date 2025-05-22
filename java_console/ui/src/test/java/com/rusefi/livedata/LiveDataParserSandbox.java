@@ -1,10 +1,10 @@
-package com.rusefi.livedata;
+package com.gerefi.livedata;
 
-import com.rusefi.config.Field;
-import com.rusefi.config.FieldType;
-import com.rusefi.ui.UIContext;
-import com.rusefi.ui.livedata.VariableValueSource;
-import com.rusefi.core.ui.FrameHelper;
+import com.gerefi.config.Field;
+import com.gerefi.config.FieldType;
+import com.gerefi.ui.UIContext;
+import com.gerefi.ui.livedata.VariableValueSource;
+import com.gerefi.core.ui.FrameHelper;
 import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;

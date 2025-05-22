@@ -1,6 +1,6 @@
-package com.rusefi.uds;
+package com.gerefi.uds;
 
-import com.rusefi.io.can.PCanHelper;
+import com.gerefi.io.can.PCanHelper;
 import org.jetbrains.annotations.NotNull;
 import peak.can.basic.PCANBasic;
 import peak.can.basic.TPCANMode;

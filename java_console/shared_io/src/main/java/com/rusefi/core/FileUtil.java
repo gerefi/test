@@ -1,4 +1,4 @@
-package com.rusefi.core;
+package com.gerefi.core;
 
 import com.devexperts.logging.Logging;
 import org.jetbrains.annotations.NotNull;

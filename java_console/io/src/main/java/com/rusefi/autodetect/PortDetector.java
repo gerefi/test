@@ -1,8 +1,8 @@
-package com.rusefi.autodetect;
+package com.gerefi.autodetect;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.io.LinkManager;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.io.LinkManager;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
@@ -31,7 +31,7 @@ public class PortDetector {
      */
     @NotNull
     public static SerialAutoChecker.AutoDetectResult autoDetectSerial(Function<SerialAutoChecker.CallbackContext, Void> callback) {
-        String rusEfiAddress = System.getProperty("rusefi.address");
+        String rusEfiAddress = System.getProperty("gerefi.address");
         if (rusEfiAddress != null) {
             return getSignatureFromPorts(callback, Collections.singleton(rusEfiAddress));
         }

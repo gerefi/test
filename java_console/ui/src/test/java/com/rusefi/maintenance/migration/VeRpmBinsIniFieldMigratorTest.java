@@ -1,8 +1,8 @@
-package com.rusefi.maintenance.migration;
+package com.gerefi.maintenance.migration;
 
 import com.opensr5.ini.field.ArrayIniField;
-import com.rusefi.config.FieldType;
-import com.rusefi.maintenance.TestCallbacks;
+import com.gerefi.config.FieldType;
+import com.gerefi.maintenance.TestCallbacks;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

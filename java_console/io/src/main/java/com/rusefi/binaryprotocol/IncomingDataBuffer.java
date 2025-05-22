@@ -1,10 +1,10 @@
-package com.rusefi.binaryprotocol;
+package com.gerefi.binaryprotocol;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.Timeouts;
-import com.rusefi.binaryprotocol.test.Bug3923;
-import com.rusefi.util.HexBinary;
-import com.rusefi.io.serial.AbstractIoStream;
+import com.gerefi.Timeouts;
+import com.gerefi.binaryprotocol.test.Bug3923;
+import com.gerefi.util.HexBinary;
+import com.gerefi.io.serial.AbstractIoStream;
 import etch.util.CircularByteBuffer;
 import net.jcip.annotations.ThreadSafe;
 
@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.util.Objects;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.binaryprotocol.IoHelper.*;
+import static com.gerefi.binaryprotocol.IoHelper.*;
 
 /**
  * Thread-safe byte queue with blocking {@link #waitForBytes} method

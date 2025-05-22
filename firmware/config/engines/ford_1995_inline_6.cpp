@@ -2,7 +2,7 @@
  * @file ford_1995_inline_6.cpp
  * @brief Default engine configuration for a 1995 Ford inline 6 engine
  *
- * http://rusefi.com/forum/viewtopic.php?f=3&t=469
+ * http://gerefi.com/forum/viewtopic.php?f=3&t=469
  *
  * FORD_INLINE_6_1995 = 7
  * set engine_type 7

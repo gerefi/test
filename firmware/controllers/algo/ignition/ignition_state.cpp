@@ -4,7 +4,7 @@
  * @date Mar 27, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * This file is part of rusEfi - see http://rusefi.com
+ * This file is part of rusEfi - see http://gerefi.com
  *
  * rusEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
@@ -107,7 +107,7 @@ angle_t getRunningAdvance(float rpm, float engineLoad) {
 			const int smoothRetardEndRpm = (launchRpm - engineConfiguration->launchCorrectionsEndRpm);
 			if (smoothRetardStartRpm <= rpm) {
 				if (engineConfiguration->launchSmoothRetard && (rpm <= smoothRetardEndRpm)) {
-					// https://github.com/rusefi/rusefi/issues/5611#issuecomment-2130431696
+					// https://github.com/gerefi/gerefi/issues/5611#issuecomment-2130431696
 					return interpolateClamped(smoothRetardStartRpm, advanceAngle, smoothRetardEndRpm, launchAngle, rpm);
 				} else {
 					return launchAngle;
@@ -333,7 +333,7 @@ floatms_t IgnitionState::getDwell() const {
 
   angle_t IgnitionState::getTrailingSparkAngle(const float rpm, const float engineLoad){
 	if (std::isnan(engineLoad)) {
-		// default value from: https://github.com/rusefi/rusefi/commit/86683afca22ed1a8af8fd5ac9231442e2124646e#diff-6e80cdd8c55add68105618ad9e8954170a47f59814201dadd2b888509d6b2e39R176
+		// default value from: https://github.com/gerefi/gerefi/commit/86683afca22ed1a8af8fd5ac9231442e2124646e#diff-6e80cdd8c55add68105618ad9e8954170a47f59814201dadd2b888509d6b2e39R176
 		return 10;
 	}
 	return interpolate3d(

@@ -214,7 +214,7 @@ info:
   name: AlphaX 4K-GDI
   cid: b
   order: 1
-  board_url: https://rusefi.com/s/4K-GDI
+  board_url: https://gerefi.com/s/4K-GDI
   image:
     file: 34pins-4k-B.jpg
   pins:

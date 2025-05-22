@@ -312,7 +312,7 @@
 #define PIN_PUPDR_PULLDOWN(n)       (2U << ((n) * 2U))
 #define PIN_AFIO_AF(n, v)           ((v) << (((n) % 8U) * 4U))
 
-// See https://github.com/rusefi/rusefi/issues/397
+// See https://github.com/gerefi/gerefi/issues/397
 #define DEFAULT_GPIO_SPEED PIN_OSPEED_HIGH
 
 /*

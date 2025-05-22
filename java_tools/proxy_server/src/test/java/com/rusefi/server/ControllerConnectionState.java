@@ -1,18 +1,18 @@
-package com.rusefi.server;
+package com.gerefi.server;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.config.generated.VariableRegistryValues;
-import com.rusefi.core.SignatureHelper;
-import com.rusefi.auth.AuthTokenUtil;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.core.Pair;
-import com.rusefi.core.SensorsHolder;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.commands.GetOutputsCommandBrokenHelper;
-import com.rusefi.io.commands.HelloCommand;
-import com.rusefi.io.tcp.TcpIoStream;
-import com.rusefi.core.FileUtil;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.config.generated.VariableRegistryValues;
+import com.gerefi.core.SignatureHelper;
+import com.gerefi.auth.AuthTokenUtil;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.core.Pair;
+import com.gerefi.core.SensorsHolder;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.commands.GetOutputsCommandBrokenHelper;
+import com.gerefi.io.commands.HelloCommand;
+import com.gerefi.io.tcp.TcpIoStream;
+import com.gerefi.core.FileUtil;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
@@ -109,7 +109,7 @@ public class ControllerConnectionState {
         Pair<String, String> p = SignatureHelper.getUrl(sessionDetails.getControllerInfo().getSignature());
         if (p == null)
             throw new IOException("Invalid signature response");
-//        todo: revisit https://github.com/rusefi/rusefi/issues/4462 if ever uncommenting
+//        todo: revisit https://github.com/gerefi/gerefi/issues/4462 if ever uncommenting
 //        String localFileName = SignatureHelper.downloadIfNotAvailable(p);
 //        if (localFileName == null)
 //            throw new IOException("Unable to download " + p.second + " from " + p.first);

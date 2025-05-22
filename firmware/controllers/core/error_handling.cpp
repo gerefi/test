@@ -6,12 +6,12 @@
  */
 
 #include "pch.h"
-#include "rusefi/efistringutil.h"
+#include "gerefi/efistringutil.h"
 #include "os_util.h"
 #include "backup_ram.h"
 #include "error_handling_led.h"
 #include "log_hard_fault.h"
-#include "rusefi/critical_error.h"
+#include "gerefi/critical_error.h"
 
 /**
  * Executes the BKPT instruction that causes the debugger to stop.
@@ -124,7 +124,7 @@ void errorHandlerInit() {
 	}
 #endif // EFI_PROD_CODE
 
-	// see https://github.com/rusefi/rusefi/wiki/Resilience
+	// see https://github.com/gerefi/gerefi/wiki/Resilience
 	addConsoleAction("chibi_fault", [](){ chDbgCheck(0); } );
 	addConsoleAction("soft_fault", [](){ firmwareError(ObdCode::RUNTIME_CRITICAL_TEST_ERROR, "firmwareError: %d", getRusEfiVersion()); });
 	addConsoleAction("hard_fault", [](){ causeHardFault(); } );

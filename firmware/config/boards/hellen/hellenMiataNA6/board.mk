@@ -13,7 +13,7 @@ endif
 DDEFS += -DFIRMWARE_ID=\"hellenNA6\" $(VAR_DEF_ENGINE_TYPE)
 DDEFS += -DEFI_SOFTWARE_KNOCK=TRUE -DSTM32_ADC_USE_ADC3=TRUE
 
-# https://github.com/rusefi/hellenNA6_issues/issues/35 hack :(
+# https://github.com/gerefi/hellenNA6_issues/issues/35 hack :(
 DDEFS += -DDISABLE_PIN_STATE_VALIDATION=TRUE
 DDEFS += -DSTATIC_BOARD_ID=STATIC_BOARD_ID_HELLEN_NA6
 

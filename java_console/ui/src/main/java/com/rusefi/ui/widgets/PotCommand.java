@@ -1,8 +1,8 @@
-package com.rusefi.ui.widgets;
+package com.gerefi.ui.widgets;
 
-import com.rusefi.core.MessagesCentral;
-//import com.rusefi.EcuStimulator;
-import com.rusefi.io.CommandQueue;
+import com.gerefi.core.MessagesCentral;
+//import com.gerefi.EcuStimulator;
+import com.gerefi.io.CommandQueue;
 
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;

@@ -146,7 +146,7 @@ sint8 nm_spi_rw(uint8* pu8Mosi, uint8* pu8Miso, uint16 u16Sz) {
 
 		// #ifdef STM32H7XX
 		// /* workaround for silicon errata */
-		// /* see https://github.com/rusefi/rusefi/issues/2395 */
+		// /* see https://github.com/gerefi/gerefi/issues/2395 */
 		// resetSpiDevice(wifiSpi);
 		// spiStart(wifiSpi, &wifi_spicfg);
 		// #endif

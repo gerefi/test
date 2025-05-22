@@ -1,13 +1,13 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.ldmp.LiveDataProcessor;
-import com.rusefi.output.FileJavaFieldsConsumer;
-import com.rusefi.util.LazyFile;
+import com.gerefi.ldmp.LiveDataProcessor;
+import com.gerefi.output.FileJavaFieldsConsumer;
+import com.gerefi.util.LazyFile;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 
-import static com.rusefi.ToolUtil.EOL;
+import static com.gerefi.ToolUtil.EOL;
 
 public class SimpleDefinesProcessor {
     public static void main(String[] args) throws IOException {

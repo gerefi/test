@@ -18,7 +18,7 @@
 #include "gpio/gpio_ext.h"
 #include "can_listener.h"
 #include "can_msg_tx.h"
-#include <rusefi/endian.h>
+#include <gerefi/endian.h>
 
 /*==========================================================================*/
 /* Driver local definitions.												*/

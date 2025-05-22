@@ -28,11 +28,11 @@
 #ifndef HALCONF_H
 #define HALCONF_H
 
-#include "rusefi_halconf.h"
+#include "gerefi_halconf.h"
 
 #include "../../cfg/halconf_community.h"
 
-/* Override settings from rusefi_halconf.h */
+/* Override settings from gerefi_halconf.h */
 /* TODO: Artery */
 /* i2c driver is not (yet) used on any AT32 board,
  * also STM32 i2c driver is enabled for AT32 and never been tested on AT32 */

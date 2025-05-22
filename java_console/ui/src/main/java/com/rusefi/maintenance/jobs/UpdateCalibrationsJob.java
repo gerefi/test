@@ -1,9 +1,9 @@
-package com.rusefi.maintenance.jobs;
+package com.gerefi.maintenance.jobs;
 
 import com.opensr5.ConfigurationImageWithMeta;
-import com.rusefi.SerialPortScanner;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.CalibrationsUpdater;
+import com.gerefi.SerialPortScanner;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.CalibrationsUpdater;
 
 public class UpdateCalibrationsJob extends AsyncJobWithContext<UpdateCalibrationsJobContext> {
     public UpdateCalibrationsJob(final SerialPortScanner.PortResult port, final ConfigurationImageWithMeta calibrations) {

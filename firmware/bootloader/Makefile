@@ -135,7 +135,7 @@ include $(PROJECT_DIR)/common_libfirmware.mk
 RULESPATH = $(CHIBIOS)/os/common/startup/ARMCMx/compilers/GCC/mk
 RULESFILE = $(RULESPATH)/rules.mk
 
-include $(PROJECT_DIR)/rusefi.mk
+include $(PROJECT_DIR)/gerefi.mk
 
 CONFIG = $(PROJECT_DIR)/config
 
@@ -353,10 +353,10 @@ include $(RULESFILE)
 include $(PROJECT_DIR)/target_sentinel.mk
 
 ifneq (yes,$(SUBMAKE))
-  include $(PROJECT_DIR)/rusefi_config.mk
+  include $(PROJECT_DIR)/gerefi_config.mk
 endif
 
-include $(PROJECT_DIR)/rusefi_pch.mk
+include $(PROJECT_DIR)/gerefi_pch.mk
 
 .PHONY: CLEAN_RULE_HOOK CLEAN_PCH_HOOK
 

@@ -9,7 +9,7 @@
 #include "sensor_converter_func.h"
 #include "efi_ratio.h"
 
-#include <rusefi/interpolation.h>
+#include <gerefi/interpolation.h>
 
 template <class TBin, class TValue, int TSize, typename TOutputScale = efi::ratio<1>>
 class TableFunc final : public SensorConverter {

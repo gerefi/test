@@ -1,6 +1,6 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.KeyStrokeShortcut;
+import com.gerefi.KeyStrokeShortcut;
 
 import javax.swing.*;
 import java.awt.*;

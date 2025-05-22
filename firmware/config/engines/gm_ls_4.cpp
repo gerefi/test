@@ -5,7 +5,7 @@
 
 #include "gm_ls_4.h"
 #include "defaults.h"
-#include <rusefi/arrays.h>
+#include <gerefi/arrays.h>
 #include "proteus_meta.h"
 
 void setGmLs4() {
@@ -23,7 +23,7 @@ void setGmLs4() {
 	engineConfiguration->tChargeAirIncrLimit = 5;
 	engineConfiguration->tChargeAirDecrLimit = 15;
 
-// see https://github.com/rusefi/rusefi_documentation/tree/master/OEM-Docs/GM/Tahoe-2011
+// see https://github.com/gerefi/gerefi_documentation/tree/master/OEM-Docs/GM/Tahoe-2011
     strncpy(config->luaScript, R"(
 
 function getBitRange(data, bitIndex, bitWidth)

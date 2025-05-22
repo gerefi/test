@@ -1,12 +1,12 @@
-package com.rusefi.ui.config;
+package com.gerefi.ui.config;
 
 import com.opensr5.ConfigurationImage;
-import com.rusefi.config.Field;
-import com.rusefi.config.FieldCommandResponse;
-import com.rusefi.core.MessagesCentral;
-import com.rusefi.core.Pair;
-import com.rusefi.ui.UIContext;
-import com.rusefi.ui.util.JTextFieldWithWidth;
+import com.gerefi.config.Field;
+import com.gerefi.config.FieldCommandResponse;
+import com.gerefi.core.MessagesCentral;
+import com.gerefi.core.Pair;
+import com.gerefi.ui.UIContext;
+import com.gerefi.ui.util.JTextFieldWithWidth;
 
 import javax.swing.*;
 import java.awt.event.KeyAdapter;

@@ -1,25 +1,25 @@
-package com.rusefi.functional_tests;
+package com.gerefi.functional_tests;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.autotest.ControllerConnectorState;
-import com.rusefi.IoUtil;
-import com.rusefi.Timeouts;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.ISensorCentral;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.enums.engine_type_e;
-import com.rusefi.io.CommandQueue;
-import com.rusefi.io.LinkManager;
-import com.rusefi.waves.EngineReport;
+import com.gerefi.autotest.ControllerConnectorState;
+import com.gerefi.IoUtil;
+import com.gerefi.Timeouts;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.ISensorCentral;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.enums.engine_type_e;
+import com.gerefi.io.CommandQueue;
+import com.gerefi.io.LinkManager;
+import com.gerefi.waves.EngineReport;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Function;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.IoUtil.*;
-import static com.rusefi.waves.EngineReport.isCloseEnough;
+import static com.gerefi.IoUtil.*;
+import static com.gerefi.waves.EngineReport.isCloseEnough;
 
 public class EcuTestHelper {
     public static final Function<String, Object> FAIL = errorCode -> {

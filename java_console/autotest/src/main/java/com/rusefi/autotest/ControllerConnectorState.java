@@ -1,12 +1,12 @@
-package com.rusefi.autotest;
+package com.gerefi.autotest;
 
-import com.rusefi.AutotestLogging;
-import com.rusefi.IoUtil;
-import com.rusefi.TestingUtils;
-import com.rusefi.autodetect.PortDetector;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.EngineState;
-import com.rusefi.io.LinkManager;
+import com.gerefi.AutotestLogging;
+import com.gerefi.IoUtil;
+import com.gerefi.TestingUtils;
+import com.gerefi.autodetect.PortDetector;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.EngineState;
+import com.gerefi.io.LinkManager;
 import org.jetbrains.annotations.NotNull;
 
 /**

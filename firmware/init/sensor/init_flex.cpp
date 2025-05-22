@@ -58,7 +58,7 @@ static void flexExtiCallback(void*, efitick_t nowNt) {
 }
 #endif
 
-// https://rusefi.com/forum/viewtopic.php?p=37452#p37452
+// https://gerefi.com/forum/viewtopic.php?p=37452#p37452
 
 void initFlexSensor(bool isFirstTime) {
 #if EFI_PROD_CODE

@@ -1,6 +1,6 @@
-package com.rusefi.tools.tune;
+package com.gerefi.tools.tune;
 
-import com.rusefi.tune.xml.Constant;
+import com.gerefi.tune.xml.Constant;
 import org.jetbrains.annotations.NotNull;
 
 public class TuneTools {

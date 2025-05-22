@@ -1,13 +1,13 @@
-package com.rusefi.autotune.test;
+package com.gerefi.autotune.test;
 
-import com.rusefi.autotune.*;
+import com.gerefi.autotune.*;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.rusefi.config.generated.VariableRegistryValues.FUEL_LOAD_COUNT;
-import static com.rusefi.config.generated.VariableRegistryValues.FUEL_RPM_COUNT;
+import static com.gerefi.config.generated.VariableRegistryValues.FUEL_LOAD_COUNT;
+import static com.gerefi.config.generated.VariableRegistryValues.FUEL_RPM_COUNT;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**

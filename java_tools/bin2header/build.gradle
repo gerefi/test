@@ -7,7 +7,7 @@ jar {
     destinationDirectory = file( '$rootDir/../..' )
     manifest {
         attributes(
-            'Main-Class': 'rusefi.Bin2Header'
+            'Main-Class': 'gerefi.Bin2Header'
         )
     }
 }

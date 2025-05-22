@@ -7,7 +7,7 @@
 
 #include "io_pins.h"
 #include "smart_gpio.h"
-#include <rusefi/timer.h>
+#include <gerefi/timer.h>
 
 // This class acts as a boolean, but has a switch counter inside
 class SwitchedState {

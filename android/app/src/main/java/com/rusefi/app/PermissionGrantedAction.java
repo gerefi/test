@@ -1,4 +1,4 @@
-package com.rusefi.app;
+package com.gerefi.app;
 
 public enum PermissionGrantedAction {
     DFU,

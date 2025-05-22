@@ -1,20 +1,20 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.binaryprotocol.BinaryProtocolLocalCache;
-import com.rusefi.io.tcp.TcpConnector;
-import com.rusefi.proxy.MockIniFileProvider;
-import com.rusefi.server.Backend;
-import com.rusefi.server.UserDetails;
-import com.rusefi.server.UserDetailsResolver;
-import com.rusefi.server.rusEFISSLContext;
-import com.rusefi.tools.online.HttpUtil;
+import com.gerefi.binaryprotocol.BinaryProtocolLocalCache;
+import com.gerefi.io.tcp.TcpConnector;
+import com.gerefi.proxy.MockIniFileProvider;
+import com.gerefi.server.Backend;
+import com.gerefi.server.UserDetails;
+import com.gerefi.server.UserDetailsResolver;
+import com.gerefi.server.rusEFISSLContext;
+import com.gerefi.tools.online.HttpUtil;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.concurrent.CountDownLatch;
 
-import static com.rusefi.TestHelper.assertLatch;
+import static com.gerefi.TestHelper.assertLatch;
 
 public class BackendTestHelper {
     public static void runApplicationConnectorBlocking(Backend backend, int serverPortForRemoteUsers) throws InterruptedException {

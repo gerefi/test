@@ -4,7 +4,7 @@
  *
  * @brief Configuration defaults for the hellen-na8-96 board
  *
- * See http://rusefi.com/s/hellenNB1
+ * See http://gerefi.com/s/hellenNB1
  *
  * @author andreika <prometheus.pcb@gmail.com>
  * @author Andrey Belomutskiy, (c) 2012-2020

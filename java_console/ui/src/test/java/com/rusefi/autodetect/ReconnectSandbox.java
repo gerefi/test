@@ -1,10 +1,10 @@
-package com.rusefi.autodetect;
+package com.gerefi.autodetect;
 
-import com.rusefi.IoUtil;
-import com.rusefi.io.ConnectionStateListener;
-import com.rusefi.io.ConnectionStatusLogic;
-import com.rusefi.io.ConnectionWatchdog;
-import com.rusefi.io.LinkManager;
+import com.gerefi.IoUtil;
+import com.gerefi.io.ConnectionStateListener;
+import com.gerefi.io.ConnectionStatusLogic;
+import com.gerefi.io.ConnectionWatchdog;
+import com.gerefi.io.LinkManager;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

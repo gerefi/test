@@ -47,7 +47,7 @@
 #define EFI_DR_DEFAULT PIN_PUPDR_PULLDOWN
 #endif
 
-// See https://github.com/rusefi/rusefi/issues/397
+// See https://github.com/gerefi/gerefi/issues/397
 #define DEFAULT_GPIO_SPEED PIN_OSPEED_HIGH
 
 /*

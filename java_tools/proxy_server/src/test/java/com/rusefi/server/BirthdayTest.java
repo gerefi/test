@@ -1,10 +1,10 @@
-package com.rusefi.server;
+package com.gerefi.server;
 
 import org.junit.jupiter.api.Test;
 
-import static com.rusefi.Timeouts.MINUTE;
-import static com.rusefi.Timeouts.SECOND;
-import static com.rusefi.server.Birthday.humanReadableFormat;
+import static com.gerefi.Timeouts.MINUTE;
+import static com.gerefi.Timeouts.SECOND;
+import static com.gerefi.server.Birthday.humanReadableFormat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BirthdayTest {

@@ -1,16 +1,16 @@
-package com.rusefi.maintenance.migration.default_migration;
+package com.gerefi.maintenance.migration.default_migration;
 
-import com.rusefi.maintenance.TestTuneMigrationContext;
-import com.rusefi.maintenance.migration.ComposedTuneMigrator;
-import com.rusefi.tune.xml.Constant;
+import com.gerefi.maintenance.TestTuneMigrationContext;
+import com.gerefi.maintenance.migration.ComposedTuneMigrator;
+import com.gerefi.tune.xml.Constant;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import javax.xml.bind.JAXBException;
 
-import static com.rusefi.maintenance.migration.default_migration.DefaultTestTuneMigrationContext.*;
-import static com.rusefi.maintenance.migration.ve_table_extension.VeTableExtensionTestTuneMigrationContext.VE_RPM_BINS_FIELD_NAME;
-import static com.rusefi.maintenance.migration.ve_table_extension.VeTableExtensionTestTuneMigrationContext.VE_TABLE_FIELD_NAME;
+import static com.gerefi.maintenance.migration.default_migration.DefaultTestTuneMigrationContext.*;
+import static com.gerefi.maintenance.migration.ve_table_extension.VeTableExtensionTestTuneMigrationContext.VE_RPM_BINS_FIELD_NAME;
+import static com.gerefi.maintenance.migration.ve_table_extension.VeTableExtensionTestTuneMigrationContext.VE_TABLE_FIELD_NAME;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class DefaultTuneMigratorTest {

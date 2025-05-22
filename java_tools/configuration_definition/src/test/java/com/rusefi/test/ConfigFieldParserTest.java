@@ -1,8 +1,8 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.*;
-import com.rusefi.output.*;
-import com.rusefi.parse.TypesHelper;
+import com.gerefi.*;
+import com.gerefi.output.*;
+import com.gerefi.parse.TypesHelper;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,7 +1,7 @@
-package com.rusefi.io.serial;
+package com.gerefi.io.serial;
 
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.io.IoStream;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.io.IoStream;
 
 import java.io.IOException;
 import java.util.concurrent.CopyOnWriteArrayList;

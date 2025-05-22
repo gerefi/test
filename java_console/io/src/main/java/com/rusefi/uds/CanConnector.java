@@ -1,4 +1,4 @@
-package com.rusefi.uds;
+package com.gerefi.uds;
 
 public interface CanConnector {
     int UDS_IN = 0x7E8;

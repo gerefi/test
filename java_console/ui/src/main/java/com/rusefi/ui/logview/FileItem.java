@@ -1,4 +1,4 @@
-package com.rusefi.ui.logview;
+package com.gerefi.ui.logview;
 
 import java.io.File;
 

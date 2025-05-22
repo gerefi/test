@@ -1,10 +1,10 @@
-package com.rusefi.io.can.elm;
+package com.gerefi.io.can.elm;
 
 import com.opensr5.io.DataListener;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.binaryprotocol.IoHelper;
-import com.rusefi.io.can.isotp.IsoTpCanDecoder;
-import com.rusefi.io.serial.AbstractIoStream;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.binaryprotocol.IoHelper;
+import com.gerefi.io.can.isotp.IsoTpCanDecoder;
+import com.gerefi.io.serial.AbstractIoStream;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.*;
@@ -26,7 +26,7 @@ public class Elm327IoStream extends AbstractIoStream {
     private final ByteBuffer outBuf;
 
     // this should match the TS_CAN_DEVICE_SHORT_PACKETS_IN_ONE_FRAME in the firmware
-    // todo: move this to rusefi_config.txt / prepend.txt?
+    // todo: move this to gerefi_config.txt / prepend.txt?
     private final static boolean sendShortPacketsInOneFrame = false;
     //private final static boolean receiveShortPacketsInOneFrame = sendShortPacketsInOneFrame;
     private final static boolean receiveShortPacketsInOneFrame = false;

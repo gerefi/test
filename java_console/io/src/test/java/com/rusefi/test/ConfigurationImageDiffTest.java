@@ -1,11 +1,11 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
 import com.opensr5.ConfigurationImage;
-import com.rusefi.core.Pair;
+import com.gerefi.core.Pair;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static com.rusefi.ConfigurationImageDiff.findDifferences;
+import static com.gerefi.ConfigurationImageDiff.findDifferences;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**

@@ -12,7 +12,7 @@
 
 #if EFI_PROD_CODE
 #include "port_mpu_util.h"
-#include "rusefi_hw_enums.h"
+#include "gerefi_hw_enums.h"
 #else // not EFI_PROD_CODE
 #define ADC_MAX_VALUE 4095
 #endif

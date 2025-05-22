@@ -1,10 +1,10 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
-import com.rusefi.ConfigField;
-import com.rusefi.ReaderState;
-import com.rusefi.parse.TypesHelper;
-import com.rusefi.output.variables.VariableRecord;
-import com.rusefi.util.LazyFile;
+import com.gerefi.ConfigField;
+import com.gerefi.ReaderState;
+import com.gerefi.parse.TypesHelper;
+import com.gerefi.output.variables.VariableRecord;
+import com.gerefi.util.LazyFile;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Here we generate C++ code for https://github.com/rusefi/rusefi/wiki/Lua-Scripting#getcalibrationname
+ * Here we generate C++ code for https://github.com/gerefi/gerefi/wiki/Lua-Scripting#getcalibrationname
  * @see GetOutputValueConsumer
  * @see GetConfigValueConsumerTest
  */

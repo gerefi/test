@@ -150,9 +150,9 @@
 		{
 			"label": "Build Firmware (microRusEfi F4)",
 			"type": "shell",
-			"command": "make -j12 PROJECT_BOARD=microrusefi",
+			"command": "make -j12 PROJECT_BOARD=microgerefi",
 			"windows": {
-				"command": "wsl bash -lc 'make -j12 PROJECT_BOARD=microrusefi'"
+				"command": "wsl bash -lc 'make -j12 PROJECT_BOARD=microgerefi'"
 			},
 			"options": {
 				"cwd": "${workspaceRoot}/firmware"
@@ -166,9 +166,9 @@
 		{
 			"label": "Build Firmware (microRusEfi F7)",
 			"type": "shell",
-			"command": "make -j12 PROJECT_BOARD=microrusefi PROJECT_CPU=ARCH_STM32F7",
+			"command": "make -j12 PROJECT_BOARD=microgerefi PROJECT_CPU=ARCH_STM32F7",
 			"windows": {
-				"command": "wsl bash -lc 'make -j12 PROJECT_BOARD=microrusefi PROJECT_CPU=ARCH_STM32F7'"
+				"command": "wsl bash -lc 'make -j12 PROJECT_BOARD=microgerefi PROJECT_CPU=ARCH_STM32F7'"
 			},
 			"options": {
 				"cwd": "${workspaceRoot}/firmware"

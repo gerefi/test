@@ -1,9 +1,9 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.FileLog;
-import com.rusefi.models.Utils;
-import com.rusefi.ui.util.URLLabel;
+import com.gerefi.FileLog;
+import com.gerefi.models.Utils;
+import com.gerefi.ui.util.URLLabel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,8 +15,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.Launcher.*;
-import static com.rusefi.core.preferences.storage.PersistentConfiguration.getConfig;
+import static com.gerefi.Launcher.*;
+import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
 
 /**
  * DEAD?! This whole logic does not seem to provide much value?
@@ -31,7 +31,7 @@ public class VersionChecker {
     private static final Logging log = getLogging(VersionChecker.class);
     private static final String JAVA_CONSOLE_TAG = "java_console";
     private static final String FIRMWARE_TAG = "firmware";
-    private static final String VERSIONS_URL = "https://rusefi.com/console/versions.txt";
+    private static final String VERSIONS_URL = "https://gerefi.com/console/versions.txt";
 
     private static final VersionChecker instance = new VersionChecker();
 

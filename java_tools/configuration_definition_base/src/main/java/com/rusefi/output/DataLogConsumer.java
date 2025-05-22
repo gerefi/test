@@ -1,19 +1,19 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
-import com.rusefi.ConfigField;
-import com.rusefi.ConfigFieldImpl;
-import com.rusefi.ReaderState;
-import com.rusefi.VariableRegistry;
-import com.rusefi.parse.TypesHelper;
-import com.rusefi.util.LazyFile;
+import com.gerefi.ConfigField;
+import com.gerefi.ConfigFieldImpl;
+import com.gerefi.ReaderState;
+import com.gerefi.VariableRegistry;
+import com.gerefi.parse.TypesHelper;
+import com.gerefi.util.LazyFile;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.io.IOException;
 import java.util.TreeSet;
 
-import static com.rusefi.VariableRegistry.unquote;
-import static com.rusefi.ldmp.LiveDataProcessor.needComment;
+import static com.gerefi.VariableRegistry.unquote;
+import static com.gerefi.ldmp.LiveDataProcessor.needComment;
 
 /**
  * here we generate [Datalog] section of TS .ini file
@@ -22,7 +22,7 @@ import static com.rusefi.ldmp.LiveDataProcessor.needComment;
  * @see SdCardFieldsContent
  */
 public class DataLogConsumer implements ConfigurationConsumer {
-    // https://github.com/rusefi/web_backend/issues/166
+    // https://github.com/gerefi/web_backend/issues/166
     private static final int MSQ_LENGTH_LIMIT = 34;
 
     public static final String UNUSED = ConfigStructure.UNUSED_ANYTHING_PREFIX;

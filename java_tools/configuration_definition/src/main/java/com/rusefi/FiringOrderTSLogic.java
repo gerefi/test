@@ -1,4 +1,4 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
 
@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.config.generated.TriggerVariableRegistryValues.IGNITION_OUTPUT;
+import static com.gerefi.config.generated.TriggerVariableRegistryValues.IGNITION_OUTPUT;
 
 /**
  * Andrey Belomutskiy, (c) 2012-2016

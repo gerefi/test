@@ -10,7 +10,7 @@
  */
 
 /*
- * This file is part of rusEfi - see http://rusefi.com
+ * This file is part of rusEfi - see http://gerefi.com
  *
  * rusEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
@@ -199,7 +199,7 @@ void HpfpController::pinTurnOn(HpfpController *self) {
 	// For the solenoid type pump, the pump has a certain volume. You can activate the solenoid to request that the pump start pressurizing.
 	// Once it reaches a certain pressure, it is effectively self running and won't unlatch until the pump reaches the top.
   // Since the solenoid latches itself, you don't have to keep it activated for the whole lobe. You just need to activate it until it latches and then let it do the rest of the work.
-  // see also https://rusefi.com/forum/viewtopic.php?f=5&t=2192
+  // see also https://gerefi.com/forum/viewtopic.php?f=5&t=2192
 
 	scheduleByAngle(&self->m_event.eventScheduling,
 			self->m_event.eventScheduling.getMomentNt(),

@@ -1,6 +1,6 @@
-package com.rusefi.ts_plugin.knock;
+package com.gerefi.ts_plugin.knock;
 
-import com.rusefi.core.ui.AutoupdateUtil;
+import com.gerefi.core.ui.AutoupdateUtil;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,19 +1,19 @@
-package com.rusefi.ui.lua;
+package com.gerefi.ui.lua;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.field.StringIniField;
-import com.rusefi.ConnectionTab;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.io.ConnectionStatusLogic;
-import com.rusefi.io.LinkManager;
-import com.rusefi.ui.MessagesPanel;
-import com.rusefi.ui.UIContext;
-import com.rusefi.core.preferences.storage.Node;
-import com.rusefi.ui.util.URLLabel;
-import com.rusefi.ui.widgets.AnyCommand;
+import com.gerefi.ConnectionTab;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.io.ConnectionStatusLogic;
+import com.gerefi.io.LinkManager;
+import com.gerefi.ui.MessagesPanel;
+import com.gerefi.ui.UIContext;
+import com.gerefi.core.preferences.storage.Node;
+import com.gerefi.ui.util.URLLabel;
+import com.gerefi.ui.widgets.AnyCommand;
 import neoe.formatter.lua.LuaFormatter;
 import org.jetbrains.annotations.NotNull;
 
@@ -116,7 +116,7 @@ public class LuaScriptPanel {
         upperPanel.add(burnButton);
         upperPanel.add(moreButton);
         upperPanel.add(command.getContent());
-        upperPanel.add(new URLLabel("Lua Wiki", "https://github.com/rusefi/rusefi/wiki/Lua-Scripting"));
+        upperPanel.add(new URLLabel("Lua Wiki", "https://github.com/gerefi/gerefi/wiki/Lua-Scripting"));
 
         // Center panel - script editor and log
         JPanel scriptPanel = new JPanel(new BorderLayout());

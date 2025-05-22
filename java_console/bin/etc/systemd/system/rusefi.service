@@ -1,5 +1,5 @@
 #
-# sudo systemctl enable rusefi
+# sudo systemctl enable gerefi
 #
 
 [Unit]

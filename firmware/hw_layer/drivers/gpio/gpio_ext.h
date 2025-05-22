@@ -13,7 +13,7 @@
 #include "board.h"
 #endif /* EFI_PROD_CODE */
 
-#include "rusefi_enums.h"
+#include "gerefi_enums.h"
 
 /*==========================================================================*/
 /* Checks																	*/

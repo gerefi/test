@@ -1,9 +1,9 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.auth.AuthTokenUtil;
-import com.rusefi.core.preferences.storage.PersistentConfiguration;
-import com.rusefi.ui.util.URLLabel;
+import com.gerefi.auth.AuthTokenUtil;
+import com.gerefi.core.preferences.storage.PersistentConfiguration;
+import com.gerefi.ui.util.URLLabel;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
@@ -14,7 +14,7 @@ import java.awt.datatransfer.*;
 import java.awt.event.ActionEvent;
 import java.io.IOException;
 
-import static com.rusefi.core.preferences.storage.PersistentConfiguration.getConfig;
+import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
 
 public class AuthTokenPanel {
     private final static Logging log = Logging.getLogging(AuthTokenPanel.class);

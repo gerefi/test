@@ -1,8 +1,8 @@
 // this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/shift_torque_reduction_state.txt
-// by class com.rusefi.output.CHeaderConsumer
+// by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 // start of shift_torque_reduction_state_s
 struct shift_torque_reduction_state_s {
 	/**

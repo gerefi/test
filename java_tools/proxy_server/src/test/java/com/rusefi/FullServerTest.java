@@ -1,21 +1,21 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.core.rusEFIVersion;
-import com.rusefi.io.ConnectionStateListener;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.io.tcp.TcpConnector;
-import com.rusefi.io.tcp.TcpIoStream;
-import com.rusefi.proxy.NetworkConnector;
-import com.rusefi.proxy.NetworkConnectorContext;
-import com.rusefi.proxy.client.LocalApplicationProxy;
-import com.rusefi.proxy.client.LocalApplicationProxyContext;
-import com.rusefi.proxy.client.UpdateType;
-import com.rusefi.server.*;
-import com.rusefi.tools.online.HttpUtil;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.core.rusEFIVersion;
+import com.gerefi.io.ConnectionStateListener;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.tcp.TcpConnector;
+import com.gerefi.io.tcp.TcpIoStream;
+import com.gerefi.proxy.NetworkConnector;
+import com.gerefi.proxy.NetworkConnectorContext;
+import com.gerefi.proxy.client.LocalApplicationProxy;
+import com.gerefi.proxy.client.LocalApplicationProxyContext;
+import com.gerefi.proxy.client.UpdateType;
+import com.gerefi.server.*;
+import com.gerefi.tools.online.HttpUtil;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -26,8 +26,8 @@ import java.util.Objects;
 import java.util.concurrent.CountDownLatch;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.TestHelper.*;
-import static com.rusefi.Timeouts.SECOND;
+import static com.gerefi.TestHelper.*;
+import static com.gerefi.Timeouts.SECOND;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FullServerTest {

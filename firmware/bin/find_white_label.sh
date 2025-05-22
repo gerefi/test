@@ -1,5 +1,5 @@
 # This scripts accepts .properties file name as an only argument and outputs value of `white_label` property.
-# It outputs the default white-label `rusefi` when:
+# It outputs the default white-label `gerefi` when:
 # - specified .properties file doesn't exist
 # - or `white_label` property is not initialized in specified .properties file
 set -u
@@ -16,6 +16,6 @@ if [ -f ${properties_file} ]; then
 fi
 
 if [ -z "${white_label:-}" ]; then
-  white_label=rusefi
+  white_label=gerefi
 fi
 echo "${white_label}"

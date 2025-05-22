@@ -1,7 +1,7 @@
 
 cd ../../..
 
-set PROJECT_BOARD=microrusefi
+set PROJECT_BOARD=microgerefi
 set PROJECT_CPU=ARCH_STM32F7
 
 set VAR_DEF_ENGINE_TYPE = -DDEFAULT_ENGINE_TYPE=engine_type_e::BMW_M73_F

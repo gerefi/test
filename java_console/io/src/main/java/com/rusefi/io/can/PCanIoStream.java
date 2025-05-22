@@ -1,16 +1,16 @@
-package com.rusefi.io.can;
+package com.gerefi.io.can;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.io.DataListener;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.config.generated.VariableRegistryValues;
-import com.rusefi.util.HexBinary;
-import com.rusefi.io.can.isotp.IsoTpCanDecoder;
-import com.rusefi.io.can.isotp.IsoTpConnector;
-import com.rusefi.io.serial.AbstractIoStream;
-import com.rusefi.io.serial.RateCounter;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.ui.StatusConsumer;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.config.generated.VariableRegistryValues;
+import com.gerefi.util.HexBinary;
+import com.gerefi.io.can.isotp.IsoTpCanDecoder;
+import com.gerefi.io.can.isotp.IsoTpConnector;
+import com.gerefi.io.serial.AbstractIoStream;
+import com.gerefi.io.serial.RateCounter;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.ui.StatusConsumer;
 import org.jetbrains.annotations.Nullable;
 import peak.can.basic.*;
 
@@ -19,7 +19,7 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.config.generated.VariableRegistryValues.CAN_ECU_SERIAL_TX_ID;
+import static com.gerefi.config.generated.VariableRegistryValues.CAN_ECU_SERIAL_TX_ID;
 
 public class PCanIoStream extends AbstractIoStream {
     private static final int INFO_SKIP_RATE = 3-00;
@@ -101,7 +101,7 @@ public class PCanIoStream extends AbstractIoStream {
     private void readOnePacket(DataListener listener) {
         // todo: can we reuse instance?
         // todo: should be? TPCANMsg rx = new TPCANMsg();
-        // https://github.com/rusefi/rusefi/issues/4370 nasty work-around
+        // https://github.com/gerefi/gerefi/issues/4370 nasty work-around
         TPCANMsg rx = new TPCANMsg(Byte.MAX_VALUE);
         TPCANStatus status = can.Read(PCanHelper.CHANNEL, rx, null);
         if (status == TPCANStatus.PCAN_ERROR_OK) {

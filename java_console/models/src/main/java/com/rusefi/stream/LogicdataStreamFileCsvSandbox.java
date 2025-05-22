@@ -1,6 +1,6 @@
-package com.rusefi.stream;
+package com.gerefi.stream;
 
-import com.rusefi.composite.CompositeEvent;
+import com.gerefi.composite.CompositeEvent;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.BufferedReader;

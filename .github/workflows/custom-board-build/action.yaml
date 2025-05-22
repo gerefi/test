@@ -1,14 +1,14 @@
 #
-# see https://github.com/rusefi/fw-Paralela/blob/master/.github/workflows/compile-board.yaml as an example of how to build custom board firmware
+# see https://github.com/gerefi/fw-Paralela/blob/master/.github/workflows/compile-board.yaml as an example of how to build custom board firmware
 #
 
 name: Build Custom Board Firmware
 
 inputs:
-  rusefi_dir:
-    description: 'Path to rusefi submodule'
+  gerefi_dir:
+    description: 'Path to gerefi submodule'
     required: false
-    default: ext/rusefi
+    default: ext/gerefi
   meta_info:
     description: 'Path to meta info file'
     required: false
@@ -78,7 +78,7 @@ inputs:
     required: false
     default: ''
   extra_files_to_copy_on_image_folder:
-    description: 'Relative path to the folder with extra files to copy on image (from rusefi/firmware folder)'
+    description: 'Relative path to the folder with extra files to copy on image (from gerefi/firmware folder)'
     required: false
     default: ''
 runs:
@@ -123,12 +123,12 @@ runs:
       shell: bash
       run: |
         : Echo
-        echo "rusefi_dir=${{inputs.rusefi_dir}}"
+        echo "gerefi_dir=${{inputs.gerefi_dir}}"
         echo "meta_info=${{inputs.meta_info}}"
         echo "sim_output=${{inputs.sim_output}}"
 
     - name: Checkout Submodules
-      working-directory: ${{inputs.rusefi_dir}}
+      working-directory: ${{inputs.gerefi_dir}}
       shell: bash
       run: |
         : Checkout Submodules
@@ -147,7 +147,7 @@ runs:
       shell: bash
       run: |
         : Find out white-label
-        echo "white_label=$(bash ${{inputs.rusefi_dir}}/firmware/bin/find_white_label.sh shared_io.resources/shared_io.properties)" >> $GITHUB_OUTPUT
+        echo "white_label=$(bash ${{inputs.gerefi_dir}}/firmware/bin/find_white_label.sh shared_io.resources/shared_io.properties)" >> $GITHUB_OUTPUT
 
     - name: Set Env Variables
       id: set-env-variables
@@ -166,10 +166,10 @@ runs:
         echo "${{ inputs.ADDITIONAL_ENV }}" >> $GITHUB_ENV
         shopt -s expand_aliases
         if which grealpath >/dev/null 2>&1; then alias realpath='grealpath'; fi
-        echo "META_OUTPUT_ROOT_FOLDER=$(realpath --relative-to=${{inputs.rusefi_dir}}/firmware ${{inputs.meta_output}})/" >> $GITHUB_ENV
-        echo "DEFAULT_TUNE_OUTPUT_FOLDER=$(realpath --relative-to=${{inputs.rusefi_dir}}/firmware ${{inputs.sim_output}})/" >> $GITHUB_ENV
-        source ${{inputs.rusefi_dir}}/firmware/config/boards/common_script_read_meta_env.inc "${{inputs.meta_info}}"
-        cd ${{inputs.rusefi_dir}}/firmware
+        echo "META_OUTPUT_ROOT_FOLDER=$(realpath --relative-to=${{inputs.gerefi_dir}}/firmware ${{inputs.meta_output}})/" >> $GITHUB_ENV
+        echo "DEFAULT_TUNE_OUTPUT_FOLDER=$(realpath --relative-to=${{inputs.gerefi_dir}}/firmware ${{inputs.sim_output}})/" >> $GITHUB_ENV
+        source ${{inputs.gerefi_dir}}/firmware/config/boards/common_script_read_meta_env.inc "${{inputs.meta_info}}"
+        cd ${{inputs.gerefi_dir}}/firmware
         ABSOLUTE_BOARD_DIR=${{github.workspace}}/$BOARD_DIR
         # sometimes absolute path is simpler
         echo "ABSOLUTE_BOARD_DIR=$ABSOLUTE_BOARD_DIR" >> $GITHUB_ENV
@@ -225,7 +225,7 @@ runs:
         if [ "$BUNDLE_SIMULATOR" == "true" ]; then
           SIM_REQS+=" g++-mingw-w64 gcc-mingw-w64 zip dosfstools"
         fi
-        sudo bash ${{inputs.rusefi_dir}}/misc/actions/add-ubuntu-latest-apt-mirrors.sh
+        sudo bash ${{inputs.gerefi_dir}}/misc/actions/add-ubuntu-latest-apt-mirrors.sh
         sudo apt-get install sshpass mtools $SIM_REQS
 
     - name: Repo Status
@@ -234,11 +234,11 @@ runs:
         : Repo Status
         git status
 
-    - name: rusefi_dir Status
-      working-directory: ${{inputs.rusefi_dir}}
+    - name: gerefi_dir Status
+      working-directory: ${{inputs.gerefi_dir}}
       shell: bash
       run: |
-        : rusefi_dir Status
+        : gerefi_dir Status
         if [ "$(git rev-parse --is-inside-work-tree 2>&1)" == "true" ]; then
           git status
         else
@@ -254,7 +254,7 @@ runs:
         git config --local user.name "GitHub git update Action"
 
     - name: Handle configs separately just to make github logs more readable
-      working-directory: ${{inputs.rusefi_dir}}/firmware
+      working-directory: ${{inputs.gerefi_dir}}/firmware
       shell: bash
       run: |
         : Handle configs separately just to make github logs more readable
@@ -267,7 +267,7 @@ runs:
       shell: bash
       run: |
         : Add Config to Commit Regardless of firmware build status
-        git add ${{inputs.rusefi_dir}}/firmware/${META_OUTPUT_ROOT_FOLDER}*
+        git add ${{inputs.gerefi_dir}}/firmware/${META_OUTPUT_ROOT_FOLDER}*
         OUT=$(git commit -m "Quick Auto-generated Configs" -m "[no ci]" 2>&1) || echo "commit failed, finding out why"
         if echo "$OUT" | grep 'nothing to commit'; then
           echo "Configs: looks like nothing to commit"
@@ -282,18 +282,18 @@ runs:
         github_token: ${{env.TOKEN}}
 
     - name: Building simulator separately just to make github logs more readable
-      working-directory: ${{inputs.rusefi_dir}}/firmware
+      working-directory: ${{inputs.gerefi_dir}}/firmware
       shell: bash
       run: |
         : Building simulator separately just to make github logs more readable
         if [ "$RUN_SIMULATOR" == "true" ]; then
           echo Building simulator...
-          bash bin/compile.sh $BOARD_META_PATH ../simulator/build/rusefi_simulator.linux
+          bash bin/compile.sh $BOARD_META_PATH ../simulator/build/gerefi_simulator.linux
           echo DONE: simulator
         fi
 
     - name: Building bootloader separately
-      working-directory: ${{inputs.rusefi_dir}}/firmware
+      working-directory: ${{inputs.gerefi_dir}}/firmware
       if: ${{ contains(inputs.artifacts, 'bootloader') }}
       shell: bash
       run: |
@@ -304,7 +304,7 @@ runs:
         ls -l bootloader/blbuild
 
     - name: Gradle tune-tools separately
-      working-directory: ${{inputs.rusefi_dir}}/java_tools
+      working-directory: ${{inputs.gerefi_dir}}/java_tools
       shell: bash
       run: ./gradlew :tune-tools:shadowJar
 
@@ -317,18 +317,18 @@ runs:
         fi
 
     - name: Build Firmware
-      working-directory: ${{inputs.rusefi_dir}}/firmware
+      working-directory: ${{inputs.gerefi_dir}}/firmware
       shell: bash
       run: |
         : Build Firmware
         if [ "$RUN_SIMULATOR" == "true" ]; then
-          TARGETS=("../simulator/build/rusefi_simulator.linux")
+          TARGETS=("../simulator/build/gerefi_simulator.linux")
         fi
         bash bin/compile.sh $BOARD_META_PATH --output-sync=recurse ${{inputs.artifacts}} ${{inputs.extra_makefile_targets}} ${TARGETS[@]}
 
     - name: Ftp Upload Both Bundles
       if: ${{ contains(inputs.uploads, 'ftp_upload_bundles') }}
-      working-directory: ${{inputs.rusefi_dir}}/artifacts
+      working-directory: ${{inputs.gerefi_dir}}/artifacts
       shell: bash
       run: |
         : Ftp Upload Both Bundles
@@ -347,10 +347,10 @@ runs:
       shell: bash
       run: |
         : Run Simulator
-        cd ${{inputs.rusefi_dir}}/simulator/
-        ./build/rusefi_simulator 10
+        cd ${{inputs.gerefi_dir}}/simulator/
+        ./build/gerefi_simulator 10
         mkdir -p ${{inputs.sim_output}}canned-tunes
-        ./write_tune.sh ${ABSOLUTE_BOARD_DIR}/generated/tunerstudio/generated/rusefi_${SHORT_BOARD_NAME}.ini
+        ./write_tune.sh ${ABSOLUTE_BOARD_DIR}/generated/tunerstudio/generated/gerefi_${SHORT_BOARD_NAME}.ini
 
     - name: Add Tune to Commit
       if: ${{ inputs.run_simulator == 'true' && inputs.push == 'true' }}
@@ -373,7 +373,7 @@ runs:
       shell: bash
       run: |
         : Add Config to Commit
-        git add ${{inputs.rusefi_dir}}/firmware/${META_OUTPUT_ROOT_FOLDER}*
+        git add ${{inputs.gerefi_dir}}/firmware/${META_OUTPUT_ROOT_FOLDER}*
         : # TODO handle extra headers but only if those exist
         : #if [ -d firmware ]; then
         : #  git add firmware/extra*
@@ -408,99 +408,99 @@ runs:
 
     - name: Upload .ini files to rusEFI Online server
       if: ${{ contains(inputs.uploads, 'ini') }}
-      working-directory: ${{inputs.rusefi_dir}}/firmware/${{env.META_OUTPUT_ROOT_FOLDER}}tunerstudio/generated
+      working-directory: ${{inputs.gerefi_dir}}/firmware/${{env.META_OUTPUT_ROOT_FOLDER}}tunerstudio/generated
       shell: bash
       run: |
         : Upload .ini files to rusEFI Online server
-        ${{github.workspace}}/${{inputs.rusefi_dir}}/firmware/tunerstudio/upload_ini.sh ${{ inputs.RUSEFI_ONLINE_FTP_USER }} "${{ inputs.RUSEFI_ONLINE_FTP_PASS }}" ${{ inputs.RUSEFI_FTP_SERVER }}
+        ${{github.workspace}}/${{inputs.gerefi_dir}}/firmware/tunerstudio/upload_ini.sh ${{ inputs.RUSEFI_ONLINE_FTP_USER }} "${{ inputs.RUSEFI_ONLINE_FTP_PASS }}" ${{ inputs.RUSEFI_FTP_SERVER }}
 
     - name: Upload .ini files to secondary Online server
       if: ${{ contains(inputs.uploads, 'ini') }}
-      working-directory: ${{inputs.rusefi_dir}}/firmware/${{env.META_OUTPUT_ROOT_FOLDER}}tunerstudio/generated
+      working-directory: ${{inputs.gerefi_dir}}/firmware/${{env.META_OUTPUT_ROOT_FOLDER}}tunerstudio/generated
       shell: bash
       run: |
         : Upload .ini files to secondary Online server
         export INI_DESTINATION_FOLDER=html/ini/
-        ${{github.workspace}}/${{inputs.rusefi_dir}}/firmware/tunerstudio/upload_ini.sh ${{ inputs.RUSEFI_ONLINE2_USER }} "${{ inputs.RUSEFI_ONLINE2_PASS }}" ${{ inputs.RUSEFI_ONLINE2_SERVER }}
+        ${{github.workspace}}/${{inputs.gerefi_dir}}/firmware/tunerstudio/upload_ini.sh ${{ inputs.RUSEFI_ONLINE2_USER }} "${{ inputs.RUSEFI_ONLINE2_PASS }}" ${{ inputs.RUSEFI_ONLINE2_SERVER }}
 
     - name: Upload github action bin artifact
       if: ${{ contains(inputs.artifacts, 'bin') }}
       uses: actions/upload-artifact@v4
       with:
-        name: rusefi.bin
-        path: ${{inputs.rusefi_dir}}/firmware/deliver/rusefi*.bin
+        name: gerefi.bin
+        path: ${{inputs.gerefi_dir}}/firmware/deliver/gerefi*.bin
 
     - name: Upload github action srec artifact
       if: ${{ contains(inputs.artifacts, 'srec') }}
       uses: actions/upload-artifact@v4
       with:
-        name: rusefi_update.srec
-        path: ${{inputs.rusefi_dir}}/firmware/build/rusefi.srec
+        name: gerefi_update.srec
+        path: ${{inputs.gerefi_dir}}/firmware/build/gerefi.srec
 
     - name: Upload github action hex artifact
       if: ${{ contains(inputs.artifacts, 'hex') }}
       uses: actions/upload-artifact@v4
       with:
-        name: rusefi.hex
-        path: ${{inputs.rusefi_dir}}/firmware/build/rusefi*.hex
+        name: gerefi.hex
+        path: ${{inputs.gerefi_dir}}/firmware/build/gerefi*.hex
 
     - name: Upload github action list artifact
       if: ${{ contains(inputs.artifacts, 'list') }}
       uses: actions/upload-artifact@v4
       with:
-        name: rusefi.list
-        path: ${{inputs.rusefi_dir}}/firmware/build/rusefi*.list
+        name: gerefi.list
+        path: ${{inputs.gerefi_dir}}/firmware/build/gerefi*.list
 
     - name: Upload github action map artifact
       if: ${{ contains(inputs.artifacts, 'map') }}
       uses: actions/upload-artifact@v4
       with:
-        name: rusefi.map
-        path: ${{inputs.rusefi_dir}}/firmware/build/rusefi*.map
+        name: gerefi.map
+        path: ${{inputs.gerefi_dir}}/firmware/build/gerefi*.map
 
     # sad: we have duplication with build-firmware.yaml :(
     # todo: is this insanity? does not gcc produce similar file directly?
     - name: elf2text
       shell: bash
       if: ${{ contains(inputs.artifacts, 'elf') }}
-      working-directory: ${{inputs.rusefi_dir}}/firmware/build
+      working-directory: ${{inputs.gerefi_dir}}/firmware/build
       run: |
-        arm-none-eabi-objdump -d rusefi.elf > rusefi.txt
+        arm-none-eabi-objdump -d gerefi.elf > gerefi.txt
 
     - name: Upload github action text artifact
       if: ${{ contains(inputs.artifacts, 'elf') }}
       uses: actions/upload-artifact@v4
       with:
-        name: rusefi.txt
-        path: ${{inputs.rusefi_dir}}/firmware/build/rusefi*.txt
+        name: gerefi.txt
+        path: ${{inputs.gerefi_dir}}/firmware/build/gerefi*.txt
 
     - name: Upload github action elf artifact
       if: ${{ contains(inputs.artifacts, 'elf') }}
       uses: actions/upload-artifact@v4
       with:
-        name: rusefi.elf
-        path: ${{inputs.rusefi_dir}}/firmware/build/rusefi*.elf
+        name: gerefi.elf
+        path: ${{inputs.gerefi_dir}}/firmware/build/gerefi*.elf
 
     - name: Upload github action bootloader bin artifact
       if: ${{ contains(inputs.artifacts, 'bootloader') }}
       uses: actions/upload-artifact@v4
       with:
         name: openblt_${{env.PROJECT_BOARD}}.bin
-        path: ${{inputs.rusefi_dir}}/firmware/bootloader/blbuild/openblt_${{env.PROJECT_BOARD}}.bin
+        path: ${{inputs.gerefi_dir}}/firmware/bootloader/blbuild/openblt_${{env.PROJECT_BOARD}}.bin
 
     - name: Upload github action bundle artifact
       if: ${{ contains(inputs.artifacts, 'bundle') }}
       uses: actions/upload-artifact@v4
       with:
         name: ${{steps.find-out-white-label.outputs.white_label}}_bundle_${{env.SHORT_BOARD_NAME}}_${{env.current_date}}.zip.zip
-        path: ${{inputs.rusefi_dir}}/artifacts/${{steps.find-out-white-label.outputs.white_label}}_bundle_${{env.SHORT_BOARD_NAME}}.zip
+        path: ${{inputs.gerefi_dir}}/artifacts/${{steps.find-out-white-label.outputs.white_label}}_bundle_${{env.SHORT_BOARD_NAME}}.zip
 
     - name: Upload github action bundle autoupdate artifact
       if: ${{ contains(inputs.artifacts, 'autoupdate') }}
       uses: actions/upload-artifact@v4
       with:
         name: ${{steps.find-out-white-label.outputs.white_label}}_bundle_${{env.SHORT_BOARD_NAME}}_autoupdate_${{env.current_date}}.zip.zip
-        path: ${{inputs.rusefi_dir}}/artifacts/${{steps.find-out-white-label.outputs.white_label}}_bundle_${{env.SHORT_BOARD_NAME}}_autoupdate.zip
+        path: ${{inputs.gerefi_dir}}/artifacts/${{steps.find-out-white-label.outputs.white_label}}_bundle_${{env.SHORT_BOARD_NAME}}_autoupdate.zip
 
     - uses: mukunku/tag-exists-action@v1.6.0
       if: ${{ inputs.new_tag != '' }}
@@ -519,7 +519,7 @@ runs:
 
     - name: Upload Tagged Daily Release Bundle
       if: ${{ contains(inputs.uploads, 'ftp_upload_bundles') && steps.tag.outputs.new_tag != ''}}
-      working-directory: ${{inputs.rusefi_dir}}/artifacts
+      working-directory: ${{inputs.gerefi_dir}}/artifacts
       shell: bash
       run: |
         : Upload Tagged Daily Release Bundle

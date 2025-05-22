@@ -1,19 +1,19 @@
-package com.rusefi.io;
+package com.gerefi.io;
 
 import com.devexperts.logging.Logging;
 import com.fazecast.jSerialComm.SerialPort;
-import com.rusefi.Callable;
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.BinaryProtocolState;
-import com.rusefi.core.EngineState;
-import com.rusefi.io.serial.BufferedSerialIoStream;
-import com.rusefi.io.serial.StreamConnector;
-import com.rusefi.io.can.PCanIoStream;
-import com.rusefi.io.can.SocketCANIoStream;
-import com.rusefi.io.tcp.TcpConnector;
-import com.rusefi.io.tcp.TcpIoStream;
-import com.rusefi.util.IoUtils;
+import com.gerefi.Callable;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.BinaryProtocolState;
+import com.gerefi.core.EngineState;
+import com.gerefi.io.serial.BufferedSerialIoStream;
+import com.gerefi.io.serial.StreamConnector;
+import com.gerefi.io.can.PCanIoStream;
+import com.gerefi.io.can.SocketCANIoStream;
+import com.gerefi.io.tcp.TcpConnector;
+import com.gerefi.io.tcp.TcpIoStream;
+import com.gerefi.util.IoUtils;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.Closeable;

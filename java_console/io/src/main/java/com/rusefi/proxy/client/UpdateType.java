@@ -1,6 +1,6 @@
-package com.rusefi.proxy.client;
+package com.gerefi.proxy.client;
 
-import com.rusefi.proxy.NetworkConnector;
+import com.gerefi.proxy.NetworkConnector;
 
 public enum UpdateType {
     CONTROLLER(NetworkConnector.UPDATE_CONNECTOR_SOFTWARE_LATEST),

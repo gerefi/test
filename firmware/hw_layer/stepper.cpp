@@ -1,7 +1,7 @@
 /**
  * @file	stepper.cpp
  *
- * http://rusefi.com/wiki/index.php?title=Hardware:Stepper_motor
+ * http://gerefi.com/wiki/index.php?title=Hardware:Stepper_motor
  *
  * @date Dec 24, 2014
  * @author Andrey Belomutskiy, (c) 2012-2020

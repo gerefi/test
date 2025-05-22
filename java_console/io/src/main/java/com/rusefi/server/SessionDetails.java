@@ -1,7 +1,7 @@
-package com.rusefi.server;
+package com.gerefi.server;
 
-import com.rusefi.proxy.NetworkConnector;
-import com.rusefi.tools.online.HttpUtil;
+import com.gerefi.proxy.NetworkConnector;
+import com.gerefi.tools.online.HttpUtil;
 import org.jetbrains.annotations.Nullable;
 import org.json.simple.JSONObject;
 

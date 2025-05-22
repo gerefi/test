@@ -13,7 +13,7 @@
 #include "can.h"
 #include "can_msg_tx.h"
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 #include "rtc_helper.h"
 #include "fuel_math.h"
 

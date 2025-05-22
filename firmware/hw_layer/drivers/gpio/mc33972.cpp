@@ -1,6 +1,6 @@
 /*
  * mc33972.cpp
- * looks like chip is not very available these days TODO https://github.com/rusefi/rusefi/issues/5733
+ * looks like chip is not very available these days TODO https://github.com/gerefi/gerefi/issues/5733
  *
  * Multiple Switch Detection Interface with Suppressed Wake-up
  *

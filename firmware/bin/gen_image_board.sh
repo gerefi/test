@@ -2,7 +2,7 @@
 
 BOARD_DIR=${1:-$BOARD_DIR}
 SHORT_BOARD_NAME=${2:-$SHORT_BOARD_NAME}
-INI=${3:-"rusefi_$SHORT_BOARD_NAME.ini"}
+INI=${3:-"gerefi_$SHORT_BOARD_NAME.ini"}
 
 shopt -s expand_aliases
 if which grealpath >/dev/null 2>&1; then alias realpath='grealpath'; fi
@@ -17,7 +17,7 @@ BOARD_SPECIFIC_URL=$(cat $PREPEND_FILE | grep MAIN_HELP_URL | cut -d " " -f 3 | 
 
 echo "BOARD_SPECIFIC_URL=[$BOARD_SPECIFIC_URL] for [$SHORT_BOARD_NAME] from [$BOARD_DIR]"
 if [ "" = "$BOARD_SPECIFIC_URL" ]; then
-  BOARD_SPECIFIC_URL=https://rusefi.com/s/wiki
+  BOARD_SPECIFIC_URL=https://gerefi.com/s/wiki
 fi
 echo "BOARD_SPECIFIC_URL=[$BOARD_SPECIFIC_URL]"
 

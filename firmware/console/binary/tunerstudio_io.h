@@ -58,7 +58,7 @@ public:
 #endif // CUSTOM_TS_BUFFER
 
 	/**
-	 * See 'blockingFactor' in rusefi.ini
+	 * See 'blockingFactor' in gerefi.ini
 	 */
 	char scratchBuffer[scratchBuffer_SIZE + 30];
 	const char *name;

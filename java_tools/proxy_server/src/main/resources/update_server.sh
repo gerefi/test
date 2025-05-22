@@ -3,8 +3,8 @@ echo Stopping...
 ./stop_server.sh
 
 echo Downloading...
-rm -rf rusefi_server.jar
-wget https://rusefi.com/build_server/autoupdate/rusefi_server.jar
+rm -rf gerefi_server.jar
+wget https://gerefi.com/build_server/autoupdate/gerefi_server.jar
 
 echo Starting...
 ./start_server.sh

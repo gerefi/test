@@ -11,7 +11,7 @@ To activate your Bluetooth module, you'll need:
        Please set this to the baud rate currently used by your UART console.
    - <name> is the name of your Bluetooth connection. It will be visible in the device list on your PC.
    - <pincode> is 4-digit PIN-code needed to authorize the Bluetooth connection to your PC.
-   Example: "bluetooth_hc06 38400 rusefi 1234"
+   Example: "bluetooth_hc06 38400 gerefi 1234"
 5) After entering the command the following text will appear:
 	*** Bluetooth module setup procedure ***
 	!Warning! Please make sure you're not currently using the BT module for communication (not paired)!

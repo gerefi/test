@@ -12,7 +12,7 @@
 #include "persistent_configuration.h"
 #include "generated_lookup_engine_configuration.h"
 #include "tcu_controller_generated.h"
-#include <rusefi/timer.h>
+#include <gerefi/timer.h>
 
 #if EFI_TCU
 class TransmissionControllerBase: public tcu_controller_s {

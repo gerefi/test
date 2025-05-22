@@ -1,4 +1,4 @@
-package com.rusefi.newparse.parsing;
+package com.gerefi.newparse.parsing;
 
 public class Definition {
     public final Object value;

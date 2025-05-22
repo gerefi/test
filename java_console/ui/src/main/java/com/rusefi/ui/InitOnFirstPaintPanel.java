@@ -1,6 +1,6 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.core.ui.AutoupdateUtil;
+import com.gerefi.core.ui.AutoupdateUtil;
 
 import javax.swing.*;
 import java.awt.*;

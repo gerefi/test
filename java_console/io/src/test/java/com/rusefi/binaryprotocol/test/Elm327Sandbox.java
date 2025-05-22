@@ -1,21 +1,21 @@
-package com.rusefi.binaryprotocol.test;
+package com.gerefi.binaryprotocol.test;
 
 
 /*
 
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.config.generated.Fields;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.can.elm.Elm327Connector;
-import com.rusefi.io.serial.BaudRateHolder;
-import com.rusefi.io.serial.SerialIoStream;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.config.generated.Fields;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.can.elm.Elm327Connector;
+import com.gerefi.io.serial.BaudRateHolder;
+import com.gerefi.io.serial.SerialIoStream;
 
 import java.io.IOException;
 
-import static com.rusefi.binaryprotocol.IoHelper.checkResponseCode;
-import static com.rusefi.io.can.elm.Elm327Connector.ELM327_DEFAULT_BAUDRATE;
+import static com.gerefi.binaryprotocol.IoHelper.checkResponseCode;
+import static com.gerefi.io.can.elm.Elm327Connector.ELM327_DEFAULT_BAUDRATE;
 
 public class Elm327Sandbox {
     public static void main(String[] args) throws InterruptedException, IOException {

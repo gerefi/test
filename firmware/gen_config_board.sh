@@ -12,12 +12,12 @@
 
 set -e
 
-echo "This script reads rusefi_config.txt and produces firmware persistent configuration headers"
-echo "the storage section of rusefiXXX.ini is updated as well"
+echo "This script reads gerefi_config.txt and produces firmware persistent configuration headers"
+echo "the storage section of gerefiXXX.ini is updated as well"
 
 BOARD_DIR=${1:-$BOARD_DIR}
 SHORT_BOARD_NAME=${2:-$SHORT_BOARD_NAME}
-INI=${3:-"rusefi_$SHORT_BOARD_NAME.ini"}
+INI=${3:-"gerefi_$SHORT_BOARD_NAME.ini"}
 
 if [ -z "$BOARD_DIR" ]; then
 	echo "Board dir parameter expected"
@@ -49,9 +49,9 @@ java \
  $COMMON_GEN_CONFIG_PREFIX \
  	-tool gen_config.sh \
  $COMMON_GEN_CONFIG \
-	-enumInputFile controllers/algo/rusefi_hw_stm32_enums.h \
-	-enumInputFile controllers/algo/rusefi_hw_adc_enums.h \
-  -c_defines        controllers/generated/rusefi_generated_${SHORT_BOARD_NAME}.h \
+	-enumInputFile controllers/algo/gerefi_hw_stm32_enums.h \
+	-enumInputFile controllers/algo/gerefi_hw_adc_enums.h \
+  -c_defines        controllers/generated/gerefi_generated_${SHORT_BOARD_NAME}.h \
   -c_destination    controllers/generated/engine_configuration_generated_structures_${SHORT_BOARD_NAME}.h
 
 [ $? -eq 0 ] || { echo "ERROR generating TunerStudio config for ${BOARD_DIR}"; exit 1; }

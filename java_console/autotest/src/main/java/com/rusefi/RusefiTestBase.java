@@ -1,11 +1,11 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.IniFileModelImpl;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.IniFileProvider;
-import com.rusefi.functional_tests.EcuTestHelper;
-import com.rusefi.waves.EngineChart;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.IniFileProvider;
+import com.gerefi.functional_tests.EcuTestHelper;
+import com.gerefi.waves.EngineChart;
 import org.junit.*;
 
 public class RusefiTestBase {

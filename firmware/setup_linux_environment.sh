@@ -22,16 +22,16 @@ sudo bash misc/actions/ubuntu-install-tools.sh
 sudo apt-get install -y build-essential gcc gdb gcc-multilib make openjdk-11-jdk-headless xxd
 
 # delete any old tools, create a new folder, and go there
-rm -rf ~/.rusefi-tools
-mkdir ~/.rusefi-tools
+rm -rf ~/.gerefi-tools
+mkdir ~/.gerefi-tools
 dir=$(pwd)
-cd ~/.rusefi-tools
+cd ~/.gerefi-tools
 
 # provide GCC arm-none-eabi toolchain
 ${dir}/provide_gcc.sh
 
 # Add the compiler to your path
-echo 'export PATH=$PATH:$HOME/.rusefi-tools/gcc-arm-none-eabi/bin' >> ~/.profile
+echo 'export PATH=$PATH:$HOME/.gerefi-tools/gcc-arm-none-eabi/bin' >> ~/.profile
 
 # Allow the current user to use serial ports
 sudo usermod -a -G dialout $USER

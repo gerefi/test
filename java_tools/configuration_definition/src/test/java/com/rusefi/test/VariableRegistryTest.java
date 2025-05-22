@@ -1,6 +1,6 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.VariableRegistry;
+import com.gerefi.VariableRegistry;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -8,8 +8,8 @@ import java.io.StringReader;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.rusefi.VariableRegistry.*;
-import static com.rusefi.AssertCompatibility.assertEquals;
+import static com.gerefi.VariableRegistry.*;
+import static com.gerefi.AssertCompatibility.assertEquals;
 
 /**
  * 3/30/2015

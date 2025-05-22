@@ -1,11 +1,11 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
-import com.rusefi.*;
-import com.rusefi.parse.TypesHelper;
+import com.gerefi.*;
+import com.gerefi.parse.TypesHelper;
 
 import java.util.*;
 
-import static com.rusefi.ConfigFieldImpl.BOOLEAN_T;
+import static com.gerefi.ConfigFieldImpl.BOOLEAN_T;
 
 /**
  * Mutable representation of a list of related {@link ConfigFieldImpl}

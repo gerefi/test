@@ -193,7 +193,7 @@ TEST(idle_v2, runningFanAcBump) {
 }
 
 // This can be seen as a kind of some close-loop logic, please read:
-// https://github.com/rusefi/rusefi/issues/6977
+// https://github.com/gerefi/gerefi/issues/6977
 TEST(idle_v2, idleAdderShouldNotAffectNonIdleAreas) {
 	EngineTestHelper eth(engine_type_e::TEST_ENGINE);
 	IdleController dut;

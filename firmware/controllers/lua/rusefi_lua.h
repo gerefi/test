@@ -44,7 +44,7 @@ private:
 void startLua();
 
 #if EFI_UNIT_TEST
-#include <rusefi/expected.h>
+#include <gerefi/expected.h>
 
 expected<float> testLuaReturnsNumberOrNil(const char* script);
 float testLuaReturnsNumber(const char* script);

@@ -1,9 +1,9 @@
-package com.rusefi.sensor_logs;
+package com.gerefi.sensor_logs;
 
 import com.devexperts.logging.FileLogger;
-import com.rusefi.FileLog;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.rusEFIVersion;
+import com.gerefi.FileLog;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.rusEFIVersion;
 
 import java.io.*;
 import java.util.*;

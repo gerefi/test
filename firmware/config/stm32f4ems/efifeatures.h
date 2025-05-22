@@ -10,7 +10,7 @@
 
 #pragma once
 
-#include <rusefi/true_false.h>
+#include <gerefi/true_false.h>
 
 #define EFI_GPIO_HARDWARE TRUE
 
@@ -486,7 +486,7 @@
 #define EFI_CONSOLE_RX_BRAIN_PIN Gpio::C11
 #endif
 // todo: this should be detected automatically based on pin selection
-// https://github.com/rusefi/rusefi/issues/3536
+// https://github.com/gerefi/gerefi/issues/3536
 #ifndef EFI_CONSOLE_AF
 #define EFI_CONSOLE_AF 7
 #endif
@@ -501,7 +501,7 @@
 #endif
 
 // todo: this should be detected automatically based on pin selection
-// https://github.com/rusefi/rusefi/issues/3536
+// https://github.com/gerefi/gerefi/issues/3536
 #ifndef TS_SERIAL_AF
 #define TS_SERIAL_AF 7
 #endif

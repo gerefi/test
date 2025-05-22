@@ -1,8 +1,8 @@
 // this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/engine_cycle/high_pressure_fuel_pump.txt
-// by class com.rusefi.output.CHeaderConsumer
+// by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 // start of high_pressure_fuel_pump_s
 struct high_pressure_fuel_pump_s {
 	/**

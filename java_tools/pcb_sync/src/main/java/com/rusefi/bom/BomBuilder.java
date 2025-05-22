@@ -1,8 +1,8 @@
-package com.rusefi.bom;
+package com.gerefi.bom;
 
-import com.rusefi.pcb.ModuleNode;
-import com.rusefi.pcb.PcbNode;
-import com.rusefi.util.FileUtils;
+import com.gerefi.pcb.ModuleNode;
+import com.gerefi.pcb.PcbNode;
+import com.gerefi.util.FileUtils;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

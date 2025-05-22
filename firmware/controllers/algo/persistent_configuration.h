@@ -9,7 +9,7 @@
 
 #include "generated_lookup_engine_configuration.h"
 
-#include "rusefi/crc.h"
+#include "gerefi/crc.h"
 
 typedef struct {
 	int version;

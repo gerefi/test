@@ -10,7 +10,7 @@
 
 #include "pch.h"
 
-#include "rusefi_lua.h"
+#include "gerefi_lua.h"
 #include "can_bench_test.h"
 #include "can_common.h"
 
@@ -20,7 +20,7 @@
 #include "obd2.h"
 #include "can_sensor.h"
 #include "can_vss.h"
-#include "rusefi_wideband.h"
+#include "gerefi_wideband.h"
 
 /**
  * this build-in CAN sniffer is very basic but that's our CAN sniffer

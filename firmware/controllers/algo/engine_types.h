@@ -3,8 +3,8 @@
  *
  * this header alone few similar ones is consumed by code generation layer for values to be available in .ini template etc
  *
- * See 'integration API' note in rusefi_enums.h
- * TODO: spell out which enums belong here and which enums belong in rusefi_enums.h for what reasons
+ * See 'integration API' note in gerefi_enums.h
+ * TODO: spell out which enums belong here and which enums belong in gerefi_enums.h for what reasons
  *
  * @date Oct 23, 2021
  * @author Andrey Belomutskiy, (c) 2012-2021
@@ -15,7 +15,7 @@
 #include "generated_lookup_meta.h"
 
 /**
- * https://rusefi.com//wiki/index.php?title=Manual:Debug_fields
+ * https://gerefi.com//wiki/index.php?title=Manual:Debug_fields
  */
 typedef enum __attribute__ ((__packed__)) {
 	DBG_0 = 0,
@@ -76,7 +76,7 @@ typedef enum __attribute__ ((__packed__)) {
 } debug_mode_e;
 
 /**
- * @see http://rusefi.com/wiki/index.php?title=Manual:Software:Trigger
+ * @see http://gerefi.com/wiki/index.php?title=Manual:Software:Trigger
  * TriggerProcessor.java has this "trigger_type_e" name hard-coded!
  */
 enum class trigger_type_e : uint32_t {
@@ -84,7 +84,7 @@ enum class trigger_type_e : uint32_t {
 	TT_TOOTHED_WHEEL = 0,
 	TT_FORD_ASPIRE = 1,
 	TT_DODGE_NEON_1995 = 2,
-	// https://rusefi.com/wiki/index.php?title=Manual:Software:Trigger#Mazda_Miata_NA
+	// https://gerefi.com/wiki/index.php?title=Manual:Software:Trigger#Mazda_Miata_NA
 	TT_MAZDA_MIATA_NA = 3,
 	TT_VVT_FORD_COYOTE = 4,
 	TT_GM_7X = 5,
@@ -136,7 +136,7 @@ enum class trigger_type_e : uint32_t {
 	// crank-based in case your cam is broken
 	TT_DODGE_NEON_2003_CRANK = 32,
 	//  * this takes care of crank sensor, VVT sensor should be configured separately
-	//  * for VVT simulated trigger signal we have https://github.com/rusefi/rusefi/issues/566 gap
+	//  * for VVT simulated trigger signal we have https://github.com/gerefi/gerefi/issues/566 gap
 	//  * See also TT_MAZDA_MIATA_VVT_TEST
 	TT_MIATA_VVT = 33,
 	TT_MITSU_4G63_CAM = 34,
@@ -150,7 +150,7 @@ enum class trigger_type_e : uint32_t {
 	// Jeep XJ 2500cc 4 cylinder. See also TT_JEEP_18_2_2_2 for 6 cylinders
 	TT_JEEP_4_CYL = 40,
 	// magneti marelli Fiat/Lancia IAW P8 from the 90', 2.0 16 v turbo engine - Lancia Coupe
-	// https://rusefi.com/forum/viewtopic.php?f=5&t=1440
+	// https://gerefi.com/forum/viewtopic.php?f=5&t=1440
 	TT_FIAT_IAW_P8 = 41,
 	TT_FORD_ST170 = 42,
 	// * cam sensor of Mazda Miata NB2 - the VVT signal shape
@@ -164,13 +164,13 @@ enum class trigger_type_e : uint32_t {
 	TT_TOOTHED_WHEEL_36_2 = 48,
 	TT_SUBARU_SVX = 49,
 	TT_SUZUKI_K6A = 50,
-	// todo: remove this trigger once we have https://github.com/rusefi/rusefi/issues/2073
+	// todo: remove this trigger once we have https://github.com/gerefi/gerefi/issues/2073
 	TT_SUBARU_7_WITHOUT_6 = 51,
 	TT_NISSAN_MR18_CAM_VVT = 52,
-	// https://rusefi.com/forum/viewtopic.php?f=5&t=1912
+	// https://gerefi.com/forum/viewtopic.php?f=5&t=1912
 	TT_TRI_TACH = 53,
 	TT_GM_60_2_2_2 = 54,
-	// * https://rusefi.com/forum/viewtopic.php?f=5&t=1937
+	// * https://gerefi.com/forum/viewtopic.php?f=5&t=1937
 	// * HALL sensor, and can be used on all Skoda's engines (from 1000MB to 130, Favorit, Felicia)
 	TT_SKODA_FAVORIT = 55,
 	TT_VVT_BARRA_3_PLUS_1 = 56,
@@ -234,11 +234,11 @@ enum class trigger_type_e : uint32_t {
 
   TT_TOYOTA_3_TOOTH_UZ = 91,
 
-	// do not forget to edit "#define trigger_type_e_enum" line in integration/rusefi_config.txt file to propogate new value to rusefi.ini TS project
-	// do not forget to invoke "gen_config.bat" once you make changes to integration/rusefi_config.txt
+	// do not forget to edit "#define trigger_type_e_enum" line in integration/gerefi_config.txt file to propogate new value to gerefi.ini TS project
+	// do not forget to invoke "gen_config.bat" once you make changes to integration/gerefi_config.txt
 	// todo: one day a hero would integrate some of these things into Makefile in order to reduce manual magic
 	//
-	// Another point: once you add a new trigger, run get_trigger_images.bat which would run rusefi_test.exe from unit_tests
+	// Another point: once you add a new trigger, run get_trigger_images.bat which would run gerefi_test.exe from unit_tests
 	//
 	TT_UNUSED = 92, // this is used if we want to iterate over all trigger types
 };

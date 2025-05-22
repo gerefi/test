@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Main pcb_merge" type="Application" factoryName="Application">
     <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-    <option name="MAIN_CLASS_NAME" value="com.rusefi.Main" />
+    <option name="MAIN_CLASS_NAME" value="com.gerefi.Main" />
     <option name="VM_PARAMETERS" value="" />
     <option name="PROGRAM_PARAMETERS" value="pcb_merge test.kicad_pcb out.kicad_pcb changes.txt" />
     <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />

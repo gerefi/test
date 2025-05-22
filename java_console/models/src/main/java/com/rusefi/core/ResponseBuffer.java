@@ -1,6 +1,6 @@
-package com.rusefi.core;
+package com.gerefi.core;
 
-import com.rusefi.io.LinkDecoder;
+import com.gerefi.io.LinkDecoder;
 import org.jetbrains.annotations.NotNull;
 
 /**

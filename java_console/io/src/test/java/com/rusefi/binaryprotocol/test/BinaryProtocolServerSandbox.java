@@ -1,13 +1,13 @@
-package com.rusefi.binaryprotocol.test;
+package com.gerefi.binaryprotocol.test;
 
 import com.opensr5.ConfigurationImage;
 import com.opensr5.ini.IniFileModeSingleton;
 import com.opensr5.ini.IniFileModel;
-import com.rusefi.binaryprotocol.BinaryProtocolState;
-import com.rusefi.config.generated.VariableRegistryValues;
-import com.rusefi.io.LinkConnector;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.binaryprotocol.BinaryProtocolState;
+import com.gerefi.config.generated.VariableRegistryValues;
+import com.gerefi.io.LinkConnector;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.tcp.BinaryProtocolServer;
 
 /**
  * Starts a fake device with TCP connector at {@link BinaryProtocolServer#DEFAULT_PROXY_PORT} port

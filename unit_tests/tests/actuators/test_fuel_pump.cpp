@@ -1,7 +1,7 @@
 /**
  * @file test_logic_expression.cpp
  *
- * https://sourceforge.net/p/rusefi/tickets/102/
+ * https://sourceforge.net/p/gerefi/tickets/102/
  *
  * @date Oct 3, 2014
  * @author Andrey Belomutskiy, (c) 2012-2020

@@ -1,8 +1,8 @@
-package com.rusefi.maintenance.jobs;
+package com.gerefi.maintenance.jobs;
 
-import com.rusefi.core.FindFileHelper;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.StLinkFlasher;
+import com.gerefi.core.FindFileHelper;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.StLinkFlasher;
 
 import javax.swing.*;
 

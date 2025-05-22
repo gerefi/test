@@ -1,11 +1,11 @@
-package com.rusefi.ui.basic;
+package com.gerefi.ui.basic;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ini.field.IniField;
-import com.rusefi.SerialPortScanner;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.CalibrationsHelper;
-import com.rusefi.maintenance.CalibrationsInfo;
+import com.gerefi.SerialPortScanner;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.CalibrationsHelper;
+import com.gerefi.maintenance.CalibrationsInfo;
 
 import javax.swing.*;
 

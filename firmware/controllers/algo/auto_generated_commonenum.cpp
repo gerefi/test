@@ -1,6 +1,6 @@
 #include "global.h"
-#include "rusefi_enums.h"
-// was generated automatically by rusEFI tool  from rusefi_enums.h // by enum_to_string.jar tool on Mon May 19 13:30:20 UTC 2025
+#include "gerefi_enums.h"
+// was generated automatically by rusEFI tool  from gerefi_enums.h // by enum_to_string.jar tool on Mon May 19 13:30:20 UTC 2025
 // see also gen_config_and_enums.bat
 
 

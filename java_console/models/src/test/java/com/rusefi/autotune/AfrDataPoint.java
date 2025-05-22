@@ -1,7 +1,7 @@
-package com.rusefi.autotune;
+package com.gerefi.autotune;
 
-import static com.rusefi.config.generated.VariableRegistryValues.FUEL_LOAD_COUNT;
-import static com.rusefi.config.generated.VariableRegistryValues.FUEL_RPM_COUNT;
+import static com.gerefi.config.generated.VariableRegistryValues.FUEL_LOAD_COUNT;
+import static com.gerefi.config.generated.VariableRegistryValues.FUEL_RPM_COUNT;
 
 /**
  * Air/Fuel ratio data point

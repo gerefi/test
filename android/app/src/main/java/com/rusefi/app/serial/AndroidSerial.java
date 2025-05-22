@@ -1,4 +1,4 @@
-package com.rusefi.app.serial;
+package com.gerefi.app.serial;
 
 import android.annotation.SuppressLint;
 import android.hardware.usb.UsbDevice;
@@ -12,12 +12,12 @@ import com.hoho.android.usbserial.driver.UsbSerialDriver;
 import com.hoho.android.usbserial.driver.UsbSerialPort;
 import com.hoho.android.usbserial.driver.UsbSerialProber;
 import com.opensr5.io.DataListener;
-import com.rusefi.app.PermissionGrantedAction;
-import com.rusefi.app.rusEFI;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.dfu.DfuLogic;
-import com.rusefi.io.ByteReader;
-import com.rusefi.io.serial.AbstractIoStream;
+import com.gerefi.app.PermissionGrantedAction;
+import com.gerefi.app.rusEFI;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.dfu.DfuLogic;
+import com.gerefi.io.ByteReader;
+import com.gerefi.io.serial.AbstractIoStream;
 
 import org.jetbrains.annotations.Nullable;
 

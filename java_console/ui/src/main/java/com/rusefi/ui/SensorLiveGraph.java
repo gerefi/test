@@ -1,11 +1,11 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCategory;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.core.preferences.storage.Node;
-import com.rusefi.core.ui.AutoupdateUtil;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCategory;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.core.preferences.storage.Node;
+import com.gerefi.core.ui.AutoupdateUtil;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

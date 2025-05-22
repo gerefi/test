@@ -10,7 +10,7 @@ void canDashboardVAG(CanCycle cycle);
  * https://mdac.com.au/2021/04/11/dsg-control-with-rabbit-ecu/
  * https://github.com/RabbitECUProject/RabbitECUTeensyMCUXpresso/blob/main/source/Client/DIAG.c
  * https://github.com/commaai/opendbc/blob/master/vw_golf_mk4.dbc
- * https://rusefi.com/forum/download/file.php?id=9076
+ * https://gerefi.com/forum/download/file.php?id=9076
  */
 
 

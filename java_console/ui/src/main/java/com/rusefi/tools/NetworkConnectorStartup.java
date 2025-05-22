@@ -1,13 +1,13 @@
-package com.rusefi.tools;
+package com.gerefi.tools;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.auth.AuthTokenUtil;
-import com.rusefi.autodetect.PortDetector;
-import com.rusefi.proxy.NetworkConnector;
-import com.rusefi.proxy.NetworkConnectorContext;
-import com.rusefi.tools.online.HttpUtil;
-import com.rusefi.tools.online.ProxyClient;
-import com.rusefi.ui.AuthTokenPanel;
+import com.gerefi.auth.AuthTokenUtil;
+import com.gerefi.autodetect.PortDetector;
+import com.gerefi.proxy.NetworkConnector;
+import com.gerefi.proxy.NetworkConnectorContext;
+import com.gerefi.tools.online.HttpUtil;
+import com.gerefi.tools.online.ProxyClient;
+import com.gerefi.ui.AuthTokenPanel;
 
 import java.io.IOException;
 

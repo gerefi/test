@@ -1,4 +1,4 @@
-package com.rusefi.core.net;
+package com.gerefi.core.net;
 
 import com.devexperts.logging.Logging;
 import org.jetbrains.annotations.NotNull;
@@ -24,7 +24,7 @@ public class JarFileUtil {
 //        } catch (NullPointerException e) {
 //            log.error("Unexpected " + e, e);
 //        }
-//        return "rusefi";
+//        return "gerefi";
     }
 
     private static @NotNull String getJarFileName(CodeSource codeSource) {

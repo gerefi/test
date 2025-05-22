@@ -416,9 +416,9 @@ float getConfigValueByName(const char *name) {
 // isSdCardEnabled
 		case -1603423011:
 			return engineConfiguration->isSdCardEnabled;
-// rusefiVerbose29b
+// gerefiVerbose29b
 		case 2043354390:
-			return engineConfiguration->rusefiVerbose29b;
+			return engineConfiguration->gerefiVerbose29b;
 // rethrowHardFault
 		case 1081456939:
 			return engineConfiguration->rethrowHardFault;
@@ -2657,7 +2657,7 @@ bool setConfigValueByName(const char *name, float value) {
 	}
 		case 2043354390:
 	{
-		engineConfiguration->rusefiVerbose29b = (int)value;
+		engineConfiguration->gerefiVerbose29b = (int)value;
 		return 1;
 	}
 		case 1081456939:

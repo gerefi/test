@@ -1,12 +1,12 @@
-package com.rusefi.io.serial;
+package com.gerefi.io.serial;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.Callable;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.io.ConnectionStateListener;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.LinkConnector;
-import com.rusefi.io.LinkManager;
+import com.gerefi.Callable;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.io.ConnectionStateListener;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.LinkConnector;
+import com.gerefi.io.LinkManager;
 
 import java.util.Objects;
 

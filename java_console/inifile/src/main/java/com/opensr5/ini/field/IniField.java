@@ -1,7 +1,7 @@
 package com.opensr5.ini.field;
 
 import com.opensr5.ConfigurationImage;
-import com.rusefi.tune.xml.Constant;
+import com.gerefi.tune.xml.Constant;
 
 public abstract class IniField {
     private final String name;
@@ -42,7 +42,7 @@ public abstract class IniField {
     public abstract int getSize();
 
     /**
-     * @see com.rusefi.config.Field#getValue
+     * @see com.gerefi.config.Field#getValue
      */
     public String getValue(ConfigurationImage image) {
         return null;

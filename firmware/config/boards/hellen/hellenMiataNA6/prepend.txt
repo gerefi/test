@@ -1,4 +1,4 @@
-#define MAIN_HELP_URL "https://rusefi.com/s/hellenNA6"
+#define MAIN_HELP_URL "https://gerefi.com/s/hellenNA6"
 
 
 

@@ -4,4 +4,4 @@
 
 set -e
 
-valgrind --error-exitcode=1 --exit-on-first-error=yes --leak-check=no --show-error-list=yes build/rusefi_test
+valgrind --error-exitcode=1 --exit-on-first-error=yes --leak-check=no --show-error-list=yes build/gerefi_test

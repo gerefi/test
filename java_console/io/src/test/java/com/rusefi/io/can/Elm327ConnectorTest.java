@@ -1,8 +1,8 @@
-package com.rusefi.io.can;
+package com.gerefi.io.can;
 
 /*
-import com.rusefi.io.can.elm.Elm327Connector;
-import com.rusefi.util.HexBinary;
+import com.gerefi.io.can.elm.Elm327Connector;
+import com.gerefi.util.HexBinary;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

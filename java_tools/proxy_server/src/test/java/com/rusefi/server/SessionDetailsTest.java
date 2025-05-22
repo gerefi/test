@@ -1,8 +1,8 @@
-package com.rusefi.server;
+package com.gerefi.server;
 
-import com.rusefi.TestHelper;
-import com.rusefi.proxy.NetworkConnector;
-import com.rusefi.core.rusEFIVersion;
+import com.gerefi.TestHelper;
+import com.gerefi.proxy.NetworkConnector;
+import com.gerefi.core.rusEFIVersion;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

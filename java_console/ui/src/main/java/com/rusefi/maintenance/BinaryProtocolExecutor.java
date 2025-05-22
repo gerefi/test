@@ -1,9 +1,9 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
-import com.rusefi.SerialPortScanner;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.UpdateOperationCallbacks;
+import com.gerefi.SerialPortScanner;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.UpdateOperationCallbacks;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;

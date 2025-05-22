@@ -1,16 +1,16 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.ReaderStateImpl;
-import com.rusefi.TsFileContent;
-import com.rusefi.output.BaseCHeaderConsumer;
-import com.rusefi.output.JavaFieldsConsumer;
-import com.rusefi.output.TSProjectConsumer;
+import com.gerefi.ReaderStateImpl;
+import com.gerefi.TsFileContent;
+import com.gerefi.output.BaseCHeaderConsumer;
+import com.gerefi.output.JavaFieldsConsumer;
+import com.gerefi.output.TSProjectConsumer;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.io.StringBufferInputStream;
 
-import static com.rusefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertEquals;
 
 public class TSProjectConsumerTest {
     private static final String smallContent = "hello = \";\"\n" +

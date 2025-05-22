@@ -1,11 +1,11 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.FileLogger;
 import com.devexperts.logging.Logging;
-import com.rusefi.core.rusEFIVersion;
-import com.rusefi.tools.ConsoleTools;
-import com.rusefi.ui.engine.EngineSnifferPanel;
-import com.rusefi.core.preferences.storage.PersistentConfiguration;
+import com.gerefi.core.rusEFIVersion;
+import com.gerefi.tools.ConsoleTools;
+import com.gerefi.ui.engine.EngineSnifferPanel;
+import com.gerefi.core.preferences.storage.PersistentConfiguration;
 
 import java.util.Date;
 

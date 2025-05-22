@@ -1,10 +1,10 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.ReaderStateImpl;
-import com.rusefi.output.JavaFieldsConsumer;
+import com.gerefi.ReaderStateImpl;
+import com.gerefi.output.JavaFieldsConsumer;
 import org.junit.jupiter.api.Test;
 
-import static com.rusefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertEquals;
 
 public class ConfigFieldParserIssue1057Test {
     @Test

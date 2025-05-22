@@ -28,7 +28,7 @@
 #ifndef HALCONF_H
 #define HALCONF_H
 
-#include "rusefi_halconf.h"
+#include "gerefi_halconf.h"
 
 /**
  * @brief   Enables the FLASH subsystem.

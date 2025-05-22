@@ -50,7 +50,7 @@ TEST(etb, intermittentTps) {
 	engine->module<SensorChecker>()->onSlowCallback();
 	advanceTimeUs(MS2US(1000));
 	engine->module<SensorChecker>()->onSlowCallback();
-	// todo: fix me https://github.com/rusefi/rusefi/issues/5233
+	// todo: fix me https://github.com/gerefi/gerefi/issues/5233
 	// EXPECT_EQ( 3,  recentWarnings.getCount()) << "intermittentTps";
 	EXPECT_TRUE( recentWarnings->getCount() > 0) << "intermittentTps";
 
@@ -87,10 +87,10 @@ TEST(etb, intermittentTps) {
 
 	EXPECT_NE(0, etb->etbErrorCode);
 
-	// todo: fix me https://github.com/rusefi/rusefi/issues/5233
+	// todo: fix me https://github.com/gerefi/gerefi/issues/5233
 	// EXPECT_EQ( 3,  recentWarnings.getCount()) << "intermittentTps";
 	EXPECT_TRUE( recentWarnings->getCount() > 0) << "intermittentTps";
-	// todo: fix me https://github.com/rusefi/rusefi/issues/5233
+	// todo: fix me https://github.com/gerefi/gerefi/issues/5233
 //	EXPECT_EQ(OBD_PPS_Correlation, recentWarnings.get(0).Code);
 //	EXPECT_EQ(OBD_TPS1_Primary_Timeout, recentWarnings.get(1).Code);
 //	EXPECT_EQ(OBD_PPS_Primary_Timeout, recentWarnings.get(2).Code);

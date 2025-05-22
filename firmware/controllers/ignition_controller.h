@@ -4,7 +4,7 @@
 
 #include "engine_module.h"
 
-#include <rusefi/timer.h>
+#include <gerefi/timer.h>
 
 class IgnitionController : public EngineModule {
 public:

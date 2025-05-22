@@ -7,4 +7,4 @@
 # See https://freeelectron.ro/installing-st-link-v2-to-flash-stm32-targets-on-linux/
 # master of https://github.com/stlink-org/stlink does not work https://github.com/stlink-org/stlink/issues/1165
 
-st-flash write rusefi.bin 0x08000000
+st-flash write gerefi.bin 0x08000000

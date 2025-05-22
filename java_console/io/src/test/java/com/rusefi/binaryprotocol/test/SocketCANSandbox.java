@@ -1,11 +1,11 @@
-package com.rusefi.binaryprotocol.test;
+package com.gerefi.binaryprotocol.test;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.serial.AbstractIoStream;
-import com.rusefi.io.can.SocketCANIoStream;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.serial.AbstractIoStream;
+import com.gerefi.io.can.SocketCANIoStream;
 
 import java.io.IOException;
 

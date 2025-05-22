@@ -1,8 +1,8 @@
-package com.rusefi.ui.widgets;
+package com.gerefi.ui.widgets;
 
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.maintenance.ExecHelper;
-import com.rusefi.ui.PcanConnectorUI;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.maintenance.ExecHelper;
+import com.gerefi.ui.PcanConnectorUI;
 
 import javax.swing.*;
 import java.awt.*;

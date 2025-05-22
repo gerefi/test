@@ -1,8 +1,8 @@
-package com.rusefi.ldmp;
+package com.gerefi.ldmp;
 
-import com.rusefi.config.Field;
-import com.rusefi.enums.StateDictionaryFactory;
-import com.rusefi.enums.live_data_e;
+import com.gerefi.config.Field;
+import com.gerefi.enums.StateDictionaryFactory;
+import com.gerefi.enums.live_data_e;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.*;

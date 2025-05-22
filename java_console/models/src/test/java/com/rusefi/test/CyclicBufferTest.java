@@ -1,7 +1,7 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.CyclicBuffer;
-import com.rusefi.DataBuffer;
+import com.gerefi.CyclicBuffer;
+import com.gerefi.DataBuffer;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

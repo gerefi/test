@@ -1,19 +1,19 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
 import com.efiAnalytics.plugin.ecu.ControllerAccess;
 import com.efiAnalytics.plugin.ecu.ControllerException;
 import com.efiAnalytics.plugin.ecu.ControllerParameterChangeListener;
 import com.opensr5.ini.IniFileModelImpl;
 import com.opensr5.ini.field.IniField;
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.TsTuneReader;
-import com.rusefi.config.generated.VariableRegistryValues;
-import com.rusefi.tools.online.Online;
-import com.rusefi.tools.online.UploadResult;
-import com.rusefi.ts_plugin.util.ManifestHelper;
-import com.rusefi.tune.xml.Msq;
-import com.rusefi.ui.AuthTokenPanel;
-import com.rusefi.ui.util.URLLabel;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.TsTuneReader;
+import com.gerefi.config.generated.VariableRegistryValues;
+import com.gerefi.tools.online.Online;
+import com.gerefi.tools.online.UploadResult;
+import com.gerefi.ts_plugin.util.ManifestHelper;
+import com.gerefi.tune.xml.Msq;
+import com.gerefi.ui.AuthTokenPanel;
+import com.gerefi.ui.util.URLLabel;
 import org.apache.hc.core5.concurrent.FutureCallback;
 import org.putgemin.VerticalFlowLayout;
 
@@ -34,7 +34,7 @@ public class TuneUploadTab {
     private static final int AUTO_UPDATE_AGGREGATION = Integer.parseInt(System.getProperty("autoupload.aggregation", "2000"));
     private static final ThreadFactory THREAD_FACTORY = new NamedThreadFactory("Tune Upload", true);
 
-    private static final String REO_URL = "https://rusefi.com/online/";
+    private static final String REO_URL = "https://gerefi.com/online/";
     private final AuthTokenPanel tokenPanel = new AuthTokenPanel();
 
     private final Supplier<ControllerAccess> controllerAccessSupplier;

@@ -9,7 +9,7 @@
 -- '-- include XXX' and '-- endinclude' are the directive for code reuse
 --
 
--- communication with https://github.com/rusefi/rusefi-hardware/tree/main/GDI-4ch/firmware
+-- communication with https://github.com/gerefi/gerefi-hardware/tree/main/GDI-4ch/firmware
 -- hpfpbench
 
 busIndex = 1

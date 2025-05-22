@@ -16,7 +16,7 @@
 #if EFI_UART_GPS
 #include <string.h>
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 #include "console_io.h"
 #include "eficonsole.h"
 #include "nmea.h"

@@ -1,9 +1,9 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.tcp.TcpConnector;
-import com.rusefi.ui.logview.LogViewer;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.tcp.TcpConnector;
+import com.gerefi.ui.logview.LogViewer;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -14,11 +14,11 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ThreadFactory;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.ui.util.UiUtils.setToolTip;
+import static com.gerefi.ui.util.UiUtils.setToolTip;
 
 public class SimulatorHelper {
     private final static ThreadFactory THREAD_FACTORY = new NamedThreadFactory("SimulatorHelper");
-    public static final String BINARY = "rusefi_simulator.exe";
+    public static final String BINARY = "gerefi_simulator.exe";
     private static Process process;
     private static final Logging log = getLogging(SimulatorHelper.class);
 

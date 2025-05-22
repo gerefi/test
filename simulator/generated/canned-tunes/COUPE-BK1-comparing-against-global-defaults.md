@@ -1,6 +1,6 @@
 # COUPE-BK1-comparing-against-global-defaults
 
-// canned tune https://rusefi.com/online/view.php?msq=1508
+// canned tune https://gerefi.com/online/view.php?msq=1508
 
 ```
     // default "Single Coil"

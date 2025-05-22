@@ -8,10 +8,10 @@
 # .png and .jpg files do not trigger runs.
 # .md, .txt, and .html files do.
 # I have not tested any others.
-# If we could set this up to trigger on a push to rusefi.wiki, that
+# If we could set this up to trigger on a push to gerefi.wiki, that
 # would be optimal, but unfortunately that does not seem to be possible.
 #
-# the opposite sync is https://github.com/rusefi/rusefi_documentation/blob/master/.github/workflows/sync-wiki.yaml
+# the opposite sync is https://github.com/gerefi/gerefi_documentation/blob/master/.github/workflows/sync-wiki.yaml
 #
 
 name: Sync Wiki
@@ -28,12 +28,12 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-        repository: rusefi/rusefi_documentation
+        repository: gerefi/gerefi_documentation
         persist-credentials: false
 
-    - name: Merge from rusefi/wiki
+    - name: Merge from gerefi/wiki
       run: |
-        git remote add best-wiki-git https://github.com/rusefi/rusefi.wiki.git
+        git remote add best-wiki-git https://github.com/gerefi/gerefi.wiki.git
         git fetch best-wiki-git
         if [ $(git diff best-wiki-git/master | wc -l) -eq 0 ]; then
         echo "skip=true" >> $GITHUB_ENV
@@ -45,7 +45,7 @@ jobs:
         # merge, but don't commit the merge
         git merge --no-ff --no-commit best-wiki-git/master
         # unstage the file
-        #    TL;DR bad magic github security policy that causes issues when someone commits a changed workflow file to rusefi/rusefi.wiki.git
+        #    TL;DR bad magic github security policy that causes issues when someone commits a changed workflow file to gerefi/gerefi.wiki.git
         #    As a workaround we undo any changes to workflow files.
         git reset HEAD .github/workflows/sync-wiki2.yaml .github/workflows/sync-wiki3.yaml
         # revert the file to its original state
@@ -53,10 +53,10 @@ jobs:
         # commit the merge
         git commit -m "merge rusEFI wiki"
 
-    - name: Push changes to rusefi_documentation technical wiki
+    - name: Push changes to gerefi_documentation technical wiki
       uses: ad-m/github-push-action@master
       if: ${{ env.skip != 'true' }}
       with:
-        repository: rusefi/rusefi_documentation
+        repository: gerefi/gerefi_documentation
         github_token: ${{ secrets.ACCESS_TOKEN }}
         branch: master

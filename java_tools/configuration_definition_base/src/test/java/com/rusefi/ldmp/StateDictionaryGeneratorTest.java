@@ -1,4 +1,4 @@
-package com.rusefi.ldmp;
+package com.gerefi.ldmp;
 
 import org.junit.jupiter.api.Test;
 
@@ -9,7 +9,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.rusefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertEquals;
 
 public class StateDictionaryGeneratorTest {
     @Test

@@ -38,7 +38,7 @@ void initialize_one_of_36_2_2_2(TriggerWaveform *s, int firstCount, int secondCo
 
 /**
  * This trigger is also used by Nissan and Mazda
- * https://rusefi.com/forum/viewtopic.php?f=2&t=1932
+ * https://gerefi.com/forum/viewtopic.php?f=2&t=1932
  */
 void initialize36_2_2_2(TriggerWaveform *s) {
 	initialize_one_of_36_2_2_2(s, 12, 15);
@@ -49,7 +49,7 @@ void initialize36_2_2_2(TriggerWaveform *s) {
 	s->knownOperationMode = false;
 #endif // EFI_UNIT_TEST
 
-    // 36/2/2/2 data from https://rusefi.com/online/view.php?log=1287
+    // 36/2/2/2 data from https://gerefi.com/online/view.php?log=1287
     // todo: probably should be unified with EZ30 below?
 	s->setTriggerSynchronizationGap3(/*gapIndex*/0, 0.25, 0.5);
 	s->setTriggerSynchronizationGap3(/*gapIndex*/1, 0.7, 1.7);
@@ -226,7 +226,7 @@ void initializeSubaru_SVX(TriggerWaveform *s) {
 
 		/* we should use only falling edges */
 	// TODO: this trigger needs to be converted to SyncEdge::RiseOnly, so invert all rise/fall events!
-	// see https://github.com/rusefi/rusefi/issues/4624
+	// see https://github.com/gerefi/gerefi/issues/4624
 	s->initialize(FOUR_STROKE_CAM_SENSOR, SyncEdge::Fall);
 	s->isSynchronizationNeeded = false;
 	s->useOnlyPrimaryForSync = true;

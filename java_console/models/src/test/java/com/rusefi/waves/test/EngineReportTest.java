@@ -1,6 +1,6 @@
-package com.rusefi.waves.test;
+package com.gerefi.waves.test;
 
-import com.rusefi.waves.EngineReport;
+import com.gerefi.waves.EngineReport;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

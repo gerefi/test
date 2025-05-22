@@ -5,7 +5,7 @@ A development container is a Docker container that vsCode, through an extension 
 
 A more nerdy explanation is available at: https://code.visualstudio.com/docs/devcontainers/containers
 
-In the case of rusefi, it is used to set up the relatively complicated toolset as an alternative to [setup_linux_environment.sh](https://github.com/rusefi/rusefi/blob/master/firmware/setup_linux_environment.sh),Since the script, in addition to only working on Linux, only works for installations that use APT as a package manager (ie any Debian/Ubuntu derivative), and would only work to build the firmware (a couple of extra dependencies are used for tests and the simulator)
+In the case of gerefi, it is used to set up the relatively complicated toolset as an alternative to [setup_linux_environment.sh](https://github.com/gerefi/gerefi/blob/master/firmware/setup_linux_environment.sh),Since the script, in addition to only working on Linux, only works for installations that use APT as a package manager (ie any Debian/Ubuntu derivative), and would only work to build the firmware (a couple of extra dependencies are used for tests and the simulator)
 
 
 #### System requirements:

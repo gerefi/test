@@ -3,8 +3,8 @@ controllers/algo/engine_types.h
 -enumInputFile
 controllers/algo/engine_type_e.h
 -enumInputFile
-controllers/algo/rusefi_enums.h
+controllers/algo/gerefi_enums.h
 -definition
-integration/rusefi_config.txt
+integration/gerefi_config.txt
 -firing_order
 controllers/algo/firing_order.h

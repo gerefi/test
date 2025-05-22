@@ -1,5 +1,5 @@
 /**
- * @file boards/microrusefi/board_storage.cpp
+ * @file boards/microgerefi/board_storage.cpp
  *
  * @brief Storage configuration file
  *

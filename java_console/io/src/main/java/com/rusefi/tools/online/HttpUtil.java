@@ -1,4 +1,4 @@
-package com.rusefi.tools.online;
+package com.gerefi.tools.online;
 
 import com.devexperts.logging.Logging;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
@@ -29,9 +29,9 @@ public class HttpUtil {
     /**
      * hostname of PROXY server, not primary rusEFI web server - those are two separate hosts at the moment
      */
-    public static String RUSEFI_PROXY_HOSTNAME = System.getProperty("RUSEFI_PROXY_URL", "proxy.rusefi.com");
+    public static String RUSEFI_PROXY_HOSTNAME = System.getProperty("RUSEFI_PROXY_URL", "proxy.gerefi.com");
 
-    public static String RUSEFI_ONLINE_JSON_API_PREFIX = "https://rusefi.com/online/api.php?method=";
+    public static String RUSEFI_ONLINE_JSON_API_PREFIX = "https://gerefi.com/online/api.php?method=";
 
     public static <T> T getJsonResponse(String responseString) throws ParseException {
 

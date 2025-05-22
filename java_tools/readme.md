@@ -12,4 +12,4 @@ gcc_map_reader reads the .map file produced by GCC and prints some details on wh
 
 enum2string
 
-KiCad tools have moved to https://github.com/rusefi/KiCad-utils
+KiCad tools have moved to https://github.com/gerefi/KiCad-utils

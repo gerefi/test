@@ -1,9 +1,9 @@
-package com.rusefi.proxy;
+package com.gerefi.proxy;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.Timeouts;
-import com.rusefi.proxy.client.LocalApplicationProxyContext;
-import com.rusefi.tools.online.ProxyClient;
+import com.gerefi.Timeouts;
+import com.gerefi.proxy.client.LocalApplicationProxyContext;
+import com.gerefi.tools.online.ProxyClient;
 
 import static com.devexperts.logging.Logging.getLogging;
 

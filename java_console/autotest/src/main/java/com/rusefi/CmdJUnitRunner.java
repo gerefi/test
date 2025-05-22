@@ -1,4 +1,4 @@
-package com.rusefi;
+package com.gerefi;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;

@@ -1,16 +1,16 @@
-package com.rusefi.common;
+package com.gerefi.common;
 
-import com.rusefi.Timeouts;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.autotest.ControllerConnectorState;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.enums.engine_type_e;
-import com.rusefi.functional_tests.EcuTestHelper;
+import com.gerefi.Timeouts;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.autotest.ControllerConnectorState;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.enums.engine_type_e;
+import com.gerefi.functional_tests.EcuTestHelper;
 
-import static com.rusefi.IoUtil.getEnableCommand;
-import static com.rusefi.binaryprotocol.BinaryProtocol.sleep;
-import static com.rusefi.config.generated.Integration.*;
+import static com.gerefi.IoUtil.getEnableCommand;
+import static com.gerefi.binaryprotocol.BinaryProtocol.sleep;
+import static com.gerefi.config.generated.Integration.*;
 
 public class VssHardwareTestLogic {
     private static final int FREQUENCY = 160;

@@ -1,6 +1,6 @@
 # M52-comparing-against-global-defaults
 
-// canned tune https://rusefi.com/online/view.php?msq=1591
+// canned tune https://gerefi.com/online/view.php?msq=1591
 
 ```
     // default "Single Coil"

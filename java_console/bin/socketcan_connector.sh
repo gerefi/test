@@ -1,1 +1,1 @@
-java -jar rusefi_console.jar pcan_connector
+java -jar gerefi_console.jar pcan_connector

@@ -1,6 +1,6 @@
-package com.rusefi.maintenance.jobs;
+package com.gerefi.maintenance.jobs;
 
-import com.rusefi.SerialPortScanner;
+import com.gerefi.SerialPortScanner;
 
 import javax.swing.*;
 

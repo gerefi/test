@@ -1,4 +1,4 @@
-package com.rusefi.trigger;
+package com.gerefi.trigger;
 
 public class TriggerSignal {
     private final double angle;

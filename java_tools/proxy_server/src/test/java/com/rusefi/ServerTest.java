@@ -1,20 +1,20 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.config.generated.Integration;
-import com.rusefi.config.generated.VariableRegistryValues;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.commands.GetOutputsCommandBrokenHelper;
-import com.rusefi.io.commands.HelloCommand;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.io.tcp.TcpConnector;
-import com.rusefi.io.tcp.TcpIoStream;
-import com.rusefi.proxy.BaseBroadcastingThread;
-import com.rusefi.proxy.NetworkConnectorContext;
-import com.rusefi.proxy.client.LocalApplicationProxy;
-import com.rusefi.server.*;
-import com.rusefi.tools.online.HttpUtil;
-import com.rusefi.tools.online.ProxyClient;
-import com.rusefi.tools.online.PublicSession;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.config.generated.VariableRegistryValues;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.commands.GetOutputsCommandBrokenHelper;
+import com.gerefi.io.commands.HelloCommand;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.tcp.TcpConnector;
+import com.gerefi.io.tcp.TcpIoStream;
+import com.gerefi.proxy.BaseBroadcastingThread;
+import com.gerefi.proxy.NetworkConnectorContext;
+import com.gerefi.proxy.client.LocalApplicationProxy;
+import com.gerefi.server.*;
+import com.gerefi.tools.online.HttpUtil;
+import com.gerefi.tools.online.ProxyClient;
+import com.gerefi.tools.online.PublicSession;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -24,14 +24,14 @@ import java.net.Socket;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
-import static com.rusefi.TestHelper.assertLatch;
+import static com.gerefi.TestHelper.assertLatch;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * integration test of the rusEFI online backend process
  * At the moment this test is very loose with timing it must be unreliable?
  * <p>
- * https://github.com/rusefi/web_backend/blob/master/documentation/rusEFI%20remote.png
+ * https://github.com/gerefi/web_backend/blob/master/documentation/rusEFI%20remote.png
  */
 public class ServerTest {
     @BeforeEach

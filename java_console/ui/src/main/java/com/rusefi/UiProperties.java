@@ -1,6 +1,6 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.core.net.ConnectionAndMeta;
+import com.gerefi.core.net.ConnectionAndMeta;
 
 import java.util.Properties;
 
@@ -22,7 +22,7 @@ public class UiProperties {
         return properties;
     }
 
-    // https://github.com/rusefi/rusefi/issues/6777 sad hack: Autoupdate invokes via reflection
+    // https://github.com/gerefi/gerefi/issues/6777 sad hack: Autoupdate invokes via reflection
     public static void setProperties(Properties properties) {
         UiProperties.properties = properties;
     }
@@ -32,7 +32,7 @@ public class UiProperties {
     }
 
     public static String getUpdateHelpUrl() {
-        return properties.getProperty("UPDATE_FW_HELP_URL", "https://github.com/rusefi/rusefi/wiki/HOWTO-Update-Firmware");
+        return properties.getProperty("UPDATE_FW_HELP_URL", "https://github.com/gerefi/gerefi/wiki/HOWTO-Update-Firmware");
     }
 
     public static boolean skipEcuTypeDetection() {

@@ -1,24 +1,24 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.EngineState;
-import com.rusefi.core.ISensorCentral;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.enums.trigger_type_e;
-import com.rusefi.io.CommandQueue;
-import com.rusefi.io.ConnectionStateListener;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.tcp.TcpConnector;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.EngineState;
+import com.gerefi.core.ISensorCentral;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.enums.trigger_type_e;
+import com.gerefi.io.CommandQueue;
+import com.gerefi.io.ConnectionStateListener;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.tcp.TcpConnector;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.config.generated.Integration.CMD_RPM;
-import static com.rusefi.waves.EngineReport.isCloseEnough;
+import static com.gerefi.config.generated.Integration.CMD_RPM;
+import static com.gerefi.waves.EngineReport.isCloseEnough;
 
 /**
  * @author Andrey Belomutskiy

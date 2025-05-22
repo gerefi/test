@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.rusefi.app;
+package com.gerefi.app;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -40,27 +40,27 @@ import android.widget.TextView;
 import com.devexperts.logging.Logging;
 import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;
-import com.rusefi.Callable;
-import com.rusefi.Timeouts;
-import com.rusefi.app.serial.AndroidSerial;
-import com.rusefi.app.util.AndroidUtil;
-import com.rusefi.auth.AuthTokenUtil;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.dfu.DfuConnection;
-import com.rusefi.dfu.DfuImage;
-import com.rusefi.dfu.DfuLogic;
-import com.rusefi.dfu.android.AndroidDfuConnection;
-import com.rusefi.dfu.android.DfuDeviceLocator;
-import com.rusefi.io.ConnectionStateListener;
-import com.rusefi.io.DfuHelper;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.commands.ErrorInfoCommand;
-import com.rusefi.io.serial.StreamConnector;
-import com.rusefi.io.tcp.BinaryProtocolProxy;
-import com.rusefi.proxy.NetworkConnector;
-import com.rusefi.proxy.NetworkConnectorContext;
-import com.rusefi.ui.StatusConsumer;
+import com.gerefi.Callable;
+import com.gerefi.Timeouts;
+import com.gerefi.app.serial.AndroidSerial;
+import com.gerefi.app.util.AndroidUtil;
+import com.gerefi.auth.AuthTokenUtil;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.dfu.DfuConnection;
+import com.gerefi.dfu.DfuImage;
+import com.gerefi.dfu.DfuLogic;
+import com.gerefi.dfu.android.AndroidDfuConnection;
+import com.gerefi.dfu.android.DfuDeviceLocator;
+import com.gerefi.io.ConnectionStateListener;
+import com.gerefi.io.DfuHelper;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.commands.ErrorInfoCommand;
+import com.gerefi.io.serial.StreamConnector;
+import com.gerefi.io.tcp.BinaryProtocolProxy;
+import com.gerefi.proxy.NetworkConnector;
+import com.gerefi.proxy.NetworkConnectorContext;
+import com.gerefi.ui.StatusConsumer;
 
 import java.io.IOException;
 import java.util.Date;

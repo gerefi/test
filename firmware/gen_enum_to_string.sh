@@ -1,28 +1,28 @@
 #!/bin/bash
 
-echo "This batch files reads rusefi_enums.h and produces auto_generated_enums.* files"
+echo "This batch files reads gerefi_enums.h and produces auto_generated_enums.* files"
 
 rm gen_enum_to_string.log
 
 ENUM_JAR=../java_tools/enum_to_string/build/libs/enum_to_string-all.jar
 
-java -DSystemOut.name=logs/gen_java_enum -cp ${ENUM_JAR} com.rusefi.ToJavaEnum -enumInputFile controllers/sensors/sensor_type.h -outputPath ../java_console/io/src/main/java/com/rusefi/enums
+java -DSystemOut.name=logs/gen_java_enum -cp ${ENUM_JAR} com.gerefi.ToJavaEnum -enumInputFile controllers/sensors/sensor_type.h -outputPath ../java_console/io/src/main/java/com/gerefi/enums
 [ $? -eq 0 ] || { echo "ERROR generating sensors"; exit 1; }
 
-java -DSystemOut.name=logs/gen_java_enum -cp ${ENUM_JAR} com.rusefi.ToJavaEnum -enumInputFile controllers/trigger/decoders/sync_edge.h -outputPath ../java_console/io/src/main/java/com/rusefi/enums
+java -DSystemOut.name=logs/gen_java_enum -cp ${ENUM_JAR} com.gerefi.ToJavaEnum -enumInputFile controllers/trigger/decoders/sync_edge.h -outputPath ../java_console/io/src/main/java/com/gerefi/enums
 [ $? -eq 0 ] || { echo "ERROR generating sensors"; exit 1; }
 
-java -DSystemOut.name=logs/gen_java_enum -cp ${ENUM_JAR} com.rusefi.ToJavaEnum -enumInputFile controllers/algo/engine_types.h   -outputPath ../java_console/models/src/main/java/com/rusefi/enums -definition integration/rusefi_config.txt
+java -DSystemOut.name=logs/gen_java_enum -cp ${ENUM_JAR} com.gerefi.ToJavaEnum -enumInputFile controllers/algo/engine_types.h   -outputPath ../java_console/models/src/main/java/com/gerefi/enums -definition integration/gerefi_config.txt
 [ $? -eq 0 ] || { echo "ERROR generating types"; exit 1; }
 
-java -DSystemOut.name=logs/gen_java_enum -cp ${ENUM_JAR} com.rusefi.ToJavaEnum -enumInputFile controllers/algo/engine_type_e.h   -outputPath ../java_console/models/src/main/java/com/rusefi/enums -definition integration/rusefi_config.txt
+java -DSystemOut.name=logs/gen_java_enum -cp ${ENUM_JAR} com.gerefi.ToJavaEnum -enumInputFile controllers/algo/engine_type_e.h   -outputPath ../java_console/models/src/main/java/com/gerefi/enums -definition integration/gerefi_config.txt
 [ $? -eq 0 ] || { echo "ERROR generating engine_type_e"; exit 1; }
 
 java -DSystemOut.name=logs/gen_java_enum \
 	-Denum_with_values=true \
-	-cp ${ENUM_JAR} com.rusefi.ToJavaEnum \
+	-cp ${ENUM_JAR} com.gerefi.ToJavaEnum \
 	-enumInputFile libfirmware/can/can_common.h \
-	-outputPath ../java_console/models/src/main/java/com/rusefi/enums \
+	-outputPath ../java_console/models/src/main/java/com/gerefi/enums \
 	-definition libfirmware/can/can_common.h
 [ $? -eq 0 ] || { echo "ERROR generating types"; exit 1; }
 
@@ -30,7 +30,7 @@ java -DSystemOut.name=logs/gen_enum_to_string \
 	-jar ${ENUM_JAR} \
 	-outputPath controllers/algo \
 	-generatedFile commonenum \
-	-enumInputFile controllers/algo/rusefi_enums.h
+	-enumInputFile controllers/algo/gerefi_enums.h
 
 [ $? -eq 0 ] || { echo "ERROR generating enums"; exit 1; }
 
@@ -71,7 +71,7 @@ java -DSystemOut.name=logs/gen_enum_to_string \
 java -DSystemOut.name=logs/gen_enum_to_string \
 	-jar ${ENUM_JAR} \
 	-outputPath controllers/algo \
-	-enumInputFile controllers/algo/rusefi_hw_enums.h \
+	-enumInputFile controllers/algo/gerefi_hw_enums.h \
 
 [ $? -eq 0 ] || { echo "ERROR generating hw_enums"; exit 1; }
 

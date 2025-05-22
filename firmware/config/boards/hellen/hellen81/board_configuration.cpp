@@ -4,7 +4,7 @@
  *
  * @brief Configuration defaults for the Hellen81 board
  *
- * See https://rusefi.com/s/hellen81
+ * See https://gerefi.com/s/hellen81
  *
  * @author andreika <prometheus.pcb@gmail.com>
  * @author Andrey Belomutskiy, (c) 2012-2021

@@ -1,16 +1,16 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.BitState;
-import com.rusefi.ReaderStateImpl;
-import com.rusefi.ldmp.TestFileCaptor;
-import com.rusefi.output.DataLogConsumer;
-import com.rusefi.output.GaugeConsumer;
-import com.rusefi.output.OutputsSectionConsumer;
+import com.gerefi.BitState;
+import com.gerefi.ReaderStateImpl;
+import com.gerefi.ldmp.TestFileCaptor;
+import com.gerefi.output.DataLogConsumer;
+import com.gerefi.output.GaugeConsumer;
+import com.gerefi.output.OutputsSectionConsumer;
 import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Test;
 
-import static com.rusefi.AssertCompatibility.assertEquals;
-import static com.rusefi.AssertCompatibility.assertThrows;
+import static com.gerefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertThrows;
 
 public class OutputsTest {
     @Test

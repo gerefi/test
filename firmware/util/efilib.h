@@ -11,7 +11,7 @@
 #include "efi_quote.h"
 #include <stdint.h>
 
-#include <rusefi/arrays.h>
+#include <gerefi/arrays.h>
 
 int djb2lowerCase(const char *str);
 

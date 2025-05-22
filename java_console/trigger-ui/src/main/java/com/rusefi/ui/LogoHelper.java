@@ -1,9 +1,9 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.core.io.BundleUtil;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.ui.util.URLLabel;
+import com.gerefi.core.io.BundleUtil;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.ui.util.URLLabel;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -15,7 +15,7 @@ import static com.devexperts.logging.Logging.getLogging;
 public class LogoHelper {
     private static final Logging log = getLogging(LogoHelper.class);
     public static final String LINK_TEXT = "rusEFI (c) 2012-2025";
-    public static final String URI = "http://rusefi.com/?java_console";
+    public static final String URI = "http://gerefi.com/?java_console";
 
     public static JLabel createLogoLabel() {
         ImageIcon logoIcon = getBundleSpecificIcon();

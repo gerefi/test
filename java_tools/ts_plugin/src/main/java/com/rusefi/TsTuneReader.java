@@ -1,7 +1,7 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.tune.xml.Msq;
-import com.rusefi.xml.XmlUtil;
+import com.gerefi.tune.xml.Msq;
+import com.gerefi.xml.XmlUtil;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

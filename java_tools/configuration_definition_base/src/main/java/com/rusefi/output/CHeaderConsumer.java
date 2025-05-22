@@ -1,14 +1,14 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.*;
-import com.rusefi.util.LazyFile;
-import com.rusefi.util.LazyFileImpl;
+import com.gerefi.*;
+import com.gerefi.util.LazyFile;
+import com.gerefi.util.LazyFileImpl;
 
 import java.io.IOException;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.ToolUtil.EOL;
+import static com.gerefi.ToolUtil.EOL;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -51,7 +51,7 @@ public class CHeaderConsumer extends BaseCHeaderConsumer {
         cHeader.write("// by " + getClass() + EOL);
         cHeader.write("// begin" + EOL);
         cHeader.write("#pragma once" + EOL);
-        cHeader.write("#include \"rusefi_types.h\"" + EOL);
+        cHeader.write("#include \"gerefi_types.h\"" + EOL);
     }
 
     @Override

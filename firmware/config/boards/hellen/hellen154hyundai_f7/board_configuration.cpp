@@ -4,7 +4,7 @@
  *
  * @brief Configuration defaults for the hellen154hyundai board
  *
- * See https://rusefi.com/s/hellen154hyundai
+ * See https://gerefi.com/s/hellen154hyundai
  *
  * @author andreika <prometheus.pcb@gmail.com>
  * @author Andrey Belomutskiy, (c) 2012-2020

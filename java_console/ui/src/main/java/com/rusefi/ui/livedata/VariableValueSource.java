@@ -1,6 +1,6 @@
-package com.rusefi.ui.livedata;
+package com.gerefi.ui.livedata;
 
-import com.rusefi.config.Field;
+import com.gerefi.config.Field;
 
 public interface VariableValueSource {
     VariableValueSource VOID = name -> null;

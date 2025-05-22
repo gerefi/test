@@ -1,16 +1,16 @@
-package com.rusefi.common;
+package com.gerefi.common;
 
-import com.rusefi.RusefiTestBase;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
+import com.gerefi.RusefiTestBase;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
 import org.junit.Test;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
 import static com.devexperts.util.TimeUtil.SECOND;
-import static com.rusefi.IoUtil.sleepSeconds;
+import static com.gerefi.IoUtil.sleepSeconds;
 import static org.junit.Assert.assertTrue;
 
 public class MiscTest extends RusefiTestBase {

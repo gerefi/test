@@ -9,7 +9,7 @@
 
 #pragma once
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 
 #if EFI_RTC
 void initRtc();

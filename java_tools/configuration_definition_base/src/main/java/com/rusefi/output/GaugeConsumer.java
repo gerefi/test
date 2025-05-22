@@ -1,16 +1,16 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
-import com.rusefi.ConfigField;
-import com.rusefi.ConfigFieldImpl;
-import com.rusefi.ReaderState;
-import com.rusefi.VariableRegistry;
-import com.rusefi.util.LazyFile;
+import com.gerefi.ConfigField;
+import com.gerefi.ConfigFieldImpl;
+import com.gerefi.ReaderState;
+import com.gerefi.VariableRegistry;
+import com.gerefi.util.LazyFile;
 
 import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static com.rusefi.output.DataLogConsumer.getHumanGaugeName;
+import static com.gerefi.output.DataLogConsumer.getHumanGaugeName;
 
 public class GaugeConsumer implements ConfigurationConsumer {
     private final String fileName;

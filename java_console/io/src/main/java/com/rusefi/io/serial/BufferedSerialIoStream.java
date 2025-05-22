@@ -1,9 +1,9 @@
-package com.rusefi.io.serial;
+package com.gerefi.io.serial;
 
 import com.devexperts.logging.Logging;
 import com.fazecast.jSerialComm.SerialPort;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.io.IoStream;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.io.IoStream;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -34,7 +34,7 @@ public class BufferedSerialIoStream extends SerialIoStream {
 
     /**
      * Just open physical serial and not much more
-     * @see PortHolder#connectAndReadConfiguration(com.rusefi.binaryprotocol.BinaryProtocol.Arguments)
+     * @see PortHolder#connectAndReadConfiguration(com.gerefi.binaryprotocol.BinaryProtocol.Arguments)
      */
     @Nullable
     public static IoStream openPort(String port) {

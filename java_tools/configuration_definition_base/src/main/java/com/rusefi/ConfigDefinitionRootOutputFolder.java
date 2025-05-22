@@ -1,4 +1,4 @@
-package com.rusefi;
+package com.gerefi;
 
 public class ConfigDefinitionRootOutputFolder {
   private static final String KEY = "META_OUTPUT_ROOT_FOLDER";

@@ -367,7 +367,7 @@ pins:
 
 info:
   title: m74.9
-  board_url: https://github.com/rusefi/m74.9/
+  board_url: https://github.com/gerefi/m74.9/
   directory: m74.9
   name: m74.9
   image:

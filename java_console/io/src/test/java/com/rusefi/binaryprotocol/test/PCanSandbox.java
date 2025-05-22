@@ -1,17 +1,17 @@
-package com.rusefi.binaryprotocol.test;
+package com.gerefi.binaryprotocol.test;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.serial.AbstractIoStream;
-import com.rusefi.io.can.PCanIoStream;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.serial.AbstractIoStream;
+import com.gerefi.io.can.PCanIoStream;
 
 import java.io.IOException;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.Timeouts.SECOND;
+import static com.gerefi.Timeouts.SECOND;
 
 /**
  * @see Elm327Sandbox

@@ -594,7 +594,7 @@ void OutputPin::setValue(const char *msg, int logicValue, bool isForce) {
     }
 
 #if ENABLE_PERF_TRACE
-// todo: https://github.com/rusefi/rusefi/issues/1638
+// todo: https://github.com/gerefi/gerefi/issues/1638
 //	ScopePerf perf(PE::OutputPinSetValue);
 #endif // ENABLE_PERF_TRACE
 

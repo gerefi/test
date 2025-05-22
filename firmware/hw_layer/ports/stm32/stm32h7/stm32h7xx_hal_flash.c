@@ -1076,7 +1076,7 @@ HAL_StatusTypeDef FLASH_OB_WaitForLastOperation(uint32_t Timeout)
   /* Wait for the FLASH Option Bytes change operation to complete by polling on OPT_BUSY flag to be reset */
   while(READ_BIT(FLASH->OPTSR_CUR, FLASH_OPTSR_OPT_BUSY) != 0U)
   {
-    // TODO: rusefi own timeout
+    // TODO: gerefi own timeout
     /*if(Timeout != HAL_MAX_DELAY)
     {
       if(((HAL_GetTick() - tickstart) > Timeout) || (Timeout == 0U))
@@ -1129,7 +1129,7 @@ HAL_StatusTypeDef FLASH_CRC_WaitForLastOperation(uint32_t Timeout, uint32_t Bank
   /* Wait for the FLASH CRC computation to complete by polling on CRC_BUSY flag to be reset */
   while(__HAL_FLASH_GET_FLAG(bsyflag))
   {
-    // TODO: rusefi own timeout
+    // TODO: gerefi own timeout
     // if(Timeout != HAL_MAX_DELAY)
     // {
     //   if(((HAL_GetTick() - tickstart) > Timeout) || (Timeout == 0U))

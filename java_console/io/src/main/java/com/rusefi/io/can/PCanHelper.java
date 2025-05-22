@@ -1,7 +1,7 @@
-package com.rusefi.io.can;
+package com.gerefi.io.can;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.util.HexBinary;
+import com.gerefi.util.HexBinary;
 import org.jetbrains.annotations.NotNull;
 import peak.can.basic.*;
 

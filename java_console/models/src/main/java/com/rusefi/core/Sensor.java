@@ -1,10 +1,10 @@
-package com.rusefi.core;
+package com.gerefi.core;
 
-import com.rusefi.config.Field;
-import com.rusefi.config.FieldType;
-import com.rusefi.config.generated.FuelComputer;
-import com.rusefi.config.generated.TsOutputs;
-import com.rusefi.sensor_logs.BinaryLogEntry;
+import com.gerefi.config.Field;
+import com.gerefi.config.FieldType;
+import com.gerefi.config.generated.FuelComputer;
+import com.gerefi.config.generated.TsOutputs;
+import com.gerefi.sensor_logs.BinaryLogEntry;
 import org.jetbrains.annotations.Nullable;
 
 import java.io.DataOutputStream;
@@ -15,7 +15,7 @@ import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 
-import static com.rusefi.config.generated.VariableRegistryValues.*;
+import static com.gerefi.config.generated.VariableRegistryValues.*;
 
 /**
  * @author Andrey Belomutskiy

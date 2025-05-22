@@ -1,8 +1,8 @@
 // this section was generated automatically by rusEFI tool config_definition_base.jar based on (unknown script) controllers/algo/antilag_system_state.txt Wed Jan 03 20:30:10 UTC 2024
-// by class com.rusefi.output.CHeaderConsumer
+// by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 // start of antilag_system_state_s
 struct antilag_system_state_s {
 	/**

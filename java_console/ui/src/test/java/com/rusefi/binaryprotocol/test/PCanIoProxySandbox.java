@@ -1,7 +1,7 @@
-package com.rusefi.binaryprotocol.test;
+package com.gerefi.binaryprotocol.test;
 
-import com.rusefi.io.can.PCanIoStream;
-import com.rusefi.tools.CANConnectorStartup;
+import com.gerefi.io.can.PCanIoStream;
+import com.gerefi.tools.CANConnectorStartup;
 
 import java.io.IOException;
 

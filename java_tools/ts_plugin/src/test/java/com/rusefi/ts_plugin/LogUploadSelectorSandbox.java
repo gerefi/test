@@ -1,8 +1,8 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
 import com.efiAnalytics.plugin.ecu.ControllerAccess;
-import com.rusefi.MockitoTestHelper;
-import com.rusefi.core.ui.FrameHelper;
+import com.gerefi.MockitoTestHelper;
+import com.gerefi.core.ui.FrameHelper;
 
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.mock;

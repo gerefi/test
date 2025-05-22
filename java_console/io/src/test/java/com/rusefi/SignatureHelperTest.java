@@ -1,7 +1,7 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.core.RusEfiSignature;
-import com.rusefi.core.SignatureHelper;
+import com.gerefi.core.RusEfiSignature;
+import com.gerefi.core.SignatureHelper;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

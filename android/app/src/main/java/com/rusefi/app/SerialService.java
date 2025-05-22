@@ -1,4 +1,4 @@
-package com.rusefi.app;
+package com.gerefi.app;
 
 import android.app.Service;
 import android.content.Intent;

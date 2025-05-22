@@ -1,4 +1,4 @@
-package rusefi;
+package gerefi;
 
 import org.junit.jupiter.api.Test;
 

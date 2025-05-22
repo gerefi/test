@@ -1,13 +1,13 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.MaybeSemicolonWasMissedException;
-import com.rusefi.ParsingException;
-import com.rusefi.ReaderStateImpl;
-import com.rusefi.output.GetConfigValueConsumer;
+import com.gerefi.MaybeSemicolonWasMissedException;
+import com.gerefi.ParsingException;
+import com.gerefi.ReaderStateImpl;
+import com.gerefi.output.GetConfigValueConsumer;
 import org.junit.jupiter.api.Test;
 
-import static com.rusefi.AssertCompatibility.assertEquals;
-import static com.rusefi.AssertCompatibility.assertThrows;
+import static com.gerefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertThrows;
 
 public class GetConfigValueConsumerTest {
   @Test

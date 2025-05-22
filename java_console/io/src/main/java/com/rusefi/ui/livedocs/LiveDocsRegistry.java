@@ -1,10 +1,10 @@
-package com.rusefi.ui.livedocs;
+package com.gerefi.ui.livedocs;
 
-import com.rusefi.config.Field;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.enums.live_data_e;
-import com.rusefi.io.commands.ByteRange;
-import com.rusefi.ldmp.StateDictionary;
+import com.gerefi.config.Field;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.enums.live_data_e;
+import com.gerefi.io.commands.ByteRange;
+import com.gerefi.ldmp.StateDictionary;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;

@@ -1,1 +1,1 @@
-java -jar console/rusefi_console.jar reboot_ecu
+java -jar console/gerefi_console.jar reboot_ecu

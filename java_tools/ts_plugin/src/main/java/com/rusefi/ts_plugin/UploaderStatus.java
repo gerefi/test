@@ -1,7 +1,7 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
-import com.rusefi.TsTuneReader;
-import com.rusefi.tune.xml.Constant;
+import com.gerefi.TsTuneReader;
+import com.gerefi.tune.xml.Constant;
 
 import java.io.File;
 import java.util.Map;

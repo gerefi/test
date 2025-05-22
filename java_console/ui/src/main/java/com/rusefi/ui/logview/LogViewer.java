@@ -1,16 +1,16 @@
-package com.rusefi.ui.logview;
+package com.gerefi.ui.logview;
 
 import com.devexperts.logging.FileLogger;
 import com.devexperts.logging.Logging;
-import com.rusefi.ConsoleUI;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.EngineState;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.file.FileUtils;
-import com.rusefi.ui.ChartRepository;
-import com.rusefi.ui.LogDownloader;
-import com.rusefi.ui.UIContext;
-import com.rusefi.ui.engine.EngineSnifferPanel;
+import com.gerefi.ConsoleUI;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.EngineState;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.file.FileUtils;
+import com.gerefi.ui.ChartRepository;
+import com.gerefi.ui.LogDownloader;
+import com.gerefi.ui.UIContext;
+import com.gerefi.ui.engine.EngineSnifferPanel;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package com.rusefi.bom;
+package com.gerefi.bom;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import static com.rusefi.bom.BomBuilder.log;
+import static com.gerefi.bom.BomBuilder.log;
 
 /**
  * (c) Andrey Belomutskiy

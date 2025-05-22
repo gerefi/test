@@ -1,6 +1,6 @@
 
 gcc 12.2 toolchain has Python nightmare on fresh linux
-https://github.com/rusefi/rusefi/issues/5312
+https://github.com/gerefi/gerefi/issues/5312
 
 
 

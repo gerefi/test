@@ -1,6 +1,6 @@
-package com.rusefi.trigger;
+package com.gerefi.trigger;
 
-import com.rusefi.waves.EngineReport;
+import com.gerefi.waves.EngineReport;
 
 import java.util.ArrayList;
 import java.util.List;

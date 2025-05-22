@@ -1,4 +1,4 @@
-package com.rusefi.core;
+package com.gerefi.core;
 
 /**
  * @author Andrey Belomutskiy

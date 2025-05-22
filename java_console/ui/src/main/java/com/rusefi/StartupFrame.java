@@ -1,20 +1,20 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.core.net.ConnectionAndMeta;
-import com.rusefi.core.preferences.storage.PersistentConfiguration;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.core.ui.FrameHelper;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.serial.BaudRateHolder;
-import com.rusefi.maintenance.*;
-import com.rusefi.ui.BasicLogoHelper;
-import com.rusefi.ui.LogoHelper;
-import com.rusefi.ui.duplicates.ConsoleBundleUtil;
-import com.rusefi.ui.util.HorizontalLine;
-import com.rusefi.ui.util.URLLabel;
-import com.rusefi.ui.util.UiUtils;
-import com.rusefi.ui.widgets.ToolButtons;
+import com.gerefi.core.net.ConnectionAndMeta;
+import com.gerefi.core.preferences.storage.PersistentConfiguration;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.core.ui.FrameHelper;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.serial.BaudRateHolder;
+import com.gerefi.maintenance.*;
+import com.gerefi.ui.BasicLogoHelper;
+import com.gerefi.ui.LogoHelper;
+import com.gerefi.ui.duplicates.ConsoleBundleUtil;
+import com.gerefi.ui.util.HorizontalLine;
+import com.gerefi.ui.util.URLLabel;
+import com.gerefi.ui.util.UiUtils;
+import com.gerefi.ui.widgets.ToolButtons;
 import net.miginfocom.swing.MigLayout;
 import org.jetbrains.annotations.NotNull;
 import org.putgemin.VerticalFlowLayout;
@@ -30,8 +30,8 @@ import java.util.Optional;
 import java.util.function.Supplier;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.core.preferences.storage.PersistentConfiguration.getConfig;
-import static com.rusefi.ui.util.UiUtils.*;
+import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
+import static com.gerefi.ui.util.UiUtils.*;
 import static javax.swing.JOptionPane.YES_NO_OPTION;
 
 /**
@@ -107,7 +107,7 @@ public class StartupFrame {
         comboSpeeds.setToolTipText("For 'STMicroelectronics Virtual COM Port' device any speed setting would work the same");
         connectPanel.add(comboSpeeds);
 
-        final JButton connectButton = new JButton("Connect", new ImageIcon(getClass().getResource("/com/rusefi/connect48.png")));
+        final JButton connectButton = new JButton("Connect", new ImageIcon(getClass().getResource("/com/gerefi/connect48.png")));
         setToolTip(connectButton, "Connect to real hardware");
 
         JCheckBoxMenuItem menuItem = new JCheckBoxMenuItem("Always auto-connect port");
@@ -141,7 +141,7 @@ public class StartupFrame {
         connectButton.addActionListener(e -> connectButtonAction(comboSpeeds));
 
         final Optional<JPanel> newReleaseNotification = newReleaseAnnounce(
-            "rusefi_autoupdate.exe",
+            "gerefi_autoupdate.exe",
             "left",
             () -> realHardwarePanel.getPreferredSize().width
         );
@@ -212,7 +212,7 @@ public class StartupFrame {
 
         if (ConsoleBundleUtil.readBundleFullNameNotNull().getTarget().contains("proteus_f7")) {
             String text = "WARNING: Proteus F7";
-            URLLabel urlLabel = new URLLabel(text, "https://github.com/rusefi/rusefi/wiki/F7-requires-full-erase");
+            URLLabel urlLabel = new URLLabel(text, "https://github.com/gerefi/gerefi/wiki/F7-requires-full-erase");
             new Timer(500, new ActionListener() {
                 int counter;
                 @Override

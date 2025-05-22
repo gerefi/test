@@ -1,14 +1,14 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
 import com.opensr5.ConfigurationImage;
 import com.opensr5.ConfigurationImageMetaVersion0_0;
 import com.opensr5.ConfigurationImageWithMeta;
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.IniFileModelImpl;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.migration.TuneMigrationContext;
-import com.rusefi.tune.xml.Constant;
-import com.rusefi.tune.xml.Msq;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.migration.TuneMigrationContext;
+import com.gerefi.tune.xml.Constant;
+import com.gerefi.tune.xml.Msq;
 
 import javax.xml.bind.JAXBException;
 

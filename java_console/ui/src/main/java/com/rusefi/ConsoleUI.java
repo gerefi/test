@@ -1,26 +1,26 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.FileLogger;
 import com.devexperts.logging.Logging;
-import com.rusefi.autodetect.PortDetector;
-import com.rusefi.binaryprotocol.BinaryProtocolLogger;
-import com.rusefi.core.MessagesCentral;
-import com.rusefi.core.net.ConnectionAndMeta;
-import com.rusefi.io.CommandQueue;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.serial.BaudRateHolder;
-import com.rusefi.maintenance.StLinkFlasher;
-import com.rusefi.tools.TunerStudioHelper;
-import com.rusefi.ui.*;
-import com.rusefi.ui.console.MainFrame;
-import com.rusefi.ui.console.TabbedPanel;
-import com.rusefi.ui.engine.EngineSnifferPanel;
-import com.rusefi.ui.lua.LuaScriptPanel;
-import com.rusefi.ui.util.DefaultExceptionHandler;
-import com.rusefi.ui.util.JustOneInstance;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.util.LazyFile;
-import com.rusefi.util.LazyFileImpl;
+import com.gerefi.autodetect.PortDetector;
+import com.gerefi.binaryprotocol.BinaryProtocolLogger;
+import com.gerefi.core.MessagesCentral;
+import com.gerefi.core.net.ConnectionAndMeta;
+import com.gerefi.io.CommandQueue;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.serial.BaudRateHolder;
+import com.gerefi.maintenance.StLinkFlasher;
+import com.gerefi.tools.TunerStudioHelper;
+import com.gerefi.ui.*;
+import com.gerefi.ui.console.MainFrame;
+import com.gerefi.ui.console.TabbedPanel;
+import com.gerefi.ui.engine.EngineSnifferPanel;
+import com.gerefi.ui.lua.LuaScriptPanel;
+import com.gerefi.ui.util.DefaultExceptionHandler;
+import com.gerefi.ui.util.JustOneInstance;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.util.LazyFile;
+import com.gerefi.util.LazyFileImpl;
 
 
 import javax.swing.*;
@@ -34,10 +34,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.StartupFrame.setFrameIcon;
-import static com.rusefi.core.preferences.storage.PersistentConfiguration.getConfig;
-import static com.rusefi.core.rusEFIVersion.CONSOLE_VERSION;
-import static com.rusefi.ui.util.UiUtils.createOnTopParent;
+import static com.gerefi.StartupFrame.setFrameIcon;
+import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
+import static com.gerefi.core.rusEFIVersion.CONSOLE_VERSION;
+import static com.gerefi.ui.util.UiUtils.createOnTopParent;
 
 /**
  * @see StartupFrame
@@ -45,7 +45,7 @@ import static com.rusefi.ui.util.UiUtils.createOnTopParent;
 public class ConsoleUI {
     private static final Logging log = getLogging(ConsoleUI.class);
     private static final int DEFAULT_TAB_INDEX = 0;
-    private static final String WIKI_URL = "https://github.com/rusefi/rusefi/wiki/rusEFI-logs-folder";
+    private static final String WIKI_URL = "https://github.com/gerefi/gerefi/wiki/rusEFI-logs-folder";
 
     public static final String TAB_INDEX = "main_tab";
     protected static final String PORT_KEY = "port";
@@ -146,14 +146,14 @@ public class ConsoleUI {
         MessagesCentral.getInstance().postMessage(ConsoleUI.class, "COMPOSITE_OFF_RPM=" + BinaryProtocolLogger.COMPOSITE_OFF_RPM);
 
         /*
-        https://github.com/rusefi/rusefi/issues/5956
+        https://github.com/gerefi/gerefi/issues/5956
         tabbedPane.addTab("rusEFI Online", new OnlineTab(uiContext).getContent());
 */
         tabbedPane.addTab("Connection", new ConnectionTab(uiContext).getContent());
 
         if (false) {
             // this feature is not totally happy safer to disable to reduce user confusion
-            // https://github.com/rusefi/rusefi/issues/5292
+            // https://github.com/gerefi/gerefi/issues/5292
             uiContext.sensorLogger.init();
         }
 
@@ -188,7 +188,7 @@ public class ConsoleUI {
 
     private static void writeReadmeFile() {
         LazyFile file = new LazyFileImpl(FileLogger.DIR + "README.html");
-        file.write("<center>" + "<a href='" + WIKI_URL + "'>More info online<br/><img src=https://raw.githubusercontent.com/wiki/rusefi/rusefi/logo.gif></a>");
+        file.write("<center>" + "<a href='" + WIKI_URL + "'>More info online<br/><img src=https://raw.githubusercontent.com/wiki/gerefi/gerefi/logo.gif></a>");
         try {
             file.close();
         } catch (IOException e) {

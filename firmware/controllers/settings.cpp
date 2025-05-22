@@ -23,7 +23,7 @@
 
 #if EFI_PROD_CODE
 #include "can_hw.h"
-#include "rusefi.h"
+#include "gerefi.h"
 #include "hardware.h"
 #endif // EFI_PROD_CODE
 

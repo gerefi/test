@@ -1,8 +1,8 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.core.ui.FrameHelper;
-import com.rusefi.ui.MessagesPane;
-import com.rusefi.core.preferences.storage.PersistentConfiguration;
+import com.gerefi.core.ui.FrameHelper;
+import com.gerefi.ui.MessagesPane;
+import com.gerefi.core.preferences.storage.PersistentConfiguration;
 
 public class MsgPanelSandbox extends FrameHelper {
     public static void main(String[] args) {

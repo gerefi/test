@@ -1,10 +1,10 @@
 /************************************************************************************//**
-* \file         config/boards/microrusefi/openblt/blt_conf.h
+* \file         config/boards/microgerefi/openblt/blt_conf.h
 * \brief        Bootloader configuration header file for rusEFI
 *----------------------------------------------------------------------------------------
 *                          C O P Y R I G H T
 *----------------------------------------------------------------------------------------
-*   Copyright (c) 2021  by Andrey Gusakov https://rusefi.com/
+*   Copyright (c) 2021  by Andrey Gusakov https://gerefi.com/
 *   Based on file:
 *   Copyright (c) 2021  by Feaser    http://www.feaser.com    All rights reserved
 *

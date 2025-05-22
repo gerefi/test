@@ -1,9 +1,9 @@
-package com.rusefi.io;
+package com.gerefi.io;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.io.DataListener;
-import com.rusefi.io.serial.AbstractIoStream;
-import com.rusefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.serial.AbstractIoStream;
+import com.gerefi.io.tcp.BinaryProtocolServer;
 
 import java.io.IOException;
 import java.util.Arrays;

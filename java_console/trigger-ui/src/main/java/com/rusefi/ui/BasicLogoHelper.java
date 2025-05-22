@@ -1,7 +1,7 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.core.ui.AutoupdateUtil;
+import com.gerefi.core.ui.AutoupdateUtil;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,7 +10,7 @@ import static com.devexperts.logging.Logging.getLogging;
 
 public class BasicLogoHelper {
     private static final Logging log = getLogging(BasicLogoHelper.class);
-    public static final String LOGO_PATH = "/com/rusefi/";
+    public static final String LOGO_PATH = "/com/gerefi/";
     static final String GENERIC_LOGO = LOGO_PATH + "logo.png";
 
     // as opposed to LogoHelper.getBundleSpecificIcon

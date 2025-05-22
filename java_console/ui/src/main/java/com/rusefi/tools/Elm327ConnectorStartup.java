@@ -1,17 +1,17 @@
-package com.rusefi.tools;
+package com.gerefi.tools;
 
 
 /*
 
 import com.devexperts.logging.Logging;
-import com.rusefi.autodetect.PortDetector;
-import com.rusefi.autodetect.SerialAutoChecker;
-import com.rusefi.io.can.elm.Elm327Connector;
-import com.rusefi.io.serial.SerialIoStream;
-import com.rusefi.io.tcp.BinaryProtocolProxy;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.io.tcp.TcpConnector;
-import com.rusefi.ui.StatusConsumer;
+import com.gerefi.autodetect.PortDetector;
+import com.gerefi.autodetect.SerialAutoChecker;
+import com.gerefi.io.can.elm.Elm327Connector;
+import com.gerefi.io.serial.SerialIoStream;
+import com.gerefi.io.tcp.BinaryProtocolProxy;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.tcp.TcpConnector;
+import com.gerefi.ui.StatusConsumer;
 
 import java.io.IOException;
 

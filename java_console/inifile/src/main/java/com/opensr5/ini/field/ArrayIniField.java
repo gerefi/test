@@ -1,9 +1,9 @@
 package com.opensr5.ini.field;
 
 import com.opensr5.ConfigurationImage;
-import com.rusefi.config.Field;
-import com.rusefi.config.FieldType;
-import com.rusefi.tune.xml.Constant;
+import com.gerefi.config.Field;
+import com.gerefi.config.FieldType;
+import com.gerefi.tune.xml.Constant;
 import org.jetbrains.annotations.Nullable;
 
 import java.nio.ByteBuffer;

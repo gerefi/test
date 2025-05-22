@@ -1,9 +1,9 @@
-package com.rusefi.ui.engine;
+package com.gerefi.ui.engine;
 
-import com.rusefi.waves.TimeAxisTranslator;
-import com.rusefi.waves.EngineReport;
-import com.rusefi.waves.ZoomProvider;
-import com.rusefi.waves.RevolutionLog;
+import com.gerefi.waves.TimeAxisTranslator;
+import com.gerefi.waves.EngineReport;
+import com.gerefi.waves.ZoomProvider;
+import com.gerefi.waves.RevolutionLog;
 
 import javax.swing.*;
 import java.awt.*;

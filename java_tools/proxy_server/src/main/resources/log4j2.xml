@@ -25,7 +25,7 @@
             <AppenderRef ref="R"/>
             <AppenderRef ref="E"/>
         </Root>
-        <Logger name="com.rusefi.x" level="DEBUG" additivity="true">
+        <Logger name="com.gerefi.x" level="DEBUG" additivity="true">
             <AppenderRef ref="S1_Logger"/>
         </Logger>
     </Loggers>

@@ -22,7 +22,7 @@ jar {
 }
 
 shadowJar {
-    archiveBaseName = 'rusefi_plugin_body'
+    archiveBaseName = 'gerefi_plugin_body'
     archiveClassifier = ''
     manifest {
         inheritFrom project.tasks.jar.manifest

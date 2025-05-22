@@ -1,6 +1,6 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
-import com.rusefi.io.serial.StreamStatistics;
+import com.gerefi.io.serial.StreamStatistics;
 
 import javax.swing.*;
 

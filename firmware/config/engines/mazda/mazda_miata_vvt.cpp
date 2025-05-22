@@ -19,12 +19,12 @@
  *
  * @date Oct 4, 2016
  * @author Andrey Belomutskiy, (c) 2012-2020
- * http://rusefi.com/forum/viewtopic.php?f=3&t=1095
+ * http://gerefi.com/forum/viewtopic.php?f=3&t=1095
  *
  *
  * See also TT_MAZDA_MIATA_VVT_TEST for trigger simulation
  *
- * Based on http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board#Default_Pinout
+ * Based on http://gerefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board#Default_Pinout
  *
  * board #70 - red car, hunchback compatible
  * set engine_type 55
@@ -392,7 +392,7 @@ static void setMazdaMiataEngineNB2Defaults() {
 #endif // HW_HELLEN
 
 /**
- * https://github.com/rusefi/rusefi/wiki/HOWTO-TCU-A42DE-on-Proteus
+ * https://github.com/gerefi/gerefi/wiki/HOWTO-TCU-A42DE-on-Proteus
  */
 #if HW_PROTEUS
 void setMiataNB2_Proteus_TCU() {

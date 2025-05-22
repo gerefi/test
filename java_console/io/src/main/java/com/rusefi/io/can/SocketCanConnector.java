@@ -1,6 +1,6 @@
-package com.rusefi.io.can;
+package com.gerefi.io.can;
 
-import com.rusefi.uds.CanConnector;
+import com.gerefi.uds.CanConnector;
 import tel.schich.javacan.RawCanChannel;
 
 import java.io.IOException;

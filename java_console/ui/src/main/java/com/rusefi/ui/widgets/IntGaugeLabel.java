@@ -1,8 +1,8 @@
-package com.rusefi.ui.widgets;
+package com.gerefi.ui.widgets;
 
-import com.rusefi.config.FieldType;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
+import com.gerefi.config.FieldType;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
 
 import javax.swing.*;
 

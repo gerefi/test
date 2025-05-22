@@ -1,12 +1,12 @@
-package com.rusefi.tools;
+package com.gerefi.tools;
 
 /*
-import com.rusefi.dfu.BinaryImage;
-import com.rusefi.dfu.DfuImage;
-import com.rusefi.dfu.DfuLogic;
-import com.rusefi.dfu.HexImage;
-import com.rusefi.dfu.usb4java.DfuDeviceLocator;
-import com.rusefi.dfu.usb4java.USBDfuConnection;
+import com.gerefi.dfu.BinaryImage;
+import com.gerefi.dfu.DfuImage;
+import com.gerefi.dfu.DfuLogic;
+import com.gerefi.dfu.HexImage;
+import com.gerefi.dfu.usb4java.DfuDeviceLocator;
+import com.gerefi.dfu.usb4java.USBDfuConnection;
 import cz.jaybee.intelhex.IntelHexException;
 
 import java.io.IOException;

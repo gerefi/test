@@ -1,15 +1,15 @@
-package com.rusefi.common;
+package com.gerefi.common;
 
-import com.rusefi.Timeouts;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.enums.engine_type_e;
-import com.rusefi.functional_tests.EcuTestHelper;
+import com.gerefi.Timeouts;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.enums.engine_type_e;
+import com.gerefi.functional_tests.EcuTestHelper;
 
-import static com.rusefi.IoUtil.getEnableCommand;
-import static com.rusefi.binaryprotocol.BinaryProtocol.sleep;
-import static com.rusefi.config.generated.VariableRegistryValues.*;
+import static com.gerefi.IoUtil.getEnableCommand;
+import static com.gerefi.binaryprotocol.BinaryProtocol.sleep;
+import static com.gerefi.config.generated.VariableRegistryValues.*;
 
 public class PwmHardwareTestLogic {
     private static final int FREQUENCY = 160;
@@ -31,7 +31,7 @@ public class PwmHardwareTestLogic {
         ecu.sendCommand(CMD_TRIGGER_PIN + " 1 PA8");
 
         /* DBG_LOGIC_ANALYZER */
-        ecu.sendCommand("set debug_mode " + com.rusefi.enums.debug_mode_e.DBG_LOGIC_ANALYZER.ordinal());
+        ecu.sendCommand("set debug_mode " + com.gerefi.enums.debug_mode_e.DBG_LOGIC_ANALYZER.ordinal());
 
         /* 160 Hz */
         ecu.sendCommand("set idle_solenoid_freq " + FREQUENCY);

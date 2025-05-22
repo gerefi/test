@@ -1,24 +1,24 @@
-package com.rusefi.proxy;
+package com.gerefi.proxy;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
 import com.opensr5.ini.field.StringIniField;
-import com.rusefi.Timeouts;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.config.Field;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.io.AbstractConnectionStateListener;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.LinkManager;
-import com.rusefi.io.commands.HelloCommand;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.io.tcp.TcpIoStream;
-import com.rusefi.core.rusEFIVersion;
-import com.rusefi.server.ControllerInfo;
-import com.rusefi.server.SessionDetails;
-import com.rusefi.server.rusEFISSLContext;
-import com.rusefi.tools.VehicleToken;
-import com.rusefi.tools.online.HttpUtil;
+import com.gerefi.Timeouts;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.config.Field;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.io.AbstractConnectionStateListener;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.LinkManager;
+import com.gerefi.io.commands.HelloCommand;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.tcp.TcpIoStream;
+import com.gerefi.core.rusEFIVersion;
+import com.gerefi.server.ControllerInfo;
+import com.gerefi.server.SessionDetails;
+import com.gerefi.server.rusEFISSLContext;
+import com.gerefi.tools.VehicleToken;
+import com.gerefi.tools.online.HttpUtil;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.Closeable;
@@ -30,7 +30,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Supplier;
 
-import static com.rusefi.binaryprotocol.BinaryProtocol.sleep;
+import static com.gerefi.binaryprotocol.BinaryProtocol.sleep;
 
 /**
  * Connector between rusEFI ECU and rusEFI server

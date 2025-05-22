@@ -17,14 +17,14 @@ else
 endif
 
 # DFU and DBIN are uploaded as artifacts, so it's easier to have them in the deliver/ directory
-#  than to try uploading them from the rusefi.snapshot.<BUNDLE_NAME> directory
+#  than to try uploading them from the gerefi.snapshot.<BUNDLE_NAME> directory
 DFU = $(DELIVER)/$(PROJECT).dfu
 DBIN = $(DELIVER)/$(PROJECT).bin
 DBIN_CRC = $(BUILDDIR)/$(PROJECT)_crc32.bin
 FIRMWARE_BIN_OUT = $(FOLDER)/$(PROJECT).bin
 
 ifeq (,$(WHITE_LABEL))
-	WHITE_LABEL = rusefi
+	WHITE_LABEL = gerefi
 endif
 
 # If provided with a git reference and the LTS flag, use a folder name including the ref
@@ -44,15 +44,15 @@ else
 endif
 
 # todo: replace all usages of $(FOLDER) with $(STAGING_FOLDER) just to make code search simpler
-FOLDER         = rusefi.$(BRANCH_PART_OF_FOLDER).$(BUNDLE_NAME)
-STAGING_FOLDER = rusefi.$(BRANCH_PART_OF_FOLDER).$(BUNDLE_NAME)
+FOLDER         = gerefi.$(BRANCH_PART_OF_FOLDER).$(BUNDLE_NAME)
+STAGING_FOLDER = gerefi.$(BRANCH_PART_OF_FOLDER).$(BUNDLE_NAME)
 
 BRANCH_REF_FILE = $(STAGING_FOLDER)/release.txt
 
 DELIVER = deliver
 ARTIFACTS = ../artifacts
 
-BUNDLE_FULL_NAME = rusefi_bundle_$(BUNDLE_NAME)
+BUNDLE_FULL_NAME = gerefi_bundle_$(BUNDLE_NAME)
 WHITE_LABEL_BUNDLE_NAME = $(WHITE_LABEL)_bundle_$(BUNDLE_NAME)
 
 CONSOLE_FOLDER = $(FOLDER)/console
@@ -62,14 +62,14 @@ UPDATE_FOLDER_SOURCES = \
   $(RUSEFI_CONSOLE_SETTINGS) \
   $(INI_FILE) \
   ../misc/console_launcher/readme.html \
-  ../misc/console_launcher/rusefi_updater.exe
+  ../misc/console_launcher/gerefi_updater.exe
 
 FOLDER_SOURCES = \
   ../java_console/bin
 
 # Custom board builds don't include the simulator
 ifneq ($(BUNDLE_SIMULATOR),false)
-  SIMULATOR_EXE = ../simulator/build/rusefi_simulator.exe
+  SIMULATOR_EXE = ../simulator/build/gerefi_simulator.exe
 endif
 
 UPDATE_CONSOLE_FOLDER_SOURCES = \
@@ -78,11 +78,11 @@ UPDATE_CONSOLE_FOLDER_SOURCES = \
   $(TS_PLUGIN_LAUNCHER_JAR) \
   $(AUTOUPDATE_JAR)
 
-# todo: remove BootCommander.exe once https://github.com/rusefi/rusefi/issues/6358 is done
+# todo: remove BootCommander.exe once https://github.com/gerefi/gerefi/issues/6358 is done
 
 CONSOLE_FOLDER_SOURCES = \
-  ../misc/console_launcher/rusefi_autoupdate.exe \
-  ../misc/console_launcher/rusefi_console.exe \
+  ../misc/console_launcher/gerefi_autoupdate.exe \
+  ../misc/console_launcher/gerefi_console.exe \
   $(wildcard ../java_console/*.dll) \
   ../firmware/ext/openblt/Host/libopenblt.dll \
   ../firmware/ext/openblt/Host/BootCommander.exe \
@@ -109,7 +109,7 @@ BOOTLOADER_HEX = bootloader/blbuild/openblt_$(PROJECT_BOARD).hex
 ifeq ($(USE_OPENBLT),yes)
   BOOTLOADER_HEX_OUT = $(BOOTLOADER_HEX)
   BOOTLOADER_BIN_OUT = $(FOLDER)/openblt.bin
-  SREC_TARGET = $(FOLDER)/rusefi_update.srec
+  SREC_TARGET = $(FOLDER)/gerefi_update.srec
 else
   FIRMWARE_OUTPUTS = $(FOLDER)/$(PROJECT).hex
   BINSRC = $(BUILDDIR)/$(PROJECT).bin
@@ -153,12 +153,12 @@ $(SIMULATOR_EXE): $(CONFIG_FILES) .FORCE
 	$(MAKE) -C ../simulator -r OS="Windows_NT" SUBMAKE=yes
 
 # make sure not to invoke in parallel with SIMULATOR_EXE rule above
-../simulator/build/rusefi_simulator.linux: $(CONFIG_FILES) .FORCE
+../simulator/build/gerefi_simulator.linux: $(CONFIG_FILES) .FORCE
 	$(MAKE) -C ../simulator -r OS="Linux" SUBMAKE=yes
 
 # make Windows simulator a prerequisite so that we don't try compiling them concurrently
-# that also means no incremental compilation making that rule less useful. See 'rusefi_simulator.linux' above
-../simulator/build/rusefi_simulator.both: $(CONFIG_FILES) .FORCE | $(SIMULATOR_EXE)
+# that also means no incremental compilation making that rule less useful. See 'gerefi_simulator.linux' above
+../simulator/build/gerefi_simulator.both: $(CONFIG_FILES) .FORCE | $(SIMULATOR_EXE)
 	$(MAKE) -C ../simulator -r OS="Linux" SUBMAKE=yes
 
 $(BOOTLOADER_HEX) $(BOOTLOADER_BIN): .bootloader-sentinel ;
@@ -171,7 +171,7 @@ $(BOOTLOADER_HEX) $(BOOTLOADER_BIN): .bootloader-sentinel ;
 
 $(BUILDDIR)/$(PROJECT).map: $(BUILDDIR)/$(PROJECT).elf
 
-$(SREC_TARGET): $(BUILDDIR)/rusefi.srec
+$(SREC_TARGET): $(BUILDDIR)/gerefi.srec
 	ln -rfs $< $@
 
 $(FIRMWARE_OUTPUTS): $(FOLDER)/%: $(BUILDDIR)/% | $(FOLDER)
@@ -193,13 +193,13 @@ else
 	CHECKSUM_ADDRESS = 0x0800001C
 endif
 
-$(BUILDDIR)/rusefi.srec: $(BUILDDIR)/$(PROJECT).hex
+$(BUILDDIR)/gerefi.srec: $(BUILDDIR)/$(PROJECT).hex
 	# make sure we create the srec from a binary with crc
 	$(H2D) -i $< -c $(CHECKSUM_ADDRESS) -b $(DBIN_CRC)
 	$(CP) -I binary -O srec --change-addresses=$(HEX_BASE_ADDRESS) $(DBIN_CRC) $@
 
 # The DFU is currently not included in the bundle, so these prerequisites are listed as order-only to avoid building it.
-# If you want it, you can build it with `make rusefi.snapshot.$BUNDLE_NAME/rusefi.dfu`
+# If you want it, you can build it with `make gerefi.snapshot.$BUNDLE_NAME/gerefi.dfu`
 $(DFU) $(DBIN): .h2d-sentinel ;
 
 .h2d-sentinel: $(BUILDDIR)/$(PROJECT).hex $(BOOTLOADER_HEX_OUT) $(BINSRC) | $(DELIVER)
@@ -213,10 +213,10 @@ else
 endif
 	@touch $@
 
-OBFUSCATED_SREC = $(FOLDER)/rusefi-obfuscated.srec
+OBFUSCATED_SREC = $(FOLDER)/gerefi-obfuscated.srec
 
 OBFUSCATED_OUT = \
-  $(FOLDER)/rusefi-obfuscated.bin \
+  $(FOLDER)/gerefi-obfuscated.bin \
   $(OBFUSCATED_SREC)
 
 $(OBFUSCATED_OUT): .obfuscated-sentinel
@@ -228,7 +228,7 @@ $(OBFUSCATED_OUT): .obfuscated-sentinel
 	@touch $@
 
 $(ST_DRIVERS): | $(DRIVERS_FOLDER)
-	wget https://rusefi.com/build_server/st_files/silent_st_drivers2.exe -P $(dir $@)
+	wget https://gerefi.com/build_server/st_files/silent_st_drivers2.exe -P $(dir $@)
 
 $(DELIVER) $(ARTIFACTS) $(STAGING_FOLDER) $(CONSOLE_FOLDER) $(DRIVERS_FOLDER):
 	mkdir -p $@
@@ -264,7 +264,7 @@ bootloader: $(BOOTLOADER_BIN)
 bin: $(DBIN)
 hex: $(BUILDDIR)/$(PROJECT).hex
 dfu: $(DFU)
-srec: $(BUILDDIR)/rusefi.srec
+srec: $(BUILDDIR)/gerefi.srec
 elf: $(BUILDDIR)/$(PROJECT).elf
 map: $(BUILDDIR)/$(PROJECT).map
 list: $(BUILDDIR)/$(PROJECT).list

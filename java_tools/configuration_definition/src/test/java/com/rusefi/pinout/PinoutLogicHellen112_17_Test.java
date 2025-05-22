@@ -1,15 +1,15 @@
-package com.rusefi.pinout;
+package com.gerefi.pinout;
 
-import com.rusefi.ReaderStateImpl;
-import com.rusefi.newparse.DefinitionsState;
+import com.gerefi.ReaderStateImpl;
+import com.gerefi.newparse.DefinitionsState;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
 
-import static com.rusefi.test.ConfigDefinitionTest.FIRMWARE;
-import static com.rusefi.AssertCompatibility.assertEquals;
-import static com.rusefi.AssertCompatibility.assertFalse;
+import static com.gerefi.test.ConfigDefinitionTest.FIRMWARE;
+import static com.gerefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertFalse;
 
 public class PinoutLogicHellen112_17_Test {
     @Test
@@ -19,8 +19,8 @@ public class PinoutLogicHellen112_17_Test {
         FileSystemBoardInputsReaderImpl.PREFIX = FIRMWARE + File.separator;
 
         ReaderStateImpl state = new ReaderStateImpl();
-        state.getEnumsReader().read(new FileReader(FileSystemBoardInputsReaderImpl.PREFIX + "controllers/algo/rusefi_hw_stm32_enums.h"));
-        state.getEnumsReader().read(new FileReader(FileSystemBoardInputsReaderImpl.PREFIX + "controllers/algo/rusefi_hw_adc_enums.h"));
+        state.getEnumsReader().read(new FileReader(FileSystemBoardInputsReaderImpl.PREFIX + "controllers/algo/gerefi_hw_stm32_enums.h"));
+        state.getEnumsReader().read(new FileReader(FileSystemBoardInputsReaderImpl.PREFIX + "controllers/algo/gerefi_hw_adc_enums.h"));
 
         assertFalse(state.getEnumsReader().getEnums().isEmpty());
 

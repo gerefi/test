@@ -37,7 +37,7 @@ jobs:
           RUSEFI_ANDROID_KEYPASS: ${{ secrets.RUSEFI_ANDROID_KEYPASS }}
         working-directory: ./android
         run: |
-          if [ "${{github.repository}}" == "rusefi/rusefi" && "${{github.event_name}}" == "push" ]; then
+          if [ "${{github.repository}}" == "gerefi/gerefi" && "${{github.event_name}}" == "push" ]; then
             bash ./gradlew build
           else
             bash ./gradlew bundleDebug test

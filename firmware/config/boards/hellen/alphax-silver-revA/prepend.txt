@@ -1,4 +1,4 @@
-#define MAIN_HELP_URL "https://rusefi.com/s/silver"
+#define MAIN_HELP_URL "https://gerefi.com/s/silver"
 
 
 #define ts_show_tps2 false

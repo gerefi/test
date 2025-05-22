@@ -1,16 +1,16 @@
-package com.rusefi.ui.basic;
+package com.gerefi.ui.basic;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.*;
-import com.rusefi.core.FindFileHelper;
-import com.rusefi.core.net.ConnectionAndMeta;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.ProgramSelector;
-import com.rusefi.maintenance.jobs.*;
-import com.rusefi.ui.LogoHelper;
-import com.rusefi.ui.util.HorizontalLine;
-import com.rusefi.ui.widgets.ToolButtons;
+import com.gerefi.*;
+import com.gerefi.core.FindFileHelper;
+import com.gerefi.core.net.ConnectionAndMeta;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.ProgramSelector;
+import com.gerefi.maintenance.jobs.*;
+import com.gerefi.ui.LogoHelper;
+import com.gerefi.ui.util.HorizontalLine;
+import com.gerefi.ui.widgets.ToolButtons;
 import org.putgemin.VerticalFlowLayout;
 
 import javax.swing.*;
@@ -22,9 +22,9 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.FileLog.isWindows;
-import static com.rusefi.StartupFrame.newReleaseAnnounce;
-import static com.rusefi.core.net.ConnectionAndMeta.getProperties;
+import static com.gerefi.FileLog.isWindows;
+import static com.gerefi.StartupFrame.newReleaseAnnounce;
+import static com.gerefi.core.net.ConnectionAndMeta.getProperties;
 
 public class BasicUpdaterPanel {
     private static final Logging log = getLogging(BasicUpdaterPanel.class);
@@ -61,7 +61,7 @@ public class BasicUpdaterPanel {
 
         if (isWindows()) {
             final Optional<JPanel> newReleaseNotification = newReleaseAnnounce(
-                "rusefi_updater.exe",
+                "gerefi_updater.exe",
                 "center",
                 () -> 0
             );

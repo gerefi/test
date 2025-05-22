@@ -1,7 +1,7 @@
-package com.rusefi.ui.widgets;
+package com.gerefi.ui.widgets;
 
-//import com.rusefi.EcuStimulator;
-import com.rusefi.core.Sensor;
+//import com.gerefi.EcuStimulator;
+import com.gerefi.core.Sensor;
 
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;

@@ -1,9 +1,9 @@
-package com.rusefi.binaryprotocol;
+package com.gerefi.binaryprotocol;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.IniFileModelImpl;
-import com.rusefi.core.SignatureHelper;
+import com.gerefi.core.SignatureHelper;
 
 import static com.devexperts.logging.Logging.getLogging;
 

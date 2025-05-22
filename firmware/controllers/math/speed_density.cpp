@@ -1,7 +1,7 @@
 /**
  * @file	speed_density.cpp
  *
- * See http://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control#Speed_Density for details
+ * See http://gerefi.com/wiki/index.php?title=Manual:Software:Fuel_Control#Speed_Density for details
  *
  * @date May 29, 2014
  * @author Andrey Belomutskiy, (c) 2012-2020
@@ -60,7 +60,7 @@ float IFuelComputer::getTChargeCoefficient(float rpm, float tps) {
 	}
 }
 
-//  http://rusefi.com/math/t_charge.html
+//  http://gerefi.com/math/t_charge.html
 /***panel:Charge Temperature*/
 temperature_t IFuelComputer::getTCharge(float rpm, float tps) {
 	const auto clt = Sensor::get(SensorType::Clt);

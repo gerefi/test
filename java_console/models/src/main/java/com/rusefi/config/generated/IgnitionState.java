@@ -1,9 +1,9 @@
-package com.rusefi.config.generated;
+package com.gerefi.config.generated;
 
 // this file was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/ignition/ignition_state.txt
 
-// by class com.rusefi.output.FileJavaFieldsConsumer
-import com.rusefi.config.*;
+// by class com.gerefi.output.FileJavaFieldsConsumer
+import com.gerefi.config.*;
 
 public class IgnitionState {
 	public static final Field BASEDWELL = Field.create("BASEDWELL", 0, FieldType.FLOAT).setBaseOffset(928);

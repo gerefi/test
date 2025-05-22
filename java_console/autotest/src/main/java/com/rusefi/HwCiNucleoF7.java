@@ -1,9 +1,9 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.common.MiscTest;
-import com.rusefi.f4discovery.*;
-import com.rusefi.nucleo.NucleoPwmHardwareTest;
-import com.rusefi.nucleo.NucleoVssHardwareTest;
+import com.gerefi.common.MiscTest;
+import com.gerefi.f4discovery.*;
+import com.gerefi.nucleo.NucleoPwmHardwareTest;
+import com.gerefi.nucleo.NucleoVssHardwareTest;
 
 public class HwCiNucleoF7 {
     public static void main(String[] args) {

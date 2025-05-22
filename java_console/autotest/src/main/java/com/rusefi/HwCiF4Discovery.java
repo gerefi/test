@@ -1,8 +1,8 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.common.MiscTest;
-import com.rusefi.f4discovery.*;
-import com.rusefi.io.CommandQueue;
+import com.gerefi.common.MiscTest;
+import com.gerefi.f4discovery.*;
+import com.gerefi.io.CommandQueue;
 
 /**
  * dead?
@@ -34,7 +34,7 @@ public class HwCiF4Discovery {
 
     public static void main(String[] args) {
         /**
-         * trying a random hack https://github.com/rusefi/rusefi/issues/4772
+         * trying a random hack https://github.com/gerefi/gerefi/issues/4772
          */
         CommandQueue.DEFAULT_TIMEOUT = 4950;
         CmdJUnitRunner.runHardwareTestAndExit(tests);

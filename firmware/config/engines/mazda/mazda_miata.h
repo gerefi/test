@@ -5,7 +5,7 @@
  * @date Oct 31, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * http://rusefi.com/forum/viewtopic.php?t=537
+ * http://gerefi.com/forum/viewtopic.php?t=537
  * Injectors: Denso 195500-2180, 230-265cc (?), tan, 13.9 ohms
  */
 

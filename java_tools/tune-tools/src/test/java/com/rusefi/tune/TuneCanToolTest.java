@@ -1,15 +1,15 @@
-package com.rusefi.tune;
+package com.gerefi.tune;
 
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.IniFileModelImpl;
-import com.rusefi.*;
-import com.rusefi.tools.tune.TuneCanTool;
-import com.rusefi.tune.xml.Constant;
-import com.rusefi.tune.xml.Msq;
-import com.rusefi.tune.xml.Page;
+import com.gerefi.*;
+import com.gerefi.tools.tune.TuneCanTool;
+import com.gerefi.tune.xml.Constant;
+import com.gerefi.tune.xml.Msq;
+import com.gerefi.tune.xml.Page;
 import org.junit.jupiter.api.Test;
 
-import static com.rusefi.ConfigFieldImpl.unquote;
+import static com.gerefi.ConfigFieldImpl.unquote;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TuneCanToolTest {

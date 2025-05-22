@@ -1,20 +1,20 @@
-package com.rusefi.ui.engine;
+package com.gerefi.ui.engine;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.FileLog;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.EngineState;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.ui.*;
-import com.rusefi.core.preferences.storage.Node;
-import com.rusefi.ui.util.URLLabel;
-import com.rusefi.ui.util.UiUtils;
-import com.rusefi.ui.widgets.AnyCommand;
-import com.rusefi.waves.EngineChart;
-import com.rusefi.waves.EngineChartParser;
-import com.rusefi.waves.EngineReport;
+import com.gerefi.FileLog;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.EngineState;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.ui.*;
+import com.gerefi.core.preferences.storage.Node;
+import com.gerefi.ui.util.URLLabel;
+import com.gerefi.ui.util.UiUtils;
+import com.gerefi.ui.widgets.AnyCommand;
+import com.gerefi.waves.EngineChart;
+import com.gerefi.waves.EngineChartParser;
+import com.gerefi.waves.EngineReport;
 
 import javax.swing.*;
 import java.awt.*;
@@ -24,7 +24,7 @@ import java.util.*;
 import java.util.List;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.config.generated.Integration.*;
+import static com.gerefi.config.generated.Integration.*;
 
 /**
  * Engine Sniffer control consists of a set of {@link UpDownImage}
@@ -34,13 +34,13 @@ import static com.rusefi.config.generated.Integration.*;
  * Andrey Belomutskiy, (c) 2013-2020
  *
  * @see EngineSnifferStatusPanel status bar
- * @see com.rusefi.ui.test.WavePanelSandbox
+ * @see com.gerefi.ui.test.WavePanelSandbox
  */
 public class EngineSnifferPanel {
     private static final Logging log = getLogging(EngineSnifferPanel.class);
     private static final int EFI_DEFAULT_CHART_SIZE = 180;
     public static final Comparator<String> INSTANCE = new ImageOrderComparator();
-    private static final String HELP_URL = "http://rusefi.com/wiki/index.php?title=Manual:DevConsole#Digital_Chart";
+    private static final String HELP_URL = "http://gerefi.com/wiki/index.php?title=Manual:DevConsole#Digital_Chart";
     public static final String HELP_TEXT = "Click here for online help";
 
     private final JPanel chartPanel = new JPanel(new BorderLayout());

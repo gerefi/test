@@ -1,7 +1,7 @@
-package com.rusefi.ui.engine;
+package com.gerefi.ui.engine;
 
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.Sensor;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.Sensor;
 
 import java.util.Map;
 import java.util.TreeMap;

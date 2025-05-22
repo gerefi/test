@@ -8,7 +8,7 @@
 
 #pragma once
 
-#include "rusefi_enums.h"
+#include "gerefi_enums.h"
 
 #include "datalogging.h"
 
@@ -54,7 +54,7 @@ private:
 	uint32_t counter = 0;
 	/**
 	 * We want to avoid visual jitter thus we want the left edge to be aligned
-	 * https://github.com/rusefi/rusefi/issues/780
+	 * https://github.com/gerefi/gerefi/issues/780
 	 */
 	bool collectingData = false;
 	efitick_t startTimeNt = 0;

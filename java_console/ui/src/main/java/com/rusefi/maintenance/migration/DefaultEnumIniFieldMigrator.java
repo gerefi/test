@@ -1,7 +1,7 @@
-package com.rusefi.maintenance.migration;
+package com.gerefi.maintenance.migration;
 
 import com.opensr5.ini.field.EnumIniField;
-import com.rusefi.io.UpdateOperationCallbacks;
+import com.gerefi.io.UpdateOperationCallbacks;
 
 import java.util.Objects;
 import java.util.Optional;

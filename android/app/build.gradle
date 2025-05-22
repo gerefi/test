@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 apply from: '../../android/dependencies.gradle'
 
 android {
-    namespace "com.rusefi.app"
+    namespace "com.gerefi.app"
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES'
     }
@@ -17,7 +17,7 @@ android {
     project.archivesBaseName = "rusEFI";
 
     defaultConfig {
-        applicationId "com.rusefi.app"
+        applicationId "com.gerefi.app"
         // API level 19 = Android 4.4 () Samsung S4 is nicely rootable with KingRoot
         // API level 21 = Android_5.0_Lollipop
         minSdkVersion 19

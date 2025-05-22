@@ -1,5 +1,5 @@
 #include "pch.h"
-#include "rusefi_lua.h"
+#include "gerefi_lua.h"
 
 
 TEST(LuaHooks, TestCrc8) {

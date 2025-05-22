@@ -310,9 +310,9 @@
 #define l_mathop(op)		op##f
 
 // defined in Lua.cpp
-float strtof_rusefi(const char*, char**);
+float strtof_gerefi(const char*, char**);
 
-#define lua_str2number(s,p)	strtof_rusefi((s), (p))
+#define lua_str2number(s,p)	strtof_gerefi((s), (p))
 
 
 /*

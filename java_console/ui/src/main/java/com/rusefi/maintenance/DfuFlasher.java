@@ -1,18 +1,18 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
-import com.rusefi.FileLog;
-import com.rusefi.Launcher;
-import com.rusefi.SerialPortScanner;
-import com.rusefi.Timeouts;
-import com.rusefi.autodetect.PortDetector;
-import com.rusefi.autodetect.SerialAutoChecker;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.FindFileHelper;
-import com.rusefi.io.BootloaderHelper;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.io.serial.BufferedSerialIoStream;
-import com.rusefi.maintenance.jobs.JobHelper;
+import com.gerefi.FileLog;
+import com.gerefi.Launcher;
+import com.gerefi.SerialPortScanner;
+import com.gerefi.Timeouts;
+import com.gerefi.autodetect.PortDetector;
+import com.gerefi.autodetect.SerialAutoChecker;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.FindFileHelper;
+import com.gerefi.io.BootloaderHelper;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.io.serial.BufferedSerialIoStream;
+import com.gerefi.maintenance.jobs.JobHelper;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -25,7 +25,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 
-import static com.rusefi.core.FindFileHelper.INPUT_FILES_PATH;
+import static com.gerefi.core.FindFileHelper.INPUT_FILES_PATH;
 
 /**
  * @see StLinkFlasher
@@ -289,7 +289,7 @@ public class DfuFlasher {
             BufferedReader stdout = new BufferedReader(new InputStreamReader(powerShellProcess.getInputStream()));
             while ((line = stdout.readLine()) != null) {
                 String lowerCase = line.toLowerCase();
-                if (!lowerCase.contains("stm32") && !lowerCase.contains("dfu") && !lowerCase.contains("rusefi"))
+                if (!lowerCase.contains("stm32") && !lowerCase.contains("dfu") && !lowerCase.contains("gerefi"))
                     continue;
                 report.add(line);
             }

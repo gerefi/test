@@ -1,8 +1,8 @@
-package com.rusefi.server;
+package com.gerefi.server;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.core.rusEFIVersion;
-import com.rusefi.tools.online.ProxyClient;
+import com.gerefi.core.rusEFIVersion;
+import com.gerefi.tools.online.ProxyClient;
 import org.takes.Take;
 import org.takes.facets.fork.FkRegex;
 import org.takes.rs.RsJson;
@@ -14,8 +14,8 @@ import java.lang.management.ManagementFactory;
 import java.lang.management.OperatingSystemMXBean;
 import java.util.Date;
 
-import static com.rusefi.Timeouts.SECOND;
-import static com.rusefi.binaryprotocol.BinaryProtocol.sleep;
+import static com.gerefi.Timeouts.SECOND;
+import static com.gerefi.binaryprotocol.BinaryProtocol.sleep;
 
 public class Monitoring {
     public static final String STATUS = "/status";

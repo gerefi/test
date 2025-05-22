@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # from firmware folder:
-# hw_layer/mass_storage/create_ini_image.sh tunerstudio/generated/rusefi.ini hw_layer/mass_storage/ramdisk_image.h  256 test https://rusefi.com/s/test
+# hw_layer/mass_storage/create_ini_image.sh tunerstudio/generated/gerefi.ini hw_layer/mass_storage/ramdisk_image.h  256 test https://gerefi.com/s/test
 
 # fail on error
 set -e
@@ -17,7 +17,7 @@ FS_SIZE=$3
 SHORT_BOARD_NAME=$4
 BOARD_SPECIFIC_URL=$5
 
-ZIP=rusefi.ini.zip
+ZIP=gerefi.ini.zip
 
 # mkfs.fat and fatlabel are privileged on some systems
 PATH="$PATH:/usr/sbin"

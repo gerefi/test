@@ -1,4 +1,4 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
 public class HashUtil {
     public static int hash(String string) {

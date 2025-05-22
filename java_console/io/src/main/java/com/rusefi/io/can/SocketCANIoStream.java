@@ -1,15 +1,15 @@
-package com.rusefi.io.can;
+package com.gerefi.io.can;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.io.DataListener;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.uds.CanConnector;
-import com.rusefi.util.HexBinary;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.can.isotp.IsoTpCanDecoder;
-import com.rusefi.io.can.isotp.IsoTpConnector;
-import com.rusefi.io.serial.AbstractIoStream;
-import com.rusefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.uds.CanConnector;
+import com.gerefi.util.HexBinary;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.can.isotp.IsoTpCanDecoder;
+import com.gerefi.io.can.isotp.IsoTpConnector;
+import com.gerefi.io.serial.AbstractIoStream;
+import com.gerefi.io.tcp.BinaryProtocolServer;
 import org.jetbrains.annotations.Nullable;
 import tel.schich.javacan.RawCanChannel;
 
@@ -18,7 +18,7 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.config.generated.VariableRegistryValues.*;
+import static com.gerefi.config.generated.VariableRegistryValues.*;
 
 public class SocketCANIoStream extends AbstractIoStream {
     static Logging log = getLogging(SocketCANIoStream.class);

@@ -1,7 +1,7 @@
-package com.rusefi.io;
+package com.gerefi.io;
 
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.BinaryProtocolState;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.BinaryProtocolState;
 import org.jetbrains.annotations.NotNull;
 
 /**

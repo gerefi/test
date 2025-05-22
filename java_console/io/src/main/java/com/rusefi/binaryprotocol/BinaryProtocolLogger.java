@@ -1,25 +1,25 @@
-package com.rusefi.binaryprotocol;
+package com.gerefi.binaryprotocol;
 
 import com.devexperts.logging.FileLogger;
-import com.rusefi.FileLog;
-import com.rusefi.Timeouts;
-import com.rusefi.composite.CompositeEvent;
-import com.rusefi.composite.CompositeParser;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.io.LinkManager;
-import com.rusefi.stream.LogicdataStreamFile;
-import com.rusefi.stream.StreamFile;
-import com.rusefi.stream.TSHighSpeedLog;
-import com.rusefi.stream.VcdStreamFile;
+import com.gerefi.FileLog;
+import com.gerefi.Timeouts;
+import com.gerefi.composite.CompositeEvent;
+import com.gerefi.composite.CompositeParser;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.io.LinkManager;
+import com.gerefi.stream.LogicdataStreamFile;
+import com.gerefi.stream.StreamFile;
+import com.gerefi.stream.TSHighSpeedLog;
+import com.gerefi.stream.VcdStreamFile;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import static com.rusefi.binaryprotocol.IoHelper.checkResponseCode;
+import static com.gerefi.binaryprotocol.IoHelper.checkResponseCode;
 
 public class BinaryProtocolLogger {
     private static final int HIGH_RPM_DELAY = Integer.getInteger("high_speed_logger_time", 10);

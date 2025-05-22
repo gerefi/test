@@ -1,6 +1,6 @@
-package com.rusefi.ui.test;
+package com.gerefi.ui.test;
 
-import com.rusefi.ui.RpmModel;
+import com.gerefi.ui.RpmModel;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 

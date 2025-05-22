@@ -298,7 +298,7 @@ pins:
     meta: MM100_IN_VSS
 # jumper
 # 1KHz-12KHz
-# 1k pull-up to 5v or 12v with hardware mod/jumper https://github.com/rusefi/hellen-112-17/issues/10
+# 1k pull-up to 5v or 12v with hardware mod/jumper https://github.com/gerefi/hellen-112-17/issues/10
     class: event_inputs
     ts_name: ___ MAF frequency
 
@@ -379,7 +379,7 @@ info:
   cid: H-112
   title: H-112
   directory: hellen/hellen-112-17
-  board_url: https://github.com/rusefi/rusefi/wiki/Hellen112-17
+  board_url: https://github.com/gerefi/gerefi/wiki/Hellen112-17
   name: H-112
   image:
     file: main.jpg

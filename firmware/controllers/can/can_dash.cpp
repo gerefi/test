@@ -19,7 +19,7 @@
 #include "can_vag.h"
 #include "can_dash_honda.h"
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 #include "rtc_helper.h"
 #include "fuel_math.h"
 
@@ -115,7 +115,7 @@ void canMazdaRX8(CanCycle cycle) {
 	if (cycle.isInterval(CI::_50ms)) {
 		{
 			CanTxMessage msg(CanCategory::NBC, CAN_MAZDA_RX_STEERING_WARNING);
-			// todo: something needs to be set here? see http://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Rx8_2004
+			// todo: something needs to be set here? see http://gerefi.com/wiki/index.php?title=Vehicle:Mazda_Rx8_2004
 		}
 
 		{

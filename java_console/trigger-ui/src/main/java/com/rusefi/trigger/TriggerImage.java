@@ -1,12 +1,12 @@
-package com.rusefi.trigger;
+package com.gerefi.trigger;
 
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.enums.trigger_type_e;
-import com.rusefi.ui.LogoHelper;
-import com.rusefi.ui.engine.UpDownImage;
-import com.rusefi.core.ui.FrameHelper;
-import com.rusefi.ui.util.UiUtils;
-import com.rusefi.waves.EngineReport;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.enums.trigger_type_e;
+import com.gerefi.ui.LogoHelper;
+import com.gerefi.ui.engine.UpDownImage;
+import com.gerefi.core.ui.FrameHelper;
+import com.gerefi.ui.util.UiUtils;
+import com.gerefi.waves.EngineReport;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
@@ -41,7 +41,7 @@ public class TriggerImage {
     private static trigger_type_e onlyOneTrigger = null;
 
     /**
-     * todo: https://github.com/rusefi/rusefi/issues/2077
+     * todo: https://github.com/gerefi/gerefi/issues/2077
      *
      * @see TriggerWheelInfo#isCrankBased
      */

@@ -1,9 +1,9 @@
-package com.rusefi.nucleo;
+package com.gerefi.nucleo;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.RusefiTestBase;
-import com.rusefi.f4discovery.DiscoveryPwmHardwareTest;
-import com.rusefi.common.VssHardwareTestLogic;
+import com.gerefi.RusefiTestBase;
+import com.gerefi.f4discovery.DiscoveryPwmHardwareTest;
+import com.gerefi.common.VssHardwareTestLogic;
 import org.junit.Test;
 
 import static com.devexperts.logging.Logging.getLogging;

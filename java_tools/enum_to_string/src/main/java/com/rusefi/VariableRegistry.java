@@ -1,7 +1,7 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.enum_reader.Value;
+import com.gerefi.enum_reader.Value;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -34,7 +34,7 @@ public class VariableRegistry {
     private final TreeMap<String, String> data = new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
 
     // todo: smarter regex! See TsWriter.VAR which is a bit better but still not perfect
-    // todo: https://github.com/rusefi/rusefi/issues/3053 ?
+    // todo: https://github.com/gerefi/gerefi/issues/3053 ?
     public final static String TEMPLATE_TAG = "@@";
     private final Pattern VAR = Pattern.compile("(" + TEMPLATE_TAG + "(.*?)" + TEMPLATE_TAG + ")");
     private final Pattern VAR_REMOVE_QUOTE = Pattern.compile("(" + TEMPLATE_QUITE_OPEN_TAG + "(.*?)#@)");

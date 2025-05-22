@@ -1,4 +1,4 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
 public enum HwPlatform {
     F4("stm32f4discovery.cfg"),

@@ -1,9 +1,9 @@
-package com.rusefi.config;
+package com.gerefi.config;
 
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.Pair;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.Pair;
 
-import static com.rusefi.config.FieldType.*;
+import static com.gerefi.config.FieldType.*;
 
 public class FieldCommandResponse {
     private static final String BIT_VALUE_PREFIX = "bit" + Integration.CONSOLE_DATA_PROTOCOL_TAG;

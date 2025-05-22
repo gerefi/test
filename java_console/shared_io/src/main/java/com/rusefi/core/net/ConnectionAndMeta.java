@@ -1,4 +1,4 @@
-package com.rusefi.core.net;
+package com.gerefi.core.net;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -16,8 +16,8 @@ import java.util.stream.Collectors;
 import com.devexperts.logging.Logging;
 
 public class ConnectionAndMeta {
-    public static final String BASE_URL_RELEASE = "https://github.com/rusefi/rusefi/releases/latest/download/";
-    public static final String DEFAULT_WHITE_LABEL = "rusefi";
+    public static final String BASE_URL_RELEASE = "https://github.com/gerefi/gerefi/releases/latest/download/";
+    public static final String DEFAULT_WHITE_LABEL = "gerefi";
     public static final String AUTOUPDATE = "/autoupdate/";
 
     private static final int BUFFER_SIZE = 32 * 1024;

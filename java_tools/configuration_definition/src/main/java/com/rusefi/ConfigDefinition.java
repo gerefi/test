@@ -1,11 +1,11 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.newparse.DefinitionsState;
-import com.rusefi.output.*;
-import com.rusefi.pinout.PinoutLogic;
-import com.rusefi.trigger.TriggerWheelTSLogic;
-import com.rusefi.util.LazyFile;
+import com.gerefi.newparse.DefinitionsState;
+import com.gerefi.output.*;
+import com.gerefi.pinout.PinoutLogic;
+import com.gerefi.trigger.TriggerWheelTSLogic;
+import com.gerefi.util.LazyFile;
 
 import java.io.*;
 import java.nio.file.Files;

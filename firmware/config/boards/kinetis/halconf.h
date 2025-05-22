@@ -28,7 +28,7 @@
 #ifndef _HALCONF_H_
 #define _HALCONF_H_
 
-#include "rusefi_halconf.h"
+#include "gerefi_halconf.h"
 
 /**
  * @brief   Enables the EXT subsystem.

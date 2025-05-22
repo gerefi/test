@@ -1,22 +1,22 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ini.RawIniFile;
 import com.opensr5.ini.field.EnumIniField;
-import com.rusefi.core.Pair;
-import com.rusefi.enum_reader.Value;
-import com.rusefi.output.*;
-import com.rusefi.parse.TokenUtil;
-import com.rusefi.parse.TypesHelper;
-import com.rusefi.util.LazyFile;
+import com.gerefi.core.Pair;
+import com.gerefi.enum_reader.Value;
+import com.gerefi.output.*;
+import com.gerefi.parse.TokenUtil;
+import com.gerefi.parse.TypesHelper;
+import com.gerefi.util.LazyFile;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.*;
 import java.util.*;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.ConfigFieldImpl.BOOLEAN_T;
-import static com.rusefi.VariableRegistry.unquote;
+import static com.gerefi.ConfigFieldImpl.BOOLEAN_T;
+import static com.gerefi.VariableRegistry.unquote;
 
 /**
  * We keep state here as we read configuration definition

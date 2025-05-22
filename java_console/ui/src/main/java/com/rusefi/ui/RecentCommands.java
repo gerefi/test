@@ -1,11 +1,11 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.core.MessagesCentral;
-import com.rusefi.io.CommandQueue;
-import com.rusefi.ui.util.UiUtils;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.core.MessagesCentral;
+import com.gerefi.io.CommandQueue;
+import com.gerefi.ui.util.UiUtils;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
@@ -17,10 +17,10 @@ import java.util.*;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import static com.rusefi.IoUtil.*;
-import static com.rusefi.config.generated.Integration.CMD_DATE;
-import static com.rusefi.config.generated.Integration.CMD_TRIGGERINFO;
-import static com.rusefi.core.preferences.storage.PersistentConfiguration.getConfig;
+import static com.gerefi.IoUtil.*;
+import static com.gerefi.config.generated.Integration.CMD_DATE;
+import static com.gerefi.config.generated.Integration.CMD_TRIGGERINFO;
+import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
 
 /**
  * This UI element displays an array of buttons, each for one of the recently used commands

@@ -1,6 +1,6 @@
 #
 # microRusEfi board
-# https://github.com/rusefi/rusefi/wiki/Hardware_microRusEfi_wiring
+# https://github.com/gerefi/gerefi/wiki/Hardware_microRusEfi_wiring
 #
 
 pins:
@@ -364,8 +364,8 @@ pins:
 info:
   title: microRusEFI
   name: Main Connector
-  board_url: https://rusefi.com/s/microrusefi
-  directory: microrusefi
+  board_url: https://gerefi.com/s/microgerefi
+  directory: microgerefi
   cid: main
   order: 0
   image:

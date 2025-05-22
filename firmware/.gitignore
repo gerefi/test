@@ -2,7 +2,7 @@ openocd
 benchmark.txt
 gen_*.log
 deliver/
-rusefi_tool.log
+gerefi_tool.log
 build*
 
 # precompiled headers
@@ -14,5 +14,5 @@ gcc-arm-none-eabi
 arm-gnu*
 
 # bundle temp folder
-rusefi.snapshot.*
-rusefi.ini.zip
+gerefi.snapshot.*
+gerefi.ini.zip

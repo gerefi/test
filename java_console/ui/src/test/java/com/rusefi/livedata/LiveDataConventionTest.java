@@ -1,11 +1,11 @@
-package com.rusefi.livedata;
+package com.gerefi.livedata;
 
-import com.rusefi.CodeWalkthrough;
-import com.rusefi.config.Field;
-import com.rusefi.enums.live_data_e;
-import com.rusefi.ldmp.StateDictionary;
-import com.rusefi.ui.livedata.SourceCodePainter;
-import com.rusefi.ui.livedata.VariableValueSource;
+import com.gerefi.CodeWalkthrough;
+import com.gerefi.config.Field;
+import com.gerefi.enums.live_data_e;
+import com.gerefi.ldmp.StateDictionary;
+import com.gerefi.ui.livedata.SourceCodePainter;
+import com.gerefi.ui.livedata.VariableValueSource;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -14,8 +14,8 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.Arrays;
 
-import static com.rusefi.livedata.LiveDataParserPanel.getParseTree;
-import static com.rusefi.ui.LiveDataPane.CPP_SUFFIX;
+import static com.gerefi.livedata.LiveDataParserPanel.getParseTree;
+import static com.gerefi.ui.LiveDataPane.CPP_SUFFIX;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class LiveDataConventionTest {

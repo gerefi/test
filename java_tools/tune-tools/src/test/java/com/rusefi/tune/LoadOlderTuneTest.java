@@ -1,16 +1,16 @@
-package com.rusefi.tune;
+package com.gerefi.tune;
 
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.IniFileModelImpl;
 import com.opensr5.ini.IniMemberNotFound;
 import com.opensr5.ini.field.ScalarIniField;
 import com.opensr5.ini.field.StringIniField;
-import com.rusefi.*;
-import com.rusefi.config.generated.TsOutputs;
-import com.rusefi.tools.tune.TuneCanTool;
-import com.rusefi.tools.tune.TuneTools;
-import com.rusefi.tune.xml.Msq;
-import com.rusefi.tune.xml.Page;
+import com.gerefi.*;
+import com.gerefi.config.generated.TsOutputs;
+import com.gerefi.tools.tune.TuneCanTool;
+import com.gerefi.tools.tune.TuneTools;
+import com.gerefi.tune.xml.Msq;
+import com.gerefi.tune.xml.Page;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

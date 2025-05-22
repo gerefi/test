@@ -1,12 +1,12 @@
-package com.rusefi.binaryprotocol.test;
+package com.gerefi.binaryprotocol.test;
 
 import com.opensr5.ini.field.IniField;
-import com.rusefi.autodetect.PortDetector;
-import com.rusefi.autodetect.SerialAutoChecker;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.io.HeartBeatListeners;
-import com.rusefi.io.LinkManager;
-import com.rusefi.panama.PanamaHelper;
+import com.gerefi.autodetect.PortDetector;
+import com.gerefi.autodetect.SerialAutoChecker;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.io.HeartBeatListeners;
+import com.gerefi.io.LinkManager;
+import com.gerefi.panama.PanamaHelper;
 
 import java.util.Date;
 import java.util.Objects;

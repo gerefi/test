@@ -1,6 +1,6 @@
-package com.rusefi.ui.util;
+package com.gerefi.ui.util;
 
-import com.rusefi.core.ui.AutoupdateUtil;
+import com.gerefi.core.ui.AutoupdateUtil;
 import org.jetbrains.annotations.NotNull;
 
 import javax.imageio.ImageIO;
@@ -17,9 +17,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import static com.rusefi.ui.util.LocalizedMessages.CLEAR;
-import static com.rusefi.ui.util.LocalizedMessages.PAUSE;
-import static com.rusefi.ui.util.LocalizedMessages.RESUME;
+import static com.gerefi.ui.util.LocalizedMessages.CLEAR;
+import static com.gerefi.ui.util.LocalizedMessages.PAUSE;
+import static com.gerefi.ui.util.LocalizedMessages.RESUME;
 
 /**
  * 7/7/13

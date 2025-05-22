@@ -2,12 +2,12 @@ rem This script could be invoked from any folder - it would clone hardware proje
 rem All outputs go into same "ibom" local directory
 
 
-git clone https://github.com/rusefi/hw_modular.git
+git clone https://github.com/gerefi/hw_modular.git
 cd hw_modular
 git pull
 cd ..
 
-git clone https://github.com/rusefi/hw_microRusEfi
+git clone https://github.com/gerefi/hw_microRusEfi
 cd hw_microRusEfi
 git pull
 cd ..

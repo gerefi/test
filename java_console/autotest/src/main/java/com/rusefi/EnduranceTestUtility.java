@@ -1,13 +1,13 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.autotest.ControllerConnectorState;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.enums.engine_type_e;
-import com.rusefi.functional_tests.EcuTestHelper;
-import com.rusefi.io.CommandQueue;
-import com.rusefi.io.LinkManager;
+import com.gerefi.autotest.ControllerConnectorState;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.enums.engine_type_e;
+import com.gerefi.functional_tests.EcuTestHelper;
+import com.gerefi.io.CommandQueue;
+import com.gerefi.io.LinkManager;
 
-import static com.rusefi.IoUtil.*;
+import static com.gerefi.IoUtil.*;
 
 /**
  * this command utility confirms that rusEFI hardware stays alive for long periods of time

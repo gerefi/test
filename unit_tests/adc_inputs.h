@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "rusefi_hw_enums.h"
+#include "gerefi_hw_enums.h"
 
 inline bool isAdcChannelValid(adc_channel_e hwChannel) {
 	/* Compiler will optimize, keep following if as a reminder */

@@ -1,5 +1,5 @@
 /*
- * @file config/boards/kinetis/rusefi_hw_enums.h
+ * @file config/boards/kinetis/gerefi_hw_enums.h
  *
  * @date Jun 2, 2019
  * @author Andrey Belomutskiy, (c) 2012-2020
@@ -144,4 +144,4 @@ enum class Gpio : uint16_t {
 #define BRAIN_PIN_LAST 			Gpio::CAN_PIN_7
 #define BRAIN_PIN_TOTAL_PINS	(BRAIN_PIN_LAST - Gpio::A0 + 1)
 
-#include "rusefi_hw_adc_enums.h"
+#include "gerefi_hw_adc_enums.h"

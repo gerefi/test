@@ -1,9 +1,9 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.core.net.ConnectionAndMeta;
-import com.rusefi.core.FileUtil;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.core.net.ConnectionAndMeta;
+import com.gerefi.core.FileUtil;
 import org.jetbrains.annotations.Nullable;
 import org.putgemin.VerticalFlowLayout;
 
@@ -20,7 +20,7 @@ import java.util.Date;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.ts_plugin.TsPluginLauncher.VERSION;
+import static com.gerefi.ts_plugin.TsPluginLauncher.VERSION;
 
 /**
  * Download fresh copy of {@link #PLUGIN_BODY_JAR} and launch {@link #PLUGIN_ENTRY_CLASS} via reflection.
@@ -28,13 +28,13 @@ import static com.rusefi.ts_plugin.TsPluginLauncher.VERSION;
  */
 public class Updater {
     private static final Logging log = getLogging(Updater.class);
-    private static final String PLUGIN_ENTRY_CLASS = "com.rusefi.ts_plugin.PluginEntry";
-    private static final String PLUGIN_BODY_JAR = "rusefi_plugin_body.jar";
+    private static final String PLUGIN_ENTRY_CLASS = "com.gerefi.ts_plugin.PluginEntry";
+    private static final String PLUGIN_BODY_JAR = "gerefi_plugin_body.jar";
     private static final String LOCAL_JAR_FILE_NAME = FileUtil.RUSEFI_SETTINGS_FOLDER + File.separator + PLUGIN_BODY_JAR;
     private static final String TITLE = "rusEFI plugin installer " + VERSION;
 
     private final JPanel content = new JPanel(new VerticalFlowLayout());
-    private static final ImageIcon LOGO = AutoupdateUtil.loadIcon("/rusefi_online_color_300.png");
+    private static final ImageIcon LOGO = AutoupdateUtil.loadIcon("/gerefi_online_color_300.png");
     private final JLabel countDownLabel = new JLabel();
     private final Object lock = new Object();
     private final AtomicInteger autoStartCounter = new AtomicInteger(4);

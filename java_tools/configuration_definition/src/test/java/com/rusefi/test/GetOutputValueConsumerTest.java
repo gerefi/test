@@ -1,11 +1,11 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.ReaderStateImpl;
-import com.rusefi.output.GetOutputValueConsumer;
-import com.rusefi.util.LazyFile;
+import com.gerefi.ReaderStateImpl;
+import com.gerefi.output.GetOutputValueConsumer;
+import com.gerefi.util.LazyFile;
 import org.junit.jupiter.api.Test;
 
-import static com.rusefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertEquals;
 
 /**
  * @see LiveDataProcessorTest for most integrated test

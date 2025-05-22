@@ -1,4 +1,4 @@
-#define MAIN_HELP_URL "https://rusefi.com/s/uaefi"
+#define MAIN_HELP_URL "https://gerefi.com/s/uaefi"
 
 
 

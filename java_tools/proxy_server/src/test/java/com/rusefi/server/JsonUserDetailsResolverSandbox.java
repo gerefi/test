@@ -1,4 +1,4 @@
-package com.rusefi.server;
+package com.gerefi.server;
 
 public class JsonUserDetailsResolverSandbox {
     public static void main(String[] args) {

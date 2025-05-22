@@ -4,7 +4,7 @@
 
 #pragma once
 #include "engine_module.h"
-#include <rusefi/timer.h>
+#include <gerefi/timer.h>
 #include "hysteresis.h"
 
 // DFCO = deceleration fuel cut off, ie, save gas when your foot is off the pedal

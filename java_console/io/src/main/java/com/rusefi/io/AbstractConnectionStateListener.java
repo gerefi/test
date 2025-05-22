@@ -1,4 +1,4 @@
-package com.rusefi.io;
+package com.gerefi.io;
 
 public class AbstractConnectionStateListener implements ConnectionStateListener {
     @Override

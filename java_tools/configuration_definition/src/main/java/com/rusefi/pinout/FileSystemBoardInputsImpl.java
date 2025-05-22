@@ -1,4 +1,4 @@
-package com.rusefi.pinout;
+package com.gerefi.pinout;
 
 import java.io.*;
 

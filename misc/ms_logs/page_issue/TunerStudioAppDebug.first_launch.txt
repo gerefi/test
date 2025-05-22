@@ -27,13 +27,13 @@ MSad: No check, last update check=Fri Jul 04 15:49:57 EDT 2014
 7/4/14 5:03:18 PM :Info: Loading Trigger Wheels
 7/4/14 5:03:18 PM :Info: Loaded All known ini sections
 7/4/14 5:03:18 PM :Info: Parsed and validated ini "canPcVariables.ini" in : 27ms.
-7/4/14 5:03:18 PM :Info: Read file rusefi.ini: 1.0ms
+7/4/14 5:03:18 PM :Info: Read file gerefi.ini: 1.0ms
 7/4/14 5:03:18 PM :Info: Filtered ini: 0.0ms
 7/4/14 5:03:18 PM :Debug: ini signature: MShift v0.01
 7/4/14 5:03:18 PM :Info: Set Write Blocks on = true
 7/4/14 5:03:18 PM :Info: Loading Trigger Wheels
 7/4/14 5:03:18 PM :Info: Loaded All known ini sections
-7/4/14 5:03:18 PM :Info: Parsed and validated ini "rusefi.ini" in : 23ms.
+7/4/14 5:03:18 PM :Info: Parsed and validated ini "gerefi.ini" in : 23ms.
 7/4/14 5:03:18 PM :Debug: Adding Configuration: MyCar
 7/4/14 5:03:21 PM :Debug: Time to save Dash: 56 ms.
 7/4/14 5:03:21 PM :Debug: High Speed Paint: true

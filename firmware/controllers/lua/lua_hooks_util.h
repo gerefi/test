@@ -2,12 +2,12 @@
  * lua_hooks_util.h
  *
  *  Created on: Nov 2, 2021
- *      Author: rusefi
+ *      Author: gerefi
  */
 
 #pragma once
 
-#include "rusefi_lua.h"
+#include "gerefi_lua.h"
 
 void configureRusefiLuaUtilHooks(lua_State* l);
 

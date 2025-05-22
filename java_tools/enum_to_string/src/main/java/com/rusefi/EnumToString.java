@@ -1,9 +1,9 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.enum_reader.Value;
-import com.rusefi.util.LazyFile;
-import com.rusefi.util.LazyFileImpl;
+import com.gerefi.enum_reader.Value;
+import com.gerefi.util.LazyFile;
+import com.gerefi.util.LazyFileImpl;
 
 import java.io.*;
 import java.util.*;

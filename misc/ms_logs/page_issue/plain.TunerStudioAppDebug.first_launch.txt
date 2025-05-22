@@ -27,13 +27,13 @@ MSad: No check, last update check=Fri Jul 04 15:49:57 EDT 2014
 7/5/14 8:56:00 PM :Info: Loading Trigger Wheels
 7/5/14 8:56:00 PM :Info: Loaded All known ini sections
 7/5/14 8:56:00 PM :Info: Parsed and validated ini "canPcVariables.ini" in : 33ms.
-7/5/14 8:56:00 PM :Info: Read file rusefi.ini: 1.0ms
+7/5/14 8:56:00 PM :Info: Read file gerefi.ini: 1.0ms
 7/5/14 8:56:00 PM :Info: Filtered ini: 0.0ms
 7/5/14 8:56:00 PM :Debug: ini signature: MShift v0.01
 7/5/14 8:56:00 PM :Info: Set Write Blocks on = true
 7/5/14 8:56:00 PM :Info: Loading Trigger Wheels
 7/5/14 8:56:00 PM :Info: Loaded All known ini sections
-7/5/14 8:56:00 PM :Info: Parsed and validated ini "rusefi.ini" in : 25ms.
+7/5/14 8:56:00 PM :Info: Parsed and validated ini "gerefi.ini" in : 25ms.
 7/5/14 8:56:00 PM :Debug: Adding Configuration: MyCar
 7/5/14 8:56:00 PM :Info: No secl OutputChannel, och sync monitor disabled.
 7/5/14 8:56:02 PM :Debug: goOffline Starting, Time:0
@@ -53,13 +53,13 @@ MSad: No check, last update check=Fri Jul 04 15:49:57 EDT 2014
 7/5/14 8:56:23 PM :Info: Loading Trigger Wheels
 7/5/14 8:56:23 PM :Info: Loaded All known ini sections
 7/5/14 8:56:23 PM :Info: Parsed and validated ini "canPcVariables.ini" in : 2ms.
-7/5/14 8:56:23 PM :Info: Read file rusefi.ini: 26.0ms
+7/5/14 8:56:23 PM :Info: Read file gerefi.ini: 26.0ms
 7/5/14 8:56:23 PM :Info: Filtered ini: 0.0ms
 7/5/14 8:56:23 PM :Debug: ini signature: MShift v0.01
 7/5/14 8:56:23 PM :Info: Set Write Blocks on = true
 7/5/14 8:56:23 PM :Info: Loading Trigger Wheels
 7/5/14 8:56:23 PM :Info: Loaded All known ini sections
-7/5/14 8:56:23 PM :Info: Parsed and validated ini "rusefi.ini" in : 39ms.
+7/5/14 8:56:23 PM :Info: Parsed and validated ini "gerefi.ini" in : 39ms.
 7/5/14 8:56:23 PM :Debug: Adding Configuration: MyCar
 7/5/14 8:56:23 PM :Info: No secl OutputChannel, och sync monitor disabled.
 7/5/14 8:56:27 PM :Debug: Time to save Dash: 55 ms.

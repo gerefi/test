@@ -1,9 +1,9 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.IoHelper;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.io.commands.GetOutputsCommand;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.IoHelper;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.io.commands.GetOutputsCommand;
 //import org.apache.commons.codec.binary.Hex;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

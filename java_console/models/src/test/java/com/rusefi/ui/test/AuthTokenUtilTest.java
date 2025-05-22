@@ -1,6 +1,6 @@
-package com.rusefi.ui.test;
+package com.gerefi.ui.test;
 
-import com.rusefi.auth.AuthTokenUtil;
+import com.gerefi.auth.AuthTokenUtil;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

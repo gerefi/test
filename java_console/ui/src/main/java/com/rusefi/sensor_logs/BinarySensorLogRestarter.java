@@ -1,15 +1,15 @@
-package com.rusefi.sensor_logs;
+package com.gerefi.sensor_logs;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.FileLog;
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.Timeouts;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.maintenance.VersionChecker;
-import com.rusefi.tools.online.Online;
-import com.rusefi.tools.online.UploadResult;
-import com.rusefi.ui.AuthTokenPanel;
+import com.gerefi.FileLog;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.Timeouts;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.maintenance.VersionChecker;
+import com.gerefi.tools.online.Online;
+import com.gerefi.tools.online.UploadResult;
+import com.gerefi.ui.AuthTokenPanel;
 
 import java.io.File;
 import java.util.ArrayList;

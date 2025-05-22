@@ -53,7 +53,7 @@ float adcGetScaledVoltage(const char *msg, adc_channel_e hwChannel) {
 #define ADC_BUF_DEPTH_FAST	4
 #endif
 
-// See https://github.com/rusefi/rusefi/issues/976 for discussion on this value
+// See https://github.com/gerefi/gerefi/issues/976 for discussion on this value
 #ifndef ADC_SAMPLING_FAST
 #define ADC_SAMPLING_FAST	ADC_SAMPLE_28
 #endif
@@ -271,7 +271,7 @@ void AdcDevice::startConversionI()
 	} else {
 		engine->outputChannels.fastAdcErrorCount++;
 		// todo: when? why? criticalError("ADC fast not ready?");
-		// see notes at https://github.com/rusefi/rusefi/issues/6399
+		// see notes at https://github.com/gerefi/gerefi/issues/6399
 	}
 	chSysUnlockFromISR();
 }

@@ -1,4 +1,4 @@
--- see also https://rusefi.com/forum/viewtopic.php?f=4&t=2329
+-- see also https://gerefi.com/forum/viewtopic.php?f=4&t=2329
 
 -- "alive" message from pump
 canRxAdd(0x1B200002)

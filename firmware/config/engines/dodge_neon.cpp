@@ -6,7 +6,7 @@
  *
  * DODGE_NEON_2003 = 23
  * set engine_type 23
- * http://rusefi.com/wiki/index.php?title=Vehicle:Dodge_Neon_2003
+ * http://gerefi.com/wiki/index.php?title=Vehicle:Dodge_Neon_2003
  *
  * @date Dec 16, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020
@@ -97,7 +97,7 @@ void setDodgeNeonNGCEngineConfiguration() {
 	engineConfiguration->vbattDividerCoeff = 9.75;// ((float) (8.2 + 33)) / 8.2 * 2;
 
 	/**
-	 * http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board
+	 * http://gerefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board
 	 */
 
 	setDodgeSensor(&engineConfiguration->clt, 10000);

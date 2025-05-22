@@ -7,8 +7,8 @@
 
 #pragma once
 
-#include "rusefi_enums.h"
-#include <rusefi/expected.h>
+#include "gerefi_enums.h"
+#include <gerefi/expected.h>
 #include "trigger_structure.h"
 
 #if EFI_UNIT_TEST

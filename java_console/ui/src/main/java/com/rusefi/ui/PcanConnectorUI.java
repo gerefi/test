@@ -1,12 +1,12 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.config.generated.VariableRegistryValues;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.io.can.PCanIoStream;
-import com.rusefi.tools.CANConnectorStartup;
-import com.rusefi.core.ui.FrameHelper;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.config.generated.VariableRegistryValues;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.io.can.PCanIoStream;
+import com.gerefi.tools.CANConnectorStartup;
+import com.gerefi.core.ui.FrameHelper;
 
 import javax.swing.*;
 import java.awt.*;

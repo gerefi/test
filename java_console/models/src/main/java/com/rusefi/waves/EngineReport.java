@@ -1,6 +1,6 @@
-package com.rusefi.waves;
+package com.gerefi.waves;
 
-import com.rusefi.config.generated.Integration;
+import com.gerefi.config.generated.Integration;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
@@ -8,8 +8,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static com.rusefi.config.generated.VariableRegistryValues.PROTOCOL_ES_DOWN;
-import static com.rusefi.config.generated.VariableRegistryValues.PROTOCOL_ES_UP;
+import static com.gerefi.config.generated.VariableRegistryValues.PROTOCOL_ES_DOWN;
+import static com.gerefi.config.generated.VariableRegistryValues.PROTOCOL_ES_UP;
 
 /**
  * A model of a digital signal represented as a sequence of {@link UpDown}

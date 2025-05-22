@@ -32,7 +32,7 @@
  * @date Oct 22, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * This file is part of rusEfi - see http://rusefi.com
+ * This file is part of rusEfi - see http://gerefi.com
  *
  * rusEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
@@ -46,7 +46,7 @@
  * If not, see <http://www.gnu.org/licenses/>.
  *
  *
- * This file is part of rusEfi - see http://rusefi.com
+ * This file is part of rusEfi - see http://gerefi.com
  *
  * rusEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
@@ -947,7 +947,7 @@ void startTunerStudioConnectivity() {
 #if EFI_BLUETOOTH_SETUP
 	// module initialization start (it waits for disconnect and then communicates to the module)
 	// Usage:   "bluetooth_hc06 <baud> <name> <pincode>"
-	// Example: "bluetooth_hc06 38400 rusefi 1234"
+	// Example: "bluetooth_hc06 38400 gerefi 1234"
 	// bluetooth_jdy 115200 alphax 1234
 	addConsoleActionSSS("bluetooth_hc05", [](const char *baudRate, const char *name, const char *pinCode) {
 		bluetoothStart(BLUETOOTH_HC_05, baudRate, name, pinCode);

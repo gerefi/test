@@ -1,2 +1,2 @@
 cd ../console
-java -cp rusefi_console.jar MassUpdater
+java -cp gerefi_console.jar MassUpdater

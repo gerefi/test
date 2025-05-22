@@ -1,17 +1,17 @@
-package com.rusefi.maintenance.migration.clt_idle_corr_migration;
+package com.gerefi.maintenance.migration.clt_idle_corr_migration;
 
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.field.ArrayIniField;
 import com.opensr5.ini.field.ScalarIniField;
-import com.rusefi.config.FieldType;
-import com.rusefi.maintenance.TestTuneMigrationContext;
-import com.rusefi.tune.xml.Constant;
+import com.gerefi.config.FieldType;
+import com.gerefi.maintenance.TestTuneMigrationContext;
+import com.gerefi.tune.xml.Constant;
 
 import javax.xml.bind.JAXBException;
 
 import java.util.Map;
 
-import static com.rusefi.maintenance.migration.CltIdleCorrMigrator.*;
+import static com.gerefi.maintenance.migration.CltIdleCorrMigrator.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CltIdleCorrMigrationTestTuneMigrationContext {
@@ -35,7 +35,7 @@ public class CltIdleCorrMigrationTestTuneMigrationContext {
         "      ";
     public static TestTuneMigrationContext load() throws JAXBException {
         final TestTuneMigrationContext result = TestTuneMigrationContext.load(
-            "src/test/java/com/rusefi/maintenance/migration/clt_idle_corr_migration/test_data"
+            "src/test/java/com/gerefi/maintenance/migration/clt_idle_corr_migration/test_data"
         );
         {
             final IniFileModel prevIniFile = result.getPrevIniFile();

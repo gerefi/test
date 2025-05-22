@@ -22,7 +22,7 @@ typedef enum {
 	BLUETOOTH_HC_05,
 	BLUETOOTH_HC_06,
 	/**
-	 * See https://rusefi.com/forum/viewtopic.php?f=13&t=1999
+	 * See https://gerefi.com/forum/viewtopic.php?f=13&t=1999
 	 */
 	BLUETOOTH_BK3231,
 	// fun fact: those use BK3232 see above

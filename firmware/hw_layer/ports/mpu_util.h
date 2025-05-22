@@ -1,6 +1,6 @@
 #pragma once
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 
 #include "port_mpu_util.h"
 #include "mpu_watchdog.h"

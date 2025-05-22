@@ -1,4 +1,4 @@
-package com.rusefi;
+package com.gerefi;
 
 public enum KeyStrokeShortcut {
     PREVIOUS_PAGE,

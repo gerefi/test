@@ -1,12 +1,12 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
-import com.rusefi.ConfigField;
-import com.rusefi.ReaderState;
+import com.gerefi.ConfigField;
+import com.gerefi.ReaderState;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
 
-import static com.rusefi.output.JavaSensorsConsumer.quote;
+import static com.gerefi.output.JavaSensorsConsumer.quote;
 
 public class FragmentDialogConsumer implements ConfigurationConsumer {
     private final StringBuilder graphList = new StringBuilder();

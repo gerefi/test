@@ -1,4 +1,4 @@
-package com.rusefi.io.can;
+package com.gerefi.io.can;
 
 import org.junit.jupiter.api.Test;
 

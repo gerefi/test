@@ -17,7 +17,7 @@ jobs:
 
     - name: Checkout Submodules
       run: |
-        git submodule update --init --depth=1 hardware/rusefi_lib
+        git submodule update --init --depth=1 hardware/gerefi_lib
 
     - name: Install sshpass, kicad, and tk bindings
       run: |
@@ -44,4 +44,4 @@ jobs:
 
     - name: Generate diffs
       working-directory: ./hardware
-      run: bash ./rusefi_lib/generate_diffs.sh
+      run: bash ./gerefi_lib/generate_diffs.sh

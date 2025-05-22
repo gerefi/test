@@ -1,9 +1,9 @@
-package com.rusefi.newparse;
+package com.gerefi.newparse;
 
-import com.rusefi.EnumsReader;
-import com.rusefi.VariableRegistry;
-import com.rusefi.enum_reader.Value;
-import com.rusefi.newparse.parsing.Definition;
+import com.gerefi.EnumsReader;
+import com.gerefi.VariableRegistry;
+import com.gerefi.enum_reader.Value;
+import com.gerefi.newparse.parsing.Definition;
 
 import java.util.HashMap;
 import java.util.Map;

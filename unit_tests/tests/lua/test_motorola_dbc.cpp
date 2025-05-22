@@ -48,7 +48,7 @@ namespace {
     /***************************************************************************************************************/
     /* The following tests check `setBitRangeMoto` function writes messages in the proper bits, that are displayed */
     /* by Kvazer Database Editor. The sample file with `NewMessage_0001` - `NewMessage_0008` can be found here:    */
-    /* https://gist.github.com/rusefillc/8cef24fa188f868a2a7028c16c26627f                                          */
+    /* https://gist.github.com/gerefillc/8cef24fa188f868a2a7028c16c26627f                                          */
     /***************************************************************************************************************/
 
     TEST_F(MotorolaDbcTest, testNewMessage_0001) {

@@ -1,6 +1,6 @@
-package com.rusefi.ui.livedocs;
+package com.gerefi.ui.livedocs;
 
-import com.rusefi.enums.live_data_e;
+import com.gerefi.enums.live_data_e;
 
 /**
  * Andrey Belomutskiy, (c) 2013-2020

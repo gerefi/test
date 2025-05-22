@@ -1,8 +1,8 @@
-package com.rusefi.tools.tune;
+package com.gerefi.tools.tune;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.*;
-import com.rusefi.output.ConfigStructure;
+import com.gerefi.*;
+import com.gerefi.output.ConfigStructure;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -14,7 +14,7 @@ import java.util.List;
 import static com.devexperts.logging.Logging.getLogging;
 
 /**
- * utility methods to get relevant ConfigField from current rusefi_config.txt
+ * utility methods to get relevant ConfigField from current gerefi_config.txt
  */
 public class MetaHelper {
     private static final Logging log = getLogging(MetaHelper.class);
@@ -27,7 +27,7 @@ public class MetaHelper {
         List<String> boardOptions = Files.readAllLines(Paths.get(boardPath + "board_config.txt"));
 
         options.add(ConfigDefinition.KEY_PREPEND);
-        options.add("integration/rusefi_config_shared.txt");
+        options.add("integration/gerefi_config_shared.txt");
 
         // add board prepend
         options.add(ConfigDefinition.KEY_PREPEND);

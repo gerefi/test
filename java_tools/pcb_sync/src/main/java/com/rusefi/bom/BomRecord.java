@@ -1,4 +1,4 @@
-package com.rusefi.bom;
+package com.gerefi.bom;
 
 /**
  * (c) Andrey Belomutskiy

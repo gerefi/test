@@ -1,4 +1,4 @@
-package com.rusefi.autodetect;
+package com.gerefi.autodetect;
 
 public class PortDetectorSandbox {
     public static void main(String[] args) throws InterruptedException {

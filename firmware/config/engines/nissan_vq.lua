@@ -1,4 +1,4 @@
-	// by definition this should be a copy-paste of https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/350z-ac.txt
+	// by definition this should be a copy-paste of https://github.com/gerefi/gerefi/blob/master/firmware/controllers/lua/examples/350z-ac.txt
 	strncpy(config->luaScript, R"(
 
 IN_284 = 0x284 -- 644

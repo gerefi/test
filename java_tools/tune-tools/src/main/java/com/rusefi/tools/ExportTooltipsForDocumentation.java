@@ -1,9 +1,9 @@
-package com.rusefi.tools;
+package com.gerefi.tools;
 
 import com.opensr5.ini.DialogModel;
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.IniFileModelImpl;
-import com.rusefi.LocalIniFileProvider;
+import com.gerefi.LocalIniFileProvider;
 
 import java.io.FileWriter;
 import java.io.IOException;

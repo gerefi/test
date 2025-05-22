@@ -6,7 +6,7 @@
 #pragma once
 
 #include "engine_module.h"
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 #include "scheduler.h"
 #include "prime_injection_generated.h"
 

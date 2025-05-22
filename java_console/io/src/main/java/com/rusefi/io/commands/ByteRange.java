@@ -1,4 +1,4 @@
-package com.rusefi.io.commands;
+package com.gerefi.io.commands;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -6,8 +6,8 @@ import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 import java.io.IOException;
 
-import static com.rusefi.binaryprotocol.IoHelper.putShort;
-import static com.rusefi.binaryprotocol.IoHelper.swap16;
+import static com.gerefi.binaryprotocol.IoHelper.putShort;
+import static com.gerefi.binaryprotocol.IoHelper.swap16;
 
 public class ByteRange {
     private final int offset;

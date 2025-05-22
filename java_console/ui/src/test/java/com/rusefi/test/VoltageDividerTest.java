@@ -1,6 +1,6 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-//import com.rusefi.ui.widgets.PotCommand;
+//import com.gerefi.ui.widgets.PotCommand;
 import junit.framework.TestCase;
 import org.junit.jupiter.api.Test;
 

@@ -1,9 +1,9 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.autodetect.PortDetector;
-import com.rusefi.io.ConnectionStateListener;
-import com.rusefi.io.LinkManager;
+import com.gerefi.autodetect.PortDetector;
+import com.gerefi.io.ConnectionStateListener;
+import com.gerefi.io.LinkManager;
 
 import javax.swing.*;
 import java.awt.*;

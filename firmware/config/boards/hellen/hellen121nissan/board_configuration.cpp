@@ -5,7 +5,7 @@
  *
  * @brief Configuration defaults for the hellen121nissan board
  *
- * See https://rusefi.com/s/hellen121nissan
+ * See https://gerefi.com/s/hellen121nissan
  *
  * @author andreika <prometheus.pcb@gmail.com>
  * @author Andrey Belomutskiy, (c) 2012-2020

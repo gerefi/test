@@ -2,7 +2,7 @@
  * lua_hooks_util.cpp
  *
  *  Created on: Nov 2, 2021
- *      Author: rusefi
+ *      Author: gerefi
  */
 
 #include "pch.h"

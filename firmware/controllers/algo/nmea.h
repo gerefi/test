@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 
 #define GPS_MAX_STRING 256
 

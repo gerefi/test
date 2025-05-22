@@ -1,29 +1,29 @@
-package com.rusefi.binaryprotocol.test;
+package com.gerefi.binaryprotocol.test;
 
 import com.macfaq.io.LittleEndianOutputStream;
 import com.opensr5.ini.IniFileModeSingleton;
-import com.rusefi.CompatibleFunction;
-import com.rusefi.Listener;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.config.generated.TsOutputs;
-import com.rusefi.config.generated.VariableRegistryValues;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.commands.ByteRange;
-import com.rusefi.io.commands.HelloCommand;
-import com.rusefi.io.commands.WriteChunkCommand;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.io.tcp.TcpIoStream;
-import com.rusefi.ui.StatusConsumer;
+import com.gerefi.CompatibleFunction;
+import com.gerefi.Listener;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.config.generated.TsOutputs;
+import com.gerefi.config.generated.VariableRegistryValues;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.commands.ByteRange;
+import com.gerefi.io.commands.HelloCommand;
+import com.gerefi.io.commands.WriteChunkCommand;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.tcp.TcpIoStream;
+import com.gerefi.ui.StatusConsumer;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
-import static com.rusefi.config.generated.VariableRegistryValues.TS_PROTOCOL;
-import static com.rusefi.io.tcp.BinaryProtocolServer.TS_OK;
-import static com.rusefi.io.tcp.BinaryProtocolServer.getOutputCommandResponse;
+import static com.gerefi.config.generated.VariableRegistryValues.TS_PROTOCOL;
+import static com.gerefi.io.tcp.BinaryProtocolServer.TS_OK;
+import static com.gerefi.io.tcp.BinaryProtocolServer.getOutputCommandResponse;
 
 /**
  * Fully self-contained fake TCP-IP 'ECU' side of TS protocol

@@ -1,9 +1,9 @@
-package com.rusefi.maintenance.migration;
+package com.gerefi.maintenance.migration;
 
 import com.opensr5.ini.field.ArrayIniField;
 import com.opensr5.ini.field.IniField;
-import com.rusefi.config.FieldType;
-import com.rusefi.io.UpdateOperationCallbacks;
+import com.gerefi.config.FieldType;
+import com.gerefi.io.UpdateOperationCallbacks;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import static com.rusefi.maintenance.migration.VeTableExtensionMigrator.*;
+import static com.gerefi.maintenance.migration.VeTableExtensionMigrator.*;
 
 enum VeRpmBinsIniFieldMigrator {
     INSTANCE;

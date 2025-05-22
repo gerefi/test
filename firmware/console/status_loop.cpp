@@ -2,14 +2,14 @@
  * @file	status_loop.cpp
  * @brief Human-readable protocol status messages
  *
- * http://rusefi.com/forum/viewtopic.php?t=263 rusEfi console overview
- * http://rusefi.com/forum/viewtopic.php?t=210 Commands overview
+ * http://gerefi.com/forum/viewtopic.php?t=263 rusEfi console overview
+ * http://gerefi.com/forum/viewtopic.php?t=210 Commands overview
  *
  *
  * @date Mar 15, 2013
  * @author Andrey Belomutskiy, (c) 2012-2020
  *
- * This file is part of rusEfi - see http://rusefi.com
+ * This file is part of rusEfi - see http://gerefi.com
  *
  * rusEfi is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
@@ -57,7 +57,7 @@
 #if EFI_PROD_CODE
 // todo: move this logic to algo folder!
 #include "rtc_helper.h"
-#include "rusefi.h"
+#include "gerefi.h"
 #include "pin_repository.h"
 #include "max3185x.h"
 #include "single_timer_executor.h"
@@ -332,7 +332,7 @@ static CommunicationBlinkingTask communicationsBlinkingTask;
 
 /**
  * This is useful if we are changing engine mode dynamically
- * For example http://rusefi.com/forum/viewtopic.php?f=5&t=1085
+ * For example http://gerefi.com/forum/viewtopic.php?f=5&t=1085
  */
 static int packEngineMode() {
 	return (engineConfiguration->fuelAlgorithm << 4) +

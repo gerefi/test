@@ -1,7 +1,7 @@
-package com.rusefi.io.can;
+package com.gerefi.io.can;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.uds.CanConnector;
+import com.gerefi.uds.CanConnector;
 import org.jetbrains.annotations.NotNull;
 import tel.schich.javacan.CanChannels;
 import tel.schich.javacan.CanFrame;

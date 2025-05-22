@@ -1,4 +1,4 @@
-package com.rusefi;
+package com.gerefi;
 
 public interface SensorConversion {
     SensorConversion celsius_to_fahrenheit = celsius -> celsius * 9 / 5 + 32;

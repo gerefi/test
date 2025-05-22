@@ -1,4 +1,4 @@
-import com.rusefi.ScreenGenerator;
+import com.gerefi.ScreenGenerator;
 
 public class ScreenCaptureLauncher {
     public static void main(String[] args) throws Exception {

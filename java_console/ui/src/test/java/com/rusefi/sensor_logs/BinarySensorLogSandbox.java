@@ -1,6 +1,6 @@
-package com.rusefi.sensor_logs;
+package com.gerefi.sensor_logs;
 
-import com.rusefi.core.Sensor;
+import com.gerefi.core.Sensor;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,8 +1,8 @@
 /*
  * file can_bench_test.cpp
- * see also https://github.com/rusefi/rusefi/wiki/CAN BENCH_TEST_BASE_ADDRESS 0x770000
+ * see also https://github.com/gerefi/gerefi/wiki/CAN BENCH_TEST_BASE_ADDRESS 0x770000
  *
- * primary recipient is https://github.com/rusefi/rusefi-hardware/tree/main/digital-inputs/firmware
+ * primary recipient is https://github.com/gerefi/gerefi-hardware/tree/main/digital-inputs/firmware
  *
  * todo: shall we not broadcast by default but wait until stim firmware wakes us up?
  */
@@ -30,7 +30,7 @@ extern PinRepository pinRepository;
 
 #if EFI_PROD_CODE
 /**
- * QC direct output control API is used by https://github.com/rusefi/stim test device
+ * QC direct output control API is used by https://github.com/gerefi/stim test device
  * quite different from bench testing user functionality: QC direct should never be engaged on a real vehicle
  * Once QC direct control mode is activated the only way out is to reboot the unit!
  */

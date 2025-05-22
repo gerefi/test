@@ -1,6 +1,6 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.ui.UIContext;
+import com.gerefi.ui.UIContext;
 
 public class FixedCommandControl extends CommandControl {
     private final String command;

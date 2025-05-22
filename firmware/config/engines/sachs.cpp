@@ -2,7 +2,7 @@
  * @file	sachs.cpp
  *
  * set engine_type 29
- * http://rusefi.com/forum/viewtopic.php?f=3&t=396
+ * http://gerefi.com/forum/viewtopic.php?f=3&t=396
  *
  * @date Jan 26, 2015
  * @author Andrey Belomutskiy, (c) 2012-2020

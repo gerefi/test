@@ -22,7 +22,7 @@
 #include "map_averaging.h"
 #include "memstreams.h"
 #include <chprintf.h>
-#include "rusefi_lua.h"
+#include "gerefi_lua.h"
 #include "can_hw.h"
 #include "flash_main.h"
 #include "can_msg_tx.h"

@@ -1,8 +1,8 @@
-package com.rusefi.composite.test;
+package com.gerefi.composite.test;
 
-import com.rusefi.stream.VcdStreamFile;
-import com.rusefi.composite.CompositeEvent;
-import com.rusefi.composite.CompositeParser;
+import com.gerefi.stream.VcdStreamFile;
+import com.gerefi.composite.CompositeEvent;
+import com.gerefi.composite.CompositeParser;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

@@ -2,7 +2,7 @@
 
 #include "gppwm.h"
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 
 struct gppwm_channel;
 class OutputPin;

@@ -1,7 +1,7 @@
 /**
  * @file boards/hellen/hellen-112-17/board_configuration.cpp
  *
- * See https://rusefi.com/s/XX
+ * See https://gerefi.com/s/XX
  *
  * @author Andrey Belomutskiy, (c) 2012-2023
  */

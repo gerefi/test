@@ -1,4 +1,4 @@
-package com.rusefi;
+package com.gerefi;
 
 /**
  * Similar to {@link java.util.concurrent.Callable} but without exception in the signature

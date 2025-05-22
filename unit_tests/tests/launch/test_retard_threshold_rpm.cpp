@@ -1,7 +1,7 @@
 //
 // Created by kifir on 5/22/24.
 //
-// Tests for ticket https://github.com/rusefi/rusefi/issues/6533
+// Tests for ticket https://github.com/gerefi/gerefi/issues/6533
 //
 
 #include "pch.h"

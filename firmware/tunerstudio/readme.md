@@ -5,7 +5,7 @@ For TS Protocol details see https://www.tunerstudio.com/index.php/support/manual
 This directory contains the initialization and configuration files for the
 rusEFI interface to TunerStudio.
 
-The primary contents are a set ```rusefi*.ini``` initialization files, used to
+The primary contents are a set ```gerefi*.ini``` initialization files, used to
 configure TunerStudio to setup and monitor a specific ECU board.  These are
 the only files a typical end user needs.
 
@@ -16,8 +16,8 @@ The initialization files are automatically generated from a combination
 of input files located both in this directory and in the board-specific
 directories .
 
-```rusefi*.ini``` files are generated based on the following four inputs:
-1) ```rusefi_config.txt``` contains configuration region definition in proprietary text format.
+```gerefi*.ini``` files are generated based on the following four inputs:
+1) ```gerefi_config.txt``` contains configuration region definition in proprietary text format.
 2) ```tunerstudio.template.ini``` contains the UI - all the menus and dialogs. UI definition starts at ```menuDialog = main```
 line - here you will see all top level menus defined with internal IDs and visible text labels.
 3) ```mapping.yaml``` is a minor detail related to how pins are named in drop downs

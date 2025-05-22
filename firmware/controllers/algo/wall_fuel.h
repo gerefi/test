@@ -10,7 +10,7 @@
 
 /**
  * Wall wetting, also known as fuel film
- * See https://github.com/rusefi/rusefi/issues/151 for the theory
+ * See https://github.com/gerefi/gerefi/issues/151 for the theory
  */
 class WallFuel : public wall_fuel_state_s {
 public:

@@ -1,9 +1,9 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
 import com.opensr5.ConfigurationImageWithMeta;
 import com.opensr5.ini.IniFileModel;
-import com.rusefi.binaryprotocol.MsqFactory;
-import com.rusefi.tune.xml.Msq;
+import com.gerefi.binaryprotocol.MsqFactory;
+import com.gerefi.tune.xml.Msq;
 
 public class CalibrationsInfo {
     private final IniFileModel iniFile;

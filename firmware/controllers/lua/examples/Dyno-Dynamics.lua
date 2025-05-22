@@ -1,7 +1,7 @@
 -- scriptname Dyno-Dynamics.lua
 
 -- display data from dynamometer
--- details https://github.com/rusefi/rusefi/issues/7714
+-- details https://github.com/gerefi/gerefi/issues/7714
 
 -- include utils-can-dbc.lua
 -- endinclude

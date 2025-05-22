@@ -4,7 +4,7 @@
  *
  * @brief Configuration defaults for the hellen121vag board
  *
- * See https://rusefi.com/s/hellen121vag
+ * See https://gerefi.com/s/hellen121vag
  *
  * @author andreika <prometheus.pcb@gmail.com>
  * @author Andrey Belomutskiy, (c) 2012-2020

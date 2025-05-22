@@ -1,4 +1,4 @@
-package com.rusefi.trigger;
+package com.gerefi.trigger;
 
 import com.devexperts.logging.Logging;
 import org.jetbrains.annotations.NotNull;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-import static com.rusefi.config.generated.TriggerVariableRegistryValues.*;
+import static com.gerefi.config.generated.TriggerVariableRegistryValues.*;
 
 public class TriggerWheelInfo {
     private static final Logging log = Logging.getLogging(TriggerWheelInfo.class);

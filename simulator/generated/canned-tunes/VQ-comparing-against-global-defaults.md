@@ -1,6 +1,6 @@
 # VQ-comparing-against-global-defaults
 
-// canned tune https://rusefi.com/online/view.php?msq=1641
+// canned tune https://gerefi.com/online/view.php?msq=1641
 
 ```
     // default "Single Coil"

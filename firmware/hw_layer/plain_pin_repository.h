@@ -1,6 +1,6 @@
 #pragma once
 
-#include <rusefi_hw_enums.h>
+#include <gerefi_hw_enums.h>
 
 class PinRepository {
 public:

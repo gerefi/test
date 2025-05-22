@@ -1,17 +1,17 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
-import com.rusefi.ReaderState;
-import com.rusefi.ToolUtil;
-import com.rusefi.util.LazyFile;
+import com.gerefi.ReaderState;
+import com.gerefi.ToolUtil;
+import com.gerefi.util.LazyFile;
 import org.jetbrains.annotations.NotNull;
 
-import static com.rusefi.ToolUtil.EOL;
+import static com.gerefi.ToolUtil.EOL;
 
 /**
  * This class generates java representation of rusEfi data structures used by rusEfi console
  */
 public class FileJavaFieldsConsumer {
-    private static final String JAVA_PACKAGE = "com.rusefi.config.generated";
+    private static final String JAVA_PACKAGE = "com.gerefi.config.generated";
 
     @NotNull
     public static String remoteExtension(String fileNameWithExtension) {
@@ -22,7 +22,7 @@ public class FileJavaFieldsConsumer {
         writePackageLine(file);
         file.write("// this file " + state.getHeader() + ToolUtil.EOL + EOL);
         file.write("// by " + clazz + EOL);
-        file.write("import com.rusefi.config.*;" + EOL + EOL);
+        file.write("import com.gerefi.config.*;" + EOL + EOL);
         writeClassOpenLine(file, className);
     }
 

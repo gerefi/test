@@ -1,10 +1,10 @@
-package com.rusefi.sensor_logs;
+package com.gerefi.sensor_logs;
 
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.io.ConnectionStatusLogic;
-import com.rusefi.io.ConnectionStatusValue;
-import com.rusefi.ui.UIContext;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.io.ConnectionStatusLogic;
+import com.gerefi.io.ConnectionStatusValue;
+import com.gerefi.ui.UIContext;
 
 import java.util.Arrays;
 import java.util.List;

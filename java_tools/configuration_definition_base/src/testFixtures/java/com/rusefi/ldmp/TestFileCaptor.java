@@ -1,12 +1,12 @@
-package com.rusefi.ldmp;
+package com.gerefi.ldmp;
 
-import com.rusefi.util.LazyFile;
+import com.gerefi.util.LazyFile;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.rusefi.AssertCompatibility.assertEquals;
-import static com.rusefi.AssertCompatibility.assertNotNull;
+import static com.gerefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertNotNull;
 
 public class TestFileCaptor implements LazyFile.LazyFileFactory {
     Map<String, StringBufferLazyFile> fileCapture = new HashMap<>();

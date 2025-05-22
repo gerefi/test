@@ -7,12 +7,12 @@
 
 #pragma once
 
-#include "rusefi_enums.h"
+#include "gerefi_enums.h"
 #include "listener_array.h"
 #include "trigger_decoder.h"
 #include "instant_rpm_calculator.h"
 #include "trigger_central_generated.h"
-#include <rusefi/timer.h>
+#include <gerefi/timer.h>
 #include "pin_repository.h"
 #include "local_version_holder.h"
 #include "cyclic_buffer.h"
@@ -136,7 +136,7 @@ public:
 	}
 
 	bool engineMovedRecently(efitick_t nowNt) const {
-		// todo: this user-defined property is a quick solution, proper fix https://github.com/rusefi/rusefi/issues/6593 is needed
+		// todo: this user-defined property is a quick solution, proper fix https://github.com/gerefi/gerefi/issues/6593 is needed
 		if (engineConfiguration->triggerEventsTimeoutMs != 0 && m_lastEventTimer.hasElapsedMs(engineConfiguration->triggerEventsTimeoutMs)) {
 			return false;
 		}

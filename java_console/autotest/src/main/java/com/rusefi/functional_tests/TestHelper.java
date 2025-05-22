@@ -1,9 +1,9 @@
-package com.rusefi.functional_tests;
+package com.gerefi.functional_tests;
 
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.MessagesCentral;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.MessagesCentral;
 
-import static com.rusefi.TestingUtils.assertNull;
+import static com.gerefi.TestingUtils.assertNull;
 
 public enum TestHelper {
     INSTANCE;

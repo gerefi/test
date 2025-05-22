@@ -1,10 +1,10 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.ui.engine.EngineSnifferPanel;
-import com.rusefi.core.preferences.storage.Node;
-import com.rusefi.ui.util.URLLabel;
-import com.rusefi.ui.widgets.AnyCommand;
-import com.rusefi.ui.widgets.IdleLabel;
+import com.gerefi.ui.engine.EngineSnifferPanel;
+import com.gerefi.core.preferences.storage.Node;
+import com.gerefi.ui.util.URLLabel;
+import com.gerefi.ui.widgets.AnyCommand;
+import com.gerefi.ui.widgets.IdleLabel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,7 +15,7 @@ import java.awt.event.ActionListener;
  * @see MessagesPanel
  */
 public class MessagesPane {
-    private static final String HELP_URL = "http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_commands";
+    private static final String HELP_URL = "http://gerefi.com/wiki/index.php?title=Manual:Software:dev_console_commands";
 
     private final JPanel content = new JPanel(new BorderLayout()) {
         @Override

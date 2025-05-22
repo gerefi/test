@@ -1,13 +1,13 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.xml.*;
+import com.gerefi.xml.*;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Date;
 
 /**
- * Unused and replaced by http://rusefi.online?
+ * Unused and replaced by http://gerefi.online?
  * REMOVE ONE DAY PRETTY SOON
  */
 public class MdGenerator {

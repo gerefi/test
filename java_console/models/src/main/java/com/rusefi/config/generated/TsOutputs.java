@@ -1,9 +1,9 @@
-package com.rusefi.config.generated;
+package com.gerefi.config.generated;
 
 // this file was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) console/binary/output_channels.txt
 
-// by class com.rusefi.output.FileJavaFieldsConsumer
-import com.rusefi.config.*;
+// by class com.gerefi.output.FileJavaFieldsConsumer
+import com.gerefi.config.*;
 
 public class TsOutputs {
 	public static final Field SD_PRESENT = Field.create("SD_PRESENT", 0, FieldType.BIT, 0).setBaseOffset(0);

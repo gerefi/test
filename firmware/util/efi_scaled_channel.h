@@ -11,7 +11,7 @@
 
 #pragma once
 
-#include <rusefi/scaled_channel.h>
+#include <gerefi/scaled_channel.h>
 #include "generated_lookup_meta.h"
 
 // Common scaling options - use these if you can!

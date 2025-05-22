@@ -1,8 +1,8 @@
-package com.rusefi;
+package com.gerefi;
 
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.ui.UIContext;
-import com.rusefi.ui.util.UiUtils;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.ui.UIContext;
+import com.gerefi.ui.util.UiUtils;
 import org.jetbrains.annotations.NotNull;
 import org.putgemin.VerticalFlowLayout;
 
@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
 /**
  * A control which sends specific command defined by @link {@link #getCommand()} method
  *
- * @see com.rusefi.ui.widgets.AnyCommand for free type command control
+ * @see com.gerefi.ui.widgets.AnyCommand for free type command control
  * Andrey Belomutskiy, (c) 2013-2020
  */
 abstract class CommandControl {

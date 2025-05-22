@@ -1,4 +1,4 @@
-package com.rusefi.core;
+package com.gerefi.core;
 
 import org.junit.jupiter.api.Test;
 

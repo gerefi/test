@@ -13,7 +13,7 @@ public:
 	Callbacks(JNIEnv* env, jobject jCallbacks, const char* phaseName, bool hasProgress)
 		: m_env(env)
 		, m_obj(jCallbacks)
-		, m_class(env->FindClass("com/rusefi/maintenance/OpenbltJni$OpenbltCallbacks"))
+		, m_class(env->FindClass("com/gerefi/maintenance/OpenbltJni$OpenbltCallbacks"))
 		, m_log(env->GetMethodID(m_class, "log", "(Ljava/lang/String;)V"))
 		, m_phase(env->GetMethodID(m_class, "setPhase", "(Ljava/lang/String;Z)V"))
 		, m_updateProgress(env->GetMethodID(m_class, "updateProgress", "(I)V"))
@@ -279,7 +279,7 @@ static bool program(JNIEnv* env, jobject jCallbacks) {
 	return true;
 }
 
-extern "C" JNIEXPORT void JNICALL Java_com_rusefi_maintenance_OpenbltJni_flashSerialNative(JNIEnv* env, jobject, jstring jFirmwareFile, jstring jSerialPort, jobject jCallbacks) {
+extern "C" JNIEXPORT void JNICALL Java_com_gerefi_maintenance_OpenbltJni_flashSerialNative(JNIEnv* env, jobject, jstring jFirmwareFile, jstring jSerialPort, jobject jCallbacks) {
 	if (!loadFirmware(env, jFirmwareFile, jCallbacks)) {
 		return;
 	}
@@ -297,7 +297,7 @@ extern "C" JNIEXPORT void JNICALL Java_com_rusefi_maintenance_OpenbltJni_flashSe
 	}
 }
 
-extern "C" JNIEXPORT void JNICALL Java_com_rusefi_maintenance_OpenbltJni_flashCanNative(JNIEnv * env, jobject, jstring jFirmwareFile, jobject jCallbacks) {
+extern "C" JNIEXPORT void JNICALL Java_com_gerefi_maintenance_OpenbltJni_flashCanNative(JNIEnv * env, jobject, jstring jFirmwareFile, jobject jCallbacks) {
 	if (!loadFirmware(env, jFirmwareFile, jCallbacks)) {
 		return;
 	}
@@ -315,7 +315,7 @@ extern "C" JNIEXPORT void JNICALL Java_com_rusefi_maintenance_OpenbltJni_flashCa
 	}
 }
 
-extern "C" JNIEXPORT void JNICALL Java_com_rusefi_maintenance_OpenbltJni_stopNative(JNIEnv* env, jobject, jobject jCallbacks) {
+extern "C" JNIEXPORT void JNICALL Java_com_gerefi_maintenance_OpenbltJni_stopNative(JNIEnv* env, jobject, jobject jCallbacks) {
 	Callbacks cb(env, jCallbacks, "Cleanup", false);
 
 	BltSessionStop();

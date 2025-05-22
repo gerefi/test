@@ -1,14 +1,14 @@
-package com.rusefi.autoupdate;
+package com.gerefi.autoupdate;
 
 import com.devexperts.logging.FileLogger;
 import com.devexperts.logging.Logging;
-import com.rusefi.core.FindFileHelper;
-import com.rusefi.core.io.BundleUtil;
-import com.rusefi.core.net.ConnectionAndMeta;
-import com.rusefi.core.FileUtil;
-import com.rusefi.core.net.JarFileUtil;
-import com.rusefi.core.rusEFIVersion;
-import com.rusefi.core.ui.AutoupdateUtil;
+import com.gerefi.core.FindFileHelper;
+import com.gerefi.core.io.BundleUtil;
+import com.gerefi.core.net.ConnectionAndMeta;
+import com.gerefi.core.FileUtil;
+import com.gerefi.core.net.JarFileUtil;
+import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.ui.AutoupdateUtil;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
 import java.util.zip.ZipEntry;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.core.FindFileHelper.findSrecFile;
+import static com.gerefi.core.FindFileHelper.findSrecFile;
 
 public class Autoupdate {
     private static final Logging log = getLogging(Autoupdate.class);
@@ -45,7 +45,7 @@ public class Autoupdate {
         }
     }
 
-    private static final String COM_RUSEFI_LAUNCHER = "com.rusefi.Launcher";
+    private static final String COM_RUSEFI_LAUNCHER = "com.gerefi.Launcher";
 
     public static void main(String[] args) {
         try {
@@ -127,8 +127,8 @@ public class Autoupdate {
 */
                 String pathname = "..";
                 log.info("unzipping everything else into " + pathname);
-                // We've already prepared class loader, so now we can unzip rusefi_autoupdate.jar and other files
-                // except already unzipped rusefi_console.jar (see #6777):
+                // We've already prepared class loader, so now we can unzip gerefi_autoupdate.jar and other files
+                // except already unzipped gerefi_console.jar (see #6777):
                 FileUtil.unzip(autoupdateFile.zipFileName, new File(pathname), isConsoleJar.negate());
                 final String srecFile = findSrecFile();
                 new File(srecFile == null ? FindFileHelper.FIRMWARE_BIN_FILE : srecFile)
@@ -151,9 +151,9 @@ public class Autoupdate {
     private static void unzipFreshConsole(DownloadedAutoupdateFileInfo autoupdateFile) {
         try {
             log.info("unzipFreshConsole " + autoupdateFile.zipFileName + " only " + consoleJarZipEntry);
-            // We cannot unzip rusefi_autoupdate.jar file because we need the old one to prepare class loader below
+            // We cannot unzip gerefi_autoupdate.jar file because we need the old one to prepare class loader below
             // (otherwise we get `ZipFile invalid LOC header (bad signature)` exception, see #6777). So now we unzip
-            // only rusefi_console.jar:
+            // only gerefi_console.jar:
             FileUtil.unzip(autoupdateFile.zipFileName, new File(".."), isConsoleJar);
         } catch (IOException e) {
             log.error("Error unzipping bundle without autoupdate: " + e);
@@ -283,7 +283,7 @@ public class Autoupdate {
 
     private static void hackProperties(URLClassLoader jarClassLoader) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         // in case of fresh jar file for some reason we are failing with ZipException if executed within console domain
-        Class uiProperties = Class.forName("com.rusefi.UiProperties", true, jarClassLoader);
+        Class uiProperties = Class.forName("com.gerefi.UiProperties", true, jarClassLoader);
         for (Method m : uiProperties.getMethods())
             System.out.println(m);
         Method setter = uiProperties.getMethod("setProperties", Properties.class);

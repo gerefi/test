@@ -1,12 +1,12 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.ReaderStateImpl;
-import com.rusefi.VariableRegistry;
-import com.rusefi.output.JavaFieldsConsumer;
-import com.rusefi.tools.tune.BoardConfigStrategy;
+import com.gerefi.ReaderStateImpl;
+import com.gerefi.VariableRegistry;
+import com.gerefi.output.JavaFieldsConsumer;
+import com.gerefi.tools.tune.BoardConfigStrategy;
 import org.junit.jupiter.api.Test;
 
-import static com.rusefi.AssertCompatibility.assertEquals;
+import static com.gerefi.AssertCompatibility.assertEquals;
 
 public class BoardConfigTest {
     @Test

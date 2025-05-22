@@ -1,6 +1,6 @@
-package com.rusefi.io.serial;
+package com.gerefi.io.serial;
 
-import com.rusefi.Timeouts;
+import com.gerefi.Timeouts;
 
 import java.util.LinkedList;
 

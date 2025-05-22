@@ -1,4 +1,4 @@
-package com.rusefi.ui.lua;
+package com.gerefi.ui.lua;
 
 
 /*
@@ -36,9 +36,9 @@ package com.rusefi.ui.lua;
 /* A 1.4 class used by TextComponentDemo.java. */
 
 import com.opensr5.ini.field.StringIniField;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.io.LinkManager;
-import com.rusefi.ui.UIContext;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.io.LinkManager;
+import com.gerefi.ui.UIContext;
 
 import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;

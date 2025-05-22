@@ -1,7 +1,7 @@
 #pragma once
 
 /**
- * https://github.com/rusefi/rusefi/wiki/Engine-Types
+ * https://github.com/gerefi/gerefi/wiki/Engine-Types
  */
 enum class engine_type_e : uint16_t {
 	DEFAULT_FRANKENSO = 0,
@@ -10,12 +10,12 @@ enum class engine_type_e : uint16_t {
 
 	/**
 	 * 1995 Dodge Neon
-	 * http://rusefi.com/forum/viewtopic.php?t=360
+	 * http://gerefi.com/forum/viewtopic.php?t=360
 	 */
 	DODGE_NEON_1995 = 2,
 	/**
 	 * 1996 1.3 Ford Aspire
-	 * http://rusefi.com/forum/viewtopic.php?t=375
+	 * http://gerefi.com/forum/viewtopic.php?t=375
 	 */
 	FORD_ASPIRE_1996 = 3,
 	/**
@@ -29,7 +29,7 @@ enum class engine_type_e : uint16_t {
 	/**
 	 * one cylinder engine
 	 * 139qmb 50-90cc
-	 * http://rusefi.com/forum/viewtopic.php?f=3&t=332
+	 * http://gerefi.com/forum/viewtopic.php?f=3&t=332
 	 */
 	GY6_139QMB = 8,
 

@@ -1,17 +1,17 @@
-package com.rusefi.maintenance.migration.clt_idle_corr_migration;
+package com.gerefi.maintenance.migration.clt_idle_corr_migration;
 
-import com.rusefi.maintenance.TestTuneMigrationContext;
-import com.rusefi.maintenance.migration.ComposedTuneMigrator;
-import com.rusefi.maintenance.migration.default_migration.DefaultTestTuneMigrationContext;
-import com.rusefi.tune.xml.Constant;
+import com.gerefi.maintenance.TestTuneMigrationContext;
+import com.gerefi.maintenance.migration.ComposedTuneMigrator;
+import com.gerefi.maintenance.migration.default_migration.DefaultTestTuneMigrationContext;
+import com.gerefi.tune.xml.Constant;
 import org.junit.jupiter.api.Test;
 
 import javax.xml.bind.JAXBException;
 import java.util.Map;
 
-import static com.rusefi.maintenance.migration.CltIdleCorrMigrator.*;
-import static com.rusefi.maintenance.migration.clt_idle_corr_migration.CltIdleCorrMigrationTestTuneMigrationContext.TEST_PREV_CLT_IDLE_CORR_BINS_VALUE;
-import static com.rusefi.maintenance.migration.default_migration.DefaultTestTuneMigrationContext.*;
+import static com.gerefi.maintenance.migration.CltIdleCorrMigrator.*;
+import static com.gerefi.maintenance.migration.clt_idle_corr_migration.CltIdleCorrMigrationTestTuneMigrationContext.TEST_PREV_CLT_IDLE_CORR_BINS_VALUE;
+import static com.gerefi.maintenance.migration.default_migration.DefaultTestTuneMigrationContext.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CltIdleCorrMigratorTest {

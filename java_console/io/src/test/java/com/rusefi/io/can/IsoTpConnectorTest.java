@@ -1,8 +1,8 @@
-package com.rusefi.io.can;
+package com.gerefi.io.can;
 
-import com.rusefi.config.generated.VariableRegistryValues;
-import com.rusefi.io.can.isotp.IsoTpConnector;
-import com.rusefi.util.HexBinary;
+import com.gerefi.config.generated.VariableRegistryValues;
+import com.gerefi.io.can.isotp.IsoTpConnector;
+import com.gerefi.util.HexBinary;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
--- https://rusefi.com/forum/viewtopic.php?f=4&t=2325
+-- https://gerefi.com/forum/viewtopic.php?f=4&t=2325
 -- tested on 9286699
 
 -- CAN Rx Channels

@@ -15,7 +15,7 @@ on:
 jobs:
   update-date:
     runs-on: ubuntu-latest
-    if: ${{ github.repository == 'rusefi/rusefi' }}
+    if: ${{ github.repository == 'gerefi/gerefi' }}
 
     steps:
     - uses: actions/checkout@v4

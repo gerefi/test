@@ -1,7 +1,7 @@
-package com.rusefi.ui.engine;
+package com.gerefi.ui.engine;
 
-import com.rusefi.waves.ZoomProvider;
-import com.rusefi.KeyStrokeShortcut;
+import com.gerefi.waves.ZoomProvider;
+import com.gerefi.KeyStrokeShortcut;
 
 import javax.swing.*;
 import java.awt.*;

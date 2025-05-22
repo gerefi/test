@@ -3,7 +3,7 @@
  *
  * FORD_ESCORT_GT = 14
  * set engine_type 14
- * http://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Protege_1993
+ * http://gerefi.com/wiki/index.php?title=Vehicle:Mazda_Protege_1993
  *
  * MRE_MIATA_94_MAP = 20
  * MIATA_1996 = 21

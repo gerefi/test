@@ -246,7 +246,7 @@ bool EventQueue::executeOne(efitick_t now) {
 	// yes, that's a busy wait but that's what we need here
 	while (current->getMomentNt() > getTimeNowNt()) {
 #if EFI_UNIT_TEST
-  // todo: remove this hack see https://github.com/rusefi/rusefi/issues/6457
+  // todo: remove this hack see https://github.com/gerefi/gerefi/issues/6457
 extern bool unitTestBusyWaitHack;
     if (unitTestBusyWaitHack) {
 	    break;

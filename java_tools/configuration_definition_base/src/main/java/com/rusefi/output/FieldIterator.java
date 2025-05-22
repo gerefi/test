@@ -1,7 +1,7 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
-import com.rusefi.BitState;
-import com.rusefi.ConfigField;
+import com.gerefi.BitState;
+import com.gerefi.ConfigField;
 
 import java.util.List;
 

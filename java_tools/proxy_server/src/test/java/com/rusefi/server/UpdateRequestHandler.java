@@ -1,8 +1,8 @@
-package com.rusefi.server;
+package com.gerefi.server;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.proxy.client.UpdateType;
-import com.rusefi.tools.online.ProxyClient;
+import com.gerefi.proxy.client.UpdateType;
+import com.gerefi.tools.online.ProxyClient;
 import org.takes.Request;
 import org.takes.Response;
 import org.takes.Take;

@@ -12,7 +12,7 @@ PCH_DIR = ../firmware/pch
 PCHSRC = $(PCH_DIR)/pch.h
 PCHSUB = unit_tests
 
-include $(PROJECT_DIR)/rusefi_rules.mk
+include $(PROJECT_DIR)/gerefi_rules.mk
 
 # User may want to pass in a forced value for SANITIZE
 ifeq ($(SANITIZE),)
@@ -141,7 +141,7 @@ CPPWARN = -Wall -Wextra -Wno-unused-parameter -Wno-unused-function -Wno-unused-v
 # TODO: improve on this code duplication drama!
 # current problem with older gcc in unit_tests is
 # cc1plus: error: unrecognized command line option \u2018-Wno-unused-private-field\u2019 [-Werror]
-#RULESFILE = ../firmware/rusefi_rules.mk
+#RULESFILE = ../firmware/gerefi_rules.mk
 #include $(RULESFILE)
 #USE_OPT += $(RUSEFI_OPT) -Wno-error=pedantic
 
@@ -220,7 +220,7 @@ endif
 ##############################################################################
 
 # Define project name here
-PROJECT = rusefi_test
+PROJECT = gerefi_test
 
 ifeq ("$(wildcard $(UNIT_TESTS_DIR)/googletest/LICENSE)","")
 $(info Invoking "git submodule update --init")
@@ -245,6 +245,6 @@ ifeq ($(BOARD_DIR),)
 endif
 
 include $(UNIT_TESTS_DIR)/rules.mk
-include $(PROJECT_DIR)/rusefi_config.mk
+include $(PROJECT_DIR)/gerefi_config.mk
 include $(PROJECT_DIR)/docs_enums.mk
-include $(PROJECT_DIR)/rusefi_pch.mk
+include $(PROJECT_DIR)/gerefi_pch.mk

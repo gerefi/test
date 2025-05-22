@@ -278,7 +278,7 @@ info:
   title: Benelli_Walbro
   directory: Benelli_Walbro
   name: 'Benelli_Walbro  !! NOTE: status is DRAFT, last change by Papysoupape !! - there are potential wrong pin assignments'
-  board_url: https://rusefi.com/s/Benelli_Walbro
+  board_url: https://gerefi.com/s/Benelli_Walbro
   image:
     file: Benelli_Walbro.jpg
   pins:

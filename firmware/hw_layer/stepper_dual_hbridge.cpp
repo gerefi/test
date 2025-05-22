@@ -66,7 +66,7 @@ bool DualHBridgeStepper::step(bool positive) {
 
     // For the full-stepping mode, we use a traditional "two phase on" drive model
     // because "wave drive" (one phase on) method has less torque.
-    // For explanation, pls see: https://github.com/rusefi/rusefi/pull/3213#discussion_r700746453
+    // For explanation, pls see: https://github.com/gerefi/gerefi/pull/3213#discussion_r700746453
 
     // step phase, wrapping
     if (positive) {

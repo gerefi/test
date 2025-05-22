@@ -1,6 +1,6 @@
-package com.rusefi.ui.widgets;
+package com.gerefi.ui.widgets;
 
-import com.rusefi.io.CommandQueue;
+import com.gerefi.io.CommandQueue;
 
 import javax.swing.*;
 

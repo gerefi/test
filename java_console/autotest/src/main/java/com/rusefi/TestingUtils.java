@@ -1,14 +1,14 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.EngineState;
-import com.rusefi.functional_tests.EcuTestHelper;
-import com.rusefi.io.CommandQueue;
-import com.rusefi.waves.EngineChart;
-import com.rusefi.waves.EngineReport;
-import com.rusefi.waves.RevolutionLog;
-import com.rusefi.waves.EngineChartParser;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.EngineState;
+import com.gerefi.functional_tests.EcuTestHelper;
+import com.gerefi.io.CommandQueue;
+import com.gerefi.waves.EngineChart;
+import com.gerefi.waves.EngineReport;
+import com.gerefi.waves.RevolutionLog;
+import com.gerefi.waves.EngineChartParser;
 
 import java.util.Arrays;
 import java.util.List;
@@ -18,7 +18,7 @@ import java.util.concurrent.atomic.AtomicReference;
 import static org.junit.Assert.fail;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.waves.EngineReport.isCloseEnough;
+import static com.gerefi.waves.EngineReport.isCloseEnough;
 
 /**
  * @author Andrey Belomutskiy

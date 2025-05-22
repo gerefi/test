@@ -134,7 +134,7 @@ void initSpiModule(SPIDriver *driver, brain_pin_e sck, brain_pin_e miso,
 		int misoMode) {
 
 	/**
-	 * See https://github.com/rusefi/rusefi/pull/664/
+	 * See https://github.com/gerefi/gerefi/pull/664/
 	 *
 	 * Info on the silicon defect can be found in this document, section 2.5.2:
 	 * https://www.st.com/content/ccc/resource/technical/document/errata_sheet/0a/98/58/84/86/b6/47/a2/DM00037591.pdf/files/DM00037591.pdf/jcr:content/translations/en.DM00037591.pdf

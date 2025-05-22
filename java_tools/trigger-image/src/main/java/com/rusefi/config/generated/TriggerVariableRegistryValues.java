@@ -1,9 +1,9 @@
-package com.rusefi.config.generated;
+package com.gerefi.config.generated;
 
-// this file was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) integration/rusefi_config_trigger.txt
+// this file was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) integration/gerefi_config_trigger.txt
 
-// by class com.rusefi.output.FileJavaVariableRegistryConsumer
-import com.rusefi.config.*;
+// by class com.gerefi.output.FileJavaVariableRegistryConsumer
+import com.gerefi.config.*;
 
 public class TriggerVariableRegistryValues {
 	public static final String IGNITION_OUTPUT = "Ignition Output";

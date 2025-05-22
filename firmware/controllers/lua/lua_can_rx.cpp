@@ -4,7 +4,7 @@
 
 #if EFI_CAN_SUPPORT
 
-#include "rusefi_lua.h"
+#include "gerefi_lua.h"
 
 extern "C" {
 	#include "lapi.h"
@@ -104,7 +104,7 @@ static void handleCanFrame(LuaHandle& ls, CanFrameData* data) {
 	lua_pushinteger(ls, dlc);
 
   if (engineConfiguration->luaCanRxWorkaround) {
-    // todo: https://github.com/rusefi/rusefi/issues/6041
+    // todo: https://github.com/gerefi/gerefi/issues/6041
     lua_getglobal(ls, "global_can_data");
   } else {
   	// Build table for data, custom implementation without explicit GC but still garbage

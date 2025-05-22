@@ -67,7 +67,7 @@ const uint8_t _cfm[0x10] = {
   0xFF,  /* NV_FPROT2: PROT=0xFF */
   0xFF,  /* NV_FPROT1: PROT=0xFF */
   0xFF,  /* NV_FPROT0: PROT=0xFF */
-  /* [andreika][rusefi]: Warning! These two bytes are extremely important! Don't change them until 100% sure! */
+  /* [andreika][gerefi]: Warning! These two bytes are extremely important! Don't change them until 100% sure! */
   /* there is an opinion that wrong values would brick your Kinetis chip for good */
   0x7E,  /* NV_FSEC: KEYEN=1,MEEN=3,FSLACC=3,SEC=2 */
   0xFB,  /* NV_FOPT: BOOTSRC_SEL=1,res=111,RESET_PIN_CFG=1,NMI_DIS=0,BOOTPIN_OPT=1,LPBOOT=1 */

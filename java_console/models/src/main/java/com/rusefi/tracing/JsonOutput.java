@@ -1,6 +1,6 @@
-package com.rusefi.tracing;
+package com.gerefi.tracing;
 
-import com.rusefi.PerfTraceEnumGenerator;
+import com.gerefi.PerfTraceEnumGenerator;
 
 import java.io.IOException;
 import java.io.OutputStream;

@@ -1,6 +1,6 @@
-package com.rusefi.io;
+package com.gerefi.io;
 
-import com.rusefi.ui.StatusConsumer;
+import com.gerefi.ui.StatusConsumer;
 
 public interface UpdateOperationCallbacks extends StatusConsumer {
     void log(String message, boolean breakLineOnTextArea, boolean sendToLogger);

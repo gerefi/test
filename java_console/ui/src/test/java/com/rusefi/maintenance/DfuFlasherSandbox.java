@@ -1,9 +1,9 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
-import com.rusefi.io.UpdateOperationCallbacks;
+import com.gerefi.io.UpdateOperationCallbacks;
 
-import static com.rusefi.maintenance.MaintenanceUtil.detectPcan;
-import static com.rusefi.maintenance.StLinkFlasher.detectStLink;
+import static com.gerefi.maintenance.MaintenanceUtil.detectPcan;
+import static com.gerefi.maintenance.StLinkFlasher.detectStLink;
 
 public class DfuFlasherSandbox {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package com.rusefi.maintenance.jobs;
+package com.gerefi.maintenance.jobs;
 
-import com.rusefi.SerialPortScanner;
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.TuneUploader;
+import com.gerefi.SerialPortScanner;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.TuneUploader;
 
 public class UploadTuneJob extends AsyncJobWithContext<UploadTuneJobContext> {
     public UploadTuneJob(final SerialPortScanner.PortResult port, final String panamaUrl) {

@@ -265,7 +265,7 @@ static const struct mc33810_config mc33810_odd = {
 			SPI_CR1_MSTR |
 			/* SPI_CR1_CPOL | */ // = 0
 			/*
-			https://github.com/rusefi/rusefi/issues/6538 says that should be zero
+			https://github.com/gerefi/gerefi/issues/6538 says that should be zero
 			SPI_CR1_CPHA | // = 1
 			*/
 			0,
@@ -316,7 +316,7 @@ static const struct mc33810_config mc33810_even = {
 			SPI_CR1_MSTR |
 			/* SPI_CR1_CPOL | */ // = 0
 			/*
-			https://github.com/rusefi/rusefi/issues/6538 says that should be zero
+			https://github.com/gerefi/gerefi/issues/6538 says that should be zero
 			SPI_CR1_CPHA | // = 1
 			*/
 			0,

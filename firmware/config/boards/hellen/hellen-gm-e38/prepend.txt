@@ -1,4 +1,4 @@
-#define MAIN_HELP_URL "https://rusefi.com/s/gm-e38"
+#define MAIN_HELP_URL "https://gerefi.com/s/gm-e38"
 
 
 

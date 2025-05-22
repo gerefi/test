@@ -90,7 +90,7 @@ float getMcuTemperature() {
 	return degrees;
 }
 
-// See https://github.com/rusefi/rusefi/issues/976 for discussion on these values
+// See https://github.com/gerefi/gerefi/issues/976 for discussion on these values
 // ...  there is no reason to use a longer sampling time than 56 cycles with the current clock ...
 #ifndef ADC_SAMPLING_SLOW
 #define ADC_SAMPLING_SLOW ADC_SAMPLE_56

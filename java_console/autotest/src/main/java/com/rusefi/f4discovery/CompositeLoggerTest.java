@@ -1,9 +1,9 @@
-package com.rusefi.f4discovery;
+package com.gerefi.f4discovery;
 
-import com.rusefi.RusefiTestBase;
-import com.rusefi.binaryprotocol.BinaryProtocolLogger;
-import com.rusefi.enums.engine_type_e;
-import com.rusefi.io.LinkManager;
+import com.gerefi.RusefiTestBase;
+import com.gerefi.binaryprotocol.BinaryProtocolLogger;
+import com.gerefi.enums.engine_type_e;
+import com.gerefi.io.LinkManager;
 import org.junit.Test;
 
 public class CompositeLoggerTest extends RusefiTestBase {

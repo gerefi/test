@@ -1,7 +1,7 @@
-package com.rusefi.ui.test;
+package com.gerefi.ui.test;
 
-import com.rusefi.config.generated.Integration;
-import com.rusefi.ui.engine.EngineSnifferPanel;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.ui.engine.EngineSnifferPanel;
 import org.junit.jupiter.api.Test;
 
 import java.util.Set;

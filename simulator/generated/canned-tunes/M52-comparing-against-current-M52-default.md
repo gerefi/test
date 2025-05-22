@@ -1,6 +1,6 @@
 # M52-comparing-against-current-M52-default
 
-// canned tune https://rusefi.com/online/view.php?msq=1591
+// canned tune https://gerefi.com/online/view.php?msq=1591
 
 ```
     // default 0.0

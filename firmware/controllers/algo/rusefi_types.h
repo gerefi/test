@@ -1,5 +1,5 @@
 /**
- * @file	rusefi_types.h
+ * @file	gerefi_types.h
  *
  * @date Jan 12, 2015
  * @author Andrey Belomutskiy, (c) 2012-2020
@@ -14,9 +14,9 @@
 #include <sys/types.h>
 
 #include <board_types.h>
-#include <rusefi/rusefi_time_types.h>
+#include <gerefi/gerefi_time_types.h>
 #include "generated_lookup_meta.h"
-#include "rusefi_enums.h"
+#include "gerefi_enums.h"
 #include "firing_order.h"
 
 #if __cplusplus
@@ -34,7 +34,7 @@
 /**
  * integer time in milliseconds (1/1_000 of a second)
  * 32 bit 4B / 1000 = 4M seconds = 1111.11 hours = 23(or46?) days.
- * Please restart your ECU every 23(or46?) days? :) See issue https://github.com/rusefi/rusefi/issues/4554 tag#4554
+ * Please restart your ECU every 23(or46?) days? :) See issue https://github.com/gerefi/gerefi/issues/4554 tag#4554
  * See getTimeNowUs()
  */
 using efitimems_t = uint32_t;

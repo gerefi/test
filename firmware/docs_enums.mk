@@ -1,6 +1,6 @@
 # TODO: are we missing a ton of .txt file references from LiveData.yaml?!
 DOCS_ENUMS_INPUTS = \
-  $(PROJECT_DIR)/integration/rusefi_config.txt \
+  $(PROJECT_DIR)/integration/gerefi_config.txt \
   $(PROJECT_DIR)/console/binary/output_channels.txt \
   $(PROJECT_DIR)/controllers/engine_cycle/knock_controller.txt \
   $(PROJECT_DIR)/controllers/engine_cycle/prime_injection.txt \
@@ -18,12 +18,12 @@ DOCS_ENUMS_INPUTS = \
   $(PROJECT_DIR)/controllers/trigger/decoders/sync_edge.h \
   $(PROJECT_DIR)/controllers/algo/engine_types.h \
   $(PROJECT_DIR)/controllers/algo/engine_type_e.h \
-  $(PROJECT_DIR)/controllers/algo/rusefi_enums.h \
-  $(PROJECT_DIR)/controllers/algo/rusefi_hw_enums.h \
+  $(PROJECT_DIR)/controllers/algo/gerefi_enums.h \
+  $(PROJECT_DIR)/controllers/algo/gerefi_hw_enums.h \
   $(PROJECT_DIR)/libfirmware/can/can_common.h \
   $(PROJECT_DIR)/hw_layer/drivers/can/can_category.h \
-  $(PROJECT_DIR)/config/boards/cypress/rusefi_hw_enums.h \
-  $(PROJECT_DIR)/config/boards/kinetis/rusefi_hw_enums.h
+  $(PROJECT_DIR)/config/boards/cypress/gerefi_hw_enums.h \
+  $(PROJECT_DIR)/config/boards/kinetis/gerefi_hw_enums.h
 
 ifneq ("$(wildcard $(BOARD_DIR)/extra.txt)","")
   DOCS_ENUMS_INPUTS += $(BOARD_DIR)/extra.txt

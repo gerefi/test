@@ -1,7 +1,7 @@
-package com.rusefi.maintenance.jobs;
+package com.gerefi.maintenance.jobs;
 
-import com.rusefi.io.UpdateOperationCallbacks;
-import com.rusefi.maintenance.ProgramSelector;
+import com.gerefi.io.UpdateOperationCallbacks;
+import com.gerefi.maintenance.ProgramSelector;
 
 import javax.swing.*;
 

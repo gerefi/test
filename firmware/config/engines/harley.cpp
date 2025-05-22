@@ -34,7 +34,7 @@ void setHarley() {
 	engineConfiguration->timing_offset_cylinder[0] = -HARLEY_V_TWIN / 2;
 	engineConfiguration->timing_offset_cylinder[1] = +HARLEY_V_TWIN / 2;
 
-  // work-around for https://github.com/rusefi/rusefi/issues/5894 todo: fix it!
+  // work-around for https://github.com/gerefi/gerefi/issues/5894 todo: fix it!
 	engineConfiguration->maximumIgnitionTiming = 90;
   engineConfiguration->minimumIgnitionTiming = -90;
 

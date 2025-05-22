@@ -1,4 +1,4 @@
-package com.rusefi.binaryprotocol;
+package com.gerefi.binaryprotocol;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImageMeta;
@@ -8,21 +8,21 @@ import com.opensr5.ConfigurationImageWithMeta;
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.io.ConfigurationImageFile;
 import com.opensr5.io.DataListener;
-import com.rusefi.ConfigurationImageDiff;
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.Timeouts;
-import com.rusefi.binaryprotocol.test.Bug3923;
-import com.rusefi.core.Pair;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.core.net.ConnectionAndMeta;
-import com.rusefi.io.*;
-import com.rusefi.io.commands.BurnCommand;
-import com.rusefi.io.commands.ByteRange;
-import com.rusefi.io.commands.GetOutputsCommand;
-import com.rusefi.io.commands.HelloCommand;
-import com.rusefi.tune.xml.Msq;
-import com.rusefi.ui.livedocs.LiveDocsRegistry;
+import com.gerefi.ConfigurationImageDiff;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.Timeouts;
+import com.gerefi.binaryprotocol.test.Bug3923;
+import com.gerefi.core.Pair;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.core.net.ConnectionAndMeta;
+import com.gerefi.io.*;
+import com.gerefi.io.commands.BurnCommand;
+import com.gerefi.io.commands.ByteRange;
+import com.gerefi.io.commands.GetOutputsCommand;
+import com.gerefi.io.commands.HelloCommand;
+import com.gerefi.tune.xml.Msq;
+import com.gerefi.ui.livedocs.LiveDocsRegistry;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -35,8 +35,8 @@ import java.util.Objects;
 import java.util.concurrent.*;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.binaryprotocol.IoHelper.*;
-import static com.rusefi.config.generated.VariableRegistryValues.*;
+import static com.gerefi.binaryprotocol.IoHelper.*;
+import static com.gerefi.config.generated.VariableRegistryValues.*;
 
 /**
  * This object represents logical state of physical connection.

@@ -1,10 +1,10 @@
-package com.rusefi.ui.test;
+package com.gerefi.ui.test;
 
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.preferences.storage.PersistentConfiguration;
-import com.rusefi.core.ui.FrameHelper;
-import com.rusefi.ui.engine.EngineSnifferPanel;
-import com.rusefi.waves.EngineChartParser;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.preferences.storage.PersistentConfiguration;
+import com.gerefi.core.ui.FrameHelper;
+import com.gerefi.ui.engine.EngineSnifferPanel;
+import com.gerefi.waves.EngineChartParser;
 
 import javax.swing.*;
 import java.lang.reflect.InvocationTargetException;

@@ -12,5 +12,5 @@
 // 	TriggerWaveform naShape;
 // 	initializeMazdaMiataNaShape(&naShape);
 // 	EngineTestHelper eth(FRANKENSO_MIATA_NA6_MAP);
-// 	// todo: https://github.com/rusefi/rusefi/issues/679
+// 	// todo: https://github.com/gerefi/gerefi/issues/679
 // }

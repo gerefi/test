@@ -1,7 +1,7 @@
-package com.rusefi.f4discovery;
+package com.gerefi.f4discovery;
 
-import com.rusefi.RusefiTestBase;
-import com.rusefi.common.VssHardwareTestLogic;
+import com.gerefi.RusefiTestBase;
+import com.gerefi.common.VssHardwareTestLogic;
 import org.junit.Test;
 
 /**

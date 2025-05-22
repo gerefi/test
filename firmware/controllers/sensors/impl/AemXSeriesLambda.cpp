@@ -2,10 +2,10 @@
 
 #if EFI_CAN_SUPPORT || EFI_UNIT_TEST
 #include "AemXSeriesLambda.h"
-#include "wideband_firmware/for_rusefi/wideband_can.h"
+#include "wideband_firmware/for_gerefi/wideband_can.h"
 
 static constexpr uint32_t aem_base    = 0x180;
-static constexpr uint32_t rusefi_base = WB_DATA_BASE_ADDR;
+static constexpr uint32_t gerefi_base = WB_DATA_BASE_ADDR;
 
 AemXSeriesWideband::AemXSeriesWideband(uint8_t sensorIndex, SensorType type)
 	: CanSensorBase(
@@ -38,8 +38,8 @@ bool AemXSeriesWideband::acceptFrame(const CANRxFrame& frame) const {
 
 	if (type == RUSEFI) {
 		// 0th sensor is 0x190 and 0x191, 1st sensor is 0x192 and 0x193
-		uint32_t rusefiBaseId = rusefi_base + 2 * (engineConfiguration->flipWboChannels ? (1 - m_sensorIndex) : m_sensorIndex);
-		return ((id == rusefiBaseId) || (id == rusefiBaseId + 1));
+		uint32_t gerefiBaseId = gerefi_base + 2 * (engineConfiguration->flipWboChannels ? (1 - m_sensorIndex) : m_sensorIndex);
+		return ((id == gerefiBaseId) || (id == gerefiBaseId + 1));
 	}
 
 	if (type == AEM) {

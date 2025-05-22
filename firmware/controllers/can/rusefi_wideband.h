@@ -1,4 +1,4 @@
-// file rusefi_wideband.h
+// file gerefi_wideband.h
 
 #pragma once
 #include "can.h"

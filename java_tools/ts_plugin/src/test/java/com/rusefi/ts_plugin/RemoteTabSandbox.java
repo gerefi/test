@@ -1,6 +1,6 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
-import com.rusefi.core.ui.FrameHelper;
+import com.gerefi.core.ui.FrameHelper;
 
 /**
  * @see PluginBodySandbox

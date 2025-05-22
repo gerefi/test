@@ -1,13 +1,13 @@
-package com.rusefi.io;
+package com.gerefi.io;
 
 import com.opensr5.ConfigurationImage;
-import com.rusefi.TestHelper;
-import com.rusefi.proxy.*;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.io.tcp.BinaryProtocolProxy;
-import com.rusefi.io.tcp.BinaryProtocolServer;
-import com.rusefi.io.tcp.TcpConnector;
-import com.rusefi.ui.StatusConsumer;
+import com.gerefi.TestHelper;
+import com.gerefi.proxy.*;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.io.tcp.BinaryProtocolProxy;
+import com.gerefi.io.tcp.BinaryProtocolServer;
+import com.gerefi.io.tcp.TcpConnector;
+import com.gerefi.ui.StatusConsumer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -16,7 +16,7 @@ import java.util.Objects;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static com.rusefi.TestHelper.assertLatch;
+import static com.gerefi.TestHelper.assertLatch;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TcpCommunicationIntegrationTest {

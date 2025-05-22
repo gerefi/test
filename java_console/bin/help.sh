@@ -1,1 +1,1 @@
-java -jar console/rusefi_console.jar help
+java -jar console/gerefi_console.jar help

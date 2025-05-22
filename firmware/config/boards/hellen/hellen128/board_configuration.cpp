@@ -5,7 +5,7 @@
  *
  * @brief Configuration defaults for the hellen128 board
  *
- * See https://rusefi.com/s/hellen128
+ * See https://gerefi.com/s/hellen128
  *
  * @author andreika <prometheus.pcb@gmail.com>
  * @author Andrey Belomutskiy, (c) 2012-2020
@@ -155,9 +155,9 @@ void setBoardDefaultConfiguration() {
 
 	/**
 	 * Jimmy best tune
-	 * https://rusefi.com/online/view.php?msq=626
+	 * https://gerefi.com/online/view.php?msq=626
 	 * md_sanci latest tune
-	 * https://rusefi.com/online/view.php?msq=630
+	 * https://gerefi.com/online/view.php?msq=630
 	 */
 	setPPSInputs(H144_IN_PPS, EFI_ADC_14);
 	setPPSCalibration(1.49, 4.72, 1.34, 4.24);

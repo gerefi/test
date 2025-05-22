@@ -1,4 +1,4 @@
-package com.rusefi.io.serial;
+package com.gerefi.io.serial;
 
 import com.devexperts.logging.Logging;
 import com.fazecast.jSerialComm.SerialPort;
@@ -6,10 +6,10 @@ import com.fazecast.jSerialComm.SerialPortDataListener;
 import com.fazecast.jSerialComm.SerialPortEvent;
 import com.fazecast.jSerialComm.SerialPortThreadFactory;
 import com.opensr5.io.DataListener;
-import com.rusefi.NamedThreadFactory;
-import com.rusefi.binaryprotocol.IncomingDataBuffer;
-import com.rusefi.binaryprotocol.test.Bug3923;
-import com.rusefi.io.IoStream;
+import com.gerefi.NamedThreadFactory;
+import com.gerefi.binaryprotocol.IncomingDataBuffer;
+import com.gerefi.binaryprotocol.test.Bug3923;
+import com.gerefi.io.IoStream;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

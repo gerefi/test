@@ -1,4 +1,4 @@
-package com.rusefi.autoupdate;
+package com.gerefi.autoupdate;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -17,15 +17,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ObsoleteFilesArchiverTest {
     private static final List<String> TEST_OBSOLETE_FILES_TO_DELETE = List.of(
-        "rusefi.bin",
-        "rusefi_update.srec",
-        "rusefi-obfuscated.srec"
+        "gerefi.bin",
+        "gerefi_update.srec",
+        "gerefi-obfuscated.srec"
     );
 
     private static final List<String> TEST_OBSOLETE_FILES_TO_ARCHIVE = List.of(
-        "rusefi_lts-25jersey_1234567890_uaefi.bin",
-        "rusefi_update_lts-25jersey_1234567890_uaefi.srec",
-        "rusefi-obfuscated_lts-25jersey_1234567890_uaefi.srec"
+        "gerefi_lts-25jersey_1234567890_uaefi.bin",
+        "gerefi_update_lts-25jersey_1234567890_uaefi.srec",
+        "gerefi-obfuscated_lts-25jersey_1234567890_uaefi.srec"
     );
 
     private static final List<String> ALL_TEST_FILES = Stream.concat(

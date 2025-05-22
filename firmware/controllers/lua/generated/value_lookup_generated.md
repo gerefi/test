@@ -409,7 +409,7 @@ null
 ### isSdCardEnabled
 enable sd/disable sd
 
-### rusefiVerbose29b
+### gerefiVerbose29b
 Use 11 bit (standard) or 29 bit (extended) IDs for rusEFI verbose CAN format.
 
 ### rethrowHardFault
@@ -767,10 +767,10 @@ Treat milliseconds value as duty cycle value, i.e. 0.5ms would become 50%
 This enables smart alternator control and activates the extra alternator settings.
 
 ### invertPrimaryTriggerSignal
-https://wiki.rusefi.com/Trigger-Configuration-Guide\nThis setting flips the signal from the primary engine speed sensor.
+https://wiki.gerefi.com/Trigger-Configuration-Guide\nThis setting flips the signal from the primary engine speed sensor.
 
 ### invertSecondaryTriggerSignal
-https://wiki.rusefi.com/Trigger-Configuration-Guide\nThis setting flips the signal from the secondary engine speed sensor.
+https://wiki.gerefi.com/Trigger-Configuration-Guide\nThis setting flips the signal from the secondary engine speed sensor.
 
 ### cutFuelOnHardLimit
 
@@ -1103,7 +1103,7 @@ AEM X-Series EGT gauge kit or rusEFI EGT sensor from Wideband controller
 
 
 ### enableKnockSpectrogram
-"Available via TS Plugin see https://rusefi.com/s/knock"
+"Available via TS Plugin see https://gerefi.com/s/knock"
 
 ### enableKnockSpectrogramFilter
 
@@ -1511,7 +1511,7 @@ If the requested activation time is below this angle, don't bother running the p
 Size of the pump chamber in cc. Typical Bosch HDP5 has a 9.0mm diameter, typical BMW N* stroke is 4.4mm.
 
 ### hpfpActivationAngle
-How long to keep the valve activated (in order to allow the pump to build pressure and keep the valve open on its own)\nhttps://rusefi.com/forum/viewtopic.php?t=2192
+How long to keep the valve activated (in order to allow the pump to build pressure and keep the valve open on its own)\nhttps://gerefi.com/forum/viewtopic.php?t=2192
 
 ### issFilterReciprocal
 

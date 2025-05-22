@@ -1,13 +1,13 @@
-package com.rusefi.ts_plugin;
+package com.gerefi.ts_plugin;
 
-import com.rusefi.auth.AuthTokenUtil;
-import com.rusefi.autodetect.PortDetector;
-import com.rusefi.core.ui.AutoupdateUtil;
-import com.rusefi.proxy.NetworkConnector;
-import com.rusefi.proxy.NetworkConnectorContext;
-import com.rusefi.tools.VehicleToken;
-import com.rusefi.ui.AuthTokenPanel;
-import com.rusefi.ui.util.URLLabel;
+import com.gerefi.auth.AuthTokenUtil;
+import com.gerefi.autodetect.PortDetector;
+import com.gerefi.core.ui.AutoupdateUtil;
+import com.gerefi.proxy.NetworkConnector;
+import com.gerefi.proxy.NetworkConnectorContext;
+import com.gerefi.tools.VehicleToken;
+import com.gerefi.ui.AuthTokenPanel;
+import com.gerefi.ui.util.URLLabel;
 import org.putgemin.VerticalFlowLayout;
 
 import javax.swing.*;

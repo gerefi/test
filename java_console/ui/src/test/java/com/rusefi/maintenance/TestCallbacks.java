@@ -1,6 +1,6 @@
-package com.rusefi.maintenance;
+package com.gerefi.maintenance;
 
-import com.rusefi.io.UpdateOperationCallbacks;
+import com.gerefi.io.UpdateOperationCallbacks;
 
 public class TestCallbacks implements UpdateOperationCallbacks {
 

@@ -1,6 +1,6 @@
-package com.rusefi.ts_plugin.auth;
+package com.gerefi.ts_plugin.auth;
 
-import com.rusefi.server.UserDetails;
+import com.gerefi.server.UserDetails;
 
 import javax.swing.*;
 import java.awt.*;

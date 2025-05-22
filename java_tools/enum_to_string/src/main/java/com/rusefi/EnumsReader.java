@@ -1,10 +1,10 @@
-package com.rusefi;
+package com.gerefi;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.enum_reader.Value;
+import com.gerefi.enum_reader.Value;
 
-import com.rusefi.newparse.DefinitionsState;
-import com.rusefi.newparse.DefinitionsStateImpl;
+import com.gerefi.newparse.DefinitionsState;
+import com.gerefi.newparse.DefinitionsStateImpl;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.BufferedReader;

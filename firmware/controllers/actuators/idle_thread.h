@@ -9,7 +9,7 @@
 #pragma once
 
 #include "engine_module.h"
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 #include "efi_pid.h"
 #include "sensor.h"
 #include "idle_state_generated.h"

@@ -1,9 +1,9 @@
-package com.rusefi.io;
+package com.gerefi.io;
 
-import com.rusefi.config.generated.Integration;
-import com.rusefi.core.MessagesCentral;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.core.MessagesCentral;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;

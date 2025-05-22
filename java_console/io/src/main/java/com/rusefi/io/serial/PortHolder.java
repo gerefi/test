@@ -1,13 +1,13 @@
-package com.rusefi.io.serial;
+package com.gerefi.io.serial;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.Callable;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.io.ConnectionStateListener;
+import com.gerefi.Callable;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.io.ConnectionStateListener;
 import com.opensr5.io.DataListener;
-import com.rusefi.io.IoStream;
-import com.rusefi.io.LinkManager;
-import com.rusefi.util.IoUtils;
+import com.gerefi.io.IoStream;
+import com.gerefi.io.LinkManager;
+import com.gerefi.util.IoUtils;
 import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;

@@ -2,7 +2,7 @@
  * @file board_configuration.cpp
  *
  *
- * See https://rusefi.com/s/XXX
+ * See https://gerefi.com/s/XXX
  *
  * @author andreika <prometheus.pcb@gmail.com>
  * @author Andrey Belomutskiy, (c) 2012-2020

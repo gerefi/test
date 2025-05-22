@@ -1,7 +1,7 @@
-package com.rusefi.newparse;
+package com.gerefi.newparse;
 
-import com.rusefi.VariableRegistry;
-import com.rusefi.newparse.parsing.Definition;
+import com.gerefi.VariableRegistry;
+import com.gerefi.newparse.parsing.Definition;
 
 public interface DefinitionsState {
     void addDefinition(VariableRegistry variableRegistry, String name, String value, Definition.OverwritePolicy overwritePolicy);

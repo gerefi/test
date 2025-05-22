@@ -1,7 +1,7 @@
-package com.rusefi.parse;
+package com.gerefi.parse;
 
 import com.devexperts.logging.Logging;
-import com.rusefi.ReaderState;
+import com.gerefi.ReaderState;
 
 import java.util.Objects;
 

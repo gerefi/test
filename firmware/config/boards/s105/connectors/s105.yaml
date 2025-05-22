@@ -354,7 +354,7 @@ pins:
 info:
   title: S105
   cid: main
-  board_url: https://github.com/rusefi/S105
+  board_url: https://github.com/gerefi/S105
   directory: s105
   name: S105
   image:

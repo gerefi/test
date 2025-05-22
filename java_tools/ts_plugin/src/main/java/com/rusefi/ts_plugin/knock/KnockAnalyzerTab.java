@@ -1,8 +1,8 @@
-package com.rusefi.ts_plugin.knock;
+package com.gerefi.ts_plugin.knock;
 
 import com.devexperts.logging.Logging;
 import com.efiAnalytics.plugin.ecu.*;
-import com.rusefi.core.ui.AutoupdateUtil;
+import com.gerefi.core.ui.AutoupdateUtil;
 import org.putgemin.VerticalFlowLayout;
 
 import javax.swing.*;

@@ -1,1 +1,1 @@
-https://github.com/rusefi/rusefi-hardware/tree/main/lambda-x2
+https://github.com/gerefi/gerefi-hardware/tree/main/lambda-x2

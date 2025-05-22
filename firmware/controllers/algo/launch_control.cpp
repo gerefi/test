@@ -76,8 +76,8 @@ LaunchCondition LaunchControlBase::calculateRPMLaunchCondition(const float rpm) 
 		&& (engineConfiguration->torqueReductionArmingRpm <= rpm)
 	) {
 		// We need perform Shift Torque Reduction stuff (see
-		// https://github.com/rusefi/rusefi/issues/5608#issuecomment-2391500472 and
-		// https://github.com/rusefi/rusefi/issues/5608#issuecomment-2391772899 for details)
+		// https://github.com/gerefi/gerefi/issues/5608#issuecomment-2391500472 and
+		// https://github.com/gerefi/gerefi/issues/5608#issuecomment-2391772899 for details)
 		return LaunchCondition::NotMet;
 	}
 
@@ -188,7 +188,7 @@ void SoftSparkLimiter::updateTargetSkipRatio(
 	if (allowHardCut) {
 		/*
 		 * We are applying launch controller spark skip ratio only for hard skip limiter (see
-		 * https://github.com/rusefi/rusefi/issues/6566#issuecomment-2153149902).
+		 * https://github.com/gerefi/gerefi/issues/6566#issuecomment-2153149902).
 		 */
 		targetSkipRatio += launchOrShiftTorqueReductionControllerSparkSkipRatio;
 	}

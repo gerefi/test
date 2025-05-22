@@ -617,7 +617,7 @@ pins:
   - pin: F13
 # OUT_IGN4 Q3
 # CLK230
-# used as Coil#1 on M104 https://github.com/rusefi/rusefi/wiki/1997-e320
+# used as Coil#1 on M104 https://github.com/gerefi/gerefi/wiki/1997-e320
     id: E3
     class: outputs
     ts_name: F13 - IGN 4
@@ -673,7 +673,7 @@ info:
   cid: Hellen-128
   title: Hellen 128 Mercedes
   name: Hellen 128 Mercedes
-  board_url: https://rusefi.com/s/hellen128merc
+  board_url: https://gerefi.com/s/hellen128merc
   directory: hellen/hellen128
   image:
     file: main.jpg

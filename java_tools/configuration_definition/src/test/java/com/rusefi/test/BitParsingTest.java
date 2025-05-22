@@ -1,14 +1,14 @@
-package com.rusefi.test;
+package com.gerefi.test;
 
-import com.rusefi.ReaderStateImpl;
-import com.rusefi.TsFileContent;
-import com.rusefi.output.TSProjectConsumer;
-import com.rusefi.util.Output;
+import com.gerefi.ReaderStateImpl;
+import com.gerefi.TsFileContent;
+import com.gerefi.output.TSProjectConsumer;
+import com.gerefi.util.Output;
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
 
-import static com.rusefi.AssertCompatibility.assertTrue;
+import static com.gerefi.AssertCompatibility.assertTrue;
 
 public class BitParsingTest {
     @Test

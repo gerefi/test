@@ -1,12 +1,12 @@
-package com.rusefi.ui;
+package com.gerefi.ui;
 
-import com.rusefi.FileLog;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.preferences.storage.Node;
-import com.rusefi.ui.util.UiUtils;
-import com.rusefi.ui.widgets.AnyCommand;
-import com.rusefi.ui.widgets.DetachedSensor;
-import com.rusefi.ui.widgets.PopupMenuButton;
+import com.gerefi.FileLog;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.preferences.storage.Node;
+import com.gerefi.ui.util.UiUtils;
+import com.gerefi.ui.widgets.AnyCommand;
+import com.gerefi.ui.widgets.DetachedSensor;
+import com.gerefi.ui.widgets.PopupMenuButton;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
@@ -17,7 +17,7 @@ import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.rusefi.core.preferences.storage.PersistentConfiguration.getConfig;
+import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
 
 
 /**

@@ -1,1 +1,1 @@
-https://github.com/rusefi/alphax-2chan/
+https://github.com/gerefi/alphax-2chan/

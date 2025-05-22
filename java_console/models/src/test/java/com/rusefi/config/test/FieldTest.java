@@ -1,8 +1,8 @@
-package com.rusefi.config.test;
+package com.gerefi.config.test;
 
-import com.rusefi.config.Field;
-import com.rusefi.config.FieldCommandResponse;
-import com.rusefi.core.Pair;
+import com.gerefi.config.Field;
+import com.gerefi.config.FieldCommandResponse;
+import com.gerefi.core.Pair;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

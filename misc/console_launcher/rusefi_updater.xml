@@ -2,18 +2,18 @@
 <launch4jConfig>
   <dontWrapJar>true</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>console\rusefi_autoupdate.jar</jar>
-  <outfile>c:\stuff\rusefi\misc\console_launcher\rusefi_updater.exe</outfile>
+  <jar>console\gerefi_autoupdate.jar</jar>
+  <outfile>c:\stuff\gerefi\misc\console_launcher\gerefi_updater.exe</outfile>
   <errTitle></errTitle>
   <cmdLine>basic-ui</cmdLine>
   <chdir>console</chdir>
   <priority>normal</priority>
-  <downloadUrl>https://rusefi.com/s/jre-redirect</downloadUrl>
+  <downloadUrl>https://gerefi.com/s/jre-redirect</downloadUrl>
   <supportUrl></supportUrl>
   <stayAlive>false</stayAlive>
   <restartOnCrash>false</restartOnCrash>
   <manifest></manifest>
-  <icon>c:\stuff\rusefi\misc\console_launcher\favicon.ico</icon>
+  <icon>c:\stuff\gerefi\misc\console_launcher\favicon.ico</icon>
   <jre>
     <path>%JAVA_HOME%;%PATH%</path>
     <requiresJdk>false</requiresJdk>
@@ -23,8 +23,8 @@
   </jre>
   <messages>
     <startupErr>An error occurred while starting the application.</startupErr>
-    <jreNotFoundErr>Please visit https://rusefi.com/s/j/ for Java (JRE) </jreNotFoundErr>
-    <jreVersionErr>Please visit https://rusefi.com/s/j/ for Java (JRE) </jreVersionErr>
+    <jreNotFoundErr>Please visit https://gerefi.com/s/j/ for Java (JRE) </jreNotFoundErr>
+    <jreVersionErr>Please visit https://gerefi.com/s/j/ for Java (JRE) </jreVersionErr>
     <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
     <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
   </messages>

@@ -1,4 +1,4 @@
-// file rusefi_halconf.h
+// file gerefi_halconf.h
 
 #pragma once
 

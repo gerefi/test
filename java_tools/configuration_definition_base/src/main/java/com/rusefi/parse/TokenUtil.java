@@ -1,6 +1,6 @@
-package com.rusefi.parse;
+package com.gerefi.parse;
 
-import com.rusefi.core.Pair;
+import com.gerefi.core.Pair;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

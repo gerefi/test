@@ -1,8 +1,8 @@
-package com.rusefi.tracing.test;
+package com.gerefi.tracing.test;
 
-import com.rusefi.tracing.Entry;
-import com.rusefi.tracing.JsonOutput;
-import com.rusefi.tracing.Phase;
+import com.gerefi.tracing.Entry;
+import com.gerefi.tracing.JsonOutput;
+import com.gerefi.tracing.Phase;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;

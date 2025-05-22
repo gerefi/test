@@ -1,15 +1,15 @@
-package com.rusefi.tools.tune;
+package com.gerefi.tools.tune;
 
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
 import com.opensr5.ini.*;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.binaryprotocol.MsqFactory;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.config.generated.VariableRegistryValues;
-import com.rusefi.enums.engine_type_e;
-import com.rusefi.tune.xml.Constant;
-import com.rusefi.tune.xml.Msq;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.binaryprotocol.MsqFactory;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.config.generated.VariableRegistryValues;
+import com.gerefi.enums.engine_type_e;
+import com.gerefi.tune.xml.Constant;
+import com.gerefi.tune.xml.Msq;
 
 import javax.xml.bind.JAXBException;
 import java.io.File;
@@ -18,10 +18,10 @@ import java.nio.file.Files;
 import java.util.Objects;
 
 import static com.devexperts.logging.Logging.getLogging;
-import static com.rusefi.tools.tune.TuneCanTool.ENGINE_TUNE_OUTPUT_FOLDER;
+import static com.gerefi.tools.tune.TuneCanTool.ENGINE_TUNE_OUTPUT_FOLDER;
 
 /**
- * see <a href="https://github.com/rusefi/rusefi/wiki/Canned-Tune-Process">...</a>
+ * see <a href="https://github.com/gerefi/gerefi/wiki/Canned-Tune-Process">...</a>
  */
 public class WriteSimulatorConfiguration {
     private static final Logging log = getLogging(WriteSimulatorConfiguration.class);

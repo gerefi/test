@@ -6,7 +6,7 @@
 
 class ValueProvider3D;
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 #include "fuel_computer_generated.h"
 
 struct IFuelComputer : public fuel_computer_s {

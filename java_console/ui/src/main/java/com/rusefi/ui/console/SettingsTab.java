@@ -1,14 +1,14 @@
-package com.rusefi.ui.console;
+package com.gerefi.ui.console;
 
 import com.opensr5.ini.DialogModel;
-import com.rusefi.config.Field;
-import com.rusefi.config.FieldType;
-import com.rusefi.config.generated.Integration;
-import com.rusefi.io.LinkManager;
-import com.rusefi.ui.RecentCommands;
-import com.rusefi.ui.UIContext;
-import com.rusefi.ui.config.*;
-import com.rusefi.ui.util.UiUtils;
+import com.gerefi.config.Field;
+import com.gerefi.config.FieldType;
+import com.gerefi.config.generated.Integration;
+import com.gerefi.io.LinkManager;
+import com.gerefi.ui.RecentCommands;
+import com.gerefi.ui.UIContext;
+import com.gerefi.ui.config.*;
+import com.gerefi.ui.util.UiUtils;
 
 import javax.swing.*;
 import java.awt.*;

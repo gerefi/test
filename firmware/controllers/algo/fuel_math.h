@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "rusefi_types.h"
+#include "gerefi_types.h"
 
 void initFuelMap();
 #define C_K_OFFSET 273.15f

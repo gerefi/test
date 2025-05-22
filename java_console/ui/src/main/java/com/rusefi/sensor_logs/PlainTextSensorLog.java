@@ -1,12 +1,12 @@
-package com.rusefi.sensor_logs;
+package com.gerefi.sensor_logs;
 
 import com.devexperts.logging.FileLogger;
-import com.rusefi.FileLog;
-import com.rusefi.Launcher;
-import com.rusefi.binaryprotocol.BinaryProtocol;
-import com.rusefi.core.Sensor;
-import com.rusefi.core.SensorCentral;
-import com.rusefi.ui.UIContext;
+import com.gerefi.FileLog;
+import com.gerefi.Launcher;
+import com.gerefi.binaryprotocol.BinaryProtocol;
+import com.gerefi.core.Sensor;
+import com.gerefi.core.SensorCentral;
+import com.gerefi.ui.UIContext;
 
 import java.io.FileWriter;
 import java.io.IOException;

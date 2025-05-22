@@ -1,4 +1,4 @@
-package com.rusefi.config;
+package com.gerefi.config;
 
 public class Placeholder {
 }

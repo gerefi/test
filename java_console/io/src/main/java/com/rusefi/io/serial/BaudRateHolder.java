@@ -1,4 +1,4 @@
-package com.rusefi.io.serial;
+package com.gerefi.io.serial;
 
 public enum BaudRateHolder {
     INSTANCE;

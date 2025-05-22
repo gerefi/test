@@ -1,6 +1,6 @@
-package com.rusefi.output;
+package com.gerefi.output;
 
-import com.rusefi.ReaderState;
+import com.gerefi.ReaderState;
 
 import java.io.IOException;
 

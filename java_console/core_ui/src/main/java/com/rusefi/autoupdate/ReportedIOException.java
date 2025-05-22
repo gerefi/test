@@ -1,4 +1,4 @@
-package com.rusefi.autoupdate;
+package com.gerefi.autoupdate;
 
 import java.io.IOException;
 

@@ -64,7 +64,7 @@ adcsample_t* fastSampleBuffer;
 static void adc_callback(ADCDriver *adcp) {
 	// State may not be complete if we get a callback for "half done"
 	if (adcIsBufferComplete(adcp)) {
-	  // here we invoke 'fast' from slow ADC due to https://github.com/rusefi/rusefi/issues/3301
+	  // here we invoke 'fast' from slow ADC due to https://github.com/gerefi/gerefi/issues/3301
 		onFastAdcComplete(adcp->samples);
 	}
 }
