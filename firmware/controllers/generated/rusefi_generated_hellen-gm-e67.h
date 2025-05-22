@@ -1743,7 +1743,7 @@
 #define ts_show_l9779 false
 #define ts_show_maf true
 #define ts_show_main_relay true
-#define ts_show_main_relay_microRusEFI_message false
+#define ts_show_main_relay_microGerEFI_message false
 #define ts_show_mc33810 false
 #define ts_show_mc33810_cs false
 #define ts_show_multispark true

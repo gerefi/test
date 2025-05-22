@@ -362,7 +362,7 @@ pins:
     color: light green
 
 info:
-  title: microRusEFI
+  title: microGerEFI
   name: Main Connector
   board_url: https://gerefi.com/s/microgerefi
   directory: microgerefi

@@ -27,14 +27,14 @@
 /*===========================================================================*/
 
 /*
- * Setup for RusEFI STM32F429-208 board.
+ * Setup for GerEFI STM32F429-208 board.
  */
 
 /*
  * Board identifier.
  */
 #define BOARD_ST_STM32F429I_DISCOVERY
-#define BOARD_NAME                  "RusEFI STM32F429-208"
+#define BOARD_NAME                  "GerEFI STM32F429-208"
 
 /*
  * USB settings

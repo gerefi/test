@@ -1300,7 +1300,7 @@
 #define SentEtbType_GM_TYPE_1 1
 #define SentEtbType_NONE 0
 #define show_Frankenso_presets false
-#define show_microRusEFI_presets false
+#define show_microGerEFI_presets false
 #define show_Proteus_presets false
 #define show_test_presets false
 #define show_vvt_output_pin true
@@ -1693,7 +1693,7 @@
 #define ts_show_l9779 false
 #define ts_show_maf true
 #define ts_show_main_relay true
-#define ts_show_main_relay_microRusEFI_message false
+#define ts_show_main_relay_microGerEFI_message false
 #define ts_show_mc33810 false
 #define ts_show_multispark true
 #define ts_show_number_of_cylinders true

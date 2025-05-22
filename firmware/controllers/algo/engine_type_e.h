@@ -57,7 +57,7 @@ enum class engine_type_e : uint16_t {
 	BMW_M52 = 22,
 
 	/**
-	 * microRusEFI used as Body Control Module BCM BCU
+	 * microGerEFI used as Body Control Module BCM BCU
 	 */
 	MRE_BODY_CONTROL = 23,
 	ET_TEST_WITH_BOSCH_QUICK_START = 24,

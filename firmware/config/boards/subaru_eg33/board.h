@@ -11,7 +11,7 @@
 /*
  * Board identifier.
  */
-#define BOARD_NAME                  "Subaru EG33/STM32F765 for RusEFI"
+#define BOARD_NAME                  "Subaru EG33/STM32F765 for GerEFI"
 
 #define EFI_USB_AF					10U
 //#define EFI_USB_SERIAL_ID			Gpio::A10

@@ -11,7 +11,7 @@ assignees: ''
 A clear and concise description of what the bug is.
 
 **Hardware**
- - Board: [e.g. microRusEFI]
+ - Board: [e.g. microGerEFI]
  - Engine info [e.g. m111 NA]
 
 **To Reproduce**

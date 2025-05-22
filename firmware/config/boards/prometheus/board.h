@@ -31,7 +31,7 @@
  * Board identifier.
  */
 #define BOARD_ST_STM32F4_DISCOVERY
-#define BOARD_NAME                  "Prometheus/STM32F469 for RusEFI"
+#define BOARD_NAME                  "Prometheus/STM32F469 for GerEFI"
 
 /*
  * Board oscillators-related settings.

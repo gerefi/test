@@ -188,7 +188,7 @@ void setProteusVwPassatB6() {
 /**
  * set engine_type 62
  * VW_B6
- * has to be microRusEFI 0.5.2
+ * has to be microGerEFI 0.5.2
  */
 void setMreVwPassatB6() {
 #if HW_MICRO_GEREFI

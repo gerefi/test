@@ -2,7 +2,7 @@
 ENTRY(Reset_Handler)
 
 /* This linker file is for OpenBLT bootloader. It compatible with any STM32F4xx
- * that used in RusEFI project. So no CCM memory is defined. Also Flash is
+ * that used in GerEFI project. So no CCM memory is defined. Also Flash is
  * limited by 32K and last 16bytes of RAM are reserved for shared region
  * between FW and bootloader */
 

@@ -11,7 +11,7 @@ DDEFS += -DEFI_MAIN_RELAY_CONTROL=FALSE
 # see also openblt/board.mk STATUS_LED
 DDEFS += -DLED_CRITICAL_ERROR_BRAIN_PIN=Gpio::E3
 
-# *TEMPORARY* breaking TTL thus breaking Bluetooth for microRusEFI in order to enable SPI3 for SD card
+# *TEMPORARY* breaking TTL thus breaking Bluetooth for microGerEFI in order to enable SPI3 for SD card
 # *TODO* need to give people the horrible choice between Bluetooth via TTL or SD card via SPI :( horrible choice
 # PB10/PB11 uses UART3 peripheral and J12/J13 on MRE
 # we also have PC10/PC11 exposed on J4 but that's same UART3
@@ -33,7 +33,7 @@ DDEFS += -DEFI_AUX_VALVES=TRUE
 DDEFS += -DBOARD_TLE8888_COUNT=1
 DDEFS += -DEFI_MC33816=TRUE
 
-DDEFS += -DFIRMWARE_ID=\"microRusEFI\"
+DDEFS += -DFIRMWARE_ID=\"microGerEFI\"
 DDEFS += -DEFI_SOFTWARE_KNOCK=TRUE -DSTM32_ADC_USE_ADC3=TRUE
 DDEFS += $(VAR_DEF_ENGINE_TYPE)
 
@@ -50,7 +50,7 @@ DDEFS += -DKLINE_SERIAL_DEVICE_RX=Gpio::D9 -DKLINE_SERIAL_DEVICE_TX=Gpio::D8
 DDEFS += -DKLINE_SERIAL_DEVICE=SD3
 DDEFS += -DSTM32_SERIAL_USE_USART3=TRUE
 
-# We are running on microRusEFI hardware!
+# We are running on microGerEFI hardware!
 DDEFS += -DHW_MICRO_GEREFI=1
 
 ifeq ($(PROJECT_CPU),ARCH_STM32F7)

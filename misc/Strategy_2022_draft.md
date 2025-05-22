@@ -1,7 +1,7 @@
 
 We still need software developers. 
 
-Two years of microRusEFI and Proteus sales did not bring us much of new software developers. 
+Two years of microGerEFI and Proteus sales did not bring us much of new software developers. 
 At the moment most of gerEFI Hellen boards are pretty successful as end-user products, not as means to bring new developers.
 
 I think it's time to admit that we enjoy focusing on a small number of specific platforms instead of running thin trying to remotely

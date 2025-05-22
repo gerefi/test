@@ -252,7 +252,7 @@ public class TriggerImage {
 
                     double nextAngle = i == wheel.size() - 1 ? 360 + wheel.get(0).getAngle() : wheel.get(i + 1).getAngle();
                     int arcDuration = (int) (current.getAngle() - nextAngle);
-                    int arcStart = (int) arcToRusEFI(nextAngle);
+                    int arcStart = (int) arcToGerEFI(nextAngle);
                     if (current.getState() == 1) {
                         g.drawArc(WHEEL_BORDER, WHEEL_BORDER, WHEEL_DIAMETER, WHEEL_DIAMETER, arcStart, arcDuration);
                     } else {
@@ -274,7 +274,7 @@ public class TriggerImage {
         };
     }
 
-    private static double arcToRusEFI(double angle) {
+    private static double arcToGerEFI(double angle) {
         return angle + _180 - 90;
     }
 

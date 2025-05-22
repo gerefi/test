@@ -35,7 +35,7 @@ StorageStatus storageRead(int id, uint8_t *ptr, size_t size);
 
 void initStorage();
 
-// IDs used as MFS record ids and internal RusEFI ids
+// IDs used as MFS record ids and internal GerEFI ids
 // Convert to enum/class
 #define EFI_SETTINGS_RECORD_ID		1
 #define EFI_LTFT_RECORD_ID			2

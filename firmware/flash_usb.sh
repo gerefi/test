@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script will try to flash/update RusEFI part of firmware over USB interface.
+# This script will try to flash/update GerEFI part of firmware over USB interface.
 
 echo "This script may need root privileges for accessing USB device or special udev rules (TODO)"
 

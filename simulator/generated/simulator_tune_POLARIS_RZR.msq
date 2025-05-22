@@ -4915,8 +4915,8 @@ end</constant>
         <constant digits="2" name="wastegatePositionOpenedVoltage" units="v">5.0</constant>
         <constant name="wastegatePositionSensor">"Disabled"</constant>
         <constant name="watchOutForLinearTime">"true"</constant>
-        <constant name="wboType1">"RusEFI"</constant>
-        <constant name="wboType2">"RusEFI"</constant>
+        <constant name="wboType1">"GerEFI"</constant>
+        <constant name="wboType2">"GerEFI"</constant>
         <constant name="widebandOnSecondBus">"CAN1"</constant>
         <constant digits="2" name="wwaeBeta" units="Fraction">0.3</constant>
         <constant digits="2" name="wwaeTau" units="Seconds">0.3</constant>

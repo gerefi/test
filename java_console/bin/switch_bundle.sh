@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# switch from one kind of bundle to another, for instance from microRusEFI to Hellen72
+# switch from one kind of bundle to another, for instance from microGerEFI to Hellen72
 #
 
 if [ -z "$1" ]; then

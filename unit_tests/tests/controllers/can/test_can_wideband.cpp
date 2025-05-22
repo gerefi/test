@@ -17,7 +17,7 @@ TEST(CanWideband, AcceptFrameId0) {
 	frame.SID = 0x180;
 	EXPECT_TRUE(dut.acceptFrame(frame));
 
-	// Now switch to RusEFI
+	// Now switch to GerEFI
 	engineConfiguration->wboType1 = GEREFI;
 
 	// Check that the gerEFI standard data is accepted
@@ -44,7 +44,7 @@ TEST(CanWideband, AcceptFrameId1) {
 	frame.SID = 0x181;
 	EXPECT_TRUE(dut.acceptFrame(frame));
 
-	// Now switch to RusEFI
+	// Now switch to GerEFI
 	engineConfiguration->wboType2 = GEREFI;
 
 	// Check that the gerEFI standard data is accepted

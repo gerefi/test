@@ -210,7 +210,7 @@
 #define can_wbo_type_e_AEM 1
 #define can_wbo_type_e_auto_enum 0="GEREFI",1="AEM",2="DISABLED"
 #define can_wbo_type_e_DISABLED 2
-#define can_wbo_type_e_enum "RusEFI", "AEM X-series", "Disabled/Analog"
+#define can_wbo_type_e_enum "GerEFI", "AEM X-series", "Disabled/Analog"
 #define can_wbo_type_e_GEREFI 0
 #define CanGpioType_auto_enum 0="NONE",1="DRT",2="MS"
 #define CanGpioType_DRT 1
@@ -1882,7 +1882,7 @@
 #define ts_show_l9779 false
 #define ts_show_maf true
 #define ts_show_main_relay true
-#define ts_show_main_relay_microRusEFI_message false
+#define ts_show_main_relay_microGerEFI_message false
 #define ts_show_mc33810 false
 #define ts_show_mc33810_cs false
 #define ts_show_multispark true

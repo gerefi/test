@@ -293,7 +293,7 @@ Release template (copy/paste this for new release):
  - STM32Cube v2.13 #5135
  - Native (modern, fancy, digital) SENT TPS input #5079
  - Allow k-line as a runtime option on default build
- - microRusEFI: Indicator for injector hardware issues #5189
+ - microGerEFI: Indicator for injector hardware issues #5189
 
 ### Breaking Changes
  - gerefi_default_bundle.zip was replaced by gerefi_bundle_f407-discovery.zip #5078
@@ -390,7 +390,7 @@ Release template (copy/paste this for new release):
 
 ### Added
  - raw voltage gauges for Lua script aux analog inputs #4346
- - microRusEFI and Proteus F4 have CAN OpenBLT bootloader #4199 #4230
+ - microGerEFI and Proteus F4 have CAN OpenBLT bootloader #4199 #4230
  - counter-noise measure for custom skipped trigger wheels #4375
  - Write hard faults to backup ram, print on next boot #4324
  - Many more options for Lua CAN rx filters/callbacks #4387
@@ -435,7 +435,7 @@ Release template (copy/paste this for new release):
  - Advanced Trigger option: require engine phase synchronization in sequential mode #4151
  - Maintainability: frequency sensors need a simple event counter in the logs #4173
  - TS bench test commands are now configurable #4192
- - microRusEFI can now use more pins for Cam position sensor #3032
+ - microGerEFI can now use more pins for Cam position sensor #3032
  - hard requirement for console version match #4187
 
 ### Fixed
@@ -457,7 +457,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
  - Mitsubishi 36-2-1-1 trigger wheel
  - Mitsubishi 3A92 VVT trigger
  - Toyota 4-1 VVT trigger
- - use extra RAM for lua if your microRusEFI unit has stm32f42x microcontroller
+ - use extra RAM for lua if your microGerEFI unit has stm32f42x microcontroller
  - VVT activation delay #3443
  - Allow setting injection phase by start or center of injection #4068
  - New 'View' menu in TunerStudio showing a lot of live data points #3614
@@ -654,7 +654,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
 
 ### Fixed
  - Simplify idle control dialog in TunerStudio
- - microRusEFI outputs are in trouble on configuration change
+ - microGerEFI outputs are in trouble on configuration change
  - CLT gauge no longer erroneously shows "deg F" by default.
 
 ### December 2020 Bake Cookies Day
@@ -668,7 +668,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
  - Changed scheduling timer driver to improve scheduling accuracy #1983
 
 ### Fixed
- - microRusEFI GP3 & GP4 fixed
+ - microGerEFI GP3 & GP4 fixed
 
 ## December 2020 National Mutt Day
 
@@ -684,7 +684,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
 ### Added
  -   High & low pressure fuel sensor channels
  -   Electronic throttle-style wastegate control found on some VW turbos (and VGTs)
- -   Improved TLE8888 driver on microRusEFI
+ -   Improved TLE8888 driver on microGerEFI
  -   Improved setting ECU presets/defaults from TunerStudio
 
 ### Fixed
@@ -694,7 +694,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
 
 ### Added
  -   `iat` as FSIO variable to read intake air temperature
- -   [ALPHA] Software based knock detection on Proteus v0.4+.  Possible on microRusEFI and Frankenso too with hardware modification.
+ -   [ALPHA] Software based knock detection on Proteus v0.4+.  Possible on microGerEFI and Frankenso too with hardware modification.
  -   [ALPHA] Early framing work for automatic transmission control!
 
 ### Fixed

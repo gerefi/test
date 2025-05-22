@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script will try to flash/update RusEFI part of firmware over serial/USB serial interface.
+# This script will try to flash/update GerEFI part of firmware over serial/USB serial interface.
 
 BootCommander -t=xcp_rs232 -d=/dev/ttyACM0 build/gerefi.srec
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script will try to flash/update RusEFI part of firmware over can0 interface.
+# This script will try to flash/update GerEFI part of firmware over can0 interface.
 #
 # You may want to bring can0 interface up first:
 # sudo ip link set can0 type can bitrate 500000 ; sudo ifconfig can0 up

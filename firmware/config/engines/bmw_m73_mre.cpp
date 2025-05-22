@@ -69,7 +69,7 @@ void setEngineBMW_M73_microRusEfi() {
 	// 13641435991 injector
 	engineConfiguration->injector.flow = 180; // cc/min, who knows if this number is real - no good source of info
 
-	strcpy(engineConfiguration->vehicleName, "microRusEFIx2");
+	strcpy(engineConfiguration->vehicleName, "microGerEFIx2");
 
 	engineConfiguration->globalTriggerAngleOffset = 90;
 	engineConfiguration->cylindersCount = 6;

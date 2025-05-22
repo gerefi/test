@@ -244,7 +244,7 @@ ifeq ($(USE_FATFS),yes)
   include $(CHIBIOS)/os/various/fatfs_bindings/fatfs.mk
 endif
 
-#Now include RusEFI mk files
+#Now include GerEFI mk files
 include console/binary/tunerstudio.mk
 ifeq ($(USE_FATFS),yes)
   include $(PROJECT_DIR)/ext/FatFS/fatfs.mk

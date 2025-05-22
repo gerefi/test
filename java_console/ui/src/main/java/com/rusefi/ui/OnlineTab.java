@@ -17,7 +17,7 @@ public class OnlineTab {
     public OnlineTab(UIContext uiContext) {
         AuthTokenPanel authTokenPanel = new AuthTokenPanel();
 
-        content.add(Misc.getRusEFI_online_manual());
+        content.add(Misc.getGerEFI_online_manual());
 
         content.add(authTokenPanel.getContent());
 

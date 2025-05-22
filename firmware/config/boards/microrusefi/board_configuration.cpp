@@ -70,7 +70,7 @@ static void setupVbatt() {
 }
 
 static void setupTle8888() {
-	// on microRusEFI SPI3 is exposed on PC10/PC11 and there is interest to use SD card there
+	// on microGerEFI SPI3 is exposed on PC10/PC11 and there is interest to use SD card there
 	// PB3/PB4 could be either SPI1 or SP3, let's use not SPI3 to address the contention
 
 	// Enable and wire up SPI1

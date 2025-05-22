@@ -4,12 +4,12 @@ https://github.com/gerefi/gerefi/wiki/SENT-ETB-Electronic-Throttle-Body
 
 for unit test see https://github.com/gerefi/gerefi/tree/master/unit_tests/tests/sent
 
-On microRusEFI only "23 - AN temp 2" could be used for SENT since that's the only pin suitable RC filter and input capture peripheral (PA1/ICU2)
+On microGerEFI only "23 - AN temp 2" could be used for SENT since that's the only pin suitable RC filter and input capture peripheral (PA1/ICU2)
 
 
-On microRusEFI 0.5.2 and newer C54 would need to be removed. https://gerefi.com/docs/ibom/micro_gerEFI_R0.6.0.html
+On microGerEFI 0.5.2 and newer C54 would need to be removed. https://gerefi.com/docs/ibom/micro_gerEFI_R0.6.0.html
 
-On microRusEFI 0.5.0 unforunatelly complete CN17 array on the back would need to be removed.
+On microGerEFI 0.5.0 unforunatelly complete CN17 array on the back would need to be removed.
 
 
 
