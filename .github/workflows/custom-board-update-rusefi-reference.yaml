@@ -2,7 +2,7 @@
 #
 #
 
-name: Update rusEFI Reference
+name: Update gerEFI Reference
 
 on:
   workflow_call:

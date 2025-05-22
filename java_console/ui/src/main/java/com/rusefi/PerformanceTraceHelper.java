@@ -32,7 +32,7 @@ public class PerformanceTraceHelper {
             }
             MessagesCentral.getInstance().postMessage(PerformanceTraceHelper.class, "Got " + data.size() + " PTrace entries");
             int rpm = RpmModel.getInstance().getValue();
-            String fileName = FileLog.getDate() + "_rpm_" + rpm + "_rusEFI_trace" + ".json";
+            String fileName = FileLog.getDate() + "_rpm_" + rpm + "_gerEFI_trace" + ".json";
 
             File outputFile = new File(fileName);
             JsonOutput.writeToStream(data, new FileOutputStream(outputFile));

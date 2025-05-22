@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/actuators/dc_motors.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/actuators/dc_motors.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -123,4 +123,4 @@ struct dc_motors_s {
 static_assert(sizeof(dc_motors_s) == 12);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/actuators/dc_motors.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/actuators/dc_motors.txt

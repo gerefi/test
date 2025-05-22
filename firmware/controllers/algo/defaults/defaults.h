@@ -21,7 +21,7 @@ void setupTLE9201IncludingStepper(Gpio controlPin, Gpio direction, Gpio disable,
 #define DEFAULT_CRANKING_ANGLE 6
 #define HpfpLobeProfile_SIZE 16
 
-	// most of rusEFI installations are still port injected, for GDI see 'setGDIFueling'
+	// most of gerEFI installations are still port injected, for GDI see 'setGDIFueling'
 	// -400 will close the injector just before TDC at the end of the exhaust stroke,
 	// around the time the intake valve opens.
 #define PORT_INJECTION_OFFSET -400.0f

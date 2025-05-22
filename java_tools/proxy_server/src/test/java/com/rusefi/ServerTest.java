@@ -28,10 +28,10 @@ import static com.gerefi.TestHelper.assertLatch;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
- * integration test of the rusEFI online backend process
+ * integration test of the gerEFI online backend process
  * At the moment this test is very loose with timing it must be unreliable?
  * <p>
- * https://github.com/gerefi/web_backend/blob/master/documentation/rusEFI%20remote.png
+ * https://github.com/gerefi/web_backend/blob/master/documentation/gerEFI%20remote.png
  */
 public class ServerTest {
     @BeforeEach
@@ -120,10 +120,10 @@ covered by FullServerTest
 
             TestHelper.runControllerConnectorBlocking(backend, serverPortForControllers);
 
-            // create virtual controller to which "rusEFI network connector" connects to
+            // create virtual controller to which "gerEFI network connector" connects to
             TestHelper.createVirtualController(controllerPort, new ConfigurationImage(Fields.TOTAL_CONFIG_SIZE), logger);
 
-            // start "rusEFI network connector" to connect controller with backend since in real life controller has only local serial port it does not have network
+            // start "gerEFI network connector" to connect controller with backend since in real life controller has only local serial port it does not have network
             SessionDetails deviceSessionDetails = NetworkConnector.start(MockRusEfiDevice.TEST_TOKEN_1, TestHelper.LOCALHOST + ":" + controllerPort, serverPortForControllers);
 
             assertTrue(controllerRegistered.await(READ_IMAGE_TIMEOUT, TimeUnit.MILLISECONDS));
@@ -196,7 +196,7 @@ covered by FullServerTest
         }
 
         public void connect(int serverPort) throws IOException {
-            Socket socket = rusEFISSLContext.getSSLSocket(TcpConnector.LOCALHOST, serverPort);
+            Socket socket = gerEFISSLContext.getSSLSocket(TcpConnector.LOCALHOST, serverPort);
             BaseBroadcastingThread baseBroadcastingThread = new BaseBroadcastingThread(socket,
                     sessionDetails,
                     TcpIoStream.DisconnectListener.VOID, new NetworkConnectorContext()) {

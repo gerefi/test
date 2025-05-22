@@ -47,20 +47,20 @@ jobs:
         if: ${{ github.event_name == 'push' }}
         uses: actions/upload-artifact@v4
         with:
-          name: rusEFI-release
-          path: ./android/app/build/outputs/apk/release/rusEFI-release.apk
+          name: gerEFI-release
+          path: ./android/app/build/outputs/apk/release/gerEFI-release.apk
 
       - name: Upload APK - unsigned
         if: ${{ github.event_name != 'push' }}
         uses: actions/upload-artifact@v4
         with:
-          name: rusEFI-release-unsigned
-          path: ./android/app/build/outputs/bundle/debug/rusEFI-debug.aab
+          name: gerEFI-release-unsigned
+          path: ./android/app/build/outputs/bundle/debug/gerEFI-debug.aab
 
       - name: Install Tools
         run: sudo apt-get install sshpass
 
-      - name: Upload rusEFI Android application
+      - name: Upload gerEFI Android application
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         working-directory: .
-        run: java_console/upload_file.sh ${{ secrets.RUSEFI_SSH_USER }} ${{ secrets.RUSEFI_SSH_PASS }} ${{ secrets.RUSEFI_SSH_SERVER }} build_server android/app/build/outputs/apk/release/rusEFI-release.apk
+        run: java_console/upload_file.sh ${{ secrets.RUSEFI_SSH_USER }} ${{ secrets.RUSEFI_SSH_PASS }} ${{ secrets.RUSEFI_SSH_SERVER }} build_server android/app/build/outputs/apk/release/gerEFI-release.apk

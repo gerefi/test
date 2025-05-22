@@ -1,4 +1,4 @@
-// was generated automatically by rusEFI tool  from sync_edge.h // by enum2string.jar tool on Fri Sep 23 12:11:58 PDT 2022
+// was generated automatically by gerEFI tool  from sync_edge.h // by enum2string.jar tool on Fri Sep 23 12:11:58 PDT 2022
 // see also gen_config_and_enums.bat
 
 

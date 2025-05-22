@@ -26,7 +26,7 @@ public class StLinkFlasher {
     private static final String OPENOCD_BINARY_LOCATION = ".";
     private static final String SUCCESS_MESSAGE_TAG = "shutdown command invoked";
     private static final String FAILED_MESSAGE_TAG = "failed";
-    public static final String TITLE = "rusEFI ST-LINK Firmware Flasher";
+    public static final String TITLE = "gerEFI ST-LINK Firmware Flasher";
     public static final String DONE = "DONE!";
     private static final String WMIC_STLINK_QUERY_COMMAND = "wmic path win32_pnpentity where \"Caption like '%STLink%'\" get Caption,ConfigManagerErrorCode /format:list";
 

@@ -49,7 +49,7 @@ public class IoUtil {
     }
 
     /**
-     * blocking method which would for confirmation from rusEFI
+     * blocking method which would for confirmation from gerEFI
      */
     public static void sendBlockingCommand(String command, int timeoutMs, CommandQueue commandQueue) {
         final CountDownLatch responseLatch = new CountDownLatch(1);

@@ -36,7 +36,7 @@ import java.util.Map;
 import static com.devexperts.logging.Logging.getLogging;
 import static com.gerefi.StartupFrame.setFrameIcon;
 import static com.gerefi.core.preferences.storage.PersistentConfiguration.getConfig;
-import static com.gerefi.core.rusEFIVersion.CONSOLE_VERSION;
+import static com.gerefi.core.gerEFIVersion.CONSOLE_VERSION;
 import static com.gerefi.ui.util.UiUtils.createOnTopParent;
 
 /**
@@ -45,12 +45,12 @@ import static com.gerefi.ui.util.UiUtils.createOnTopParent;
 public class ConsoleUI {
     private static final Logging log = getLogging(ConsoleUI.class);
     private static final int DEFAULT_TAB_INDEX = 0;
-    private static final String WIKI_URL = "https://github.com/gerefi/gerefi/wiki/rusEFI-logs-folder";
+    private static final String WIKI_URL = "https://github.com/gerefi/gerefi/wiki/gerEFI-logs-folder";
 
     public static final String TAB_INDEX = "main_tab";
     protected static final String PORT_KEY = "port";
     protected static final String SPEED_KEY = "speed";
-    public static final String TITLE = "rusEFI";
+    public static final String TITLE = "gerEFI";
     public static EngineSnifferPanel engineSnifferPanel;
 
     static Frame staticFrame;
@@ -147,7 +147,7 @@ public class ConsoleUI {
 
         /*
         https://github.com/gerefi/gerefi/issues/5956
-        tabbedPane.addTab("rusEFI Online", new OnlineTab(uiContext).getContent());
+        tabbedPane.addTab("gerEFI Online", new OnlineTab(uiContext).getContent());
 */
         tabbedPane.addTab("Connection", new ConnectionTab(uiContext).getContent());
 

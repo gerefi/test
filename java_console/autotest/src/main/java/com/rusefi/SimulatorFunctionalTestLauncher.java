@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * this class runs rusEFI functional tests against rusEFI simulator
+ * this class runs gerEFI functional tests against gerEFI simulator
  */
 public class SimulatorFunctionalTestLauncher {
     static volatile boolean isHappy;

@@ -235,7 +235,7 @@ static StorageStatus validatePersistentState() {
 
 #if EFI_STORAGE_INT_FLASH == TRUE
 /**
- * Read single copy of rusEFI configuration from interan flash using custom driver
+ * Read single copy of gerEFI configuration from interan flash using custom driver
  */
 static StorageStatus readOneConfigurationCopy(flashaddr_t address) {
 	efiPrintf("readFromFlash %x", address);

@@ -8,7 +8,7 @@ Used for incremental auto-IAC control. See autoIdle() in idle_thread.cpp
 *** A bit of background ***
 
 @darxfame and @andreika have been experimenting with some of the PID auto-tuning methods for IAC (Ziegler etc.). 
-They tested the obtained coefficients on the existing ("classic") PID implementation in rusEFI and looked at what was going on using the debug logs. 
+They tested the obtained coefficients on the existing ("classic") PID implementation in gerEFI and looked at what was going on using the debug logs. 
 It's observed that the I-term tends to exceed the min/max limits very often, especially at the initial stages of PID tuning.
 This greatly distorts the results and negates the perception of the reaction of the system when selecting parameters. 
 In the classic PID implementation, the I-term is limited to min/max values of the PID itself. And that's by no means always acceptable, 

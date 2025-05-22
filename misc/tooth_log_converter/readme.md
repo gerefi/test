@@ -1,7 +1,7 @@
 # SD Tooth Log Converter
 
 TODO: how exactly do we want to make this more user friendly? Should we write .csv right on the SD card? Should we use
-rusEFI console to convert? A web based conversion/viewer? Else?
+gerEFI console to convert? A web based conversion/viewer? Else?
 
 This program converts SD stored tooth logs to csv for analysis or replay as part of a unit test.
 

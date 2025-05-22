@@ -3,7 +3,7 @@
 /**
  * problem: we have three files with bits and pieces of time API and documentation
  * 1) this implementation class
- * 2) rusEFI header efitime.h
+ * 2) gerEFI header efitime.h
  * 3) libfirmware header gerefi_time_types.h
  */
 
@@ -29,7 +29,7 @@ efitimeus_t getTimeNowUs() {
 }
 
 /**
- * 32 bit return type overflows in 23(or46?) days. tag#4554. I think we do not expect rusEFI to run for 23 days straight days any time soon?
+ * 32 bit return type overflows in 23(or46?) days. tag#4554. I think we do not expect gerEFI to run for 23 days straight days any time soon?
  */
 efitimems_t getTimeNowMs() {
 	return US2MS(getTimeNowUs());

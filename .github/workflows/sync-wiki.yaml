@@ -51,7 +51,7 @@ jobs:
         # revert the file to its original state
         git checkout -- .github/workflows/sync-wiki2.yaml .github/workflows/sync-wiki3.yaml
         # commit the merge
-        git commit -m "merge rusEFI wiki"
+        git commit -m "merge gerEFI wiki"
 
     - name: Push changes to gerefi_documentation technical wiki
       uses: ad-m/github-push-action@master

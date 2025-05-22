@@ -1,4 +1,4 @@
-Main folder for rusEFI console source code, also some dev utilities.
+Main folder for gerEFI console source code, also some dev utilities.
 
 TODO: one day we shall merge java_console and java_tools, right after we come up with an amazing combined folder name!
 

@@ -3,7 +3,7 @@ package com.gerefi;
 import com.devexperts.logging.Logging;
 import com.opensr5.ConfigurationImage;
 import com.gerefi.binaryprotocol.BinaryProtocol;
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 import com.gerefi.io.ConnectionStateListener;
 import com.gerefi.io.LinkManager;
 import com.gerefi.io.tcp.BinaryProtocolServer;
@@ -89,7 +89,7 @@ public class FullServerTest {
             BackendTestHelper.runControllerConnectorBlocking(backend, serverPortForControllers);
             BackendTestHelper.runApplicationConnectorBlocking(backend, localApplicationProxyContext.serverPortForRemoteApplications());
 
-            log.info("create virtual controller to which \"rusEFI network connector\" connects to");
+            log.info("create virtual controller to which \"gerEFI network connector\" connects to");
             int controllerPort = 7002;
             ConfigurationImage controllerImage = prepareImage(value);
             log.info("Connecting " + controllerPort);
@@ -109,14 +109,14 @@ public class FullServerTest {
                 }
             };
 
-            // start "rusEFI network connector" to connect controller with backend since in real life controller has only local serial port it does not have network
+            // start "gerEFI network connector" to connect controller with backend since in real life controller has only local serial port it does not have network
             NetworkConnector.NetworkConnectorResult networkConnectorResult = networkConnector.start(NetworkConnector.Implementation.Unknown,
                 TestHelper.TEST_TOKEN_1, TcpConnector.LOCALHOST + ":" + controllerPort, networkConnectorContext, NetworkConnector.ReconnectListener.VOID);
             ControllerInfo controllerInfo = networkConnectorResult.getControllerInfo();
 
-            TestHelper.assertLatch("controllerRegistered. todo: this test should not depend on internet connection and having real .ini on rusEFI online", controllerRegistered);
+            TestHelper.assertLatch("controllerRegistered. todo: this test should not depend on internet connection and having real .ini on gerEFI online", controllerRegistered);
 
-            SessionDetails authenticatorSessionDetails = new SessionDetails(NetworkConnector.Implementation.Unknown, controllerInfo, TEST_TOKEN_3, networkConnectorResult.getOneTimeToken(), rusEFIVersion.CONSOLE_VERSION);
+            SessionDetails authenticatorSessionDetails = new SessionDetails(NetworkConnector.Implementation.Unknown, controllerInfo, TEST_TOKEN_3, networkConnectorResult.getOneTimeToken(), gerEFIVersion.CONSOLE_VERSION);
             ApplicationRequest applicationRequest = new ApplicationRequest(authenticatorSessionDetails, userDetailsResolver.apply(TestHelper.TEST_TOKEN_1));
 
             CloseableHttpResponse response = LocalApplicationProxy.requestSoftwareUpdate(httpPort, applicationRequest, UpdateType.CONTROLLER);

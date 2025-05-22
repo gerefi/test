@@ -1,4 +1,4 @@
-// This file asserts that the compiler is appropriate for rusEFI use.
+// This file asserts that the compiler is appropriate for gerEFI use.
 
 // non-MCU builds are significantly more tolerant
 #if EFI_PROD_CODE

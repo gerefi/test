@@ -28,7 +28,7 @@ log.txt
 # Eclipse
 .metadata/
 
-# rusEFI simulator makes logs, ignore those
+# gerEFI simulator makes logs, ignore those
 gerefi_simulator_log.mlg
 
 # bundle

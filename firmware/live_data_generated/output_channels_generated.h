@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) console/binary/output_channels.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) console/binary/output_channels.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -1581,4 +1581,4 @@ struct output_channels_s {
 static_assert(sizeof(output_channels_s) == 876);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) console/binary/output_channels.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) console/binary/output_channels.txt

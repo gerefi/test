@@ -2,7 +2,7 @@
 
 TL,DR: for community edition see f407-discovery.
 
-rusEFI supports quite a wide array of hardware:
+gerEFI supports quite a wide array of hardware:
  * most supported platforms are stm32f4 and stm32f7
  * alpha version support stm32h7
  * experimental support [kinetis](https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/general-purpose-mcus/k-series-cortex-m4:KINETIS_K_SERIES)

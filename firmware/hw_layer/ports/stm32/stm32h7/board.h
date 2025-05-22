@@ -29,7 +29,7 @@
 /*
  * Board identifier.
  */
-#define BOARD_NAME                  "H7 rusEFI"
+#define BOARD_NAME                  "H7 gerEFI"
 
 #define EFI_USB_AF 10U
 #define EFI_USB_SERIAL_DM Gpio::A11

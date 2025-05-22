@@ -1,6 +1,6 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 {
-	"name": "rusEFI-devcontainer",
+	"name": "gerEFI-devcontainer",
 	"build": {
 		// Path is relative to the devcontainer.json file.
 		"dockerfile": "Dockerfile"

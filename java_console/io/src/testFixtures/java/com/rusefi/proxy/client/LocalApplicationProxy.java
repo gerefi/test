@@ -14,7 +14,7 @@ import com.gerefi.io.tcp.ServerSocketReference;
 import com.gerefi.io.tcp.TcpIoStream;
 import com.gerefi.proxy.NetworkConnector;
 import com.gerefi.server.ApplicationRequest;
-import com.gerefi.server.rusEFISSLContext;
+import com.gerefi.server.gerEFISSLContext;
 import com.gerefi.tools.online.HttpUtil;
 import com.gerefi.tools.online.ProxyClient;
 import com.gerefi.ui.StatusConsumer;
@@ -40,7 +40,7 @@ import static com.gerefi.Timeouts.BINARY_IO_TIMEOUT;
 import static com.gerefi.binaryprotocol.BinaryProtocol.sleep;
 
 /**
- * Remote user process which facilitates connection between local tuning application and real ECU via rusEFI proxy service
+ * Remote user process which facilitates connection between local tuning application and real ECU via gerEFI proxy service
  */
 public class LocalApplicationProxy implements Closeable {
     private static final ThreadFactory THREAD_FACTORY = new NamedThreadFactory("gauge poking", true);
@@ -99,7 +99,7 @@ public class LocalApplicationProxy implements Closeable {
             throw new IncompatibleBackendException(message);
         }
 
-        AbstractIoStream authenticatorToProxyStream = new TcpIoStream("authenticatorToProxyStream ", rusEFISSLContext.getSSLSocket(HttpUtil.RUSEFI_PROXY_HOSTNAME, context.serverPortForRemoteApplications()), disconnectListener);
+        AbstractIoStream authenticatorToProxyStream = new TcpIoStream("authenticatorToProxyStream ", gerEFISSLContext.getSSLSocket(HttpUtil.RUSEFI_PROXY_HOSTNAME, context.serverPortForRemoteApplications()), disconnectListener);
         sendHello(authenticatorToProxyStream, applicationRequest);
 
         AtomicLong lastActivity = new AtomicLong(System.currentTimeMillis());

@@ -283,7 +283,7 @@ jobs:
         allowUpdates: true
         prerelease: true
 
-    - name: Upload .ini files to rusEFI Online server
+    - name: Upload .ini files to gerEFI Online server
       if: ${{ env.full == 'true' }}
       working-directory: ./firmware
       run: |

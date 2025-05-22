@@ -38,13 +38,13 @@ public class PlainTextSensorLog implements SensorLog {
 
     private void startSensorLogFile() {
         FileLogger.createFolderIfNeeded();
-        String fileName = FileLogger.DIR + "rusEFI_gauges_" + FileLog.getDate() + ".msl";
+        String fileName = FileLogger.DIR + "gerEFI_gauges_" + FileLog.getDate() + ".msl";
 
         fileStartTime = System.currentTimeMillis();
         try {
             logFile = new FileWriter(fileName);
 
-            logFile.write("\"rusEFI console" + Launcher.CONSOLE_VERSION + " firmware " + Launcher.firmwareVersion.get() + "\"\r\n");
+            logFile.write("\"gerEFI console" + Launcher.CONSOLE_VERSION + " firmware " + Launcher.firmwareVersion.get() + "\"\r\n");
             logFile.write("Captured " + FileLog.getDate() + "\r\n");
 
             BinaryProtocol bp = uiContext.getLinkManager().getCurrentStreamState();

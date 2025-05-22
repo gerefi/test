@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/fuel/fuel_computer.txt Sat Feb 17 23:38:05 UTC 2024
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/fuel/fuel_computer.txt Sat Feb 17 23:38:05 UTC 2024
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -204,4 +204,4 @@ struct fuel_computer_s {
 static_assert(sizeof(fuel_computer_s) == 52);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/fuel/fuel_computer.txt Sat Feb 17 23:38:05 UTC 2024
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/fuel/fuel_computer.txt Sat Feb 17 23:38:05 UTC 2024

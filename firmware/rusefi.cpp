@@ -14,7 +14,7 @@
  *
  * @section sec_intro Intro
  *
- * rusEFI is implemented based on the idea that with modern 100+ MHz microprocessors the relatively
+ * gerEFI is implemented based on the idea that with modern 100+ MHz microprocessors the relatively
  * undemanding task of internal combustion engine control could be implemented in a high-level, processor-independent
  * (to some extent) manner. Thus the key concepts of rusEfi: dependency on high-level hardware abstraction layer, software-based PWM etc.
  *

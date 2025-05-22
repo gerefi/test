@@ -5,7 +5,7 @@ import org.json.simple.JSONObject;
 import java.util.Objects;
 
 /**
- * rusEFI Online user - ID and username
+ * gerEFI Online user - ID and username
  */
 public class UserDetails {
     public static final String USER_ID = "user_id";

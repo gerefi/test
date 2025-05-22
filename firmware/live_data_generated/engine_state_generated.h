@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/engine_state.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/engine_state.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -384,4 +384,4 @@ struct engine_state_s {
 static_assert(sizeof(engine_state_s) == 140);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/engine_state.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/engine_state.txt

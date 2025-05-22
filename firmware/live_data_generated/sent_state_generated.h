@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/sensors/sent_state.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/sensors/sent_state.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -27,4 +27,4 @@ struct sent_state_s {
 static_assert(sizeof(sent_state_s) == 8);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/sensors/sent_state.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/sensors/sent_state.txt

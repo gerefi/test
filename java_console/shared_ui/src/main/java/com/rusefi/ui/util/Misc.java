@@ -5,6 +5,6 @@ import org.jetbrains.annotations.NotNull;
 public class Misc {
     @NotNull
     public static URLLabel getRusEFI_online_manual() {
-        return new URLLabel("rusEFI Online manual", "https://github.com/gerefi/gerefi/wiki/Online");
+        return new URLLabel("gerEFI Online manual", "https://github.com/gerefi/gerefi/wiki/Online");
     }
 }

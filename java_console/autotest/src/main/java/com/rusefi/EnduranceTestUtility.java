@@ -10,7 +10,7 @@ import com.gerefi.io.LinkManager;
 import static com.gerefi.IoUtil.*;
 
 /**
- * this command utility confirms that rusEFI hardware stays alive for long periods of time
+ * this command utility confirms that gerEFI hardware stays alive for long periods of time
  */
 public class EnduranceTestUtility {
 

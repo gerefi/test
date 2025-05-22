@@ -26,7 +26,7 @@ public class AuthTokenPanel {
 
         JPanel top = new JPanel(new FlowLayout(FlowLayout.LEFT));
 
-        content.setBorder(BorderFactory.createTitledBorder("rusEFI Online Authentication Token"));
+        content.setBorder(BorderFactory.createTitledBorder("gerEFI Online Authentication Token"));
 
         authTokenTestField.setPreferredSize(new Dimension(200, 24));
 

@@ -65,11 +65,11 @@ import com.gerefi.ui.StatusConsumer;
 import java.io.IOException;
 import java.util.Date;
 
-public class rusEFI extends Activity {
-    private final static Logging log = Logging.getLogging(rusEFI.class);
+public class gerEFI extends Activity {
+    private final static Logging log = Logging.getLogging(gerEFI.class);
     private static final String ACTION_USB_PERMISSION = "com.android.example.USB_PERMISSION";
 
-    private static final String VERSION = "rusEFI app v0.20230316\n";
+    private static final String VERSION = "gerEFI app v0.20230316\n";
 
     private static final int LOCAL_PORT = 29001;
 
@@ -129,7 +129,7 @@ public class rusEFI extends Activity {
             public void afterTextChanged(Editable editable) {
                 String text = authTokenUI.getText().toString();
                 if (AuthTokenUtil.isToken(text)) {
-                    SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(rusEFI.this);
+                    SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(gerEFI.this);
                     SharedPreferences.Editor editor = preferences.edit();
                     editor.putString(AuthTokenUtil.AUTH_TOKEN, text);
                     editor.apply();
@@ -165,7 +165,7 @@ public class rusEFI extends Activity {
     }
 
     private String readPersistedAuthToken() {
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(rusEFI.this);
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(gerEFI.this);
         return preferences.getString(AuthTokenUtil.AUTH_TOKEN, "");
     }
 
@@ -234,7 +234,7 @@ public class rusEFI extends Activity {
 
     @SuppressLint("SetTextI18n")
     private void doDfuUpdate(UsbDevice dfuDevice) {
-        mStatusView.setText("rusEFI: DFU detected");
+        mStatusView.setText("gerEFI: DFU detected");
         DfuDeviceLocator.Result dfu = new DfuDeviceLocator().openDfu(usbManager, dfuDevice);
 
         DfuImage dfuImage = new DfuImage();

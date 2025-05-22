@@ -8,7 +8,7 @@ gcc/makefile/gtest
 2. Execute gerefi_test binary on your PC/Mac, it's expected to say SUCCESS and not fail :) Googletest will also print results summary.
 3. To run only one test use command line like ```build/gerefi_test --gtest_filter=*TEST_NAME*``` ~~uncomment and modify [main.cpp](https://github.com/gerefi/gerefi/blob/master/unit_tests/main.cpp) line ``::testing::GTEST_FLAG(filter)``~~
 
-In this folder we have rusEFI unit tests using https://github.com/google/googletest
+In this folder we have gerEFI unit tests using https://github.com/google/googletest
 
 Unit tests are not aware of ChibiOS or ARM or else, they are just plain C/C++ which you build for your desktop, not your MCU.
 

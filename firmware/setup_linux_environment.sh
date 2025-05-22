@@ -8,7 +8,7 @@
 # sudo apt remove binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi
 #
 
-# This script will download and install all dependencies require to develop rusEFI on Linux.
+# This script will download and install all dependencies require to develop gerEFI on Linux.
 # After running this script, executing `make` in the firmware folder is expected to produce a functional firmware binary.
 
 # Ensure submodules got cloned

@@ -29,15 +29,15 @@ We are looking to reduce manual data processing and to expand self-tuning capabi
 
 # SDLC efforts
 1. Data workflow tools: human feedback and objective data from real users (REO)
-1. HW in the loop: rusEFI hardware quality assurance
-1. HW in the loop: rusEFI CI
+1. HW in the loop: gerEFI hardware quality assurance
+1. HW in the loop: gerEFI CI
 1. HW in the loop: Competitor analysis toolset - both OEM and aftermarket
 1. Universal code vs custom vehicle code
  
 
 
 # Implementation Strategy
-1. Gather more data about rusEFI operation. We are looking to gather more data about engine operation and process that data programmatically.
+1. Gather more data about gerEFI operation. We are looking to gather more data about engine operation and process that data programmatically.
 
 We are looking to gather:
 * VSS as rotation sensor or GPS

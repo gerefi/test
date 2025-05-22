@@ -6,7 +6,7 @@
  * - we also have requirement for CANbus ID conflict resolution in case of vehicle integration ('Camaro use-case')
  */
 
-// do we use some sort of a custom bootloader protocol in rusEFI WBO?
+// do we use some sort of a custom bootloader protocol in gerEFI WBO?
 // todo: should we move to any widely used protocol like OpenBLT or else?
 
 #if EFI_WIDEBAND_FIRMWARE_UPDATE && EFI_CAN_SUPPORT

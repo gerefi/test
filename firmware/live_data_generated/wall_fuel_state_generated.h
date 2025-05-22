@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool ConfigDefinition.jar based on (unknown script) controllers/algo/wall_fuel_state.txt Tue Nov 01 20:59:53 UTC 2022
+// this section was generated automatically by gerEFI tool ConfigDefinition.jar based on (unknown script) controllers/algo/wall_fuel_state.txt Tue Nov 01 20:59:53 UTC 2022
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -21,4 +21,4 @@ struct wall_fuel_state_s {
 static_assert(sizeof(wall_fuel_state_s) == 8);
 
 // end
-// this section was generated automatically by rusEFI tool ConfigDefinition.jar based on (unknown script) controllers/algo/wall_fuel_state.txt Tue Nov 01 20:59:53 UTC 2022
+// this section was generated automatically by gerEFI tool ConfigDefinition.jar based on (unknown script) controllers/algo/wall_fuel_state.txt Tue Nov 01 20:59:53 UTC 2022

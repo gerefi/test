@@ -7,7 +7,7 @@ import com.gerefi.core.io.BundleUtil;
 import com.gerefi.core.net.ConnectionAndMeta;
 import com.gerefi.core.FileUtil;
 import com.gerefi.core.net.JarFileUtil;
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 import com.gerefi.core.ui.AutoupdateUtil;
 import org.jetbrains.annotations.NotNull;
 
@@ -32,7 +32,7 @@ import static com.gerefi.core.FindFileHelper.findSrecFile;
 
 public class Autoupdate {
     private static final Logging log = getLogging(Autoupdate.class);
-    private static final int AUTOUPDATE_VERSION = 20250519; // separate from rusEFIVersion#CONSOLE_VERSION
+    private static final int AUTOUPDATE_VERSION = 20250519; // separate from gerEFIVersion#CONSOLE_VERSION
 
     private static final String TITLE = getTitle();
 
@@ -51,7 +51,7 @@ public class Autoupdate {
         try {
             FileLogger.init();
             log.info("Version " + AUTOUPDATE_VERSION);
-            log.info("Compiled " + new Date(rusEFIVersion.classBuildTimeMillis(Autoupdate.class)));
+            log.info("Compiled " + new Date(gerEFIVersion.classBuildTimeMillis(Autoupdate.class)));
             log.info("Current folder " + new File(".").getCanonicalPath());
             log.info("Source " + new File(Autoupdate.class.getProtectionDomain()
                 .getCodeSource()

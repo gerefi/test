@@ -38,7 +38,7 @@ public class DriverInstall {
                 if (dialogResult != JOptionPane.YES_OPTION)
                     return;
 
-                final UpdateOperationCallbacks wnd = StatusWindow.createAndShowFrame("Windows rusEFI ST Drivers");
+                final UpdateOperationCallbacks wnd = StatusWindow.createAndShowFrame("Windows gerEFI ST Drivers");
 
                 ExecHelper.submitAction(() -> installDrivers(wnd), getClass() + " thread");
 

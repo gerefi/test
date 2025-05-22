@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/shift_torque_reduction_state.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/shift_torque_reduction_state.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -105,4 +105,4 @@ struct shift_torque_reduction_state_s {
 static_assert(sizeof(shift_torque_reduction_state_s) == 4);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/shift_torque_reduction_state.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/shift_torque_reduction_state.txt

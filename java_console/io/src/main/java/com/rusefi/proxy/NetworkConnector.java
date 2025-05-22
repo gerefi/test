@@ -13,10 +13,10 @@ import com.gerefi.io.LinkManager;
 import com.gerefi.io.commands.HelloCommand;
 import com.gerefi.io.tcp.BinaryProtocolServer;
 import com.gerefi.io.tcp.TcpIoStream;
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 import com.gerefi.server.ControllerInfo;
 import com.gerefi.server.SessionDetails;
-import com.gerefi.server.rusEFISSLContext;
+import com.gerefi.server.gerEFISSLContext;
 import com.gerefi.tools.VehicleToken;
 import com.gerefi.tools.online.HttpUtil;
 import org.jetbrains.annotations.NotNull;
@@ -33,7 +33,7 @@ import java.util.function.Supplier;
 import static com.gerefi.binaryprotocol.BinaryProtocol.sleep;
 
 /**
- * Connector between rusEFI ECU and rusEFI server
+ * Connector between gerEFI ECU and gerEFI server
  * see NetworkConnectorStartup
  */
 public class NetworkConnector implements Closeable {
@@ -127,12 +127,12 @@ public class NetworkConnector implements Closeable {
     private static SessionDetails start(Implementation implementation, ActivityListener activityListener, int serverPortForControllers, LinkManager linkManager, String authToken, final TcpIoStream.DisconnectListener disconnectListener, int oneTimeToken, ControllerInfo controllerInfo, final NetworkConnectorContext context) throws IOException {
         IoStream targetEcuSocket = linkManager.getConnector().getBinaryProtocol().getStream();
 
-        SessionDetails deviceSessionDetails = new SessionDetails(implementation, controllerInfo, authToken, oneTimeToken, rusEFIVersion.CONSOLE_VERSION);
+        SessionDetails deviceSessionDetails = new SessionDetails(implementation, controllerInfo, authToken, oneTimeToken, gerEFIVersion.CONSOLE_VERSION);
 
         Socket socket;
         try {
             log.info("Connecting to proxy server " + HttpUtil.RUSEFI_PROXY_HOSTNAME + " " + serverPortForControllers);
-            socket = rusEFISSLContext.getSSLSocket(HttpUtil.RUSEFI_PROXY_HOSTNAME, serverPortForControllers);
+            socket = gerEFISSLContext.getSSLSocket(HttpUtil.RUSEFI_PROXY_HOSTNAME, serverPortForControllers);
         } catch (IOException e) {
             // socket open exception is a special case and should be handled separately
             disconnectListener.onDisconnect("on socket open");

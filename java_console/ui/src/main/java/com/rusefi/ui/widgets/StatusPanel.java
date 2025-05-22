@@ -3,7 +3,7 @@ package com.gerefi.ui.widgets;
 import com.devexperts.logging.Logging;
 import com.gerefi.FileLog;
 import com.gerefi.core.io.BundleUtil;
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 import com.gerefi.core.ui.AutoupdateUtil;
 import com.gerefi.io.UpdateOperationCallbacks;
 import com.gerefi.ui.StatusWindow;
@@ -73,7 +73,7 @@ public class StatusPanel extends JPanel implements UpdateOperationCallbacks {
     public void clear() {
         logTextArea.setText("");
         logTextArea.setBackground(Color.WHITE);
-        logLine("Console version " + rusEFIVersion.CONSOLE_VERSION);
+        logLine("Console version " + gerEFIVersion.CONSOLE_VERSION);
         logLine(FileLog.getOsName() + " " + System.getProperty("os.version"));
         logLine("Bundle " + BundleUtil.readBundleFullNameNotNull());
     }

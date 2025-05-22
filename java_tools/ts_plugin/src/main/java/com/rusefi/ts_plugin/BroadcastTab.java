@@ -103,9 +103,9 @@ public class BroadcastTab {
 
     private void startBroadcasting(String authToken, String autoDetectedPort) {
         if (autoDetectedPort == null) {
-            status.setText("<html>rusEFI ECU not detected.<br/>Please make sure that TunerStudio is currently not connected to ECU.</html>");
+            status.setText("<html>gerEFI ECU not detected.<br/>Please make sure that TunerStudio is currently not connected to ECU.</html>");
         } else {
-            status.setText("rusEFI detected at " + autoDetectedPort);
+            status.setText("gerEFI detected at " + autoDetectedPort);
             disconnect.setEnabled(true);
 
             NetworkConnectorContext connectorContext = new NetworkConnectorContext();

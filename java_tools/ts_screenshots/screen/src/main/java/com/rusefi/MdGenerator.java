@@ -11,7 +11,7 @@ import java.util.Date;
  * REMOVE ONE DAY PRETTY SOON
  */
 public class MdGenerator {
-    public static final String PREFIX = "rusEFI-project";
+    public static final String PREFIX = "gerEFI-project";
     static String FOLDER;
 
     private static final String EOL = "\r\n";
@@ -28,7 +28,7 @@ public class MdGenerator {
             String pageName = getPageName(topLevelMenuModel);
             FileWriter md = new FileWriter(pageName + ".md");
 
-            md.append("# [rusEFI project](rusEFI-project)"+ EOL);
+            md.append("# [gerEFI project](gerEFI-project)"+ EOL);
 
             md.append("## " + topLevelMenuModel.getTitle() + EOL);
 

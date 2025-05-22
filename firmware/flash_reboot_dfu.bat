@@ -3,7 +3,7 @@ rem auto-detects connected running rusEfi serial port and send text 'reboot' com
 rem flashes DFU
 rem
 
-echo Sending rusEFI DFU request
+echo Sending gerEFI DFU request
 java -jar ../console/gerefi_console.jar reboot_dfu
 echo Now sleeping before DFU
 sleep 5

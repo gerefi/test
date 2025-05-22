@@ -41,7 +41,7 @@ import static com.gerefi.binaryprotocol.IoHelper.getCrc32;
 public class ConsoleTools {
     private static final Logging log = Logging.getLogging(ConsoleTools.class);
     public static final String SET_AUTH_TOKEN = "set_auth_token";
-    public static final String RUS_EFI_NOT_DETECTED = "rusEFI not detected";
+    public static final String RUS_EFI_NOT_DETECTED = "gerEFI not detected";
     private static final Map<String, ConsoleTool> TOOLS = new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
 
     private static final Map<String, String> toolsHelp = new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
@@ -56,7 +56,7 @@ public class ConsoleTools {
 
     static {
         registerTool("help", args -> printTools(), "Print this help.");
-        registerTool("headless", ConsoleTools::runHeadless, "Connect to rusEFI controller and start saving logs.");
+        registerTool("headless", ConsoleTools::runHeadless, "Connect to gerEFI controller and start saving logs.");
         registerTool("basic-ui", BasicStartupFrame::runTool, "Basic UI");
 
         registerTool("functional_test", ConsoleTools::runFunctionalTest, "NOT A USER TOOL. Development tool related to functional testing");
@@ -65,21 +65,21 @@ public class ConsoleTools {
         registerTool("get_image_tune_crc", ConsoleTools::calcBinaryImageTuneCrc, "Calculate tune CRC for given binary tune");
 //        registerTool("get_xml_tune_crc", ConsoleTools::calcXmlImageTuneCrc, "Calculate tune CRC for given XML tune");
 
-//        registerTool("network_connector", strings -> NetworkConnectorStartup.start(), "Connect your rusEFI ECU to rusEFI Online");
-//        registerTool("network_authenticator", strings -> LocalApplicationProxy.start(), "rusEFI Online Authenticator");
-//        registerTool("elm327_connector", strings -> Elm327ConnectorStartup.start(), "Connect your rusEFI ECU using ELM327 CAN-bus adapter");
+//        registerTool("network_connector", strings -> NetworkConnectorStartup.start(), "Connect your gerEFI ECU to gerEFI Online");
+//        registerTool("network_authenticator", strings -> LocalApplicationProxy.start(), "gerEFI Online Authenticator");
+//        registerTool("elm327_connector", strings -> Elm327ConnectorStartup.start(), "Connect your gerEFI ECU using ELM327 CAN-bus adapter");
         registerTool("pcan_connector", strings -> {
 
             PCanIoStream stream = PCanIoStream.createStream();
             CANConnectorStartup.start(stream, statusListener);
-        }, "Connect your rusEFI ECU using PCAN CAN-bus adapter");
+        }, "Connect your gerEFI ECU using PCAN CAN-bus adapter");
         if (!FileLog.isWindows()) {
-            registerTool("socketcan_connector", strings -> CANConnectorStartup.start(SocketCANIoStream.create(), statusListener), "Connect your rusEFI ECU using SocketCAN CAN-bus adapter");
+            registerTool("socketcan_connector", strings -> CANConnectorStartup.start(SocketCANIoStream.create(), statusListener), "Connect your gerEFI ECU using SocketCAN CAN-bus adapter");
         }
-        registerTool("print_auth_token", args -> printAuthToken(), "Print current rusEFI Online authentication token.");
+        registerTool("print_auth_token", args -> printAuthToken(), "Print current gerEFI Online authentication token.");
         registerTool("print_vehicle_token", args -> printVehicleToken(), "Prints vehicle access token.");
-        registerTool(SET_AUTH_TOKEN, ConsoleTools::setAuthToken, "Set rusEFI Online authentication token.");
-        registerTool("upload_tune", ConsoleTools::uploadTune, "Upload specified tune file to rusEFI Online using auth token from settings");
+        registerTool(SET_AUTH_TOKEN, ConsoleTools::setAuthToken, "Set gerEFI Online authentication token.");
+        registerTool("upload_tune", ConsoleTools::uploadTune, "Upload specified tune file to gerEFI Online using auth token from settings");
 
         registerTool("read_tune", args -> readTune(), "Read tune from controller");
         registerTool("get_performance_trace", args -> PerformanceTraceHelper.getPerformanceTune(), "DEV TOOL: Get performance trace from ECU");
@@ -91,9 +91,9 @@ public class ConsoleTools {
         registerTool("dfu", DfuTool::run, "Program specified file into ECU via DFU");
 */
         // java -jar gerefi_console.jar local_proxy
-        registerTool("local_proxy", ConsoleTools::localProxy, "Detect rusEFI ECU and proxy serial <> TCP");
+        registerTool("local_proxy", ConsoleTools::localProxy, "Detect gerEFI ECU and proxy serial <> TCP");
 
-        registerTool("detect", ConsoleTools::detect, "Find attached rusEFI");
+        registerTool("detect", ConsoleTools::detect, "Find attached gerEFI");
         registerTool("send_command", new ConsoleTool() {
             @Override
             public void runTool(String[] args) throws Exception {
@@ -106,7 +106,7 @@ public class ConsoleTools {
 //                sleepAndPrintNonDaemons(4000);
             }
         }, "Sends command specified as second argument");
-        registerTool("reboot_ecu", args -> sendNonBlockingCommandDoNotWaitForConfirmation(Integration.CMD_REBOOT), "Sends a command to reboot rusEFI controller.");
+        registerTool("reboot_ecu", args -> sendNonBlockingCommandDoNotWaitForConfirmation(Integration.CMD_REBOOT), "Sends a command to reboot gerEFI controller.");
         registerTool(Integration.CMD_REBOOT_DFU, args -> {
             sendNonBlockingCommandDoNotWaitForConfirmation(Integration.CMD_REBOOT_DFU);
             /**
@@ -114,7 +114,7 @@ public class ConsoleTools {
              * See https://github.com/gerefi/gerefi/issues/3300
              */
             System.exit(0);
-        }, "Sends a command to switch rusEFI controller into DFU mode.");
+        }, "Sends a command to switch gerEFI controller into DFU mode.");
     }
 
     private static void localProxy(String[] strings) throws IOException {

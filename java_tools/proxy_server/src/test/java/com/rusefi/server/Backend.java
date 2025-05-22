@@ -58,8 +58,8 @@ public class Backend implements Closeable {
      * @see BinaryProtocolProxy#USER_IO_TIMEOUT
      */
     private static final int APPLICATION_INACTIVITY_TIMEOUT = 3 * Timeouts.MINUTE;
-    private static final ThreadFactory APPLICATION_CONNECTION_CLEANUP = new NamedThreadFactory("rusEFI Application connections Cleanup");
-    private static final ThreadFactory GAUGE_POKER = new NamedThreadFactory("rusEFI gauge poker");
+    private static final ThreadFactory APPLICATION_CONNECTION_CLEANUP = new NamedThreadFactory("gerEFI Application connections Cleanup");
+    private static final ThreadFactory GAUGE_POKER = new NamedThreadFactory("gerEFI gauge poker");
 
     private final FkRegex showOnlineControllers = new FkRegex(ProxyClient.LIST_CONTROLLERS_PATH,
             (Take) req -> getControllersOnline()
@@ -106,7 +106,7 @@ public class Backend implements Closeable {
                             new FkRegex(ProxyClient.VERSION_PATH, ProxyClient.BACKEND_VERSION),
                             new FkRegex(ProxyClient.UPDATE_CONNECTOR_SOFTWARE, new UpdateRequestHandler(this)),
                             new FkRegex("/", new RsHtml("<html><body>\n" +
-                                    "<br/><a href='https://gerefi.com/online/'>rusEFI Online</a>\n" +
+                                    "<br/><a href='https://gerefi.com/online/'>gerEFI Online</a>\n" +
                                     "<br/><br/><br/>\n" +
                                     "<img src='https://gerefi.com/style/gerefi_online_color.png'/>" +
                                     "<br/><br/><br/>\n" +

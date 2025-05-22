@@ -9,11 +9,11 @@ public class AndroidUtil {
     private AndroidUtil() {
     }
 
-    public static void turnScreenOn(Activity rusEFI) {
+    public static void turnScreenOn(Activity gerEFI) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1) {
-            rusEFI.setTurnScreenOn(true);
+            gerEFI.setTurnScreenOn(true);
         } else {
-            Window window = rusEFI.getWindow();
+            Window window = gerEFI.getWindow();
             window.addFlags(WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
         }
     }

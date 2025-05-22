@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/math/throttle_model.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/math/throttle_model.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -124,4 +124,4 @@ struct throttle_model_s {
 static_assert(sizeof(throttle_model_s) == 12);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/math/throttle_model.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/math/throttle_model.txt

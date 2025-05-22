@@ -96,7 +96,7 @@ Release template (copy/paste this for new release):
 ## August 2024 "Day 898"
 
 ### Added
- - new rusEFI console tab: Knock analyzer #6467
+ - new gerEFI console tab: Knock analyzer #6467
  - Suzuki K6A (NON VVTI Trigger) #6490
  - explicit error if 32 bit java is used #6497
  - configurable Open Loop Boost vertical axis #4778
@@ -263,7 +263,7 @@ Release template (copy/paste this for new release):
 
 ### Breaking Changes
  - Always operate in "two wire" mode for batch fuel, fixing batch firing order #5353
- - rusEFI console requires java 11
+ - gerEFI console requires java 11
 
 ## June 2023 Release "Day 466"
 
@@ -343,7 +343,7 @@ Release template (copy/paste this for new release):
  - Fuel/spark cut codes to TS indicators #4592
  - Flexible ignition and VE adder/trim tables #4586 #4640
  - Enforce board configuration overrides more strictly #4614
- - rusEFI console Startup Frame should scan for available hardware #4633
+ - gerEFI console Startup Frame should scan for available hardware #4633
  - Don't fire the engine without the ignition on (avoids USB keeping engine alive after ignition off) #4474
  - Lua: function to access VIN setting #3967
  - Lua: designated Lua gauges with logging #4672
@@ -403,7 +403,7 @@ Release template (copy/paste this for new release):
 ### Fixed
  - Lua CAN reception fixed for 11-bit IDs where the frame would be received, but a corrupt ID was passed to the handler function. #4321
  - Many drop downs menues are now sorted #4339
- - rusEFI TS plugin launcher fixed
+ - gerEFI TS plugin launcher fixed
  - Console autoupdate error dialogs #4352
  - custom skipped wheel could be located on camshaft #4377
  - it's impossible to receive AcceleratorPedal sensor via CAN/Lua #4369
@@ -419,7 +419,7 @@ Release template (copy/paste this for new release):
 ### Added
  - verbose trigger sync should reuse engineSnifferRpmThreshold #4259
  - Subaru EZ30 variation of 36/2/2/2 trigger
- - Linux version of rusEFI simulator SocketCAN integration (#4312)
+ - Linux version of gerEFI simulator SocketCAN integration (#4312)
 
 ### Fixed
  - Improved logic used to disambiguate trigger sync using cam/VVT information. Engine now runs in wasted spark until cam sync is achieved, at which point it switches to fully sequential. #4099
@@ -471,7 +471,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
 
 ### Fixed
  - SD card logging with SDIO hardware #3873
- - rusEFI console stability improvement #3912
+ - gerEFI console stability improvement #3912
  - console updater does not work if folder name contains spaces #3927
  - SD card logs PPS as TPS #3943
 
@@ -495,7 +495,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
 ### Added
  - Improved vehicle speed sensor configuration: now uses real physical constants about tires, gear ratio, sensor, etc.
  - Improved priming logic. Now includes a table of priming fuel mass vs. engine temperature, in addition to a delay before priming to allow fuel pressure to build. #3674
- - ISO-TP connector in firmware & ISO-TP to TCP/IP bridge in rusEFI console #3667
+ - ISO-TP connector in firmware & ISO-TP to TCP/IP bridge in gerEFI console #3667
  - Lua: mcu_stop method for stm32 F4 and F7
 
 ### Fixed
@@ -527,14 +527,14 @@ All notable user-facing or behavior-altering changes will be documented in this 
 ### Added
  - Ford PIP trigger decoder https://github.com/gerefi/gerefi/wiki/Images/triggers/trigger_65.png
  - Dwell battery voltage correction table
- - rusEFI firmware feature should be honest about it's Windows-only limitation
+ - gerEFI firmware feature should be honest about it's Windows-only limitation
  - Bosch MM5.10 accelerometer integration
  - CLT/IAT sensor calibration presets
 
 ### Fixed
  - Fix of 36/2/2/2 attributes to help rotary #3242
  - SD card doesn't work on H7
- - rusEFI console to validate current bundle against bundle already in ECU #3266
+ - gerEFI console to validate current bundle against bundle already in ECU #3266
  - GPPWM usability: notes field #3270
  - overdwell protection #3220
 
@@ -545,7 +545,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
  - Nissan 4 cylinder QR trigger wheel #3118
  - 1-6-2-4-3-5 firing order for all our 911 fans!
  - Add minimum MAP threshold for closed-loop boost control
- - rusEFI console Lua tab loads scripts from ECU on start
+ - gerEFI console Lua tab loads scripts from ECU on start
 
 ### Fixed
  - Composite Logger uses same engineSnifferRpmThreshold setting as engine sniffer #3161
@@ -565,7 +565,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
  - new hardware testing console commands #2978
 
 ### Fixed
- - rusEFI console start-up speed #2964
+ - gerEFI console start-up speed #2964
  - wrong handling of symmetrical crank wheels NB2 VQ35 Renix #2980
 
 ## June 2021 Release "National Logistics Day"
@@ -619,7 +619,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
 ## Life in the Cracks 2021 Release
 
 ### Added
- - USB Mass Storage: The connected SD card will be mounted over USB if rusEFI connected to a PC via USB.
+ - USB Mass Storage: The connected SD card will be mounted over USB if gerEFI connected to a PC via USB.
  - GM 60/2/2/2 trigger https://github.com/gerefi/gerefi/wiki/All-Supported-Triggers#gm
  - TriTach trigger https://github.com/gerefi/gerefi/wiki/All-Supported-Triggers#tritach
  - Skoda Favorit trigger https://github.com/gerefi/gerefi/wiki/All-Supported-Triggers#skoda-favorit
@@ -710,7 +710,7 @@ All notable user-facing or behavior-altering changes will be documented in this 
 | 07/26/2020    | r24635    | improvement #1637: DC motor idle air valve for late 90s German vehicles |
 | 07/21/2020    |           | bugfix #1592 injectors could stay open on transition from cranking to running under certain conditions |
 | 06/17/2020    | r23656    | bugfix #1491 major performance/scheduling improvement |
-| 05/21/2020    | r22961    | rusEFI console start-up time improvements |
+| 05/21/2020    | r22961    | gerEFI console start-up time improvements |
 | 04/18/2020    | r22231    | Renix 44-2-2 trigger support added |
 | 04/02/2020    |           | Start button feature |
 | 03/28/2020    |           | Critical error text is now displayed in TunerStudio |

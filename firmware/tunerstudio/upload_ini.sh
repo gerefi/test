@@ -30,7 +30,7 @@ echo "[upload_ini] Looking for signature in [$fileName]..."
 sig=$(grep "^\s*signature\s*=" $fileName         | cut -f2 -d "=")
 if [ ! -z "$sig" -a "$sig" != " " ]; then
   echo "* found signature: $sig"
-  if [[ "$sig" =~ rusEFI\ ([a-zA-Z0-9_-]+)\.([0-9]{4})\.([0-9]{2})\.([0-9]{2})\.([a-zA-Z0-9_-]+)\.([a-zA-Z0-9_-]+) ]]; then
+  if [[ "$sig" =~ gerEFI\ ([a-zA-Z0-9_-]+)\.([0-9]{4})\.([0-9]{2})\.([0-9]{2})\.([a-zA-Z0-9_-]+)\.([a-zA-Z0-9_-]+) ]]; then
     branch=${BASH_REMATCH[1]}
     year=${BASH_REMATCH[2]}
     month=${BASH_REMATCH[3]}

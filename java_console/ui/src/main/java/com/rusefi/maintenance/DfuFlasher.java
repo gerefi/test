@@ -71,7 +71,7 @@ public class DfuFlasher {
         if (isSignatureValidated.get()) {
             if (!FileLog.isWindows()) {
                 callbacks.logLine("Switched to DFU mode!");
-                callbacks.logLine("rusEFI console can only program on Windows");
+                callbacks.logLine("gerEFI console can only program on Windows");
                 return false;
             }
 
@@ -112,7 +112,7 @@ public class DfuFlasher {
                     callbacks.logLine("");
                     callbacks.logLine("");
                     callbacks.logLine("");
-                    callbacks.logLine("*** ERROR *** rusEFI has not responded on selected " + port + "\n" +
+                    callbacks.logLine("*** ERROR *** gerEFI has not responded on selected " + port + "\n" +
                         "Maybe try automatic serial port detection?");
                     callbacks.error();
                     return null;
@@ -131,11 +131,11 @@ public class DfuFlasher {
                 return null;
             }).getSerialPort();
             if (port == null) {
-                callbacks.logLine("*** ERROR *** rusEFI serial port not detected");
+                callbacks.logLine("*** ERROR *** gerEFI serial port not detected");
                 callbacks.error();
                 return null;
             } else {
-                callbacks.logLine("Detected rusEFI on " + port + "\n");
+                callbacks.logLine("Detected gerEFI on " + port + "\n");
             }
         }
         return isSignatureValidated;
@@ -196,7 +196,7 @@ public class DfuFlasher {
     private static boolean executeDFU(UpdateOperationCallbacks callbacks, String firmwareBinFile) {
         boolean driverIsHappy = detectSTM32BootloaderDriverState(callbacks);
         if (!driverIsHappy) {
-            callbacks.logLine("*** DRIVER ERROR? *** Did you have a chance to try 'Install Drivers' button on top of rusEFI console start screen?");
+            callbacks.logLine("*** DRIVER ERROR? *** Did you have a chance to try 'Install Drivers' button on top of gerEFI console start screen?");
             return false;
         }
 
@@ -219,7 +219,7 @@ public class DfuFlasher {
         } else if (stdout.toString().contains("Target device not found")) {
             callbacks.logLine("ERROR: Device not connected or STM32 Bootloader driver not installed?");
             appendWindowsVersion(callbacks);
-            callbacks.logLine("ERROR: Please try installing drivers using 'Install Drivers' button on rusEFI splash screen");
+            callbacks.logLine("ERROR: Please try installing drivers using 'Install Drivers' button on gerEFI splash screen");
             callbacks.logLine("ERROR: Alternatively please install drivers using Device Manager pointing at 'drivers/silent_st_drivers/DFU_Driver' folder");
             appendDeviceReport(callbacks);
             return false;

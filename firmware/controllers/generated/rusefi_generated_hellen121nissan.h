@@ -1,5 +1,5 @@
 //
-// was generated automatically by rusEFI tool config_definition-all.jar based on gen_config.sh integration/gerefi_config.txt
+// was generated automatically by gerEFI tool config_definition-all.jar based on gen_config.sh integration/gerefi_config.txt
 //
 
 #define adc_channel_e_auto_enum 0="EFI_ADC_NONE",1="EFI_ADC_0",2="EFI_ADC_1",11="EFI_ADC_10",12="EFI_ADC_11",13="EFI_ADC_12",14="EFI_ADC_13",15="EFI_ADC_14",16="EFI_ADC_15",17="EFI_ADC_16",18="EFI_ADC_17",19="EFI_ADC_18",20="EFI_ADC_19",3="EFI_ADC_2",21="EFI_ADC_20",22="EFI_ADC_21",23="EFI_ADC_22",24="EFI_ADC_23",25="EFI_ADC_24",26="EFI_ADC_25",27="EFI_ADC_26",28="EFI_ADC_27",29="EFI_ADC_28",30="EFI_ADC_29",4="EFI_ADC_3",31="EFI_ADC_30",32="EFI_ADC_31",33="EFI_ADC_32",34="EFI_ADC_33",35="EFI_ADC_34",36="EFI_ADC_35",37="EFI_ADC_36",38="EFI_ADC_37",39="EFI_ADC_38",40="EFI_ADC_39",5="EFI_ADC_4",41="EFI_ADC_40",42="EFI_ADC_41",43="EFI_ADC_42",44="EFI_ADC_43",45="EFI_ADC_44",46="EFI_ADC_45",47="EFI_ADC_46",48="EFI_ADC_47",6="EFI_ADC_5",7="EFI_ADC_6",8="EFI_ADC_7",9="EFI_ADC_8",10="EFI_ADC_9",50="EFI_ADC_ERROR",49="EFI_ADC_TOTAL_CHANNELS"
@@ -543,7 +543,7 @@
 #define FLASH_DATA_VERSION 250418
 #define FLOW_LINEARIZATION_MASS_SIZE 2
 #define FLOW_LINEARIZATION_PRESSURE_SIZE 2
-#define FRONTEND_TITLE_BAR_NAME "rusEFI"
+#define FRONTEND_TITLE_BAR_NAME "gerEFI"
 #define fuel_cyl_trim_s_size 16
 #define FUEL_LEVEL_TABLE_COUNT 8
 #define FUEL_LOAD_COUNT 16
@@ -1389,7 +1389,7 @@
 #define PROTOCOL_INJ_STAGE2_SHORT_PREFIX "j"
 #define PROTOCOL_MSG "msg"
 #define PROTOCOL_OUTPIN "outpin"
-#define PROTOCOL_SIGNATURE_PREFIX "rusEFI "
+#define PROTOCOL_SIGNATURE_PREFIX "gerEFI "
 #define PROTOCOL_TEST_RESPONSE_TAG "ts_p_alive"
 #define PROTOCOL_VERSION_TAG "rusEfiVersion"
 #define RANGE_INPUT_COUNT 6
@@ -1400,7 +1400,7 @@
 #define SCRIPT_SETTING_COUNT 8
 #define SCRIPT_TABLE_8 8
 #define SCRIPT_TABLE_COUNT 4
-#define SD_CARD_LABEL "rusEFI logs"
+#define SD_CARD_LABEL "gerEFI logs"
 #define SelectedGear_Drive 6
 #define SelectedGear_Invalid 0
 #define SelectedGear_Low 11
@@ -1955,7 +1955,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI master.2025.05.22.hellen121nissan.1403666366"
+#define TS_SIGNATURE "gerEFI master.2025.05.22.hellen121nissan.1403666366"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'

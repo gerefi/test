@@ -1,7 +1,7 @@
 /**
  * @file	trigger_ford.h
  *
- * @author Andrey Belomutskiy, (c) rusEFI LLC 2012-2023
+ * @author Andrey Belomutskiy, (c) gerEFI LLC 2012-2023
  */
 
 #pragma once

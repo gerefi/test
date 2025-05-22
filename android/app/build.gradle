@@ -14,7 +14,7 @@ android {
 
     compileSdkVersion 31
     buildToolsVersion "30.0.3"
-    project.archivesBaseName = "rusEFI";
+    project.archivesBaseName = "gerEFI";
 
     defaultConfig {
         applicationId "com.gerefi.app"
@@ -30,7 +30,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("../certs/rusEFI.jks")
+            storeFile file("../certs/gerEFI.jks")
             storePassword System.getenv("RUSEFI_ANDROID_KEYPASS")
             keyAlias "key0"
             keyPassword System.getenv("RUSEFI_ANDROID_KEYPASS")

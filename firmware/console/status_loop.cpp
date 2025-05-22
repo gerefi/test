@@ -92,7 +92,7 @@ static Timer printVersionTimer;
 
 // todo: unify with handleGetVersion?
 static void printVersionForConsole(const char *engineTypeName, const char *firmwareBuildId) {
-	// VersionChecker in rusEFI console is parsing these version string, please follow the expected format
+	// VersionChecker in gerEFI console is parsing these version string, please follow the expected format
 	efiPrintfProto(PROTOCOL_VERSION_TAG, "%d@%u %s %s %ld",
 			getRusEfiVersion(), /*do we have a working way to print 64 bit values?!*/(unsigned int)SIGNATURE_HASH,
 			firmwareBuildId,
@@ -154,7 +154,7 @@ void printOverallStatus() {
 		// we're sending, reset the timer
 		printVersionTimer.reset();
 
-		// Output the firmware version, board type, git hash, uptime in seconds, etc for rusEFI console
+		// Output the firmware version, board type, git hash, uptime in seconds, etc for gerEFI console
 		printVersionForConsole(getEngine_type_e(engineConfiguration->engineType), FIRMWARE_ID);
 
 		// Output the current engine sniffer pin mappings

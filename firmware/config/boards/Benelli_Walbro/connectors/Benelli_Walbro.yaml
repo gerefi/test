@@ -184,7 +184,7 @@ pins:
     color: brown/violet
 
   - pin: D7
-    # not required by rusEFI??
+    # not required by gerEFI??
     function: 'OBD2 - DIAG GROUND)'
     class: OBD2
     type: gnd
@@ -200,12 +200,12 @@ pins:
     function: not used
 
   - pin: E2
-    # not required by rusEFI??
+    # not required by gerEFI??
     function: 'OBD2 - DIAG RS232 Tx/Rx'
     class: OBD2
 
   - pin: E3
-    # not required by rusEFI?? (enable ECU programming?)
+    # not required by gerEFI?? (enable ECU programming?)
     function: 'enable ECU programming when grounded'
 
   - pin: E4
@@ -238,17 +238,17 @@ pins:
     color: black
 
   - pin: F2
-    # not required by rusEFI??
+    # not required by gerEFI??
     function: 'OBD2 - DIAG RS232 Tx/Rx'
     class: OBD2
 
   - pin: F3
-    # not required by rusEFI?? (OBD2?)
+    # not required by gerEFI?? (OBD2?)
     function: 'OBD2 - K-line'
     class: OBD2
 
   - pin: F4
-    # not required by rusEFI?? (OBD2?)
+    # not required by gerEFI?? (OBD2?)
     function: 'OBD2- L-Line'
     class: OBD2
 

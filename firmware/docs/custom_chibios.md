@@ -1,8 +1,8 @@
-rusEFI is trying to use latest stable ChibiOS with minimal changes
+gerEFI is trying to use latest stable ChibiOS with minimal changes
 
-At the moment rusEFI uses https://github.com/gerefi/ChibiOS/tree/stable_20.3.x.gerefi
+At the moment gerEFI uses https://github.com/gerefi/ChibiOS/tree/stable_20.3.x.gerefi
 
-rusEFI custom version of ChibiOS has the following changes:
+gerEFI custom version of ChibiOS has the following changes:
 
 *) LSE auto-detection/fallback, RUSEFI_STM32_LSE_WAIT_MAX/RUSEFI_STM32_LSE_WAIT_MAX_RTCSEL
 

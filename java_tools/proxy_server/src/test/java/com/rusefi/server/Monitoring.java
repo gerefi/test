@@ -1,7 +1,7 @@
 package com.gerefi.server;
 
 import com.devexperts.logging.Logging;
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 import com.gerefi.tools.online.ProxyClient;
 import org.takes.Take;
 import org.takes.facets.fork.FkRegex;
@@ -71,8 +71,8 @@ public class Monitoring {
         builder.add("applicationsCount", backend.getApplicationsCount());
         builder.add("controllersCount", backend.getControllersCount());
         builder.add("backend version", ProxyClient.BACKEND_VERSION);
-        builder.add("framework version", rusEFIVersion.CONSOLE_VERSION);
-        builder.add("compiled", new Date(rusEFIVersion.classBuildTimeMillis()).toString());
+        builder.add("framework version", gerEFIVersion.CONSOLE_VERSION);
+        builder.add("compiled", new Date(gerEFIVersion.classBuildTimeMillis()).toString());
         builder.add("now", System.currentTimeMillis());
         builder.add(SessionDetails.AGE, birthday.getDuration());
 

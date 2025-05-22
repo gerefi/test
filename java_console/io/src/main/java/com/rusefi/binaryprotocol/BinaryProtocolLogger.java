@@ -59,9 +59,9 @@ public class BinaryProtocolLogger {
         if (!compositeLogs.isEmpty())
             return;
         compositeLogs.addAll(Arrays.asList(
-                new VcdStreamFile(getFileName("rusEFI_trigger_log_", ".vcd")),
-                new LogicdataStreamFile(getFileName("rusEFI_trigger_log_", ".logicdata")),
-                new TSHighSpeedLog(getFileName("rusEFI_trigger_log_"))
+                new VcdStreamFile(getFileName("gerEFI_trigger_log_", ".vcd")),
+                new LogicdataStreamFile(getFileName("gerEFI_trigger_log_", ".logicdata")),
+                new TSHighSpeedLog(getFileName("gerEFI_trigger_log_"))
         ));
     }
 

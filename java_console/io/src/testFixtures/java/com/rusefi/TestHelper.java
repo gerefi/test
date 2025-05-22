@@ -7,7 +7,7 @@ import com.gerefi.binaryprotocol.BinaryProtocol;
 import com.gerefi.binaryprotocol.BinaryProtocolState;
 import com.gerefi.config.Field;
 import com.gerefi.config.generated.VariableRegistryValues;
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 import com.gerefi.io.IoStream;
 import com.gerefi.io.LinkConnector;
 import com.gerefi.io.LinkManager;
@@ -16,7 +16,7 @@ import com.gerefi.io.tcp.TcpIoStream;
 import com.gerefi.proxy.NetworkConnector;
 import com.gerefi.server.ControllerInfo;
 import com.gerefi.server.SessionDetails;
-import com.gerefi.server.rusEFISSLContext;
+import com.gerefi.server.gerEFISSLContext;
 import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Assertions;
 
@@ -31,8 +31,8 @@ import static com.gerefi.io.tcp.TcpConnector.LOCALHOST;
 
 public class TestHelper extends MockitoTestHelper {
     private static final Logging log = getLogging(TestHelper.class);
-    public static final String TEST_SIGNATURE_1 = "rusEFI master.2020.07.06.frankenso_na6.2468827536";
-    public static final String TEST_SIGNATURE_2 = "rusEFI master.2020.07.11.proteus_f4.1986715563";
+    public static final String TEST_SIGNATURE_1 = "gerEFI master.2020.07.06.frankenso_na6.2468827536";
+    public static final String TEST_SIGNATURE_2 = "gerEFI master.2020.07.11.proteus_f4.1986715563";
     public static final ControllerInfo CONTROLLER_INFO = new ControllerInfo("name", "make", "code", VariableRegistryValues.TS_SIGNATURE);
     public static final String TEST_TOKEN_1 = "00000000-1234-1234-1234-123456789012";
     public static final String TEST_TOKEN_3 = "33333333-3333-1234-1234-123456789012";
@@ -68,7 +68,7 @@ public class TestHelper extends MockitoTestHelper {
     public static IoStream secureConnectToLocalhost(int controllerPort) {
         IoStream targetEcuSocket;
         try {
-            targetEcuSocket = new TcpIoStream("[local]", rusEFISSLContext.getSSLSocket(LOCALHOST, controllerPort));
+            targetEcuSocket = new TcpIoStream("[local]", gerEFISSLContext.getSSLSocket(LOCALHOST, controllerPort));
         } catch (IOException e) {
             throw new IllegalStateException("Failed to connect to controller " + LOCALHOST + ":" + controllerPort);
         }
@@ -100,7 +100,7 @@ public class TestHelper extends MockitoTestHelper {
     public static SessionDetails createTestSession(String authToken, String signature) {
         ControllerInfo ci = new ControllerInfo("vehicle", "make", "code", signature);
 
-        return new SessionDetails(NetworkConnector.Implementation.Unknown, ci, authToken, SessionDetails.createOneTimeCode(), rusEFIVersion.CONSOLE_VERSION);
+        return new SessionDetails(NetworkConnector.Implementation.Unknown, ci, authToken, SessionDetails.createOneTimeCode(), gerEFIVersion.CONSOLE_VERSION);
     }
 
     public static void assertLatch(String message, CountDownLatch reconnectCounter) throws InterruptedException {

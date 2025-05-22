@@ -1,6 +1,6 @@
 package com.gerefi.tune.xml;
 
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 
 import javax.xml.bind.annotation.XmlAttribute;
 
@@ -9,7 +9,7 @@ public class Bibliography {
 
     @XmlAttribute
     public String getAuthor() {
-        return "rusEFI " + rusEFIVersion.CONSOLE_VERSION;
+        return "gerEFI " + gerEFIVersion.CONSOLE_VERSION;
     }
 
     @XmlAttribute

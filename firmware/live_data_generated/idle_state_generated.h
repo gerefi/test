@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/actuators/idle_state.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/actuators/idle_state.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -183,4 +183,4 @@ struct idle_state_s {
 static_assert(sizeof(idle_state_s) == 48);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/actuators/idle_state.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/actuators/idle_state.txt

@@ -82,7 +82,7 @@ public class MainFrame {
             @Override
             public void onConnectionFailed(String errorMessage) {
                 log.error("onConnectionFailed " + errorMessage);
-                String message = "This copy of rusEFI console is not compatible with this version of firmware\r\n" +
+                String message = "This copy of gerEFI console is not compatible with this version of firmware\r\n" +
                         errorMessage;
                 JOptionPane.showMessageDialog(frame.getFrame(), message);
             }

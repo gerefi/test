@@ -21,7 +21,7 @@ function onSensorData(bus, id, dlc, data)
   print ("valid pressureBar: " ..pressureBar)
 end
 
--- bus index '1' on most rusEFI boards, '1' or '2' on Proteus
+-- bus index '1' on most gerEFI boards, '1' or '2' on Proteus
 canRxAdd(2, 0xBB26, onSensorData)
 
 function onTick()

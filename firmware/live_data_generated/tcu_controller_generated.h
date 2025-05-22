@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/tcu/tcu_controller.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/tcu/tcu_controller.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -150,4 +150,4 @@ struct tcu_controller_s {
 static_assert(sizeof(tcu_controller_s) == 16);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/tcu/tcu_controller.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/tcu/tcu_controller.txt

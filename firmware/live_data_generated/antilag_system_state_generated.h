@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base.jar based on (unknown script) controllers/algo/antilag_system_state.txt Wed Jan 03 20:30:10 UTC 2024
+// this section was generated automatically by gerEFI tool config_definition_base.jar based on (unknown script) controllers/algo/antilag_system_state.txt Wed Jan 03 20:30:10 UTC 2024
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -119,4 +119,4 @@ struct antilag_system_state_s {
 static_assert(sizeof(antilag_system_state_s) == 12);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base.jar based on (unknown script) controllers/algo/antilag_system_state.txt Wed Jan 03 20:30:10 UTC 2024
+// this section was generated automatically by gerEFI tool config_definition_base.jar based on (unknown script) controllers/algo/antilag_system_state.txt Wed Jan 03 20:30:10 UTC 2024

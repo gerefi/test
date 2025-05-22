@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/sensors//wideband_state.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/sensors//wideband_state.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -56,4 +56,4 @@ struct wideband_state_s {
 static_assert(sizeof(wideband_state_s) == 12);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/sensors//wideband_state.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/sensors//wideband_state.txt

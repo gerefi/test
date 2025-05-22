@@ -1,6 +1,6 @@
 package com.gerefi.config.generated;
 
-// this file was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/ignition/ignition_state.txt
+// this file was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/algo/ignition/ignition_state.txt
 
 // by class com.gerefi.output.FileJavaFieldsConsumer
 import com.gerefi.config.*;

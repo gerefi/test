@@ -28,7 +28,7 @@ Field format:
 		0001h = name (34 bytes)
 		0023h = units (11 bytes)
 		002Eh = scale (4 bytes) = float
-		0032h = shift (4 bytes) = float, usually zero for rusEFI
+		0032h = shift (4 bytes) = float, usually zero for gerEFI
 		0036h = precision (1 byte) 1="%.1f", 2="%.2f",...
 	} fields[num_fields]
 

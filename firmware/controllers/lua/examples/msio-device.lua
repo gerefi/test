@@ -1,4 +1,4 @@
--- this script turns a rusEFI into an MSIO box
+-- this script turns a gerEFI into an MSIO box
 
 setTickRate(300)
 every50msTimer = Timer.new()

@@ -2,7 +2,7 @@ package com.gerefi;
 
 import com.devexperts.logging.FileLogger;
 import com.devexperts.logging.Logging;
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 import com.gerefi.tools.ConsoleTools;
 import com.gerefi.ui.engine.EngineSnifferPanel;
 import com.gerefi.core.preferences.storage.PersistentConfiguration;
@@ -22,7 +22,7 @@ import static com.devexperts.logging.Logging.getLogging;
  * @see StartupFrame
  * @see EngineSnifferPanel
  */
-public class Launcher implements rusEFIVersion {
+public class Launcher implements gerEFIVersion {
     private static final Logging log = getLogging(Launcher.class);
     public static final String TOOLS_PATH = System.getProperty("tools_path", ".");
 
@@ -33,8 +33,8 @@ public class Launcher implements rusEFIVersion {
      */
     public static void main(final String[] args) throws Exception {
         FileLogger.init();
-        log.info("rusEFI UI console " + CONSOLE_VERSION);
-        log.info("Compiled " + new Date(rusEFIVersion.classBuildTimeMillis()));
+        log.info("gerEFI UI console " + CONSOLE_VERSION);
+        log.info("Compiled " + new Date(gerEFIVersion.classBuildTimeMillis()));
         log.info("\n\n");
         PersistentConfiguration.registerShutdownHook();
 

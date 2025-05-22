@@ -6,7 +6,7 @@ import com.gerefi.proxy.MockIniFileProvider;
 import com.gerefi.server.Backend;
 import com.gerefi.server.UserDetails;
 import com.gerefi.server.UserDetailsResolver;
-import com.gerefi.server.rusEFISSLContext;
+import com.gerefi.server.gerEFISSLContext;
 import com.gerefi.tools.online.HttpUtil;
 import org.jetbrains.annotations.NotNull;
 
@@ -47,6 +47,6 @@ public class BackendTestHelper {
         HttpUtil.RUSEFI_PROXY_HOSTNAME = TcpConnector.LOCALHOST;
         BinaryProtocolLocalCache.DISABLE_LOCAL_CONFIGURATION_CACHE = true;
 
-        rusEFISSLContext.init("certificate/test_pkcs12.jks", "password");
+        gerEFISSLContext.init("certificate/test_pkcs12.jks", "password");
     }
 }

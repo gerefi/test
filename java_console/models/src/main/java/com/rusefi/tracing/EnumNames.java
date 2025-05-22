@@ -1,5 +1,5 @@
 package com.gerefi.tracing;
-// Wed Apr 23 04:25:14 UTC 2025 was generated automatically by rusEFI tool class com.gerefi.PerfTraceEnumGenerator
+// Wed Apr 23 04:25:14 UTC 2025 was generated automatically by gerEFI tool class com.gerefi.PerfTraceEnumGenerator
 public class EnumNames {
 	public static final String[] TypeNames = {
 	"INVALID",

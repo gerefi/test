@@ -7,7 +7,7 @@
 
 /*
  * __process_stack_size__ and __process_stack_size__ defaults are each hard-coded as 0x400 in ChibiOS rules.mk files
- * rusEFI does not override these defaults.
+ * gerEFI does not override these defaults.
  *
  * http://www.chibios.com/forum/viewtopic.php?t=309
  * "__main_stack_size__ is the size of INTERRUPTS stack"

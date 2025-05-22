@@ -16,7 +16,7 @@ import com.gerefi.io.LinkManager;
 import com.gerefi.io.commands.ByteRange;
 import com.gerefi.io.commands.HelloCommand;
 import com.gerefi.io.commands.WriteChunkCommand;
-import com.gerefi.server.rusEFISSLContext;
+import com.gerefi.server.gerEFISSLContext;
 import com.gerefi.ui.StatusConsumer;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -57,7 +57,7 @@ public class BinaryProtocolServer {
 
     public final AtomicInteger unknownCommands = new AtomicInteger();
 
-    public static final ServerSocketFunction SECURE_SOCKET_FACTORY = rusEFISSLContext::getSSLServerSocket;
+    public static final ServerSocketFunction SECURE_SOCKET_FACTORY = gerEFISSLContext::getSSLServerSocket;
 
     private final static ConcurrentHashMap<String, ThreadFactory> THREAD_FACTORIES_BY_NAME = new ConcurrentHashMap<>();
 
@@ -164,7 +164,7 @@ public class BinaryProtocolServer {
             } else if (command == Integration.TS_GET_PROTOCOL_VERSION_COMMAND_F) {
                 stream.sendPacket((TS_OK + TS_PROTOCOL).getBytes());
             } else if (command == Integration.TS_GET_FIRMWARE_VERSION) {
-                stream.sendPacket((TS_OK + "rusEFI proxy").getBytes());
+                stream.sendPacket((TS_OK + "gerEFI proxy").getBytes());
             } else if (command == Integration.TS_CRC_CHECK_COMMAND) {
                 handleCrc(linkManager, stream);
             } else if (command == Integration.TS_READ_COMMAND) {

@@ -418,8 +418,8 @@ public class BinaryProtocol {
             int crc32FromController = bb.getInt();
             short crc16FromController = (short) crc32FromController;
 
-            log.info(String.format("rusEFI says tune CRC32 0x%x %d\n", crc32FromController, crc32FromController));
-            log.info(String.format("rusEFI says tune CRC16 0x%x %d\n", crc16FromController, crc16FromController));
+            log.info(String.format("gerEFI says tune CRC32 0x%x %d\n", crc32FromController, crc32FromController));
+            log.info(String.format("gerEFI says tune CRC16 0x%x %d\n", crc16FromController, crc16FromController));
             return crc32FromController;
         } else {
             return  -1;

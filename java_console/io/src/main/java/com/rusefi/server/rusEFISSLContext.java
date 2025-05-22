@@ -10,7 +10,7 @@ import java.security.KeyStore;
 import java.security.cert.X509Certificate;
 import java.util.Objects;
 
-public class rusEFISSLContext {
+public class gerEFISSLContext {
     private static final String TLS = "TLS";
 
     // I assume that jenkins own setup is interfering with our attempts to change system properties :(
@@ -19,7 +19,7 @@ public class rusEFISSLContext {
 
 //    private static KeyStore key;
 
-    // todo: one day once rusEFI has a proper commercial certificate this should be removed
+    // todo: one day once gerEFI has a proper commercial certificate this should be removed
     private static TrustManager[] trustAllCerts = new TrustManager[]{
             new X509TrustManager() {
                 public java.security.cert.X509Certificate[] getAcceptedIssuers() {

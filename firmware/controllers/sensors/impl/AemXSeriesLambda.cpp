@@ -108,11 +108,11 @@ void AemXSeriesWideband::refreshState() {
 
 void AemXSeriesWideband::decodeFrame(const CANRxFrame& frame, efitick_t nowNt) {
 	// accept frame has already guaranteed that this message belongs to us
-	// We just have to check if it's AEM or rusEFI
+	// We just have to check if it's AEM or gerEFI
 	if (sensorType() == RUSEFI){
 		uint32_t id = CAN_ID(frame);
 
-		// rusEFI custom format
+		// gerEFI custom format
 		if ((id & 0x1) != 0) {
 			// low bit is set, this is the "diag" frame
 			decodeRusefiDiag(frame);

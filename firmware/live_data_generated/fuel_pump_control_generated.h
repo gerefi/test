@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool ConfigDefinition.jar based on (unknown script) controllers/actuators/fuel_pump_control.txt Sat Aug 27 18:43:20 UTC 2022
+// this section was generated automatically by gerEFI tool ConfigDefinition.jar based on (unknown script) controllers/actuators/fuel_pump_control.txt Sat Aug 27 18:43:20 UTC 2022
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -105,4 +105,4 @@ struct fuel_pump_control_s {
 static_assert(sizeof(fuel_pump_control_s) == 4);
 
 // end
-// this section was generated automatically by rusEFI tool ConfigDefinition.jar based on (unknown script) controllers/actuators/fuel_pump_control.txt Sat Aug 27 18:43:20 UTC 2022
+// this section was generated automatically by gerEFI tool ConfigDefinition.jar based on (unknown script) controllers/actuators/fuel_pump_control.txt Sat Aug 27 18:43:20 UTC 2022

@@ -1,4 +1,4 @@
--- rusEFI receiving lambda from MoTeC
+-- gerEFI receiving lambda from MoTeC
 -- https://www.motec.com.au/products/LTC?catId=10#SPECIFICATIONS
 -- https://www.motec.com.au/hessian/uploads/LTC_LTCD_LTCN_User_Manual_252ca77b3d.pdf
 -- Appendix E – LTC CAN Messages, page 39

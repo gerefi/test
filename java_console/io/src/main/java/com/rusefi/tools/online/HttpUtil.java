@@ -27,7 +27,7 @@ public class HttpUtil {
     public static final int PROXY_JSON_API_HTTP_PORT = getIntProperty("http.port", 8001);
 
     /**
-     * hostname of PROXY server, not primary rusEFI web server - those are two separate hosts at the moment
+     * hostname of PROXY server, not primary gerEFI web server - those are two separate hosts at the moment
      */
     public static String RUSEFI_PROXY_HOSTNAME = System.getProperty("RUSEFI_PROXY_URL", "proxy.gerefi.com");
 

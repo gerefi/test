@@ -166,7 +166,7 @@ public class TsOutput {
             String[] fields = tokenizeWithBraces(tsInfo);
             if (fields.length > multiplierIndex) {
                 /**
-                 * Evaluate static math on .ini layer to simplify rusEFI java and rusEFI PHP project consumers
+                 * Evaluate static math on .ini layer to simplify gerEFI java and gerEFI PHP project consumers
                  * https://github.com/gerefi/web_backend/issues/97
                  */
                 double val = IniField.parseDouble(fields[multiplierIndex]);

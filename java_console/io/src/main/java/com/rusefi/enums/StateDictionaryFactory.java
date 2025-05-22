@@ -1,5 +1,5 @@
 package com.gerefi.enums;
-//was generated automatically by rusEFI tool config_definition_base-all.jar based on StateDictionaryGenerator integration/LiveData.yaml on Fri May 16 12:31:52 UTC 2025n
+//was generated automatically by gerEFI tool config_definition_base-all.jar based on StateDictionaryGenerator integration/LiveData.yaml on Fri May 16 12:31:52 UTC 2025n
 import com.gerefi.config.generated.*;
 import com.gerefi.ldmp.StateDictionary;
 

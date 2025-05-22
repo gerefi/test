@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/engine_cycle/prime_injection.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/engine_cycle/prime_injection.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -106,4 +106,4 @@ struct prime_injection_s {
 static_assert(sizeof(prime_injection_s) == 4);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/engine_cycle/prime_injection.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/engine_cycle/prime_injection.txt

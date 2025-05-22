@@ -122,7 +122,7 @@ Shall we display real life signal or just the part consumed by trigger decoder.\
 
 
 ### verboseCan
-Print incoming and outgoing first bus CAN messages in rusEFI console
+Print incoming and outgoing first bus CAN messages in gerEFI console
 
 ### artificialTestMisfire
 Experimental setting that will cause a misfire\nDO NOT ENABLE.
@@ -410,7 +410,7 @@ null
 enable sd/disable sd
 
 ### gerefiVerbose29b
-Use 11 bit (standard) or 29 bit (extended) IDs for rusEFI verbose CAN format.
+Use 11 bit (standard) or 29 bit (extended) IDs for gerEFI verbose CAN format.
 
 ### rethrowHardFault
 
@@ -434,7 +434,7 @@ This setting should only be used if you have a stepper motor idle valve and a st
 
 
 ### enableVerboseCanTx
-CAN broadcast using custom rusEFI protocol
+CAN broadcast using custom gerEFI protocol
 
 ### externalRusEfiGdiModule
 
@@ -482,7 +482,7 @@ Disable the electronic throttle motor and DC idle motor for testing.\nThis mode 
 
 
 ### enableAemXSeries
-AEM X-Series or rusEFI Wideband
+AEM X-Series or gerEFI Wideband
 
 ### modeledFlowIdle
 
@@ -572,7 +572,7 @@ If enabled we use two H-bridges to drive stepper idle air valve
 
 
 ### consumeObdSensors
-This property is useful if using rusEFI as TCM or BCM only
+This property is useful if using gerEFI as TCM or BCM only
 
 ### enableCanVss
 Read VSS from OEM CAN bus according to selected CAN vehicle configuration.
@@ -641,7 +641,7 @@ In Alpha-N mode, compensate for air temperature.
 If enabled we use four Push-Pull outputs to directly drive stepper idle air valve coils
 
 ### verboseCan2
-Print incoming and outgoing second bus CAN messages in rusEFI console
+Print incoming and outgoing second bus CAN messages in gerEFI console
 
 ### boostPid.pFactor
 
@@ -1064,7 +1064,7 @@ VSS and Aux Speed 1 or Aux Speed 1 with Aux Speed 2?
 
 
 ### enableAemXSeriesEgt
-AEM X-Series EGT gauge kit or rusEFI EGT sensor from Wideband controller
+AEM X-Series EGT gauge kit or gerEFI EGT sensor from Wideband controller
 
 ### startRequestPinInverted
 

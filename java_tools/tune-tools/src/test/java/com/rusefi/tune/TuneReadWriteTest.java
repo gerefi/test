@@ -148,7 +148,7 @@ public class TuneReadWriteTest {
         assertInstanceOf(ConfigurationImageMetaVersion0_0.class, meta);
         final ConfigurationImageMetaVersion0_0 metaVersion0_0 = (ConfigurationImageMetaVersion0_0) meta;
         assertEquals(LEGACY_TOTAL_CONFIG_SIZE, metaVersion0_0.getImageSize());
-        assertEquals("rusEFI TEST_BRANCH.TEST_TAG.TEST_DEVICE.TEST_HASH\0", metaVersion0_0.getEcuSignature());
+        assertEquals("gerEFI TEST_BRANCH.TEST_TAG.TEST_DEVICE.TEST_HASH\0", metaVersion0_0.getEcuSignature());
     }
 
     @Test
@@ -177,7 +177,7 @@ public class TuneReadWriteTest {
         Path path = Files.createTempFile("unit_test_", ".xml");
         String fileName = path.getFileName().toString();
 
-        // writing TS XML tune file with rusEFI code
+        // writing TS XML tune file with gerEFI code
         Msq tuneFromBinary = MsqFactory.valueOf(fileBinaryData, model);
         tuneFromBinary.writeXmlFile(fileName);
 

@@ -18,7 +18,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * This utility produces images of trigger signals supported by rusEFI
+ * This utility produces images of trigger signals supported by gerEFI
  * <p>
  * 06/23/15
  * Andrey Belomutskiy, (c) 2013-2020

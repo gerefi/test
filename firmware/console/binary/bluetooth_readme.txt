@@ -1,8 +1,8 @@
 Bluetooth module setup procedure. User Manual.
 	
 To activate your Bluetooth module, you'll need:
-1) Connect your PC to the rusEFI board using UART cable.
-2) Run "rusEFI Console" software.
+1) Connect your PC to the gerEFI board using UART cable.
+2) Run "gerEFI Console" software.
 3) Turn on the board power and wait for the console connection.
 4) Type the following command:
    "bluetooth_hc06 <baud> <name> <pincode>"

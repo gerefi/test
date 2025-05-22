@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
 <bibliography author="TunerStudio MS Dev 3.1.03 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Jun 14 00:00:04 EDT 2020"/>
-<versionInfo fileFormat="5.0" firmwareInfo="rusEFI+v20200604%4023532" nPages="1" signature="rusEFI v1.2020.4"/>
+<versionInfo fileFormat="5.0" firmwareInfo="gerEFI+v20200604%4023532" nPages="1" signature="gerEFI v1.2020.4"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
 <pcVariable cols="1" digits="1" name="wueAfrTargetOffset" rows="16" units=":1">

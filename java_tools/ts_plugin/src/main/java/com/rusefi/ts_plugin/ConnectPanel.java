@@ -76,7 +76,7 @@ public class ConnectPanel {
             }
 
             connect.setEnabled(false);
-            status.setText("Looking for rusEFI...");
+            status.setText("Looking for gerEFI...");
 
             IO_THREAD.execute(() -> {
                 controllerConnector = new LinkManager()
@@ -104,13 +104,13 @@ public class ConnectPanel {
     private void tryToConnect(ConnectionStateListener connectionStateListener) {
         String autoDetectedPort = PortDetector.autoDetectSerial(null).getSerialPort();
         if (autoDetectedPort == null) {
-            status.setText("rusEFI not found");
+            status.setText("gerEFI not found");
             connect.setEnabled(true);
         } else {
             controllerConnector.startAndConnect(autoDetectedPort, new ConnectionStateListener() {
                 public void onConnectionEstablished() {
                     SwingUtilities.invokeLater(() -> {
-                        status.setText("Connected to rusEFI " + autoDetectedPort);
+                        status.setText("Connected to gerEFI " + autoDetectedPort);
                         disconnect.setEnabled(true);
                         connectionStateListener.onConnectionEstablished();
                     });

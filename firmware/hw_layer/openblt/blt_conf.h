@@ -1,6 +1,6 @@
 /************************************************************************************//**
 * \file         config/boards/microgerefi/openblt/blt_conf.h
-* \brief        Bootloader configuration header file for rusEFI
+* \brief        Bootloader configuration header file for gerEFI
 *----------------------------------------------------------------------------------------
 *                          C O P Y R I G H T
 *----------------------------------------------------------------------------------------

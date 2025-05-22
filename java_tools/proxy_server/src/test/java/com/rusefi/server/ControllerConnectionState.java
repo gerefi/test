@@ -33,7 +33,7 @@ public class ControllerConnectionState {
      */
     private SessionDetails sessionDetails;
     /**
-     * user info from rusEFI database based on auth token
+     * user info from gerEFI database based on auth token
      */
     private UserDetails userDetails;
     private ControllerKey controllerKey;

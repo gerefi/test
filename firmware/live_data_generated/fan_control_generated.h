@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/actuators/fan_control.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/actuators/fan_control.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -121,4 +121,4 @@ struct fan_control_s {
 static_assert(sizeof(fan_control_s) == 8);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/actuators/fan_control.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/actuators/fan_control.txt

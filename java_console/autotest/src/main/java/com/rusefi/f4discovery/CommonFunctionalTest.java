@@ -19,7 +19,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 /**
- * rusEFI firmware simulator functional test suite
+ * gerEFI firmware simulator functional test suite
  * <p/>
  * java -cp gerefi_console.jar com.gerefi.AutoTest
  *

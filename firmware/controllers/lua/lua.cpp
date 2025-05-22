@@ -200,7 +200,7 @@ static LuaHandle setupLuaState(lua_Alloc alloc) {
 	// Load Lua's own libraries
 	loadLibraries(ls);
 
-	// Load rusEFI hooks
+	// Load gerEFI hooks
 	lua_register(ls, "setTickRate", lua_setTickRate);
 	configureRusefiLuaHooks(ls);
 

@@ -13,7 +13,7 @@
             Activity is launched singleTop to avoid creating multiple activities for each event.
           -->
         <activity
-            android:name=".rusEFI"
+            android:name=".gerEFI"
             android:exported="true"
             android:launchMode="singleTop">
 

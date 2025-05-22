@@ -3,7 +3,7 @@
 For TS Protocol details see https://www.tunerstudio.com/index.php/support/manuals/tsdevmanuals/137-ecu-definition-specification-aka-the-ini-document
 
 This directory contains the initialization and configuration files for the
-rusEFI interface to TunerStudio.
+gerEFI interface to TunerStudio.
 
 The primary contents are a set ```gerefi*.ini``` initialization files, used to
 configure TunerStudio to setup and monitor a specific ECU board.  These are

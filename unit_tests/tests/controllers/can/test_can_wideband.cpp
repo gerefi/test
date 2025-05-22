@@ -20,11 +20,11 @@ TEST(CanWideband, AcceptFrameId0) {
 	// Now switch to RusEFI
 	engineConfiguration->wboType1 = RUSEFI;
 
-	// Check that the rusEFI standard data is accepted
+	// Check that the gerEFI standard data is accepted
 	frame.SID = 0x190;
 	EXPECT_TRUE(dut.acceptFrame(frame));
 
-	// Check that the rusEFI extended data is accepted
+	// Check that the gerEFI extended data is accepted
 	frame.SID = 0x191;
 	EXPECT_TRUE(dut.acceptFrame(frame));
 }
@@ -47,11 +47,11 @@ TEST(CanWideband, AcceptFrameId1) {
 	// Now switch to RusEFI
 	engineConfiguration->wboType2 = RUSEFI;
 
-	// Check that the rusEFI standard data is accepted
+	// Check that the gerEFI standard data is accepted
 	frame.SID = 0x192;
 	EXPECT_TRUE(dut.acceptFrame(frame));
 
-	// Check that the rusEFI extended data is accepted
+	// Check that the gerEFI extended data is accepted
 	frame.SID = 0x193;
 	EXPECT_TRUE(dut.acceptFrame(frame));
 }

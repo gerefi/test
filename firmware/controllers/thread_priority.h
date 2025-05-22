@@ -1,6 +1,6 @@
 /**
  * @file        thread_priority.h
- * @brief       This file sets the thread priority for the threads running on rusEFI
+ * @brief       This file sets the thread priority for the threads running on gerEFI
  *
  * @date February 27, 2021
  * @author Matthew Kennedy, (c) 2021

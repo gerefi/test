@@ -21,7 +21,7 @@ public class MockIniFileProvider {
         when(mockMeta.getTotalSize()).thenReturn(15000);
 
         IniFileModel mockModel = mock(IniFileModel.class);
-        when(mockModel.getSignature()).thenReturn("rusEFI mocked-ini-file");
+        when(mockModel.getSignature()).thenReturn("gerEFI mocked-ini-file");
         when(mockModel.getBlockingFactor()).thenReturn(6666);
 
         final IniField mockedStringIniField = new StringIniField("mockStringIniField", 0, 12);

@@ -33,7 +33,7 @@ public class NetworkConnectorTest {
         int serverPortForControllers = 7504;
         int httpPort = 7503;
 
-        // create virtual controller to which "rusEFI network connector" connects to
+        // create virtual controller to which "gerEFI network connector" connects to
         int controllerPort = 7502;
         ConfigurationImage controllerImage = new ConfigurationImage(BinaryProtocol.iniFileProvider.provide(null).getMetaInfo().getTotalSize());
         BinaryProtocolServer.Context patientController = new BinaryProtocolServer.Context() {
@@ -69,7 +69,7 @@ public class NetworkConnectorTest {
 
         CountDownLatch reconnectCounter = new CountDownLatch(1);
 
-        // start "rusEFI network connector" to connect controller with backend since in real life controller has only local serial port it does not have network
+        // start "gerEFI network connector" to connect controller with backend since in real life controller has only local serial port it does not have network
         NetworkConnector.ReconnectListener reconnectListener = new NetworkConnector.ReconnectListener() {
             @Override
             public void onReconnect() {

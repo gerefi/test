@@ -3,7 +3,7 @@ package com.gerefi.ts_plugin;
 import com.devexperts.logging.Logging;
 import com.efiAnalytics.plugin.ApplicationPlugin;
 import com.efiAnalytics.plugin.ecu.ControllerAccess;
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 import org.putgemin.VerticalFlowLayout;
 
 import javax.swing.*;
@@ -33,7 +33,7 @@ public class TsPluginLauncher implements ApplicationPlugin {
 
     @Override
     public String getIdName() {
-        return "rusEFI_plugin";
+        return "gerEFI_plugin";
     }
 
     @Override
@@ -43,12 +43,12 @@ public class TsPluginLauncher implements ApplicationPlugin {
 
     @Override
     public String getDisplayName() {
-        return "rusEFI Plugin";
+        return "gerEFI Plugin";
     }
 
     @Override
     public String getDescription() {
-        return "A plugin for rusEFI integration";
+        return "A plugin for gerEFI integration";
     }
 
     @Override
@@ -69,7 +69,7 @@ public class TsPluginLauncher implements ApplicationPlugin {
 
     @Override
     public String getAuthor() {
-        return "rusEFI LLC";
+        return "gerEFI LLC";
     }
 
     @Override
@@ -78,7 +78,7 @@ public class TsPluginLauncher implements ApplicationPlugin {
             // lazy initialization since TunerStudio creates one instance only to get version information without any
             // intentions to display the UI
             if (content.getComponents().length == 0) {
-                log.info("Create Updater " + this + " " + rusEFIVersion.CONSOLE_VERSION);
+                log.info("Create Updater " + this + " " + gerEFIVersion.CONSOLE_VERSION);
                 Updater updater = new Updater();
                 content.add(updater.getContent());
             }

@@ -16,7 +16,7 @@ public class SignatureHelper {
     private final static String LOCAL_INI_CACHE_FOLDER = RUSEFI_SETTINGS_FOLDER + File.separator + "ini_database";
 
     // todo: find a way to reference Fields.PROTOCOL_SIGNATURE_PREFIX
-    private static final String PREFIX = "rusEFI ";
+    private static final String PREFIX = "gerEFI ";
     private static final char SLASH = '/';
     /**
      * java -Dextra_local_ini_file_name=path_to_local_generated.ini ...

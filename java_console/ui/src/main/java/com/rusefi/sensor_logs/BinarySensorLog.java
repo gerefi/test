@@ -3,7 +3,7 @@ package com.gerefi.sensor_logs;
 import com.devexperts.logging.FileLogger;
 import com.gerefi.FileLog;
 import com.gerefi.config.generated.Integration;
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 
 import java.io.*;
 import java.util.*;
@@ -47,7 +47,7 @@ public class BinarySensorLog<T extends BinaryLogEntry> implements SensorLog {
     public void writeSensorLogLine() {
         if (stream == null) {
             FileLogger.createFolderIfNeeded();
-            fileName = FileLogger.DIR + "rusEFI_gauges_" + FileLog.getDate() + ".mlg";
+            fileName = FileLogger.DIR + "gerEFI_gauges_" + FileLog.getDate() + ".mlg";
 
             try {
                 stream = new DataOutputStream(new FileOutputStream(fileName));
@@ -94,7 +94,7 @@ public class BinarySensorLog<T extends BinaryLogEntry> implements SensorLog {
     }
 
     private void writeHeader() throws IOException {
-        String headerText = "\"rusEFI " + rusEFIVersion.CONSOLE_VERSION + "\"\n" +
+        String headerText = "\"gerEFI " + gerEFIVersion.CONSOLE_VERSION + "\"\n" +
                 "\"Capture Date: " + new Date() + "\"\n";
 
         for (char c : "MLVLG\0".toCharArray()) {

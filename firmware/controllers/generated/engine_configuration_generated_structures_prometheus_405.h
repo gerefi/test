@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/gerefi_config.txt
+// this section was generated automatically by gerEFI tool config_definition-all.jar based on (unknown script) integration/gerefi_config.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -819,7 +819,7 @@ struct engine_configuration_s {
 	offset 188 bit 22 */
 	bool usescriptTableForCanSniffingFiltering : 1 {};
 	/**
-	 * Print incoming and outgoing first bus CAN messages in rusEFI console
+	 * Print incoming and outgoing first bus CAN messages in gerEFI console
 	offset 188 bit 23 */
 	bool verboseCan : 1 {};
 	/**
@@ -1481,7 +1481,7 @@ struct engine_configuration_s {
 	 */
 	uint8_t alignmentFill_at_733[1];
 	/**
-	 * Each rusEFI piece can provide synthetic trigger signal for external ECU. Sometimes these wires are routed back into trigger inputs of the same rusEFI board.
+	 * Each gerEFI piece can provide synthetic trigger signal for external ECU. Sometimes these wires are routed back into trigger inputs of the same gerEFI board.
 	 * See also directSelfStimulation which is different.
 	 * offset 734
 	 */
@@ -1544,7 +1544,7 @@ struct engine_configuration_s {
 	offset 752 bit 3 */
 	bool isSdCardEnabled : 1 {};
 	/**
-	 * Use 11 bit (standard) or 29 bit (extended) IDs for rusEFI verbose CAN format.
+	 * Use 11 bit (standard) or 29 bit (extended) IDs for gerEFI verbose CAN format.
 	offset 752 bit 4 */
 	bool gerefiVerbose29b : 1 {};
 	/**
@@ -1576,7 +1576,7 @@ struct engine_configuration_s {
 	offset 752 bit 13 */
 	bool verboseTLE8888 : 1 {};
 	/**
-	 * CAN broadcast using custom rusEFI protocol
+	 * CAN broadcast using custom gerEFI protocol
 	 * enable can_broadcast/disable can_broadcast
 	offset 752 bit 14 */
 	bool enableVerboseCanTx : 1 {};
@@ -1633,7 +1633,7 @@ struct engine_configuration_s {
 	offset 752 bit 29 */
 	bool idleIncrementalPidCic : 1 {};
 	/**
-	 * AEM X-Series or rusEFI Wideband
+	 * AEM X-Series or gerEFI Wideband
 	offset 752 bit 30 */
 	bool enableAemXSeries : 1 {};
 	/**
@@ -1964,7 +1964,7 @@ struct engine_configuration_s {
 	 */
 	uart_device_e consoleUartDevice;
 	/**
-	 * rusEFI console Sensor Sniffer mode
+	 * gerEFI console Sensor Sniffer mode
 	 * offset 917
 	 */
 	sensor_chart_e sensorChartMode;
@@ -1998,7 +1998,7 @@ struct engine_configuration_s {
 	offset 920 bit 5 */
 	bool canInputBCM : 1 {};
 	/**
-	 * This property is useful if using rusEFI as TCM or BCM only
+	 * This property is useful if using gerEFI as TCM or BCM only
 	offset 920 bit 6 */
 	bool consumeObdSensors : 1 {};
 	/**
@@ -2080,7 +2080,7 @@ struct engine_configuration_s {
 	offset 920 bit 30 */
 	bool useRawOutputToDriveIdleStepper : 1 {};
 	/**
-	 * Print incoming and outgoing second bus CAN messages in rusEFI console
+	 * Print incoming and outgoing second bus CAN messages in gerEFI console
 	offset 920 bit 31 */
 	bool verboseCan2 : 1 {};
 	/**
@@ -2198,20 +2198,20 @@ struct engine_configuration_s {
 	dc_io stepperDcIo[DC_PER_STEPPER];
 	/**
 	 * For example, BMW, GM or Chevrolet
-	 * REQUIRED for rusEFI Online
+	 * REQUIRED for gerEFI Online
 	 * offset 1052
 	 */
 	vehicle_info_t engineMake;
 	/**
 	 * For example, LS1 or NB2
-	 * REQUIRED for rusEFI Online
+	 * REQUIRED for gerEFI Online
 	 * offset 1084
 	 */
 	vehicle_info_t engineCode;
 	/**
 	 * For example, Hunchback or Orange Miata
 	 * Vehicle name has to be unique between your vehicles.
-	 * REQUIRED for rusEFI Online
+	 * REQUIRED for gerEFI Online
 	 * offset 1116
 	 */
 	vehicle_info_t vehicleName;
@@ -2815,7 +2815,7 @@ struct engine_configuration_s {
 	offset 1492 bit 14 */
 	bool is_enabled_spi_6 : 1 {};
 	/**
-	 * AEM X-Series EGT gauge kit or rusEFI EGT sensor from Wideband controller
+	 * AEM X-Series EGT gauge kit or gerEFI EGT sensor from Wideband controller
 	offset 1492 bit 15 */
 	bool enableAemXSeriesEgt : 1 {};
 	/**
@@ -5729,4 +5729,4 @@ struct persistent_config_s {
 static_assert(sizeof(persistent_config_s) == 22968);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/gerefi_config.txt
+// this section was generated automatically by gerEFI tool config_definition-all.jar based on (unknown script) integration/gerefi_config.txt

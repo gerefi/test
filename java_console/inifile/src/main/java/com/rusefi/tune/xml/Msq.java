@@ -5,7 +5,7 @@ import com.opensr5.ConfigurationImage;
 import com.opensr5.ini.IniFileModel;
 import com.opensr5.ini.field.ArrayIniField;
 import com.opensr5.ini.field.IniField;
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 import com.gerefi.xml.XmlUtil;
 import org.jetbrains.annotations.NotNull;
 
@@ -29,7 +29,7 @@ public class Msq {
     public Bibliography bibliography = new Bibliography();
 
     public Msq() {
-        versionInfo = new VersionInfo(Integer.toString(rusEFIVersion.CONSOLE_VERSION));
+        versionInfo = new VersionInfo(Integer.toString(gerEFIVersion.CONSOLE_VERSION));
     }
 
     static {

@@ -1,5 +1,5 @@
 //
-// was generated automatically by rusEFI tool config_definition-all.jar based on kinetis_gen_config.bat integration/gerefi_config.txt
+// was generated automatically by gerEFI tool config_definition-all.jar based on kinetis_gen_config.bat integration/gerefi_config.txt
 //
 
 #define adc_channel_e_enum "Disabled", "PA2", "PA3", "INVALID", "PD3", "INVALID", "INVALID", "INVALID", "PB12", "PB13", "INVALID", "PE2", "INVALID", "PC14", "PC15", "PC16", "PC17"
@@ -786,7 +786,7 @@
 #define PROTOCOL_INJ1_STAGE2_SHORT_NAME "j1"
 #define PROTOCOL_MSG "msg"
 #define PROTOCOL_OUTPIN "outpin"
-#define PROTOCOL_SIGNATURE_PREFIX "rusEFI "
+#define PROTOCOL_SIGNATURE_PREFIX "gerEFI "
 #define PROTOCOL_TACH_NAME "tach"
 #define PROTOCOL_TEST_RESPONSE_TAG "ts_p_alive"
 #define PROTOCOL_VERSION_TAG "rusEfiVersion"
@@ -1183,7 +1183,7 @@
 #define ts_show_vr_threshold_all false
 #define ts_show_vr_threshold_pins true
 #define ts_show_vvt_output true
-#define TS_SIGNATURE "rusEFI master.2024.03.09.kin.2427454509"
+#define TS_SIGNATURE "gerEFI master.2024.03.09.kin.2427454509"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'

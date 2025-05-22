@@ -3,7 +3,7 @@
 #                    compile.sh                     #
 #                    02/17/2024                     #
 #             Written By David Holdeman             #
-#    Compile rusEFI - use '-b' to build a bundle    #
+#    Compile gerEFI - use '-b' to build a bundle    #
 #####################################################
 
 PS3="Select a build by entering its number: "

@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/trigger/trigger_central.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/trigger/trigger_central.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -194,4 +194,4 @@ struct trigger_central_s {
 static_assert(sizeof(trigger_central_s) == 56);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base-all.jar based on (unknown script) controllers/trigger/trigger_central.txt
+// this section was generated automatically by gerEFI tool config_definition_base-all.jar based on (unknown script) controllers/trigger/trigger_central.txt

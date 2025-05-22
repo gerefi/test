@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # broadcast.sh
-# this file is part of rusEFI
+# this file is part of gerEFI
 #
 while true
 do

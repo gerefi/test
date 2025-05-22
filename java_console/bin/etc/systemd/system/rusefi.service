@@ -3,7 +3,7 @@
 #
 
 [Unit]
-Description=rusEFI systemd
+Description=gerEFI systemd
 
 [Service]
 ExecStart=/rw/startup_root.sh

@@ -26,10 +26,10 @@ protected:
 	// Dispatches to one of the three decoders below
 	void decodeFrame(const CANRxFrame& frame, efitick_t nowNt) override;
 
-	// Decode an actual AEM controller, or a rusEFI controller sending AEM format
+	// Decode an actual AEM controller, or a gerEFI controller sending AEM format
 	bool decodeAemXSeries(const CANRxFrame& frame, efitick_t nowNt);
 
-	// Decode rusEFI custom format
+	// Decode gerEFI custom format
 	void decodeRusefiStandard(const CANRxFrame& frame, efitick_t nowNt);
 	void decodeRusefiDiag(const CANRxFrame& frame);
 

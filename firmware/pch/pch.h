@@ -1,7 +1,7 @@
 /**
  * @file	pch.h
  *
- * This file is rusEFI's precompiled header. Most cpp files should include
+ * This file is gerEFI's precompiled header. Most cpp files should include
  * this file in lieu of any of the files below.
  *
  * This helps compilation performance by parsing/analyzing these files only

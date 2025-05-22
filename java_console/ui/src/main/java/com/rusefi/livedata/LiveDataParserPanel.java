@@ -33,7 +33,7 @@ import static javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED;
 import static javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED;
 
 /**
- * this panel shows a live view of rusEFI firmware C/C++ code
+ * this panel shows a live view of gerEFI firmware C/C++ code
  * @see LiveDataParserSandbox
  */
 public class LiveDataParserPanel {

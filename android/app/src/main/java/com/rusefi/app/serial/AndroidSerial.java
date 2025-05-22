@@ -13,7 +13,7 @@ import com.hoho.android.usbserial.driver.UsbSerialPort;
 import com.hoho.android.usbserial.driver.UsbSerialProber;
 import com.opensr5.io.DataListener;
 import com.gerefi.app.PermissionGrantedAction;
-import com.gerefi.app.rusEFI;
+import com.gerefi.app.gerEFI;
 import com.gerefi.binaryprotocol.IncomingDataBuffer;
 import com.gerefi.dfu.DfuLogic;
 import com.gerefi.io.ByteReader;
@@ -44,21 +44,21 @@ public class AndroidSerial extends AbstractIoStream {
         dataBuffer = createDataBuffer();
     }
 
-    private static UsbSerialDriver getSerialDriver(rusEFI rusEFI, TextView mStatusView, UsbManager usbManager, PermissionGrantedAction action) {
+    private static UsbSerialDriver getSerialDriver(gerEFI gerEFI, TextView mStatusView, UsbManager usbManager, PermissionGrantedAction action) {
         List<UsbSerialDriver> availableDrivers = findUsbSerial(usbManager);
         if (availableDrivers.isEmpty()) {
             mStatusView.setText("Serial not found");
-            rusEFI.visibleLogAppend("No serial devices " + new Date() + "\n");
+            gerEFI.visibleLogAppend("No serial devices " + new Date() + "\n");
             return null;
         }
-        mStatusView.setText("rusEFI: " + availableDrivers.size() + " device(s)");
+        mStatusView.setText("gerEFI: " + availableDrivers.size() + " device(s)");
 
         UsbSerialDriver driver = availableDrivers.get(0);
 
         UsbDevice usbDevice = driver.getDevice();
         if (!usbManager.hasPermission(usbDevice)) {
             mStatusView.setText("Need permission");
-            rusEFI.requestUsbPermission(usbDevice, action);
+            gerEFI.requestUsbPermission(usbDevice, action);
             return null;
         }
         return driver;
@@ -66,9 +66,9 @@ public class AndroidSerial extends AbstractIoStream {
 
     @SuppressLint("SetTextI18n")
     @Nullable
-    public static AndroidSerial getAndroidSerial(rusEFI rusEFI, TextView mStatusView, UsbManager usbManager) {
+    public static AndroidSerial getAndroidSerial(gerEFI gerEFI, TextView mStatusView, UsbManager usbManager) {
         // todo: should support separate actions not default to dashboard!
-        UsbSerialDriver driver = getSerialDriver(rusEFI, mStatusView, usbManager, PermissionGrantedAction.DASHBOARD);
+        UsbSerialDriver driver = getSerialDriver(gerEFI, mStatusView, usbManager, PermissionGrantedAction.DASHBOARD);
         if (driver == null) {
             // error already reported to UI or permission request was fired
             return null;

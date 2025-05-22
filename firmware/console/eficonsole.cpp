@@ -51,8 +51,8 @@ PUBLIC_API_WEAK void boardSayHello() {
 }
 
 static void sayHello() {
-	efiPrintf(PROTOCOL_HELLO_PREFIX " rusEFI LLC (c) 2012-2024. All rights reserved.");
-	efiPrintf(PROTOCOL_HELLO_PREFIX " rusEFI v%d@%u now=%d", getRusEfiVersion(), /*do we have a working way to print 64 bit values?!*/(int)SIGNATURE_HASH, (int)getTimeNowMs());
+	efiPrintf(PROTOCOL_HELLO_PREFIX " gerEFI LLC (c) 2012-2024. All rights reserved.");
+	efiPrintf(PROTOCOL_HELLO_PREFIX " gerEFI v%d@%u now=%d", getRusEfiVersion(), /*do we have a working way to print 64 bit values?!*/(int)SIGNATURE_HASH, (int)getTimeNowMs());
 	efiPrintf(PROTOCOL_HELLO_PREFIX " Chibios Kernel:       %s", CH_KERNEL_VERSION);
 	efiPrintf(PROTOCOL_HELLO_PREFIX " Compiled:     " __DATE__ " - " __TIME__ "");
 	efiPrintf(PROTOCOL_HELLO_PREFIX " COMPILER=%s", __VERSION__);
@@ -88,7 +88,7 @@ static void sayHello() {
 	int flashSize = TM_ID_GetFlashSize();
 	if (flashSize < MIN_FLASH_SIZE) {
 		// todo: bug, at the moment we report 1MB on dual-bank F7
-		criticalError("rusEFI expected at least %dK of flash", MIN_FLASH_SIZE);
+		criticalError("gerEFI expected at least %dK of flash", MIN_FLASH_SIZE);
 	}
 
 #ifdef AT32F4XX

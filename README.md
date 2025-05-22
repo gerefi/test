@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/wiki/gerefi/gerefi/Images/logo_new.png" alt="rusEFI" width="600" />
+<img src="https://raw.githubusercontent.com/wiki/gerefi/gerefi/Images/logo_new.png" alt="gerEFI" width="600" />
 
 <b>GPL open-source ECU</b>
 
@@ -8,7 +8,7 @@
 ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/gerefi/gerefi/latest?color=blueviolet&label=Commits%20Since%20Release)
 </div>
 
-# rusEFI
+# gerEFI
 
 See [gcc_version_check.c](https://github.com/gerefi/gerefi/blob/master/firmware/gcc_version_check.c) for recommended version of GCC.
 
@@ -16,7 +16,7 @@ Current binaries are always available on our [build server](http://gerefi.com/bu
 
 [![paypal](https://img.shields.io/badge/%E2%99%A5%EF%B8%8Fdonate-orange)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6YSSN35GWYS3A)
 
-[shop.rusEFI.com](https://www.shop.gerefi.com/)
+[shop.gerEFI.com](https://www.shop.gerefi.com/)
 
 # Cloning the repository
 `git clone https://github.com/gerefi/gerefi.git`
@@ -27,7 +27,7 @@ Important note - we now use submodules:
 # What do we have here?
  * [Firmware](/firmware) Source code for open source engine control unit for stm32 chips incuding [implementation overview](https://github.com/gerefi/gerefi/blob/master/firmware/readme.md)
  * [Hardware](/hardware) KiCAD files for our older PCBs
- * [rusEFI console](/java_console) rusEFI own native tuning software
+ * [gerEFI console](/java_console) gerEFI own native tuning software
  * [Simulator](/simulator) win32 or posix version of firmware allows to explore without any hardware
  * [Unit Tests](/unit_tests) Unit tests of firmware pieces
  * [Misc tools](/java_tools) Misc development utilities

@@ -1,6 +1,6 @@
 /**
  * @file main.cpp
- * @file Unit tests (and some integration tests to be fair) of rusEFI
+ * @file Unit tests (and some integration tests to be fair) of gerEFI
  *
  * @author Andrey Belomutskiy, (c) 2012-2021
  */

@@ -7,7 +7,7 @@ See also https://github.com/gerefi/gerefi/wiki/Dev-Quick-Start
 
 [Q&A on source code](https://gerefi.com/forum/viewtopic.php?f=5&t=10)
 
-This directory contains the source code for the rusEFI embedded firmware.
+This directory contains the source code for the gerEFI embedded firmware.
 
 TL;DR
 

@@ -27,7 +27,7 @@ public class PortDetector {
     /**
      * Connect to all serial ports and find out which one respond first
      * @param callback
-     * @return port name on which rusEFI was detected or null if none
+     * @return port name on which gerEFI was detected or null if none
      */
     @NotNull
     public static SerialAutoChecker.AutoDetectResult autoDetectSerial(Function<SerialAutoChecker.CallbackContext, Void> callback) {

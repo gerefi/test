@@ -1,5 +1,5 @@
 import com.gerefi.SerialPortScanner;
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 import com.gerefi.io.UpdateOperationCallbacks;
 import com.gerefi.maintenance.jobs.AsyncJobExecutor;
 import com.gerefi.maintenance.jobs.DfuManualJob;
@@ -23,7 +23,7 @@ public class MassUpdater {
     private final Set<String> knownBlts = new HashSet<>();
 
     public MassUpdater() {
-        mainStatus.showFrame("Mass Updater " + rusEFIVersion.CONSOLE_VERSION);
+        mainStatus.showFrame("Mass Updater " + gerEFIVersion.CONSOLE_VERSION);
 
         final AtomicBoolean previousDfuState = new AtomicBoolean();
         AtomicBoolean isUsingDfu = new AtomicBoolean(); // it seems like DFU detection is not 100% reliable? a work-around to avoid double-DFU

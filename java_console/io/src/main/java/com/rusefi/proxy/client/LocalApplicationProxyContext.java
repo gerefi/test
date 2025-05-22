@@ -8,7 +8,7 @@ public interface LocalApplicationProxyContext {
     String executeGet(String url) throws IOException;
 
     /**
-     * port on which rusEFI proxy accepts authenticator connections
+     * port on which gerEFI proxy accepts authenticator connections
      */
     int serverPortForRemoteApplications();
 

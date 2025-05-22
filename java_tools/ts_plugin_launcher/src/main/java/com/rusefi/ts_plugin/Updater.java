@@ -31,7 +31,7 @@ public class Updater {
     private static final String PLUGIN_ENTRY_CLASS = "com.gerefi.ts_plugin.PluginEntry";
     private static final String PLUGIN_BODY_JAR = "gerefi_plugin_body.jar";
     private static final String LOCAL_JAR_FILE_NAME = FileUtil.RUSEFI_SETTINGS_FOLDER + File.separator + PLUGIN_BODY_JAR;
-    private static final String TITLE = "rusEFI plugin installer " + VERSION;
+    private static final String TITLE = "gerEFI plugin installer " + VERSION;
 
     private final JPanel content = new JPanel(new VerticalFlowLayout());
     private static final ImageIcon LOGO = AutoupdateUtil.loadIcon("/gerefi_online_color_300.png");

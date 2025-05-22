@@ -158,7 +158,7 @@ public class TcpServerSandbox {
             response[0] = (byte) TS_OK.charAt(0);
             stream.sendPacket(response);
         } else if (command == Integration.TS_GET_FIRMWARE_VERSION) {
-            stream.sendPacket((TS_OK + "rusEFI proxy").getBytes());
+            stream.sendPacket((TS_OK + "gerEFI proxy").getBytes());
         } else
             throw new UnsupportedOperationException("Unsupported command " + BinaryProtocol.findCommand(command));
     }

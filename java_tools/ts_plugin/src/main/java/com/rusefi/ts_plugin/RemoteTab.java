@@ -9,7 +9,7 @@ import com.gerefi.io.serial.StreamStatistics;
 import com.gerefi.io.tcp.ServerSocketReference;
 import com.gerefi.io.tcp.TcpIoStream;
 import com.gerefi.proxy.NetworkConnector;
-import com.gerefi.core.rusEFIVersion;
+import com.gerefi.core.gerEFIVersion;
 import com.gerefi.server.ApplicationRequest;
 import com.gerefi.server.ControllerInfo;
 import com.gerefi.server.SessionDetails;
@@ -341,7 +341,7 @@ public class RemoteTab {
     private ApplicationRequest getApplicationRequest(PublicSession publicSession) {
         SessionDetails sessionDetails = new SessionDetails(NetworkConnector.Implementation.Plugin,
                 publicSession.getControllerInfo(), AuthTokenPanel.getAuthToken(),
-                Integer.parseInt(oneTimePasswordControl.getText()), rusEFIVersion.CONSOLE_VERSION);
+                Integer.parseInt(oneTimePasswordControl.getText()), gerEFIVersion.CONSOLE_VERSION);
 
         return new ApplicationRequest(sessionDetails, publicSession.getVehicleOwner());
     }

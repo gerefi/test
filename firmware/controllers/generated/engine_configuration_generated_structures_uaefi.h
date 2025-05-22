@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/gerefi_config.txt
+// this section was generated automatically by gerEFI tool config_definition-all.jar based on (unknown script) integration/gerefi_config.txt
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -814,7 +814,7 @@ struct engine_configuration_s {
 	offset 168 bit 22 */
 	bool usescriptTableForCanSniffingFiltering : 1 {};
 	/**
-	 * Print incoming and outgoing first bus CAN messages in rusEFI console
+	 * Print incoming and outgoing first bus CAN messages in gerEFI console
 	offset 168 bit 23 */
 	bool verboseCan : 1 {};
 	/**
@@ -1509,7 +1509,7 @@ struct engine_configuration_s {
 	 */
 	uint8_t alignmentFill_at_711[1] = {};
 	/**
-	 * Each rusEFI piece can provide synthetic trigger signal for external ECU. Sometimes these wires are routed back into trigger inputs of the same rusEFI board.
+	 * Each gerEFI piece can provide synthetic trigger signal for external ECU. Sometimes these wires are routed back into trigger inputs of the same gerEFI board.
 	 * See also directSelfStimulation which is different.
 	 * offset 712
 	 */
@@ -1572,7 +1572,7 @@ struct engine_configuration_s {
 	offset 728 bit 3 */
 	bool isSdCardEnabled : 1 {};
 	/**
-	 * Use 11 bit (standard) or 29 bit (extended) IDs for rusEFI verbose CAN format.
+	 * Use 11 bit (standard) or 29 bit (extended) IDs for gerEFI verbose CAN format.
 	offset 728 bit 4 */
 	bool gerefiVerbose29b : 1 {};
 	/**
@@ -1598,7 +1598,7 @@ struct engine_configuration_s {
 	offset 728 bit 11 */
 	bool verboseTLE8888 : 1 {};
 	/**
-	 * CAN broadcast using custom rusEFI protocol
+	 * CAN broadcast using custom gerEFI protocol
 	offset 728 bit 12 */
 	bool enableVerboseCanTx : 1 {};
 	/**
@@ -1654,7 +1654,7 @@ struct engine_configuration_s {
 	offset 728 bit 27 */
 	bool idleIncrementalPidCic : 1 {};
 	/**
-	 * AEM X-Series or rusEFI Wideband
+	 * AEM X-Series or gerEFI Wideband
 	offset 728 bit 28 */
 	bool enableAemXSeries : 1 {};
 	/**
@@ -2006,7 +2006,7 @@ struct engine_configuration_s {
 	offset 892 bit 5 */
 	bool canInputBCM : 1 {};
 	/**
-	 * This property is useful if using rusEFI as TCM or BCM only
+	 * This property is useful if using gerEFI as TCM or BCM only
 	offset 892 bit 6 */
 	bool consumeObdSensors : 1 {};
 	/**
@@ -2084,7 +2084,7 @@ struct engine_configuration_s {
 	offset 892 bit 29 */
 	bool useRawOutputToDriveIdleStepper : 1 {};
 	/**
-	 * Print incoming and outgoing second bus CAN messages in rusEFI console
+	 * Print incoming and outgoing second bus CAN messages in gerEFI console
 	offset 892 bit 30 */
 	bool verboseCan2 : 1 {};
 	/**
@@ -2205,20 +2205,20 @@ struct engine_configuration_s {
 	dc_io stepperDcIo[DC_PER_STEPPER] = {};
 	/**
 	 * For example, BMW, GM or Chevrolet
-	 * REQUIRED for rusEFI Online
+	 * REQUIRED for gerEFI Online
 	 * offset 1028
 	 */
 	vehicle_info_t engineMake;
 	/**
 	 * For example, LS1 or NB2
-	 * REQUIRED for rusEFI Online
+	 * REQUIRED for gerEFI Online
 	 * offset 1060
 	 */
 	vehicle_info_t engineCode;
 	/**
 	 * For example, Hunchback or Orange Miata
 	 * Vehicle name has to be unique between your vehicles.
-	 * REQUIRED for rusEFI Online
+	 * REQUIRED for gerEFI Online
 	 * offset 1092
 	 */
 	vehicle_info_t vehicleName;
@@ -2792,7 +2792,7 @@ struct engine_configuration_s {
 	offset 1460 bit 12 */
 	bool is_enabled_spi_6 : 1 {};
 	/**
-	 * AEM X-Series EGT gauge kit or rusEFI EGT sensor from Wideband controller
+	 * AEM X-Series EGT gauge kit or gerEFI EGT sensor from Wideband controller
 	offset 1460 bit 13 */
 	bool enableAemXSeriesEgt : 1 {};
 	/**
@@ -6520,4 +6520,4 @@ struct persistent_config_s {
 static_assert(sizeof(persistent_config_s) == 23824);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/gerefi_config.txt
+// this section was generated automatically by gerEFI tool config_definition-all.jar based on (unknown script) integration/gerefi_config.txt

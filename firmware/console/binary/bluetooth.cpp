@@ -3,7 +3,7 @@
  *
  *
  * It looks like Bluetooth modules arrive in all kinds of initial configuration.
- * Sometimes we need to execute a one-time initialization including settings the baud rate. rusEFI setting uartConsoleSerialSpeed or tunerStudioSerialSpeed
+ * Sometimes we need to execute a one-time initialization including settings the baud rate. gerEFI setting uartConsoleSerialSpeed or tunerStudioSerialSpeed
  * has to match BT module configuration.
  *
  *

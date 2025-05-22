@@ -5,7 +5,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.concurrent.atomic.AtomicReference;
 
-public interface rusEFIVersion {
+public interface gerEFIVersion {
     /**
      * *** BE CAREFUL WE HAVE SEPARATE AUTOUPDATE_VERSION also managed manually ***
      * @see com.gerefi.autoupdate.Autoupdate#AUTOUPDATE_VERSION
@@ -14,7 +14,7 @@ public interface rusEFIVersion {
     AtomicReference<String> firmwareVersion = new AtomicReference<>("N/A");
 
     static long classBuildTimeMillis() {
-        Class<?> clazz = rusEFIVersion.class;
+        Class<?> clazz = gerEFIVersion.class;
         return classBuildTimeMillis(clazz);
     }
 

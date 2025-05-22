@@ -406,12 +406,12 @@ runs:
       with:
         github_token: ${{env.TOKEN}}
 
-    - name: Upload .ini files to rusEFI Online server
+    - name: Upload .ini files to gerEFI Online server
       if: ${{ contains(inputs.uploads, 'ini') }}
       working-directory: ${{inputs.gerefi_dir}}/firmware/${{env.META_OUTPUT_ROOT_FOLDER}}tunerstudio/generated
       shell: bash
       run: |
-        : Upload .ini files to rusEFI Online server
+        : Upload .ini files to gerEFI Online server
         ${{github.workspace}}/${{inputs.gerefi_dir}}/firmware/tunerstudio/upload_ini.sh ${{ inputs.RUSEFI_ONLINE_FTP_USER }} "${{ inputs.RUSEFI_ONLINE_FTP_PASS }}" ${{ inputs.RUSEFI_FTP_SERVER }}
 
     - name: Upload .ini files to secondary Online server

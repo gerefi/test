@@ -18,7 +18,7 @@ public class CompositeParserTest {
         List<CompositeEvent> events = CompositeParser.parse(input);
 
         StringWriter writer = new StringWriter();
-        //FileWriter writer = new FileWriter("rusEFI.vcd");
+        //FileWriter writer = new FileWriter("gerEFI.vcd");
         VcdStreamFile.writeVCD(events, writer, new Date(1590847552574L));
     }
 }

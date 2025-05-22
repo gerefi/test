@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition_base.jar based on (unknown script) controllers/algo/tps_accel_state.txt Thu Dec 21 21:47:23 UTC 2023
+// this section was generated automatically by gerEFI tool config_definition_base.jar based on (unknown script) controllers/algo/tps_accel_state.txt Thu Dec 21 21:47:23 UTC 2023
 // by class com.gerefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -156,4 +156,4 @@ struct tps_accel_state_s {
 static_assert(sizeof(tps_accel_state_s) == 48);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition_base.jar based on (unknown script) controllers/algo/tps_accel_state.txt Thu Dec 21 21:47:23 UTC 2023
+// this section was generated automatically by gerEFI tool config_definition_base.jar based on (unknown script) controllers/algo/tps_accel_state.txt Thu Dec 21 21:47:23 UTC 2023
