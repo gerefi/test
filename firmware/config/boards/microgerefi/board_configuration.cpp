@@ -4,7 +4,7 @@
  *
  * @brief Configuration defaults for the microGerefi board
  *
- * MICRO_RUS_EFI
+ * MICRO_GER_EFI
  * set engine_type 60
  *
  * MRE_BOARD_OLD_TEST

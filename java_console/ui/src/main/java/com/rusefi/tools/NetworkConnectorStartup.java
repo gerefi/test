@@ -24,7 +24,7 @@ public class NetworkConnectorStartup {
 
         String autoDetectedPort = PortDetector.autoDetectSerial(null).getSerialPort();
         if (autoDetectedPort == null) {
-            System.err.println(ConsoleTools.RUS_EFI_NOT_DETECTED);
+            System.err.println(ConsoleTools.GER_EFI_NOT_DETECTED);
             return;
         }
 

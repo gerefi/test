@@ -23,7 +23,7 @@ public class Elm327ConnectorStartup {
         String autoDetectedPort = detectResult.getSerialPort();
         //String autoDetectedPort = "COM73";
         if (autoDetectedPort == null) {
-            System.err.println(ConsoleTools.RUS_EFI_NOT_DETECTED);
+            System.err.println(ConsoleTools.GER_EFI_NOT_DETECTED);
             return;
         }
 

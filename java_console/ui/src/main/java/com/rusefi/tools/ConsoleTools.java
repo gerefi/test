@@ -41,7 +41,7 @@ import static com.gerefi.binaryprotocol.IoHelper.getCrc32;
 public class ConsoleTools {
     private static final Logging log = Logging.getLogging(ConsoleTools.class);
     public static final String SET_AUTH_TOKEN = "set_auth_token";
-    public static final String RUS_EFI_NOT_DETECTED = "gerEFI not detected";
+    public static final String GER_EFI_NOT_DETECTED = "gerEFI not detected";
     private static final Map<String, ConsoleTool> TOOLS = new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
 
     private static final Map<String, String> toolsHelp = new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
@@ -120,7 +120,7 @@ public class ConsoleTools {
     private static void localProxy(String[] strings) throws IOException {
         String autoDetectedPort = autoDetectPort();
         if (autoDetectedPort == null) {
-            System.out.println(RUS_EFI_NOT_DETECTED);
+            System.out.println(GER_EFI_NOT_DETECTED);
             return;
         }
         IoStream ecuStream = UiLinkManagerHelper.open(autoDetectedPort);
@@ -266,7 +266,7 @@ public class ConsoleTools {
 
         String autoDetectedPort = PortDetector.autoDetectSerial(null).getSerialPort();
         if (autoDetectedPort == null) {
-            System.err.println(RUS_EFI_NOT_DETECTED);
+            System.err.println(GER_EFI_NOT_DETECTED);
             return;
         }
         LinkManager linkManager = new LinkManager();
@@ -323,7 +323,7 @@ public class ConsoleTools {
     private static String autoDetectPort() {
         String autoDetectedPort = PortDetector.autoDetectSerial(null).getSerialPort();
         if (autoDetectedPort == null) {
-            System.err.println(RUS_EFI_NOT_DETECTED);
+            System.err.println(GER_EFI_NOT_DETECTED);
             return null;
         }
         return autoDetectedPort;
@@ -333,7 +333,7 @@ public class ConsoleTools {
         SerialAutoChecker.AutoDetectResult detectResult = PortDetector.autoDetectSerial(null);
         String autoDetectedPort = detectResult.getSerialPort();
         if (autoDetectedPort == null) {
-            System.out.println(RUS_EFI_NOT_DETECTED);
+            System.out.println(GER_EFI_NOT_DETECTED);
             return;
         }
         IoStream stream = UiLinkManagerHelper.open(autoDetectedPort);
